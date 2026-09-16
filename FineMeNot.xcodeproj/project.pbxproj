@@ -24,6 +24,7 @@
 		E3688E6C69A9CD2C8B8CA070 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D6C1C16AC3E69E9276718 /* SettingsView.swift */; };
 		F1FF10099611FE15F35E05FB /* CameraStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E606E885B4EB83048AE48E /* CameraStore.swift */; };
 		FA9EC1381339D65396A1F8B3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 51732EB72BB997A6B1EDE637 /* PrivacyInfo.xcprivacy */; };
+		FEF36A00E6B3A9AB817E4C1A /* BrandHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE827EF75FA4315E2612444 /* BrandHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C69C200025623524488FF443 /* siren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = siren.wav; sourceTree = "<group>"; };
 		CB91157ED0519BE807494308 /* CompatibilityUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CompatibilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA307FC16CA7335FDDA811CE /* FineMeNot.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FineMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE827EF75FA4315E2612444 /* BrandHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				22A3B2801432BA9232F9E83E /* AlertPresenter.swift */,
 				159AFB1BAF8630A2BE9B1534 /* AppLinks.swift */,
+				FBE827EF75FA4315E2612444 /* BrandHeader.swift */,
 				19E606E885B4EB83048AE48E /* CameraStore.swift */,
 				B46111783B4D816B8A99A269 /* FineMeNot.entitlements */,
 				769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */,
@@ -292,6 +295,7 @@
 			files = (
 				B6CE31146A9DB712D807D59C /* AlertPresenter.swift in Sources */,
 				C2D5116C210A6A3AD6EB9677 /* AppLinks.swift in Sources */,
+				FEF36A00E6B3A9AB817E4C1A /* BrandHeader.swift in Sources */,
 				F1FF10099611FE15F35E05FB /* CameraStore.swift in Sources */,
 				88EB6725C287529773086875 /* FineMeNotApp.swift in Sources */,
 				805BDE0157010983D658E015 /* MonitoringController.swift in Sources */,
@@ -368,7 +372,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -388,7 +392,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -489,7 +493,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -503,7 +507,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

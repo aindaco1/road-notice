@@ -217,3 +217,22 @@ minimal controls and remain documented diagnostics, not accepted background
 results. See [TESTING.md](TESTING.md) for evidence and exact limits.
 
 [Runtime regression evidence](https://github.com/aindaco1/fine-me-not/actions/runs/34972228844) includes the exact scenario and retained journal for each OS.
+
+## 1.0.3 branding — September 16, 2026
+
+Version **1.0.3 (11)** replaces the aperture symbol and vertically separated title
+with the website's speed-camera icon and side-by-side, two-line wordmark. The
+header uses one canonical icon asset, supports Dynamic Type and exposes one
+VoiceOver heading. Monitoring, saved preferences, reporting and audio are unchanged.
+
+Local validation passes **26 Swift tests and 63 pipeline tests**. The iPhone 18
+Pro / iOS 27 simulator renders the horizontal header at default text size and the
+stacked header at the largest accessibility text size. The simulator bundle
+passes resource/version checks with minimum iOS 17.0 and 2,695 warning locations.
+Physical installation is a separate check.
+
+Use a build cache outside iCloud if Swift test signing reports “resource fork,
+Finder information, or similar detritus not allowed,” for example
+`swift test --scratch-path ~/Library/Caches/FineMeNot/swift-build`.
+
+Distribution and hosted verification are recorded below after completion.

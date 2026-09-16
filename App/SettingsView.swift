@@ -12,12 +12,7 @@ struct SettingsView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 32) {
                 VStack(alignment: .leading, spacing: 12) {
-                    Image(systemName: "camera.aperture")
-                        .font(.system(size: 28, weight: .medium)).accessibilityHidden(true)
-                    Text("FINE\nME NOT")
-                        .font(.system(.largeTitle, design: .monospaced, weight: .black))
-                        .tracking(-1).fixedSize(horizontal: false, vertical: true)
-                        .accessibilityLabel("Fine Me Not")
+                    BrandHeader()
                     Text("Speed cameras ahead.\nKeep your cash.")
                         .font(.system(.body, design: .monospaced)).foregroundStyle(accent)
                 }

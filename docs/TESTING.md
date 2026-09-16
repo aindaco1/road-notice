@@ -126,3 +126,18 @@ These changes update data and maintenance tooling. No app runtime code or TestFl
 The [source build and compatibility CI](https://github.com/aindaco1/fine-me-not/actions/runs/34920018736) and [public database deployment](https://github.com/aindaco1/fine-me-not/actions/runs/34920018690) passed for implementation commit `005317c`. The live manifest and immutable snapshot were independently downloaded and matched SHA-256 `9c6e0a803ba695164220c6458cde701e641cb0f3fd7acc0d16cb0cd1c84d575c`, version `2026-09-14-fc86266ce021-24309b02`, with 2,653 records.
 
 The [new prepublication source-check workflow](https://github.com/aindaco1/fine-me-not/actions/runs/34920063583) was also manually exercised on GitHub and completed successfully, staging its checks without a Pages deployment. Individual source failures remain listed in the source report; workflow completion does not claim every agency request succeeded.
+
+
+## 1.0.3 branding verification — September 16, 2026
+
+Version 1.0.3 (11) passes 26 Swift and 63 pipeline tests. The iPhone 18 Pro / iOS
+27 simulator was visually reviewed at default and largest accessibility text
+sizes; the header switches from horizontal to stacked without clipping its icon
+or wordmark. The release and simulator bundles preserve the iOS 17.0 minimum.
+
+[Hosted runtime checks](https://github.com/aindaco1/fine-me-not/actions/runs/35152261051)
+passed on iOS 17.5, 18.5 and 26.5 using the same compiled simulator app. The 17/26
+scenarios require one completed background camera siren; 18 verifies the saved
+Quiet setting and foreground Test warning. This preserves the separate iOS 18
+background-testing limitation described above. Build 11 is Testing in First
+Drive; physical installation and new physical audio tests remain unverified.

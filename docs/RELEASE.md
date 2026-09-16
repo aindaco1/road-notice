@@ -10,9 +10,9 @@ finemenot.xyz. See the dated verification section at the end.
 - App: Fine Me Not
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
-- TestFlight: **1.0.2 (10), Testing** in First Drive as of September 15, 2026, 07:07 MDT
+- TestFlight: **1.0.3 (11), Testing** in First Drive as of September 16, 2026
 - Pending App Store version: 1.0.0 (8)
-- App Store: **Waiting for Review** as of September 15, 2026, 02:10 MDT; automatic U.S. release after approval
+- App Store: **Waiting for Review** as of September 16, 2026; automatic U.S. release after approval
 - Release history: https://github.com/aindaco1/fine-me-not/releases
 - Minimum: iOS 17.0 for 1.0.2; earlier binaries require iOS 27.0
 - Source: https://github.com/aindaco1/fine-me-not
@@ -238,4 +238,37 @@ Use a build cache outside iCloud if Swift test signing reports “resource fork,
 Finder information, or similar detritus not allowed,” for example
 `swift test --scratch-path ~/Library/Caches/FineMeNot/swift-build`.
 
-Distribution and hosted verification are recorded below after completion.
+Apple accepted Fine Me Not 1.0.3 (11) on September 16, 2026 at 15:25 MDT.
+App Store Connect lists upload completion at 15:26 MDT, binary state Validated,
+iPhone, minimum iOS 17.0 and symbols included. The existing First Drive internal
+group with one tester shows Testing; What to Test notes are saved. Installation
+of build 11 on the physical phone is not yet verified. The previous installed
+build was confirmed as 1.0.2 (10) on iPhone 16 Pro Max / iOS 27.
+
+The initial 1.0.0 (8) App Store submission remains Waiting for Review, checked in
+App Store Connect during this release. This update is distributed by TestFlight.
+
+Build 11 was archived with Xcode 27.0 (27A266a) / iOS 27 SDK. Signature and release
+bundle checks passed with iOS 17.0 minimum and 2,695 camera records. The app and
+archived dSYM both have UUID 515AE8F4-B645-305F-AEFC-DE094676B9D5.
+
+[Hosted build/tests](https://github.com/aindaco1/fine-me-not/actions/runs/35152261077)
+and [runtime compatibility](https://github.com/aindaco1/fine-me-not/actions/runs/35152261051)
+passed for release source `1be858b`: one completed background camera warning on
+iOS 17.5 and 26.5, and saved-setting/foreground siren verification on iOS 18.5.
+The iOS 27 visual review is saved in `docs/screenshots/1.0.3-settings.png`.
+
+Cleanup moved **17 obsolete generated paths (512 MiB)** to a dated folder in
+macOS Trash. The current simulator development build and outside-iCloud Swift
+test cache remain. Signed 1.0.0 (8), 1.0.1 (9), 1.0.2 (10) and 1.0.3 (11) archives
+with their matching dSYMs are retained under `~/Library/Developer/Xcode/Archives`
+for crash symbolication. Compact previous runtime evidence and the current
+release/cleanup logs remain in `work/release11`.
+
+The superseded `ci/ios18-patch-check` investigation branch was removed locally
+and remotely after saving and verifying a Git recovery bundle in the same Trash
+folder. Its runtime selector and filter fixes already exist in main; its unused
+Intel-runner experiment is preserved in that bundle. The branding branch was
+removed after [PR #3](https://github.com/aindaco1/fine-me-not/pull/3) merged. Only
+`main` remains; source, camera data, signing assets and simulator runtimes were
+preserved.

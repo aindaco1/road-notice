@@ -1,5 +1,11 @@
 # Release notes
 
+## 1.0.3 — September 16, 2026
+
+The app now matches [finemenot.xyz](https://finemenot.xyz/): the speed-camera icon
+sits beside the bold, two-line Fine Me Not wordmark. The header adapts to larger
+text sizes. Camera warnings, settings and the siren work as before.
+
 ## 1.0.2 — September 15, 2026
 
 Older iPhone? You're in. Fine Me Not now supports **iOS 17 and later**, including iOS 18 and 26.

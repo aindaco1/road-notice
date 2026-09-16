@@ -1,5 +1,8 @@
 # Release and distribution
 
+**1.0.3 branding update:** source version 1.0.3 (11) matches the app header to
+finemenot.xyz. See the dated verification section at the end.
+
 **1.0.2 compatibility update:** version 1.0.2 (10) lowers the minimum to iOS 17.0. The dated 1.0 and 1.0.1 records below describe earlier binaries. See the latest verification section at the end and [supported versions](SUPPORT.md).
 
 **1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.
@@ -217,3 +220,22 @@ minimal controls and remain documented diagnostics, not accepted background
 results. See [TESTING.md](TESTING.md) for evidence and exact limits.
 
 [Runtime regression evidence](https://github.com/aindaco1/fine-me-not/actions/runs/34972228844) includes the exact scenario and retained journal for each OS.
+
+## 1.0.3 branding — September 16, 2026
+
+Version **1.0.3 (11)** replaces the aperture symbol and vertically separated title
+with the website's speed-camera icon and side-by-side, two-line wordmark. The
+header uses one canonical icon asset, supports Dynamic Type and exposes one
+VoiceOver heading. Monitoring, saved preferences, reporting and audio are unchanged.
+
+Local validation passes **26 Swift tests and 63 pipeline tests**. The iPhone 18
+Pro / iOS 27 simulator renders the horizontal header at default text size and the
+stacked header at the largest accessibility text size. The simulator bundle
+passes resource/version checks with minimum iOS 17.0 and 2,695 warning locations.
+Physical installation is a separate check.
+
+Use a build cache outside iCloud if Swift test signing reports “resource fork,
+Finder information, or similar detritus not allowed,” for example
+`swift test --scratch-path ~/Library/Caches/FineMeNot/swift-build`.
+
+Distribution and hosted verification are recorded below after completion.

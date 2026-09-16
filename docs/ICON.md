@@ -1,5 +1,20 @@
 # App icon
 
+## In-app branding
+
+Version 1.0.3 (11) uses the website's side-by-side icon and two-line wordmark in
+the Settings header. `BrandHeader` scales with Dynamic Type and stacks the icon
+above the wordmark when the horizontal layout no longer fits. VoiceOver reads
+the brand once as a heading.
+
+`BrandIcon.imageset/BrandIcon.png` is a relative symbolic link to the canonical
+`AppIcon.appiconset/AppIcon.png`, so the app header, Home Screen icon and website
+share one source image. Asset compilation follows that link; no image is fetched
+at runtime. The header uses the website's 22% corner radius and tight monospaced
+letter spacing.
+
+## Original icon
+
 Build 3 replaces the ticket with a simple roadside speed camera and a pale-blue prohibition overlay. The existing deep-blue, white and pale-blue palette is preserved.
 
 The canonical asset is `App/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png`: a 1024 × 1024 opaque PNG. iOS supplies the rounded tile mask. The previous ticket-drawing script was removed so it cannot regenerate an obsolete icon.

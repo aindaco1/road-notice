@@ -1,5 +1,8 @@
 # Release and distribution
 
+**1.0.3 branding update:** source version 1.0.3 (11) matches the app header to
+finemenot.xyz. See the dated verification section at the end.
+
 **1.0.2 compatibility update:** version 1.0.2 (10) lowers the minimum to iOS 17.0. The dated 1.0 and 1.0.1 records below describe earlier binaries. See the latest verification section at the end and [supported versions](SUPPORT.md).
 
 **1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.

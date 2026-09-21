@@ -1,8 +1,8 @@
 # Weekly camera maintenance
 
-Generated 2026-09-15T13:11:22Z
+Generated 2026-09-21T09:08:10Z
 
-47 registered sources checked; 2 evidence-based identity matches; 219 unresolved findings.
+47 registered sources checked; 2 evidence-based identity matches; 243 unresolved findings.
 
 New unambiguous agency records and validated coordinate estimates are staged automatically. Ambiguous identities, source removals, changed page layouts, and failed checks retain previous coverage and remain in this queue until reviewed.
 
@@ -10,9 +10,12 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 |---|---|
 | bernco | HTTP Error 403: Forbidden |
 | nyc | HTTP Error 403: Forbidden |
+| long-beach | Source page changed |
+| massachusetts | Source page changed |
 | michigan | HTTP Error 403: Forbidden |
 | minneapolis | HTTP Error 403: Forbidden |
 | prince-georges-red | HTTP Error 403: Forbidden |
+| wheat-ridge | HTTP Error 403: Forbidden |
 | nyc-datafeeds | HTTP Error 403: Forbidden |
 | agency-chicago-speed-chi003-270 | Nearby accepted record; identity/approach review required |
 | agency-chicago-speed-chi003-90 | Nearby accepted record; identity/approach review required |
@@ -50,6 +53,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-chicago-speed-chi245-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-speed-chi245-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-2140-s-western-ave-180 | Nearby accepted record; identity/approach review required |
+| agency-chicago-red-2359-n-clark-st-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-2380-w-montrose-ave-270 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-2404-n-ashland-ave-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-2415-w-addison-st-90 | Nearby accepted record; identity/approach review required |
@@ -67,6 +71,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-chicago-red-4810-n-cicero-ave-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-489-n-columbus-dr-0 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-498-n-columbus-dr-180 | Nearby accepted record; identity/approach review required |
+| agency-chicago-red-5356-s-archer-ave-225 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-5452-s-kedzie-ave-180 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-5615-w-lake-st-90 | Nearby accepted record; identity/approach review required |
 | agency-chicago-red-6001-w-addison-st-90 | Nearby accepted record; identity/approach review required |
@@ -221,12 +226,31 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | High School of the Future: W. Girard Ave. (N. 39th to N. 40th) | Location needs review: Intersection/segment description needs review |
 | William L. Sayre High School: Walnut St. (S. 58th to S. 59th) | Location needs review: Intersection/segment description needs review |
 | 2100 Robbins Street | Location needs review: Census changed the requested street/state; needs review |
-| Sligh Avenue & Habana Avenue · EB | Location needs review: The read operation timed out |
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb | Nearby accepted record; identity/approach review required |
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-eb | Nearby accepted record; identity/approach review required |
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb | Nearby accepted record; identity/approach review required |
 | osm-node-13261832160 | New OSM record overlaps accepted agency data; review identity |
-| chicago-school-park-policy | Automated city-code retrieval returned HTTP 403; browser-reviewed policy retains its original date until an automated check succeeds. |
+| chicago-school-park-policy | HTTP Error 403: Forbidden |
+| osm-roads-b1e878ce1fd9 | HTTP Error 504: Gateway Time-out |
+| osm-roads-8c405ad5e923 | HTTP Error 504: Gateway Timeout |
+| osm-roads-99ead47c9e29 | The read operation timed out |
+| osm-roads-ccbde924480a | HTTP Error 504: Gateway Timeout |
+| osm-roads-895f396fe557 | HTTP Error 504: Gateway Timeout |
+| osm-roads-5894601863b9 | The read operation timed out |
+| osm-roads-8aea36076191 | Run acquisition time budget reached |
+| osm-roads-9ec8c3090381 | Run acquisition time budget reached |
+| osm-roads-665023f4e552 | Run acquisition time budget reached |
+| osm-roads-a8348656f2b7 | Run acquisition time budget reached |
+| osm-roads-26c75e21932a | Run acquisition time budget reached |
+| osm-roads-f5fcf75d9642 | Run acquisition time budget reached |
+| osm-roads-a140902f7ae1 | Run acquisition time budget reached |
+| osm-roads-3c2e30bf5743 | Run acquisition time budget reached |
+| osm-roads-239baefdbd91 | Run acquisition time budget reached |
+| osm-roads-f4f4eb348e48 | Run acquisition time budget reached |
+| osm-roads-5f51cc0796ed | Run acquisition time budget reached |
+| osm-roads-c098690a8684 | Run acquisition time budget reached |
+| osm-roads-5b5b39a0367c | Run acquisition time budget reached |
+| osm-roads-daddc01b4db8 | Run acquisition time budget reached |
 
 Full added/removed facts, nearby candidates, and evidence are in maintenance.json and the source-specific reports.
 

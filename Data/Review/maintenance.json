@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:11:22Z",
+  "generatedAt": "2026-09-21T09:08:10Z",
   "items": [
     {
       "added": [],
@@ -16,6 +16,22 @@
       "removed": [],
       "source": "nyc",
       "url": "https://www.nyc.gov/html/dot/html/motorist/vision-zero-safe-driving.shtml"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
+      "source": "long-beach",
+      "url": "https://longbeach.gov/pw/projects/automated-speed-enforcement-system/"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
+      "source": "massachusetts",
+      "url": "https://www.mass.gov/info-details/massachusetts-law-about-traffic-violations"
     },
     {
       "added": [],
@@ -40,6 +56,14 @@
       "removed": [],
       "source": "prince-georges-red",
       "url": "https://www.princegeorgescountymd.gov/departments-offices/police/online-services/red-light-enforcement/red-light-camera-locations"
+    },
+    {
+      "added": [],
+      "lastGoodAt": "2026-09-15T06:49:00Z",
+      "reason": "HTTP Error 403: Forbidden",
+      "removed": [],
+      "source": "wheat-ridge",
+      "url": "https://www.wheatridge.gov/222/Crash-and-Traffic-Team"
     },
     {
       "added": [],
@@ -470,6 +494,17 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
+      "id": "agency-chicago-red-2359-n-clark-st-0",
+      "label": "2359 N Clark St · NB",
+      "nearby": [
+        {
+          "id": "agency-chicago-red-2359-n-clark-st-315",
+          "meters": 1.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
       "id": "agency-chicago-red-2380-w-montrose-ave-270",
       "label": "2380 W Montrose Ave · WB",
       "nearby": [
@@ -664,6 +699,17 @@
         {
           "id": "agency-chicago-speed-chi125-180",
           "meters": 140.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-5356-s-archer-ave-225",
+      "label": "5356 S Archer Ave · SWB",
+      "nearby": [
+        {
+          "id": "agency-chicago-red-5356-s-archer-ave-270",
+          "meters": 0.0
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -1185,7 +1231,7 @@
     },
     {
       "id": "agency-dc-ate-0303",
-      "label": "4700 blk MacArthur Blvd NW s/b ",
+      "label": "4700 blk MacArthur Blvd NW s/b",
       "nearby": [
         {
           "id": "osm-node-12541100542",
@@ -2369,11 +2415,6 @@
       "sourceRecord": "2100 Robbins Street"
     },
     {
-      "reason": "Location needs review: The read operation timed out",
-      "source": "hillsborough-intersections",
-      "sourceRecord": "Sligh Avenue & Habana Avenue · EB"
-    },
-    {
       "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb",
       "label": "Fletcher Avenue & Bruce B. Downs Boulevard · NB · approximate location",
       "nearby": [
@@ -2452,9 +2493,109 @@
     },
     {
       "lastGoodAt": "2026-09-15T05:50:03Z",
-      "reason": "Automated city-code retrieval returned HTTP 403; browser-reviewed policy retains its original date until an automated check succeeds.",
+      "reason": "HTTP Error 403: Forbidden",
       "source": "chicago-school-park-policy"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:08:20Z",
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-b1e878ce1fd9"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:09:21Z",
+      "reason": "HTTP Error 504: Gateway Timeout",
+      "source": "osm-roads-8c405ad5e923"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:09:21Z",
+      "reason": "The read operation timed out",
+      "source": "osm-roads-99ead47c9e29"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:11:30Z",
+      "reason": "HTTP Error 504: Gateway Timeout",
+      "source": "osm-roads-ccbde924480a"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:12:32Z",
+      "reason": "HTTP Error 504: Gateway Timeout",
+      "source": "osm-roads-895f396fe557"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:12:32Z",
+      "reason": "The read operation timed out",
+      "source": "osm-roads-5894601863b9"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:12:32Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-8aea36076191"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:13:36Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-9ec8c3090381"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:21:35Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-665023f4e552"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:14:36Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-a8348656f2b7"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:14:36Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-26c75e21932a"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:15:35Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-f5fcf75d9642"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:21:35Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-a140902f7ae1"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:15:35Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-3c2e30bf5743"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:16:29Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-239baefdbd91"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:16:29Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-f4f4eb348e48"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:17:34Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-5f51cc0796ed"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:17:34Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-c098690a8684"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:18:32Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-5b5b39a0367c"
+    },
+    {
+      "lastGoodAt": "2026-09-15T06:18:32Z",
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-daddc01b4db8"
     }
   ],
-  "reviewCount": 219
+  "reviewCount": 243
 }

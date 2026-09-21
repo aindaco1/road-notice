@@ -132,6 +132,32 @@
     },
     {
       "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
+      "geocodingSource": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "geometry": [
+        {
+          "latitude": 28.0105742,
+          "longitude": -82.4884982
+        }
+      ],
+      "id": "agency-hillsborough-intersections-sligh-avenue-habana-avenue-eb",
+      "kind": "redLight",
+      "label": "Sligh Avenue & Habana Avenue · EB · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "Sligh Avenue & Habana Avenue",
+      "positionPrecision": "osm-intersection-estimate",
+      "roadNames": [
+        "Sligh Avenue",
+        "Habana Avenue"
+      ],
+      "siteID": "agency-hillsborough-intersections-sligh-avenue-habana-avenue-eb",
+      "sourceIDs": [
+        "agency/hillsborough-intersections/Sligh Avenue & Habana Avenue · EB",
+        "osm"
+      ],
+      "travelBearing": 90
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras. Center of connected OSM road intersection nodes; approximate enforcement intersection, not a camera survey.",
       "geocodingSource": "https://overpass.private.coffee/api/interpreter",
       "geometry": [
         {
@@ -235,13 +261,8 @@
       "travelBearing": 270
     }
   ],
-  "checkedAt": "2026-09-15T06:49:00Z",
-  "excluded": [
-    {
-      "reason": "Location needs review: The read operation timed out",
-      "sourceRecord": "Sligh Avenue & Habana Avenue · EB"
-    }
-  ],
+  "checkedAt": "2026-09-21T08:49:37Z",
+  "excluded": [],
   "id": "hillsborough-intersections",
   "rowCount": 10,
   "url": "https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras"

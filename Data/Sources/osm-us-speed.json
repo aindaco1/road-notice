@@ -897,8 +897,8 @@
     },
     {
       "id": 2876762608,
-      "lat": 39.2940613,
-      "lon": -76.67276,
+      "lat": 39.2940665,
+      "lon": -76.6726709,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in eastbound direction at intersection of EDMONDSON AVE & N HILTON ST",
@@ -1040,8 +1040,8 @@
     },
     {
       "id": 2876762905,
-      "lat": 39.2877467,
-      "lon": -76.6087266,
+      "lat": 39.28775,
+      "lon": -76.6088162,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in westbound direction at intersection of E LOMBARD ST & S GAY ST",
@@ -1084,8 +1084,8 @@
     },
     {
       "id": 2876763204,
-      "lat": 39.2934525,
-      "lon": -76.6893906,
+      "lat": 39.2934553,
+      "lon": -76.689243,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in eastbound direction at intersection of EDMONDSON AVE & N ATHOL AVE",
@@ -1095,8 +1095,8 @@
     },
     {
       "id": 2876763205,
-      "lat": 39.2935926,
-      "lon": -76.6893992,
+      "lat": 39.2935794,
+      "lon": -76.6895357,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in westbound direction at intersection of EDMONDSON AVE & N ATHOL AVE",
@@ -1271,8 +1271,8 @@
     },
     {
       "id": 2876764001,
-      "lat": 39.2833936,
-      "lon": -76.655929,
+      "lat": 39.283374,
+      "lon": -76.6559555,
       "tags": {
         "highway": "speed_camera",
         "note": "Speed camera measuring traffic in eastbound direction at intersection of FREDERICK AVE & S CATHERINE ST",
@@ -3134,15 +3134,6 @@
       "type": "node"
     },
     {
-      "id": 8918090831,
-      "lat": 61.5540341,
-      "lon": -149.244801,
-      "tags": {
-        "highway": "speed_camera"
-      },
-      "type": "node"
-    },
-    {
       "id": 8976139322,
       "lat": 41.9624091,
       "lon": -87.6845998,
@@ -3623,15 +3614,6 @@
       "lon": -80.13042,
       "tags": {
         "direction": "110",
-        "highway": "speed_camera"
-      },
-      "type": "node"
-    },
-    {
-      "id": 9332882501,
-      "lat": 61.5536091,
-      "lon": -149.247199,
-      "tags": {
         "highway": "speed_camera"
       },
       "type": "node"
@@ -11613,7 +11595,8 @@
         "camera:type": "fixed",
         "direction": "240",
         "highway": "speed_camera",
-        "maxspeed": "35 mph"
+        "maxspeed": "35 mph",
+        "speed threshold": "47 mph"
       },
       "type": "node"
     },
@@ -12939,6 +12922,7 @@
       "tags": {
         "highway": "speed_camera",
         "maxspeed": "40 mph",
+        "speed threshold": "52 mph",
         "surveillance": "average_speed"
       },
       "type": "node"
@@ -12950,6 +12934,7 @@
       "tags": {
         "highway": "speed_camera",
         "maxspeed": "40 mph",
+        "speed threshold": "52 mph",
         "surveillance": "average_speed"
       },
       "type": "node"
@@ -12961,6 +12946,7 @@
       "tags": {
         "highway": "speed_camera",
         "maxspeed": "30 mph",
+        "speed threshold": "42 mph",
         "surveillance": "average_speed"
       },
       "type": "node"
@@ -12972,6 +12958,7 @@
       "tags": {
         "highway": "speed_camera",
         "maxspeed": "30 mph",
+        "speed threshold": "42 mph",
         "surveillance": "average_speed"
       },
       "type": "node"
@@ -13110,6 +13097,20 @@
       "tags": {
         "highway": "speed_camera",
         "maxspeed": "30 mph"
+      },
+      "type": "node"
+    },
+    {
+      "id": 13910147247,
+      "lat": 38.9725633,
+      "lon": -76.5254496,
+      "tags": {
+        "description": "Red Light photo enforcement camera",
+        "direction": "90",
+        "highway": "speed_camera",
+        "name": "Red light camera",
+        "wikidata": "Q2168864",
+        "wikipedia": "en:Red light camera"
       },
       "type": "node"
     },
@@ -14759,13 +14760,43 @@
         "website": "https://www.tempe.gov/government/police/traffic-section/photo-enforcement"
       },
       "type": "node"
+    },
+    {
+      "id": 14183786155,
+      "lat": 30.1825331,
+      "lon": -85.6776887,
+      "tags": {
+        "direction": "forward",
+        "highway": "speed_camera"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14183786157,
+      "lat": 30.1825093,
+      "lon": -85.6757832,
+      "tags": {
+        "direction": "backward",
+        "highway": "speed_camera"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14190952801,
+      "lat": 47.2714869,
+      "lon": -122.3741479,
+      "tags": {
+        "direction": "105",
+        "highway": "speed_camera"
+      },
+      "type": "node"
     }
   ],
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-09-15T05:04:20Z",
-    "timestamp_osm_base": "2026-09-15T06:46:15Z"
+    "timestamp_areas_base": "2026-09-21T06:25:28Z",
+    "timestamp_osm_base": "2026-09-21T08:46:42Z"
   },
   "version": 0.6
 }

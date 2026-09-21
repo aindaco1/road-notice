@@ -2075,6 +2075,22 @@
       "type": "node"
     },
     {
+      "id": 13131188351,
+      "lat": 39.4231436,
+      "lon": -77.4114788,
+      "tags": {
+        "camera:direction": "230",
+        "camera:type": "fixed",
+        "check_date": "2026-09-15",
+        "enforcement": "traffic_signals",
+        "man_made": "surveillance",
+        "operator": "The City of Frederick",
+        "surveillance:type": "camera",
+        "surveillance:zone": "traffic"
+      },
+      "type": "node"
+    },
+    {
       "id": 13186974189,
       "lat": 41.7520924,
       "lon": -87.9444284,
@@ -2604,7 +2620,10 @@
       "lat": 39.4097368,
       "lon": -77.4059123,
       "tags": {
-        "enforcement": "traffic_signals"
+        "enforcement": "traffic_signals",
+        "man_made": "surveillance",
+        "surveillance:type": "camera",
+        "surveillance:zone": "traffic"
       },
       "type": "node"
     },
@@ -2619,6 +2638,18 @@
         "enforcement": "traffic_signals",
         "man_made": "surveillance",
         "surveillance": "public",
+        "surveillance:type": "camera",
+        "surveillance:zone": "traffic"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14183659850,
+      "lat": 39.4104475,
+      "lon": -77.4062068,
+      "tags": {
+        "enforcement": "traffic_signals",
+        "man_made": "surveillance",
         "surveillance:type": "camera",
         "surveillance:zone": "traffic"
       },
@@ -3467,11 +3498,6 @@
         {
           "ref": 416337293,
           "role": "device",
-          "type": "node"
-        },
-        {
-          "ref": 669579734,
-          "role": "from",
           "type": "node"
         }
       ],
@@ -13698,17 +13724,17 @@
           "type": "node"
         },
         {
-          "ref": 862704415,
-          "role": "to",
-          "type": "node"
-        },
-        {
           "ref": 14152341950,
           "role": "from",
           "type": "node"
         },
         {
-          "ref": 14152341951,
+          "ref": 14183659850,
+          "role": "device",
+          "type": "node"
+        },
+        {
+          "ref": 83597454,
           "role": "to",
           "type": "node"
         }
@@ -13907,6 +13933,32 @@
       "tags": {
         "enforcement": "traffic_signals",
         "type": "enforcement"
+      },
+      "type": "relation"
+    },
+    {
+      "id": 21399836,
+      "members": [
+        {
+          "ref": 13131188351,
+          "role": "device",
+          "type": "node"
+        },
+        {
+          "ref": 103006588,
+          "role": "to",
+          "type": "node"
+        },
+        {
+          "ref": 14183659849,
+          "role": "from",
+          "type": "node"
+        }
+      ],
+      "tags": {
+        "enforcement": "traffic_signals",
+        "type": "enforcement",
+        "website": "https://www.cityoffrederickmd.gov/527/Red-Light-Cameras"
       },
       "type": "relation"
     },
@@ -14436,12 +14488,6 @@
       "id": 416337293,
       "lat": 37.8383965,
       "lon": -122.2947,
-      "type": "node"
-    },
-    {
-      "id": 669579734,
-      "lat": 37.8383431,
-      "lon": -122.2948975,
       "type": "node"
     },
     {
@@ -16048,8 +16094,8 @@
     },
     {
       "id": 4748261894,
-      "lat": 34.2762059,
-      "lon": -119.2265592,
+      "lat": 34.2762043,
+      "lon": -119.2265749,
       "type": "node"
     },
     {
@@ -21545,7 +21591,7 @@
     {
       "id": 838696890,
       "lat": 41.9374167,
-      "lon": -87.7859018,
+      "lon": -87.7859025,
       "type": "node"
     },
     {
@@ -21963,12 +22009,6 @@
       "type": "node"
     },
     {
-      "id": 862704415,
-      "lat": 39.4099665,
-      "lon": -77.4059934,
-      "type": "node"
-    },
-    {
       "id": 14152341948,
       "lat": 39.4097368,
       "lon": -77.4059123,
@@ -21981,15 +22021,21 @@
       "type": "node"
     },
     {
+      "id": 83597454,
+      "lat": 39.4101694,
+      "lon": -77.4060763,
+      "type": "node"
+    },
+    {
       "id": 14152341950,
       "lat": 39.410906,
       "lon": -77.40606,
       "type": "node"
     },
     {
-      "id": 14152341951,
-      "lat": 39.4103215,
-      "lon": -77.4060726,
+      "id": 14183659850,
+      "lat": 39.4104475,
+      "lon": -77.4062068,
       "type": "node"
     },
     {
@@ -22008,6 +22054,24 @@
       "id": 14157697254,
       "lat": 39.4077902,
       "lon": -77.3887912,
+      "type": "node"
+    },
+    {
+      "id": 103006588,
+      "lat": 39.4229528,
+      "lon": -77.4116801,
+      "type": "node"
+    },
+    {
+      "id": 13131188351,
+      "lat": 39.4231436,
+      "lon": -77.4114788,
+      "type": "node"
+    },
+    {
+      "id": 14183659849,
+      "lat": 39.4235175,
+      "lon": -77.4114135,
       "type": "node"
     },
     {
@@ -25397,11 +25461,11 @@
       "type": "way"
     }
   ],
-  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-09-14T12:17:00Z",
-    "timestamp_osm_base": "2026-09-15T03:54:20Z"
+    "timestamp_areas_base": "2026-09-21T07:18:35Z",
+    "timestamp_osm_base": "2026-09-21T08:46:42Z"
   },
   "version": 0.6
 }

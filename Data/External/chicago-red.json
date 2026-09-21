@@ -1193,22 +1193,22 @@
       "geometry": [
         {
           "latitude": 41.9253,
-          "longitude": -87.64018
+          "longitude": -87.6402
         }
       ],
-      "id": "agency-chicago-red-2359-n-clark-st-315",
+      "id": "agency-chicago-red-2359-n-clark-st-0",
       "kind": "redLight",
-      "label": "2359 N Clark St · NWB",
+      "label": "2359 N Clark St · NB",
       "locationKey": "2359 N Clark St",
       "positionPrecision": "agency-published-point",
       "roadNames": [
         "N Clark St"
       ],
-      "siteID": "agency-chicago-red-2359-n-clark-st-315",
+      "siteID": "agency-chicago-red-2359-n-clark-st-0",
       "sourceIDs": [
-        "agency/chicago-red/2359 N Clark St-315"
+        "agency/chicago-red/2359 N Clark St-0"
       ],
-      "travelBearing": 315
+      "travelBearing": 0
     },
     {
       "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
@@ -3942,8 +3942,8 @@
       "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
       "geometry": [
         {
-          "latitude": 41.96791,
-          "longitude": -87.73969
+          "latitude": 41.9679,
+          "longitude": -87.7397
         }
       ],
       "id": "agency-chicago-red-4791-n-elston-ave-315",
@@ -4606,19 +4606,19 @@
           "longitude": -87.7424
         }
       ],
-      "id": "agency-chicago-red-5356-s-archer-ave-270",
+      "id": "agency-chicago-red-5356-s-archer-ave-225",
       "kind": "redLight",
-      "label": "5356 S Archer Ave · WB",
+      "label": "5356 S Archer Ave · SWB",
       "locationKey": "5356 S Archer Ave",
       "positionPrecision": "agency-published-point",
       "roadNames": [
         "S Archer Ave"
       ],
-      "siteID": "agency-chicago-red-5356-s-archer-ave-270",
+      "siteID": "agency-chicago-red-5356-s-archer-ave-225",
       "sourceIDs": [
-        "agency/chicago-red/5356 S Archer Ave-270"
+        "agency/chicago-red/5356 S Archer Ave-225"
       ],
-      "travelBearing": 270
+      "travelBearing": 225
     },
     {
       "evidence": "Chicago red-light cameras: published coordinates, not independently surveyed. Source: https://data.cityofchicago.org/d/thvf-6diy",
@@ -6601,7 +6601,7 @@
       "travelBearing": 0
     }
   ],
-  "checkedAt": "2026-09-15T06:49:00Z",
+  "checkedAt": "2026-09-21T08:49:37Z",
   "excluded": [],
   "id": "chicago-red",
   "rowCount": 300,

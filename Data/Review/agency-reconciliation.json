@@ -1,5 +1,5 @@
 {
-  "acceptedAgencyRecords": 925,
+  "acceptedAgencyRecords": 924,
   "automaticMatches": [
     {
       "id": "osm-node-11412742529",
@@ -12,7 +12,7 @@
       "targetID": "osm-node-13726188373"
     }
   ],
-  "checkedAt": "2026-09-15T13:11:00Z",
+  "checkedAt": "2026-09-21T09:08:04Z",
   "review": [
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -435,6 +435,17 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
+      "id": "agency-chicago-red-2359-n-clark-st-0",
+      "label": "2359 N Clark St · NB",
+      "nearby": [
+        {
+          "id": "agency-chicago-red-2359-n-clark-st-315",
+          "meters": 1.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
       "id": "agency-chicago-red-2380-w-montrose-ave-270",
       "label": "2380 W Montrose Ave · WB",
       "nearby": [
@@ -629,6 +640,17 @@
         {
           "id": "agency-chicago-speed-chi125-180",
           "meters": 140.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-5356-s-archer-ave-225",
+      "label": "5356 S Archer Ave · SWB",
+      "nearby": [
+        {
+          "id": "agency-chicago-red-5356-s-archer-ave-270",
+          "meters": 0.0
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -1150,7 +1172,7 @@
     },
     {
       "id": "agency-dc-ate-0303",
-      "label": "4700 blk MacArthur Blvd NW s/b ",
+      "label": "4700 blk MacArthur Blvd NW s/b",
       "nearby": [
         {
           "id": "osm-node-12541100542",
@@ -2332,11 +2354,6 @@
       "reason": "Location needs review: Census changed the requested street/state; needs review",
       "source": "philadelphia-addresses",
       "sourceRecord": "2100 Robbins Street"
-    },
-    {
-      "reason": "Location needs review: The read operation timed out",
-      "source": "hillsborough-intersections",
-      "sourceRecord": "Sligh Avenue & Habana Avenue · EB"
     },
     {
       "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb",

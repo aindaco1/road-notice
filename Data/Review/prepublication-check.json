@@ -1,25 +1,25 @@
 {
-  "agencyAndPageChecksAt": "2026-09-15T06:49:00Z",
-  "completedAt": "2026-09-15T06:50:31Z",
+  "agencyAndPageChecksAt": "2026-09-21T08:49:37Z",
+  "completedAt": "2026-09-21T09:08:10Z",
   "osmFetches": [
     {
-      "checkedAt": "2026-09-15T06:48:23Z",
+      "checkedAt": "2026-09-21T08:48:51Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "error": "HTTP Error 504: Gateway Timeout",
+      "checkedAt": "2026-09-21T08:49:11Z",
       "source": "enforcement",
-      "status": "retained"
+      "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T06:49:00Z",
+      "checkedAt": "2026-09-21T08:49:37Z",
       "source": "aliases",
       "status": "downloaded"
     }
   ],
   "overture": {
-    "checkedAt": "2026-09-15T06:50:24Z",
+    "checkedAt": "2026-09-21T09:08:02Z",
     "completeRegions": 162,
     "records": 30615,
     "regions": [
@@ -1652,10 +1652,13 @@
   "reviewRequired": [
     "bernco",
     "nyc",
+    "long-beach",
+    "massachusetts",
     "michigan",
     "minneapolis",
     "prince-georges-red",
+    "wheat-ridge",
     "nyc-datafeeds"
   ],
-  "speedLimitChecksAt": "2026-09-15T06:50:23Z"
+  "speedLimitChecksAt": "2026-09-21T08:50:08Z"
 }

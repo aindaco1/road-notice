@@ -1,8 +1,8 @@
 # Speed-limit coverage
 
-Snapshot 2026-09-14-729f56d56437-796706f6
+Snapshot 2026-09-21-f03293b9ac43-79004776
 
-1305 / 1765 speed-camera approaches have an approved posted limit or conservative suppression bound.
+1305 / 1768 speed-camera approaches have an approved posted limit or conservative suppression bound.
 
 | Census metro | Speed approaches | With limit/bound |
 |---|---:|---:|
@@ -21,7 +21,7 @@ Snapshot 2026-09-14-729f56d56437-796706f6
 | Riverside-San Bernardino-Ontario, CA | 2 | 0 |
 | San Francisco-Oakland-Fremont, CA | 70 | 68 |
 | Detroit-Warren-Dearborn, MI | 0 | 0 |
-| Seattle-Tacoma-Bellevue, WA | 142 | 117 |
+| Seattle-Tacoma-Bellevue, WA | 143 | 117 |
 | Minneapolis-St. Paul-Bloomington, MN-WI | 15 | 1 |
 | Tampa-St. Petersburg-Clearwater, FL | 7 | 0 |
 | San Diego-Chula Vista-Carlsbad, CA | 7 | 7 |

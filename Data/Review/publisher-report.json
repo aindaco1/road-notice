@@ -1,29 +1,29 @@
 {
   "counts": {
     "possibleSpeed": 186,
-    "redLight": 736,
-    "speed": 1579,
-    "speedAndRedLight": 194
+    "redLight": 738,
+    "speed": 1582,
+    "speedAndRedLight": 195
   },
   "fetches": [
     {
-      "checkedAt": "2026-09-15T06:48:23Z",
+      "checkedAt": "2026-09-21T08:48:51Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "error": "HTTP Error 504: Gateway Timeout",
+      "checkedAt": "2026-09-21T08:49:11Z",
       "source": "enforcement",
-      "status": "retained"
+      "status": "downloaded"
     },
     {
-      "checkedAt": "2026-09-15T06:49:00Z",
+      "checkedAt": "2026-09-21T08:49:37Z",
       "source": "aliases",
       "status": "downloaded"
     }
   ],
-  "generatedAt": "2026-09-15T13:11:00Z",
-  "records": 2695,
+  "generatedAt": "2026-09-21T11:24:09Z",
+  "records": 2701,
   "review": [
     {
       "id": "osm-relation-545916",
@@ -494,6 +494,17 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
+      "id": "agency-chicago-red-2359-n-clark-st-0",
+      "label": "2359 N Clark St · NB",
+      "nearby": [
+        {
+          "id": "agency-chicago-red-2359-n-clark-st-315",
+          "meters": 1.7
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
       "id": "agency-chicago-red-2380-w-montrose-ave-270",
       "label": "2380 W Montrose Ave · WB",
       "nearby": [
@@ -688,6 +699,17 @@
         {
           "id": "agency-chicago-speed-chi125-180",
           "meters": 140.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-chicago-red-5356-s-archer-ave-225",
+      "label": "5356 S Archer Ave · SWB",
+      "nearby": [
+        {
+          "id": "agency-chicago-red-5356-s-archer-ave-270",
+          "meters": 0.0
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -1209,7 +1231,7 @@
     },
     {
       "id": "agency-dc-ate-0303",
-      "label": "4700 blk MacArthur Blvd NW s/b ",
+      "label": "4700 blk MacArthur Blvd NW s/b",
       "nearby": [
         {
           "id": "osm-node-12541100542",
@@ -2393,11 +2415,6 @@
       "sourceRecord": "2100 Robbins Street"
     },
     {
-      "reason": "Location needs review: The read operation timed out",
-      "source": "hillsborough-intersections",
-      "sourceRecord": "Sligh Avenue & Habana Avenue · EB"
-    },
-    {
       "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb",
       "label": "Fletcher Avenue & Bruce B. Downs Boulevard · NB · approximate location",
       "nearby": [
@@ -2725,6 +2742,26 @@
     {
       "id": "osm-node-14079677763",
       "reason": "Metro source requires explicit reconciliation"
+    },
+    {
+      "consecutiveAbsences": 1,
+      "id": "agency-chicago-red-2359-n-clark-st-315",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 1,
+      "id": "agency-chicago-red-5356-s-archer-ave-270",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 1,
+      "id": "osm-node-8918090831",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 1,
+      "id": "osm-node-9332882501",
+      "reason": "Missing from complete fetch; retained pending review"
     },
     {
       "id": "abq-broadway-iron-sb",
@@ -6179,6 +6216,11 @@
     {
       "id": "osm-node-14163353987",
       "near": "osm-node-14163353986",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14183659850",
+      "near": "osm-node-14152341948",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {

@@ -1,4 +1,9 @@
 {
-  "missing": {},
-  "sourceVersion": "2026-09-15T06:46:15Z-2026-09-15T03:54:20Z-2026-09-15T06:47:20Z"
+  "missing": {
+    "agency-chicago-red-2359-n-clark-st-315": 1,
+    "agency-chicago-red-5356-s-archer-ave-270": 1,
+    "osm-node-8918090831": 1,
+    "osm-node-9332882501": 1
+  },
+  "sourceVersion": "2026-09-21T08:46:42Z-2026-09-21T08:46:42Z-2026-09-21T08:47:49Z"
 }

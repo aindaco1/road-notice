@@ -1,5 +1,16 @@
 # Release notes
 
+## 1.0.4 — September 22, 2026
+
+Camera-awareness wording replaces the ticket-saving slogan in the app and
+website. Setup now reminds drivers to follow traffic laws whether or not a
+warning sounds, and the Quiet setting explains that silence does not establish
+a lawful speed. A neutral road-and-marker icon replaces the prohibition symbol;
+the app is now named Road Notice. The repository and local project directory
+are `road-notice`; the existing bundle identity, saved data and reporting endpoint
+remain compatible. App Store resubmission
+copy and a developer-only Jev evaluation plan are documented.
+
 ## 1.0.3 — September 16, 2026
 
 The app now matches [finemenot.xyz](https://finemenot.xyz/): the speed-camera icon

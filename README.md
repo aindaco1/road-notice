@@ -1,10 +1,12 @@
-# Fine Me Not
+# Road Notice
 
-**Speed cameras ahead. Keep your cash.**
+Formerly Fine Me Not. The app keeps its existing bundle identity and saved settings.
+
+**Camera awareness. Follow posted limits.**
 
 Free, open-source camera warnings for iPhone. One switch, one brief siren. No maps, ads, subscriptions, accounts or trip history.
 
-Fine Me Not 1.0.3 targets **iOS 17+**, including iOS 18, 26 and 27. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. The owner has confirmed an audible real-camera warning over Bluetooth with the screen locked; other device checks remain documented in [the acceptance record](docs/TESTING.md). See [release status](docs/RELEASE.md) for Apple availability.
+Road Notice 1.0.4 targets **iOS 17+**, including iOS 18, 26 and 27. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. The owner has confirmed an audible real-camera warning over Bluetooth with the screen locked; other device checks remain documented in [the acceptance record](docs/TESTING.md). See [release status](docs/RELEASE.md) for Apple availability.
 
 Maintained by **Alonso Indacochea**. [Website and setup instructions](https://finemenot.xyz/) · [Release notes](CHANGELOG.md).
 
@@ -13,6 +15,8 @@ Maintained by **Alonso Indacochea**. [Website and setup instructions](https://fi
 - [Census metro coverage and weekly source checks](docs/METRO-COVERAGE.md)
 - [Speed-check behavior and coverage](docs/SPEED-CHECK.md)
 - [Build and TestFlight release](docs/RELEASE.md)
+- [App Review findings and proposed resubmission](docs/APP-REVIEW.md)
+- [Jev integration plan](docs/JEV-PLAN.md)
 - [Tests and physical acceptance](docs/TESTING.md)
 - [Research and implementation plan](docs/PLAN.md)
 - [Sources, privacy and support](https://finemenot.xyz/)

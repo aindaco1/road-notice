@@ -1,5 +1,13 @@
 # Release and distribution
 
+**September 22, 2026:** the owner's App Store Connect capture shows **1.0.0 (8)
+Rejected**, Guideline 5 (Legal). See [the findings and resubmission draft](APP-REVIEW.md).
+Road Notice is the owner-approved replacement name, with a neutral road-and-marker
+icon. Version **1.0.4 (12)** is the new submission candidate. Its signed archive
+and local tests pass; upload, deployment and submission outcomes are recorded
+in the dated section below. The repository and project directory are renamed
+`road-notice`; bundle identity, saved data and `finemenot.xyz` remain unchanged.
+
 **1.0.3 branding update:** source version 1.0.3 (11) matches the app header to
 finemenot.xyz. See the dated verification section at the end.
 
@@ -7,15 +15,15 @@ finemenot.xyz. See the dated verification section at the end.
 
 **1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.
 
-- App: Fine Me Not
+- App: Road Notice (formerly Fine Me Not)
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
 - TestFlight: **1.0.3 (11), Testing** in First Drive as of September 16, 2026
-- Pending App Store version: 1.0.0 (8)
-- App Store: **Waiting for Review** as of September 16, 2026; automatic U.S. release after approval
-- Release history: https://github.com/aindaco1/fine-me-not/releases
+- Rejected App Store version: 1.0.0 (8)
+- App Store: **Rejected** in the September 22, 2026 owner-provided capture; prior configuration was automatic U.S. release after approval
+- Release history: https://github.com/aindaco1/road-notice/releases
 - Minimum: iOS 17.0 for 1.0.2; earlier binaries require iOS 27.0
-- Source: https://github.com/aindaco1/fine-me-not
+- Source: https://github.com/aindaco1/road-notice
 - Support / privacy: https://finemenot.xyz/
 - Category: Utilities (minimal camera proximity warnings)
 - Price: Free; no purchases, subscriptions, ads or accounts
@@ -65,7 +73,7 @@ The app's only background purpose is user-enabled camera proximity warnings. Cor
 
 Version **1.0.0 (8)** bundles the current **2,695 warning locations** and expanded speed-limit evidence. The release removes the in-app beta label while preserving the coverage/audio limitations and adds a reminder to follow posted signs. There are no location, matching or audio runtime changes from the latest test build. The owner has authorized publication with the remaining physical checks deferred; see [TESTING.md](TESTING.md).
 
-The [official GitHub release](https://github.com/aindaco1/fine-me-not/releases/tag/v1.0.0) is published at source commit `093e2872036fe0253dd06de8a38b13af40c03314`. The website and weekly database are deployed. Apple received version 1.0.0 (8) at **02:10 MDT on September 15, 2026** and shows **Waiting for Review**. The app is free, initially available in the United States, with automatic release after Apple approval. Mac and Apple Vision Pro availability are disabled. The app remains under the owner-selected Volver Health LLC Apple team; the project maintainer is Alonso Indacochea.
+The [official GitHub release](https://github.com/aindaco1/road-notice/releases/tag/v1.0.0) is published at source commit `093e2872036fe0253dd06de8a38b13af40c03314`. The website and weekly database are deployed. Apple received version 1.0.0 (8) at **02:10 MDT on September 15, 2026** and shows **Waiting for Review**. The app is free, initially available in the United States, with automatic release after Apple approval. Mac and Apple Vision Pro availability are disabled. The app remains under the owner-selected Volver Health LLC Apple team; the project maintainer is Alonso Indacochea.
 
 Apple accepted **1.0.0 (8)** at **07:27:51 UTC on September 15, 2026**. Processing completed and the existing First Drive internal group with one tester shows **Testing**. Build-specific device-test instructions are saved. No tester roles changed. The physical phone was last shown on 0.1.0 (7); installation of 1.0 remains unverified.
 
@@ -75,13 +83,13 @@ The completed App Store listing includes the actual 6.9-inch iPhone screenshot (
 
 Apple confirmed **1 Item Submitted**, followed by **Waiting for Review** for 1.0.0 (8), on September 15, 2026 at 02:10 MDT. Submission ID: `fb55d309-ed07-4e2c-844d-1bc3677a2d17`. Automatic release after approval is selected. Submission does not mean Apple has approved the app or that the public App Store listing is live.
 
-[Release source CI](https://github.com/aindaco1/fine-me-not/actions/runs/34943986572) and [website/data deployment](https://github.com/aindaco1/fine-me-not/actions/runs/34943986798) both passed. The live HTTPS site and immutable database passed `Scripts/check_site.py` with 2,695 locations and 1,305 of 1,765 speed approaches eligible for suppression.
+[Release source CI](https://github.com/aindaco1/road-notice/actions/runs/34943986572) and [website/data deployment](https://github.com/aindaco1/road-notice/actions/runs/34943986798) both passed. The live HTTPS site and immutable database passed `Scripts/check_site.py` with 2,695 locations and 1,305 of 1,765 speed approaches eligible for suppression.
 
 ## Release evidence — September 14, 2026
 
 Xcode confirmed **0.1.0 (2) uploaded successfully** to App Store Connect under Volver Health LLC at 22:56 UTC. Apple reported that the uploaded package was processing. Source/build commit: `7cabd13`; bundled snapshot: `2026-09-14-0f9b8c9a0cd0-43142730`, 1,756 warning records. Build 2 adds offline OpenStreetMap attribution. The previous build, 0.1.0 (1), also uploaded successfully.
 
-[Build 2 CI](https://github.com/aindaco1/fine-me-not/actions/runs/34906072688) passed. At approximately 23:06 UTC, App Store Connect showed build **0.1.0 (2)** as **Testing** in the **First Drive** internal group, with the owner-requested tester assigned. The tester was already an eligible team member; no App Store Connect role was added. TestFlight then reported **Installed 0.1.0 (2)** on **iPhone 16 Pro Max / iOS 27.0**. The tester’s email is omitted from this public repository.
+[Build 2 CI](https://github.com/aindaco1/road-notice/actions/runs/34906072688) passed. At approximately 23:06 UTC, App Store Connect showed build **0.1.0 (2)** as **Testing** in the **First Drive** internal group, with the owner-requested tester assigned. The tester was already an eligible team member; no App Store Connect role was added. TestFlight then reported **Installed 0.1.0 (2)** on **iPhone 16 Pro Max / iOS 27.0**. The tester’s email is omitted from this public repository.
 
 The build’s What to Test instructions were saved in TestFlight, covering permissions, audio routes, screen-locked and overnight behavior, direction/repeat filtering, offline operation and database downloads. The group uses manual build assignment; future uploads must be added after validation. This is an internal beta, not a public App Store release.
 
@@ -89,7 +97,7 @@ The archive and exported distribution signed successfully using Xcode’s saved 
 
 ## Icon update — build 3
 
-Build 0.1.0 (3), source `9d975fd`, replaces the ticket with a speed camera and pale-blue prohibition overlay. The 1024 × 1024 opaque icon was checked on the simulator Home Screen, and the signed archive passed the bundle check. Apple confirmed the upload at 23:21 UTC on September 14, 2026. Apple finished processing and the First Drive group now shows build 0.1.0 (3) as Testing. The icon update notes were saved in TestFlight. [CI](https://github.com/aindaco1/fine-me-not/actions/runs/34908349722) passed. Installation of build 3 on the physical phone has not been checked.
+Build 0.1.0 (3), source `9d975fd`, replaces the ticket with a speed camera and pale-blue prohibition overlay. The 1024 × 1024 opaque icon was checked on the simulator Home Screen, and the signed archive passed the bundle check. Apple confirmed the upload at 23:21 UTC on September 14, 2026. Apple finished processing and the First Drive group now shows build 0.1.0 (3) as Testing. The icon update notes were saved in TestFlight. [CI](https://github.com/aindaco1/road-notice/actions/runs/34908349722) passed. Installation of build 3 on the physical phone has not been checked.
 
 ## Missed-warning fixes — build 4
 
@@ -97,7 +105,7 @@ Build **0.1.0 (4)**, source `fd99484`, is **Testing** in the First Drive interna
 
 This build requests continuous standard background location with automatic pauses disabled, infers movement when reported speed is unavailable, chooses the newest valid saved/bundled database, and adds local diagnostics. It bundles `2026-09-14-971a10f8454e-571f726e` with 1,758 warning records, including approximate Coors/St. Joseph NB/SB warning areas. The city confirms the site and directions, but exact device positions remain unverified.
 
-[CI for the app source](https://github.com/aindaco1/fine-me-not/actions/runs/34913290315) passed all 14 Swift and 10 publisher tests and the simulator bundle checks. The signed archive passed validation with minimum iOS 27.0. Both Coors directions produced one warning and recorded siren completion during locked-screen simulator replays. Real iOS 27 Low Power Mode, long idle recovery, car-audio audibility and battery use still require physical acceptance. See [DEBUGGING.md](DEBUGGING.md) for findings and the next phone test.
+[CI for the app source](https://github.com/aindaco1/road-notice/actions/runs/34913290315) passed all 14 Swift and 10 publisher tests and the simulator bundle checks. The signed archive passed validation with minimum iOS 27.0. Both Coors directions produced one warning and recorded siren completion during locked-screen simulator replays. Real iOS 27 Low Power Mode, long idle recovery, car-audio audibility and battery use still require physical acceptance. See [DEBUGGING.md](DEBUGGING.md) for findings and the next phone test.
 
 ## Complete city-list representation — build 5
 
@@ -105,7 +113,7 @@ Build **0.1.0 (5)**, source `632c77b`, is **Testing** in the First Drive interna
 
 The build bundles `2026-09-14-6466b7b09db1-78026b1a` with **1,777 warning records**. The 19 additions bring current Albuquerque city-list representation to **40 of 40 directional approaches: 19 mapped points and 21 approximate areas**. Carlisle uses Delamar Avenue as confirmed by the city certificate. Approximate boundaries follow reviewed OSM road geometry; they are warning buffers, not surveyed equipment positions or enforcement boundaries. See [ALBUQUERQUE.md](ALBUQUERQUE.md) for every city entry. No location/audio runtime code changed for this build.
 
-[Source CI](https://github.com/aindaco1/fine-me-not/actions/runs/34915680253) passed all 15 Swift and 12 publisher tests and the simulator bundle checks. The signed archive passed the full release bundle check with minimum iOS 27.0. [Database publication](https://github.com/aindaco1/fine-me-not/actions/runs/34915680188) succeeded; the live immutable snapshot matched its SHA-256 manifest and all 40 city references. An installed build 4 simulator downloaded it using Update now, then produced exactly one southbound Carlisle warning with playback completed while locked. These checks establish data delivery and simulated behavior. Real iOS 27 car-audio audibility, Low Power Mode, overnight recovery and battery acceptance remain pending.
+[Source CI](https://github.com/aindaco1/road-notice/actions/runs/34915680253) passed all 15 Swift and 12 publisher tests and the simulator bundle checks. The signed archive passed the full release bundle check with minimum iOS 27.0. [Database publication](https://github.com/aindaco1/road-notice/actions/runs/34915680188) succeeded; the live immutable snapshot matched its SHA-256 manifest and all 40 city references. An installed build 4 simulator downloaded it using Update now, then produced exactly one southbound Carlisle warning with playback completed while locked. These checks establish data delivery and simulated behavior. Real iOS 27 car-audio audibility, Low Power Mode, overnight recovery and battery acceptance remain pending.
 
 ## Speed check and automated maintenance — build 6
 
@@ -113,9 +121,9 @@ Build **0.1.0 (6)**, source `af60017`, is **Testing** in the First Drive interna
 
 The build adds the default-on Quiet below speed limit setting and diagnostics. It bundles `2026-09-14-263679a7aa6b-9935f9b5` with **2,681 records** and 31 approved SFMTA speed limits. Unknown, stale or conditional limits continue to warn, including Albuquerque where approved camera limits are not yet available. Red-light and combined warnings remain on. A quiet encounter remains armed in case speed subsequently rises.
 
-The signed archive passed codesign verification and the release bundle check (minimum iOS 27.0). [Source CI](https://github.com/aindaco1/fine-me-not/actions/runs/34926802914) passed 20 Swift tests, 39 pipeline tests and the simulator compatibility build. Simulator UI checks verified the upgrade default on, persisted off after relaunch, the Test warning button, and the bundled count. The archive uses Xcode 26.6 / SDK 26.5 with the requested distribution minimum 27.0; simulator deployment overrides are never used for the distribution archive.
+The signed archive passed codesign verification and the release bundle check (minimum iOS 27.0). [Source CI](https://github.com/aindaco1/road-notice/actions/runs/34926802914) passed 20 Swift tests, 39 pipeline tests and the simulator compatibility build. Simulator UI checks verified the upgrade default on, persisted off after relaunch, the Test warning button, and the bundled count. The archive uses Xcode 26.6 / SDK 26.5 with the requested distribution minimum 27.0; simulator deployment overrides are never used for the distribution archive.
 
-The [GitHub source-check run](https://github.com/aindaco1/fine-me-not/actions/runs/34926817137) and subsequent [staged publication](https://github.com/aindaco1/fine-me-not/actions/runs/34927188598) both completed successfully. The latter publishes **2,695 records** in `2026-09-14-352059fee0b5-23bbacd6`, adding 14 Chicago approaches once refreshed source road metadata made their distinct identities clear. Its live SHA-256 matches the manifest. Four watched pages returned HTTP 403, and an OSM alias query returned HTTP 429; previous evidence was retained and failures remain recorded. A green workflow means the resilient pipeline completed, not that every source responded successfully. The Codex maintenance heartbeat was deleted; recurring work now runs entirely in GitHub Actions.
+The [GitHub source-check run](https://github.com/aindaco1/road-notice/actions/runs/34926817137) and subsequent [staged publication](https://github.com/aindaco1/road-notice/actions/runs/34927188598) both completed successfully. The latter publishes **2,695 records** in `2026-09-14-352059fee0b5-23bbacd6`, adding 14 Chicago approaches once refreshed source road metadata made their distinct identities clear. Its live SHA-256 matches the manifest. Four watched pages returned HTTP 403, and an OSM alias query returned HTTP 429; previous evidence was retained and failures remain recorded. A green workflow means the resilient pipeline completed, not that every source responded successfully. The Codex maintenance heartbeat was deleted; recurring work now runs entirely in GitHub Actions.
 
 The installed build 6 simulator fetched that newer snapshot using Update now and visibly displayed **2,695 warning locations**, with Quiet below speed limit still enabled. This verifies the download/validation/display path independently of the offline bundle. It does not establish physical background delivery timing or car-audio behavior.
 
@@ -125,11 +133,11 @@ Build **0.1.0 (7)**, app source `61938f2`, is **Testing** in the First Drive int
 
 This build centralizes website/database URLs in `AppLinks` and moves them directly to `https://finemenot.xyz/`. It bundles **2,695 warning records** in `2026-09-14-352059fee0b5-23bbacd6`, with the existing 31 approved SFMTA limits. No new research speed-limit candidates were approved for suppression. The owner requested no compatibility work for older test builds.
 
-The signed archive passed codesign verification and the release bundle check with minimum iOS 27.0. The simulator compatibility build installed and launched with 2,695 records and the default-on speed check. [App source CI](https://github.com/aindaco1/fine-me-not/actions/runs/34928273608) passed, as did the [research/source-monitor CI](https://github.com/aindaco1/fine-me-not/actions/runs/34929151098) and [site publication](https://github.com/aindaco1/fine-me-not/actions/runs/34929151034). Local pipeline verification passed 39 tests. The archive still uses Xcode 26.6 / SDK 26.5; simulator deployment overrides were not used for distribution.
+The signed archive passed codesign verification and the release bundle check with minimum iOS 27.0. The simulator compatibility build installed and launched with 2,695 records and the default-on speed check. [App source CI](https://github.com/aindaco1/road-notice/actions/runs/34928273608) passed, as did the [research/source-monitor CI](https://github.com/aindaco1/road-notice/actions/runs/34929151098) and [site publication](https://github.com/aindaco1/road-notice/actions/runs/34929151034). Local pipeline verification passed 39 tests. The archive still uses Xcode 26.6 / SDK 26.5; simulator deployment overrides were not used for distribution.
 
 **Domain activation was resolved at approximately 23:20 Mountain on September 14.** Once public DNS propagated, GitHub's stalled certificate request was restarted. The certificate now covers `finemenot.xyz` and `www.finemenot.xyz`; Pages HTTPS enforcement is on. Both DNS records are now proxied through Cloudflare, matching the other Dust Wave Pages sites, with Full (strict) origin encryption and Always Use HTTPS. The public page and all 2,695 camera records validate over HTTPS through Cloudflare. The privacy text names both hosting providers. No new app binary is required.
 
-The [manual, read-only HTTPS verification run](https://github.com/aindaco1/fine-me-not/actions/runs/34929772047) passed; `Scripts/check_site.py` also passed after Cloudflare proxying was enabled. No recurring schedule was added. Update now and the website link in build 7 still need physical iPhone acceptance. The [website runbook](WEBSITE.md) records the routing contract and certificate recovery procedure.
+The [manual, read-only HTTPS verification run](https://github.com/aindaco1/road-notice/actions/runs/34929772047) passed; `Scripts/check_site.py` also passed after Cloudflare proxying was enabled. No recurring schedule was added. Update now and the website link in build 7 still need physical iPhone acceptance. The [website runbook](WEBSITE.md) records the routing contract and certificate recovery procedure.
 
 The [research report](DATA-RESEARCH.md) documents new camera sources and speed-limit APIs. Nine page monitors were added to the existing Sunday GitHub source checks; seven succeeded locally and two returned 403. New camera readers, road matching and approval of additional speed limits remain identified implementation work, not shipped data coverage.
 
@@ -192,7 +200,7 @@ The signed archive was built with Xcode 26.6 / iOS 26.5 SDK, passed release bund
 validation with 2,695 bundled cameras, and has matching app/dSYM UUIDs. The app
 source at `3458537` is unchanged by the subsequent CI-tooling commits. All 26 Swift
 tests and 63 pipeline tests passed, locally and in the
-[hosted checks](https://github.com/aindaco1/fine-me-not/actions/runs/34972228732).
+[hosted checks](https://github.com/aindaco1/road-notice/actions/runs/34972228732).
 Exact OS integration results and physical-test limits are in [TESTING.md](TESTING.md).
 
 Apple accepted the upload at **04:20:58 MDT**. App Store Connect shows binary
@@ -219,7 +227,7 @@ background playback passes. Hosted iOS 18 moving-GPS failures also reproduce in
 minimal controls and remain documented diagnostics, not accepted background
 results. See [TESTING.md](TESTING.md) for evidence and exact limits.
 
-[Runtime regression evidence](https://github.com/aindaco1/fine-me-not/actions/runs/34972228844) includes the exact scenario and retained journal for each OS.
+[Runtime regression evidence](https://github.com/aindaco1/road-notice/actions/runs/34972228844) includes the exact scenario and retained journal for each OS.
 
 ## 1.0.3 branding — September 16, 2026
 
@@ -252,8 +260,8 @@ Build 11 was archived with Xcode 27.0 (27A266a) / iOS 27 SDK. Signature and rele
 bundle checks passed with iOS 17.0 minimum and 2,695 camera records. The app and
 archived dSYM both have UUID 515AE8F4-B645-305F-AEFC-DE094676B9D5.
 
-[Hosted build/tests](https://github.com/aindaco1/fine-me-not/actions/runs/35152261077)
-and [runtime compatibility](https://github.com/aindaco1/fine-me-not/actions/runs/35152261051)
+[Hosted build/tests](https://github.com/aindaco1/road-notice/actions/runs/35152261077)
+and [runtime compatibility](https://github.com/aindaco1/road-notice/actions/runs/35152261051)
 passed for release source `1be858b`: one completed background camera warning on
 iOS 17.5 and 26.5, and saved-setting/foreground siren verification on iOS 18.5.
 The iOS 27 visual review is saved in `docs/screenshots/1.0.3-settings.png`.
@@ -269,6 +277,26 @@ The superseded `ci/ios18-patch-check` investigation branch was removed locally
 and remotely after saving and verifying a Git recovery bundle in the same Trash
 folder. Its runtime selector and filter fixes already exist in main; its unused
 Intel-runner experiment is preserved in that bundle. The branding branch was
-removed after [PR #3](https://github.com/aindaco1/fine-me-not/pull/3) merged. Only
+removed after [PR #3](https://github.com/aindaco1/road-notice/pull/3) merged. Only
 `main` remains; source, camera data, signing assets and simulator runtimes were
 preserved.
+
+
+## Road Notice 1.0.4 (12) — September 22, 2026
+
+This revision replaces the prior name, prohibition icon and ticket-saving slogan
+with Road Notice, a neutral road-and-marker icon and camera-awareness guidance.
+It keeps the bundle identity, iOS 17 minimum, saved settings and report contract.
+The source includes the September 21 published database with 2,701 records.
+Jev remains a developer-only integration plan, with no runtime dependency.
+
+The release and simulator builds pass resource checks; all 26 Swift tests and
+63 Python pipeline tests pass. Xcode 27.0 (27A266a) archived the signed release.
+The app and dSYM share UUID `F4FB5903-B7BB-330F-A26C-EEC108006C6A`.
+The current archive is `~/Library/Developer/Xcode/Archives/2026-09-22/RoadNotice-1.0.4-12.xcarchive`.
+Release logs and ready-to-paste listing fields are in `work/release12/`.
+
+Apple accepted the upload at **21:43:07 CDT on September 22, 2026** and reported
+that processing had begun. Xcode export/upload succeeded with symbols enabled.
+Completed processing, TestFlight assignment and App Review resubmission have not
+yet been verified.

@@ -55,7 +55,7 @@ def fetch_sources(root):
         try:
             data = urllib.parse.urlencode({'data': PREFIX + query}).encode()
             req = urllib.request.Request(OVERPASS_URL, data=data,
-                headers={'User-Agent': 'FineMeNot/0.1 (+https://github.com/aindaco1/fine-me-not)'})
+                headers={'User-Agent': 'FineMeNot/0.1 (+https://github.com/aindaco1/road-notice)'})
             with urllib.request.urlopen(req, timeout=220) as response:
                 raw = response.read(50_000_001)
             if len(raw) > 50_000_000: raise ValueError('Source too large')

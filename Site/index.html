@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0a0094">
   <meta name="description" content="Free speed and red-light camera warnings for iPhone. One brief siren, automatic background monitoring, and no subscriptions. Built and maintained by Alonso Indacochea.">
-  <title>Fine Me Not — Speed cameras ahead. Keep your cash.</title>
+  <title>Road Notice — Speed and red-light camera awareness</title>
   <link rel="canonical" href="https://finemenot.xyz/">
   <link rel="icon" type="image/png" href="/app-icon.png">
   <link rel="apple-touch-icon" href="/app-icon.png">
@@ -62,11 +62,12 @@
   <header>
     <div class="brand">
       <img src="/app-icon.png" width="1024" height="1024" alt="" fetchpriority="high">
-      <h1 aria-label="Fine Me Not"><span>FINE</span><span>ME NOT</span></h1>
+      <h1 aria-label="Road Notice"><span>ROAD</span><span>NOTICE</span></h1>
     </div>
-    <p class="tagline"><span>Speed cameras ahead.</span> <span>Keep your cash.</span></p>
-    <p class="intro">Fine Me Not gives you a heads-up as you approach mapped speed and red-light cameras. Set it up once, leave it running in the background, and keep your eyes on the road.</p>
-    <p><strong>Free. No ads. No subscriptions.</strong><br>Getting a ticket is expensive enough.</p>
+    <p class="tagline"><span>Camera awareness.</span> <span>Follow posted limits.</span></p>
+    <p class="intro">Road Notice gives you a heads-up as you approach listed speed and red-light cameras. Set it up while parked, put your phone away, and keep your attention on driving.</p>
+    <p class="intro">Follow traffic laws and posted limits everywhere, whether or not a warning sounds. Silence does not mean your speed is lawful.</p>
+    <p><strong>Free. Open source. No ads. No subscriptions.</strong></p>
     <p class="small">For iPhone running iOS 17 or later. <a href="#compatibility">Check your iPhone</a>.</p>
     <nav aria-label="On this page">
       <a href="#features">What it does</a>
@@ -81,15 +82,15 @@
 
   <section id="features" aria-labelledby="features-title">
     <h2 id="features-title">A heads-up before the camera.</h2>
-    <p>Fine Me Not gives you one short, loud siren when you approach a known speed or red-light camera. Turn it on, put your phone away, and use whatever navigation app you like. No map to watch. No ads, accounts or subscriptions.</p>
+    <p>Road Notice uses your location and a saved camera list to give one brief siren per approach to a listed speed or red-light camera, when location and audio conditions permit. It cannot detect radar signals or confirm whether a camera is operating. Use it alongside your usual navigation app; there is no map to watch.</p>
     <ul>
-      <li><strong>Background warnings.</strong> With Always and Precise Location approved, monitoring continues while another app is open or the screen is locked. Reopen Fine Me Not after restarting your phone or swiping it away.</li>
+      <li><strong>Background warnings.</strong> With Always and Precise Location approved, monitoring can continue while another app is open or the screen is locked, when iOS permits. Reopen Road Notice after restarting your phone or swiping it away.</li>
       <li><strong>Your usual car audio.</strong> The siren uses the iPhone speaker, connected Bluetooth or CarPlay audio, including in Silent mode. It uses media volume; calls, a muted stereo or an interrupted connection can keep you from hearing it.</li>
       <li><strong>Quiet below the limit.</strong> On by default. Speed-camera sirens stay quiet when the phone reliably reports a speed below the camera’s known or estimated limit. Unknown or uncertain information still gets a warning. Red-light and combined-camera warnings stay on.</li>
       <li><strong>Works without a mobile signal.</strong> A camera list is saved on your phone. Internet access is needed for updates and sending a problem report, not for checking saved cameras.</li>
       <li><strong>Tell me when something breaks.</strong> Version 1.0.1 adds a reviewed problem report with an optional explanation and technical details. <a href="#reporting">Here’s how it works</a>.</li>
     </ul>
-    <p class="note">Background location uses battery. Fine Me Not keeps monitoring requested in Low Power Mode, but iOS, GPS reception and audio conditions can still delay or prevent a warning. It cannot guarantee every camera or every alert.</p>
+    <p class="note">Background location uses battery. Road Notice keeps monitoring requested in Low Power Mode, but iOS, GPS reception and audio conditions can still delay or prevent a warning. It cannot guarantee every camera or every alert.</p>
   </section>
 
   <section id="setup" aria-labelledby="setup-title">
@@ -97,21 +98,21 @@
     <ol class="steps">
       <li>
         <h3>Turn on Camera warnings.</h3>
-        <p>Open Fine Me Not and switch <strong>Camera warnings</strong> on. At the first location prompt, choose <strong>Allow While Using App</strong>, with <strong>Precise</strong> enabled. Avoid Allow Once: it does not give the app lasting access.</p>
+        <p>Open Road Notice and switch <strong>Camera warnings</strong> on. At the first location prompt, choose <strong>Allow While Using App</strong>, with <strong>Precise</strong> enabled. Avoid Allow Once: it does not give the app lasting access.</p>
       </li>
       <li>
         <h3>Give it background location access.</h3>
-        <p>If iOS asks to change access to Always, approve it. Otherwise open <strong>Settings → Privacy &amp; Security → Location Services → Fine Me Not</strong>. Select <strong>Always</strong> and turn <strong>Precise Location</strong> on. Location Services must also be on at the top of that settings page.</p>
+        <p>If iOS asks to change access to Always, approve it. Otherwise open <strong>Settings → Privacy &amp; Security → Location Services → Road Notice</strong>. Select <strong>Always</strong> and turn <strong>Precise Location</strong> on. Location Services must also be on at the top of that settings page.</p>
         <p>If Always isn’t listed yet, return to the app, enable warnings and approve the first location request, then check Settings again. If you previously chose Don’t Allow, change it here. The app cannot approve permission for you.</p>
       </li>
       <li>
         <h3>Allow notifications and sound.</h3>
-        <p>Choose <strong>Allow</strong> at the notification prompt. Then check <strong>Settings → Notifications → Fine Me Not</strong>: turn on <strong>Allow Notifications</strong>, <strong>Sounds</strong> and <strong>Time Sensitive Notifications</strong> where available. Allow Lock Screen and banner alerts if you want to see them.</p>
-        <p>If you use a Focus, check <strong>Settings → Focus</strong> and allow Fine Me Not and time-sensitive notifications where those options appear. Driving Focus has different controls; test with the Focus you actually use. <a href="https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios">Apple’s Focus instructions</a>.</p>
+        <p>Choose <strong>Allow</strong> at the notification prompt. Then check <strong>Settings → Notifications → Road Notice</strong>: turn on <strong>Allow Notifications</strong>, <strong>Sounds</strong> and <strong>Time Sensitive Notifications</strong> where available. Allow Lock Screen and banner alerts if you want to see them.</p>
+        <p>If you use a Focus, check <strong>Settings → Focus</strong> and allow Road Notice and time-sensitive notifications where those options appear. Driving Focus has different controls; test with the Focus you actually use. <a href="https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios">Apple’s Focus instructions</a>.</p>
       </li>
       <li>
         <h3>Allow camera-list updates.</h3>
-        <p>In <strong>Settings → General → Background App Refresh</strong>, enable Fine Me Not. Choose <strong>Wi-Fi &amp; Cellular Data</strong> and allow the app cellular access if you want downloads away from Wi-Fi. Low Power Mode disables Background App Refresh; you can still use <strong>Update now</strong> inside the app.</p>
+        <p>In <strong>Settings → General → Background App Refresh</strong>, enable Road Notice. Choose <strong>Wi-Fi &amp; Cellular Data</strong> and allow the app cellular access if you want downloads away from Wi-Fi. Low Power Mode disables Background App Refresh; you can still use <strong>Update now</strong> inside the app.</p>
       </li>
       <li>
         <h3>Test the sound in your car.</h3>
@@ -129,7 +130,7 @@
   <section id="compatibility" aria-labelledby="compatibility-title">
     <h2 id="compatibility-title">iPhone. iOS 17 or later.</h2>
     <p>Works on iPhone XS, XS Max, XR and newer, plus iPhone SE (2nd generation and later). Supports iOS 17, 18, 26 and 27. Check <strong>Settings → General → About</strong> for your model and iOS version.</p>
-    <p class="small">Older iOS support starts with version 1.0.2, available to TestFlight testers. The initial App Store release is still awaiting Apple’s approval.</p>
+    <p class="small">Older iOS support starts with version 1.0.2, available to TestFlight testers. The App Store release is not yet approved.</p>
   </section>
 
   <section id="support" aria-labelledby="support-title">
@@ -154,23 +155,23 @@
 
   <section id="reporting" aria-labelledby="reporting-title">
     <h2 id="reporting-title">Found something weird? Tell me.</h2>
-    <p>While parked, open Fine Me Not and tap <strong>Report a problem</strong>. Tell me what happened, add anything that might help, then review and send. Your reports help me make the app better.</p>
+    <p>While parked, open Road Notice and tap <strong>Report a problem</strong>. Tell me what happened, add anything that might help, then review and send. Your reports help me make the app better.</p>
     <p class="small">Nothing is sent automatically. Reports are public, so leave out personal information. <a href="#privacy">What’s included?</a></p>
   </section>
 
   <section id="sources" aria-labelledby="sources-title">
     <h2 id="sources-title">The camera list.</h2>
-    <p>Fine Me Not combines OpenStreetMap with public city, county and transportation-agency records. Albuquerque and its surrounding metro get particular attention, alongside selected major U.S. metros. Coverage is incomplete and varies by place.</p>
+    <p>Road Notice combines OpenStreetMap with public city, county and transportation-agency records. Albuquerque and its surrounding metro get particular attention, alongside selected major U.S. metros. Coverage is incomplete and varies by place.</p>
     <p><strong>Possible speed camera</strong> means the position or current equipment presence is uncertain. Some records cover a stretch of road or a known mobile-camera deployment area. They are not live sightings. Separate travel directions can count as separate warning locations.</p>
     <div class="coverage"><p><!-- speed-limit-coverage --></p></div>
     <p>Limits come from agency records, community data and matching cameras to roads. Some are estimates. Where several supported limits might apply, the app uses the lower one to decide whether to stay quiet. It cannot see school beacons, temporary signs or changing road conditions.</p>
     <p>Source checks run <strong>Sunday at 9 p.m. Mountain Time</strong>, before publication at <strong>midnight as Sunday becomes Monday</strong>. The schedule follows Denver daylight saving time. Your phone catches up when iOS and its connection allow it. Failed downloads keep the saved list in place.</p>
-    <p><a href="https://github.com/aindaco1/fine-me-not/blob/main/Data/Review/speed-limit-coverage.md">Coverage by metro</a> · <a href="https://github.com/aindaco1/fine-me-not/blob/main/docs/ALBUQUERQUE.md">Albuquerque locations</a> · <a href="data/cameras.json">Download the list</a></p>
+    <p><a href="https://github.com/aindaco1/road-notice/blob/main/Data/Review/speed-limit-coverage.md">Coverage by metro</a> · <a href="https://github.com/aindaco1/road-notice/blob/main/docs/ALBUQUERQUE.md">Albuquerque locations</a> · <a href="data/cameras.json">Download the list</a></p>
     <details>
       <summary>Sources and licenses</summary>
       <p>Camera data includes © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, under the <a href="https://opendatacommons.org/licenses/odbl/1-0/">Open Database License</a>. Road data also includes <a href="https://docs.overturemaps.org/attribution/">Overture Maps Foundation and its contributing sources</a>, including OpenStreetMap and TomTom where identified.</p>
       <p>Local sources include <a href="https://www.cabq.gov/automated-speed-enforcement">Albuquerque’s camera list</a> and <a href="https://www.cabq.gov/automated-speed-enforcement/camera-data">speed-limit information</a>, <a href="https://www.bernco.gov/public-works/automated-photo-speed-enforcement/">Bernalillo County</a> and <a href="https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program">Rio Rancho</a>. Records retain source references; listing an agency does not imply endorsement.</p>
-      <p>The app, original icon and siren use the <a href="https://github.com/aindaco1/fine-me-not/blob/main/LICENSE">MIT license</a>. <a href="https://github.com/aindaco1/fine-me-not/blob/main/Data/LICENSE.md">Separate terms cover the data</a>. Anyone can inspect <a href="https://github.com/aindaco1/fine-me-not">the code</a>, <a href="https://github.com/aindaco1/fine-me-not/blob/main/docs/DATA-RESEARCH.md">source research</a> and <a href="https://github.com/aindaco1/fine-me-not/blob/main/docs/SPEED-CHECK.md">speed-check method</a>.</p>
+      <p>The app, original icon and siren use the <a href="https://github.com/aindaco1/road-notice/blob/main/LICENSE">MIT license</a>. <a href="https://github.com/aindaco1/road-notice/blob/main/Data/LICENSE.md">Separate terms cover the data</a>. Anyone can inspect <a href="https://github.com/aindaco1/road-notice">the code</a>, <a href="https://github.com/aindaco1/road-notice/blob/main/docs/DATA-RESEARCH.md">source research</a> and <a href="https://github.com/aindaco1/road-notice/blob/main/docs/SPEED-CHECK.md">speed-check method</a>.</p>
     </details>
   </section>
 
@@ -191,15 +192,15 @@
 
   <section id="legal" aria-labelledby="legal-title">
     <h2 id="legal-title">You’re still the driver.</h2>
-    <p>Fine Me Not is an awareness aid, not permission to speed or pass a red light. Obey posted signs, traffic laws, temporary restrictions and directions from authorities. Adjust your speed for conditions. Set up, test and report only while safely parked; do not react abruptly to the siren or use a volume that masks traffic and emergency vehicles.</p>
+    <p>Road Notice is an awareness aid, not permission to speed or pass a red light. Obey posted signs, traffic laws, temporary restrictions and directions from authorities. Adjust your speed for conditions. Set up, test and report only while safely parked; do not react abruptly to the siren or use a volume that masks traffic and emergency vehicles.</p>
     <p>The app does not detect hardware or confirm whether a camera is operating. Cameras and limits may be missing, estimated, outdated or wrong. GPS, permissions, battery settings, iOS restrictions, calls and audio connections can delay or prevent alerts. <strong>Silence does not mean there is no camera or that your speed is lawful.</strong></p>
-    <p>Fine Me Not does not promise to prevent tickets, collisions or other losses, provide legal advice, handle appeals or pay fines. To the extent permitted by law, the app and data are provided “as is” and “as available,” without warranties of accuracy, completeness, timeliness, uninterrupted operation or fitness for a particular purpose.</p>
-    <p>To the extent permitted by law, Alonso Indacochea and contributors are not liable for tickets, penalties, missed or incorrect warnings, or loss or damage arising from using or being unable to use the app or data. Nothing here limits rights or liability that cannot legally be excluded, including applicable consumer rights. The <a href="https://github.com/aindaco1/fine-me-not/blob/main/LICENSE">software</a> and <a href="https://github.com/aindaco1/fine-me-not/blob/main/Data/LICENSE.md">data license terms</a> also apply.</p>
+    <p>Road Notice does not promise to prevent tickets, collisions or other losses, provide legal advice, handle appeals or pay fines. To the extent permitted by law, the app and data are provided “as is” and “as available,” without warranties of accuracy, completeness, timeliness, uninterrupted operation or fitness for a particular purpose.</p>
+    <p>To the extent permitted by law, Alonso Indacochea and contributors are not liable for tickets, penalties, missed or incorrect warnings, or loss or damage arising from using or being unable to use the app or data. Nothing here limits rights or liability that cannot legally be excluded, including applicable consumer rights. The <a href="https://github.com/aindaco1/road-notice/blob/main/LICENSE">software</a> and <a href="https://github.com/aindaco1/road-notice/blob/main/Data/LICENSE.md">data license terms</a> also apply.</p>
   </section>
 
   <footer>
-    <p>Fine Me Not<br>Built and maintained by <strong>Alonso Indacochea</strong>.</p>
-    <p class="small"><a href="#setup">Setup</a> · <a href="#support">Help</a> · <a href="#reporting">Report a problem</a> · <a href="#privacy">Privacy</a> · <a href="#legal">Legal</a> · <a href="https://github.com/aindaco1/fine-me-not">Open source</a></p>
+    <p>Road Notice<br>Built and maintained by <strong>Alonso Indacochea</strong>.</p>
+    <p class="small"><a href="#setup">Setup</a> · <a href="#support">Help</a> · <a href="#reporting">Report a problem</a> · <a href="#privacy">Privacy</a> · <a href="#legal">Legal</a> · <a href="https://github.com/aindaco1/road-notice">Open source</a></p>
   </footer>
 </main>
 </body>

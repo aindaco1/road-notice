@@ -13,8 +13,10 @@ struct SettingsView: View {
             VStack(alignment: .leading, spacing: 32) {
                 VStack(alignment: .leading, spacing: 12) {
                     BrandHeader()
-                    Text("Speed cameras ahead.\nKeep your cash.")
+                    Text("Camera awareness.\nFollow posted limits.")
                         .font(.system(.body, design: .monospaced)).foregroundStyle(accent)
+                    Text("Set up while parked. Follow traffic laws whether or not a warning sounds.")
+                        .font(.footnote).foregroundStyle(accent)
                 }
                 VStack(spacing: 0) {
                     row {
@@ -29,7 +31,7 @@ struct SettingsView: View {
                                 set: { services.monitoring.setQuietBelowSpeedLimit($0) }))
                                 .font(.system(.headline, design: .monospaced)).tint(accent)
                                 .accessibilityIdentifier("speed-check-toggle")
-                            Text("Speed cameras only. If your speed or the camera's limit is unknown, you'll still get a warning. Red-light warnings stay on.")
+                            Text("Speed cameras only. Unknown speed or limit? You'll still get a warning. Red-light warnings stay on. Silence does not mean your speed is lawful.")
                                 .font(.footnote).foregroundStyle(accent)
                         }
                     }
@@ -113,7 +115,7 @@ struct SettingsView: View {
                         .foregroundStyle(accent).font(.footnote)
                     Text("Camera data © OpenStreetMap contributors · ODbL")
                         .font(.caption).foregroundStyle(accent)
-                    Text("Camera coverage is incomplete. Location permissions, phone state, and audio volume affect warnings. Always follow posted signs.")
+                    Text("Camera coverage is incomplete and warnings may be missing or delayed. Follow posted signs and road conditions everywhere. Keep your attention on driving and avoid abrupt reactions to a warning.")
                         .font(.caption).foregroundStyle(accent)
                 }
             }.padding(24).frame(maxWidth: 560, alignment: .leading).frame(maxWidth: .infinity)

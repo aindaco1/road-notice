@@ -14,7 +14,7 @@ import time
 import urllib.error
 import xml.etree.ElementTree as ET
 
-USER_AGENT = 'FineMeNot/0.1 (+https://github.com/aindaco1/fine-me-not)'
+USER_AGENT = 'FineMeNot/0.1 (+https://github.com/aindaco1/road-notice)'
 BEARINGS = {'NB': 0, 'NEB': 45, 'EB': 90, 'SEB': 135, 'SB': 180, 'SWB': 225, 'WB': 270, 'NWB': 315}
 
 

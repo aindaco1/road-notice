@@ -20,7 +20,7 @@ A timer heartbeat cannot guarantee execution after iOS suspends or terminates an
 
 ## Evidence
 
-- 14 Swift tests and 10 publisher tests passed locally and in [GitHub CI](https://github.com/aindaco1/fine-me-not/actions/runs/34913290315), using source commit `fd99484`.
+- 14 Swift tests and 10 publisher tests passed locally and in [GitHub CI](https://github.com/aindaco1/road-notice/actions/runs/34913290315), using source commit `fd99484`.
 - Both Coors directions passed full locked-screen simulator replays. The expected direction warned once, and the siren recorded playback completion in background state. Low Power Mode was off in these simulations.
 - The upgrade test selected the new bundled database while preserving the older saved copy and app settings.
 - Diagnostics survived relaunch and showed the latest audio outcome, route, media volume and background state. GPS quality, effective motion, nearest camera and rejection reasons are visible without uploading a trip log.

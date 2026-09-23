@@ -23,7 +23,7 @@ def main():
     body = '\n'.join(sorted(set(problems))) if problems else 'The reporting endpoint and published contracts are healthy again.'
     print(body)
     if args.maintain_issue:
-        repo = 'aindaco1/fine-me-not'
+        repo = 'aindaco1/road-notice'
         issues = json.loads(gh('issue','list','--repo',repo,'--state','all','--search',TITLE+' in:title','--json','number,title,state','--limit','30'))
         issue = next((i for i in issues if i['title'] == TITLE), None)
         if problems and not issue:

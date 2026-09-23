@@ -36,7 +36,7 @@ final class AppServices {
         @unknown default: refresh = "unknown"
         }
         return """
-        Fine Me Not \(build) · iOS \(UIDevice.current.systemVersion)
+        Road Notice \(build) · iOS \(UIDevice.current.systemVersion)
         Database: \(store.snapshot?.version ?? "unavailable")
         Status: \(monitoring.status(at: now))
         Always location: \(monitoring.authorization == .authorizedAlways ? "yes" : "no") · precise: \(monitoring.precise ? "yes" : "no")

@@ -88,7 +88,7 @@ def main():
         (OUTPUT / name).unlink(missing_ok=True)
     runtimes = json.loads(sim('list', 'runtimes', '-j'))['runtimes']
     runtime = next(r for r in runtimes if r['version'] == version and r['isAvailable'] and r['name'].startswith('iOS'))
-    device = sim('create', f'Fine Me Not compatibility {version}',
+    device = sim('create', f'Road Notice compatibility {version}',
                  'com.apple.CoreSimulator.SimDeviceType.iPhone-SE-3rd-generation', runtime['identifier'])
     journal = None
     try:
@@ -147,7 +147,7 @@ def main():
                    'appBuild': info['CFBundleVersion'], 'minimumOS': info['MinimumOSVersion'],
                    'permissionSetup': 'simctl pre-granted Always',
                    'scenario': args.scenario,
-                   'foregroundApp': 'Fine Me Not' if expected_state == 'foreground' else ('Home screen' if test_runs else 'Safari'),
+                   'foregroundApp': 'Road Notice' if expected_state == 'foreground' else ('Home screen' if test_runs else 'Safari'),
                    'locationDriver': 'not replayed' if expected_state == 'foreground' else (f'XCUITest CLLocation proxy at {SPEED:g} m/s' if test_runs else f'timed simctl positions at {SPEED:g} m/s; speed inferred from displacement'),
                    'sirenStarts': starts, 'sirenCompletions': completions,
                    'physicalDeviceTest': False}

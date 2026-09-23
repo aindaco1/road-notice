@@ -1,4 +1,4 @@
-// CI-only control app: isolates simulator GPS delivery from Fine Me Not.
+// CI-only control app: isolates simulator GPS delivery from Road Notice.
 import UIKit
 import CoreLocation
 

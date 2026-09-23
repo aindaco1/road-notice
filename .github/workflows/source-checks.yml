@@ -28,7 +28,7 @@ jobs:
         run: python3 Scripts/refresh_sources.py
       - name: Save staged sources and review findings
         run: |
-          git config user.name 'fine-me-not source checker'
+          git config user.name 'road-notice source checker'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add Data/Sources Data/External Data/Watch Data/Review Data/Geocoding Data/SpeedLimits
           if ! git diff --cached --quiet; then

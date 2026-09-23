@@ -10,3 +10,11 @@ website-matched icon/wordmark and the existing Settings screen. The same build
 was visually checked at the largest accessibility text size with a stacked
 header. No deployment-target override is used. This image has not replaced the
 historical 1.0 App Store submission screenshot.
+
+
+`1.0.4-settings.png` shows Road Notice 1.0.4 (12) on the iPhone 18 Pro Max /
+iOS 27 simulator at the default text size. It is an unedited 1320 x 2868 PNG,
+with the simulator status bar set to 9:41 and a full battery. The app uses the
+actual iOS 17 minimum, the new shared icon and wordmark, and 2,701 bundled
+camera records. It is the replacement for the rejected submission's screenshot;
+it does not establish physical background or audio acceptance.

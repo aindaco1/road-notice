@@ -1,5 +1,22 @@
 # App icon
 
+## Camera-awareness revision — September 22, 2026 (unreleased)
+
+The current canonical icon replaces the prohibition symbol with a white road
+and a pale-blue roadside marker on the existing blue background. It makes no
+hardware-detection or enforcement-avoidance claim. The owner selected Road Notice
+after the RoadCue naming check found an existing camera-alert product. The app
+display name, two-line ROAD / NOTICE wordmark and website now use that choice.
+
+The built-in image-generation tool produced the new artwork. Its 1254 x 1254
+opaque PNG was mechanically resized with `sips` to the required 1024 x 1024 PNG.
+`AppIcon.appiconset/AppIcon.png` remains the single canonical image. The existing
+`BrandIcon` symbolic link and website staging script consume it unchanged.
+
+Generation prompt:
+
+> Create one production iOS app icon as a 1024 by 1024 fully opaque PNG. This is a neutral camera-awareness utility for driving. Use a flat solid deep royal-blue background exactly #0A0094 edge-to-edge. The symbol is a minimal white road in perspective rising gently from the lower-middle toward the upper-left, with a small pale-blue roadside marker at the upper-right of the road. Use only white #FFFFFF and pale blue #AECFFF on the blue background. The road should read as a single broad simple road silhouette with a few blue center-line cuts, not a navigation arrow, not a motorway interchange, not a letter. The marker is one simple solid circular pale-blue sign on a short pale-blue post, positioned alongside the upper section of the road, clearly separate from the road. Balanced compact composition with generous 16 percent safe margins, instantly legible at small app-icon sizes, crisp smooth geometric edges. Flat vector-like design, no words, no letters, no numbers, no camera or lens, no prohibition circle or slash, no radar arcs, no shield, no checkmark, no gradients, shadows, bevels, texture, border, or rendered rounded tile corners. Fill the entire square canvas with solid blue. Deliver only the single finished icon.
+
 ## In-app branding
 
 Version 1.0.3 (11) uses the website's side-by-side icon and two-line wordmark in

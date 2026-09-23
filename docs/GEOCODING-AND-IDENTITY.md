@@ -2,7 +2,7 @@
 
 ## Free coordinate lookup
 
-The [Census Geocoder](https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/census-geocoder.html) provides free US address lookup without an account or API key. Its API also supports batches of up to 10,000 addresses. The result is **interpolated along an address range**, not a surveyed camera position. Fine Me Not uses it only for numbered locations explicitly published as camera locations by an agency. It validates the street, state, coordinate and Census metro boundary before accepting a result.
+The [Census Geocoder](https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/census-geocoder.html) provides free US address lookup without an account or API key. Its API also supports batches of up to 10,000 addresses. The result is **interpolated along an address range**, not a surveyed camera position. Road Notice uses it only for numbered locations explicitly published as camera locations by an agency. It validates the street, state, coordinate and Census metro boundary before accepting a result.
 
 For an intersection, the pipeline requests named OSM roads inside a bounded jurisdiction and finds their shared road nodes. A divided intersection can have several nodes; the estimate is their center, provided they are within 180 m of one another. Disconnected crossings, absent roads and widely separated matches remain unresolved. An agency’s omitted compass prefix is allowed in the search; a conflicting explicit prefix is not. School-building centroids are never substituted for enforcement locations.
 

@@ -1,6 +1,6 @@
 # Supported iOS versions and iPhones
 
-Fine Me Not **1.0.2 (10) requires iOS 17.0 or later**. The supported release families are iOS 17, 18, 26 and 27. There is no Apple Intelligence requirement. See [release status](RELEASE.md) for TestFlight and App Store availability; earlier binaries required iOS 27.
+Road Notice **1.0.2 (10) requires iOS 17.0 or later**. The supported release families are iOS 17, 18, 26 and 27. There is no Apple Intelligence requirement. See [release status](RELEASE.md) for TestFlight and App Store availability; earlier binaries required iOS 27.
 
 ## Supported models
 

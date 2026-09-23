@@ -9,7 +9,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Fine Me Not</string>
+	<string>Road Notice</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -29,11 +29,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Allow Always so Fine Me Not can warn you while driving with your screen locked or another app open. Your location stays on your phone.</string>
+	<string>Allow Always so Road Notice can warn you while driving with your screen locked or another app open. Your location stays on your phone.</string>
 	<key>NSLocationRequireExplicitServiceSession</key>
 	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Fine Me Not uses your location to warn you before nearby speed and red-light cameras. Your location stays on your phone.</string>
+	<string>Road Notice uses your location to warn you before nearby speed and red-light cameras. Your location stays on your phone.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>

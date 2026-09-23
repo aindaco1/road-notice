@@ -1,5 +1,10 @@
 # App Store listing — 1.0
 
+**Historical submitted copy.** Apple rejected 1.0.0 (8) on September 22, 2026
+under Guideline 5 (Legal), as shown in the owner's rejection PDF. The listing
+below preserves the original submission; it is not the next submission's copy.
+Use [the resubmission draft and response](APP-REVIEW.md) for the proposed revision.
+
 **1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.
 
 Submitted September 15, 2026 at 02:10 MDT: **1.0.0 (8), Waiting for Review**. Free U.S. distribution and automatic release after approval are saved. The original Data Not Collected answer was later replaced for the 1.0.1 reporting feature; private review contact details remain only in App Store Connect. See [the release record](RELEASE.md).

@@ -49,7 +49,6 @@
 		6C7B424A156523028F234A9C /* camera-approach.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "camera-approach.json"; sourceTree = "<group>"; };
 		769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FineMeNotApp.swift; sourceTree = "<group>"; };
 		8BFAAEF21C56DFDC051FC509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		920C004C100C4FEFE806E765 /* fine-me-not */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "fine-me-not"; path = .; sourceTree = SOURCE_ROOT; };
 		9372829467325A48A981C28E /* cameras.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cameras.json; sourceTree = "<group>"; };
 		AA63CF0C66A2ABA1851719ED /* SupportSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportSnapshot.swift; sourceTree = "<group>"; };
 		B46111783B4D816B8A99A269 /* FineMeNot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FineMeNot.entitlements; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		C3378984DFB0CBA142A39FD6 /* SupportDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportDiagnostics.swift; sourceTree = "<group>"; };
 		C69C200025623524488FF443 /* siren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = siren.wav; sourceTree = "<group>"; };
 		CB91157ED0519BE807494308 /* CompatibilityUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CompatibilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EE77FEA81E70F52F513497 /* road-notice */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "road-notice"; path = .; sourceTree = SOURCE_ROOT; };
 		DA307FC16CA7335FDDA811CE /* FineMeNot.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FineMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE827EF75FA4315E2612444 /* BrandHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,7 +168,7 @@
 		C99D78AD14EA3D3BE4CA2673 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				920C004C100C4FEFE806E765 /* fine-me-not */,
+				D6EE77FEA81E70F52F513497 /* road-notice */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -372,7 +372,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -392,7 +392,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -493,7 +493,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -507,7 +507,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

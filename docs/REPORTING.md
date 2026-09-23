@@ -44,7 +44,9 @@ Endpoint: `https://crash.dustwave.xyz/v1/fine-me-not/reports`.
 Implementation lives in `aindaco1/ascii-vj-remix/crash-relay`; reuse the existing
 Worker, GitHub App and `ReviewedReportGroup`, not a second service.
 
-The fixed destination is `aindaco1/fine-me-not`. A product-scoped serial ID ledger
+The fixed destination is `aindaco1/road-notice`. The repository was renamed from
+`fine-me-not` on September 22, 2026. The legacy endpoint, contract and on-device
+paths are retained for existing installations. A product-scoped serial ID ledger
 keeps receipts for 30 days and rejects ID reuse with a changed payload, including
 changes that produce a different fingerprint. Each issue group also retains its
 own receipts for that full retry window, including after more than 1,000 reports.
@@ -77,7 +79,7 @@ an agent instruction, shell command or workflow input.
 - Deploy through ASCII VJ Remix's manual **Deploy Crash Relay** GitHub Action.
 - Disable intake with `FINE_ME_NOT_REPORTS_ENABLED=false` and redeploy. Never roll
   back migrations or delete Durable Objects to recover a failed upload.
-- Fine Me Not's daily **Reporting service health** GitHub Action checks endpoint
+- Road Notice's daily **Reporting service health** GitHub Action checks endpoint
   configuration and contract equality. It opens/reopens/closes one incident only
   on state change. This does not prove issue-write permission or native delivery;
   verify those with explicitly marked synthetic reports after relay changes.
@@ -118,3 +120,13 @@ before public distribution; do not infer an exemption merely from optional send.
 Primary references: [Apple MetricKit](https://developer.apple.com/documentation/metrickit),
 [privacy manifest data types](https://developer.apple.com/documentation/bundleresources/app-privacy-configuration/nsprivacycollecteddatatypes/nsprivacycollecteddatatype),
 [Cloudflare Workers practices](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/).
+
+## Repository rename — September 22, 2026
+
+The existing relay adapter now targets `road-notice` and displays Road Notice.
+The [focused relay commit](https://github.com/aindaco1/ascii-vj-remix/commit/e101f81)
+passed all 49 relay tests and the deployment dry run. The
+[Deploy Crash Relay run](https://github.com/aindaco1/ascii-vj-remix/actions/runs/35796216339)
+succeeded. The read-only health and published-contract check passes; no public
+synthetic report was sent in this rename pass. Existing namespaces, receipts,
+fingerprints, schema and endpoint remain unchanged.

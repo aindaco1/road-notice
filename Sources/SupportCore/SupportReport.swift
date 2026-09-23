@@ -128,7 +128,7 @@ public struct ReportReceipt: Codable, Sendable {
     public let reportId: String
     public let action: String
     public let issueNumber: Int
-    public var url: URL { URL(string: "https://github.com/aindaco1/fine-me-not/issues/\(issueNumber)")! }
+    public var url: URL { URL(string: "https://github.com/aindaco1/road-notice/issues/\(issueNumber)")! }
 }
 
 private final class NoRedirect: NSObject, URLSessionTaskDelegate, Sendable {

@@ -17,7 +17,7 @@ struct BrandHeader: View {
             }
         }
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Fine Me Not")
+        .accessibilityLabel("Road Notice")
         .accessibilityAddTraits(.isHeader)
     }
 
@@ -31,8 +31,8 @@ struct BrandHeader: View {
 
     private var wordmark: some View {
         VStack(alignment: .leading, spacing: -typeSize * 0.15) {
-            Text("FINE")
-            Text("ME NOT")
+            Text("ROAD")
+            Text("NOTICE")
         }
         .font(.system(size: typeSize, weight: .bold, design: .monospaced))
         .tracking(-typeSize * 0.08)

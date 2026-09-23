@@ -1,7 +1,8 @@
 # App Review: September 22, 2026
 
-Status: Road Notice 1.0.4 (12) was uploaded on September 22, 2026. The listing,
-review reply and final resubmission still need to be applied in App Store Connect.
+Status: Road Notice 1.0.4 (12) was resubmitted on September 22, 2026 at 23:27 CDT
+and is **Waiting for Review**. The updated listing, screenshot, build and reply
+were verified in App Store Connect. This is not approval or public release.
 See [release status](RELEASE.md). Jev is a separate [plan](JEV-PLAN.md).
 
 ## What Apple rejected
@@ -15,8 +16,8 @@ Its next step says apps encouraging fraudulent or reckless activity are not
 allowed. The PDF does not identify a crash, permission bug, background-mode
 violation, particular jurisdiction or particular screen. It does not classify
 this as a metadata-only rejection. The later 1.0.3 (11) TestFlight build is not
-the rejected build. This assessment uses the supplied capture, not a fresh
-authenticated inspection of App Store Connect.
+the rejected build. The initial assessment used the supplied capture; the same
+rejection message was subsequently verified in App Store Connect during resubmission.
 
 Source: `screencapture-appstoreconnect-apple-apps-6812094105-distribution-reviewsubmissions-details-fb55d309-ed07-4e2c-844d-1bc3677a2d17-2026-09-22-17_21_16.pdf`
 on the owner's Desktop. It is an image-only PDF, inspected visually; the original
@@ -124,10 +125,11 @@ no navigation, certified-safety or hardware-detection capability is implied.
 Apple documents [replies and supporting attachments](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/reply-to-app-review-messages)
 and [review support and appeals](https://developer.apple.com/app-store/review/).
 Metadata-only rejections can sometimes use the same binary; this revision changes
-in-app text, so it needs a new uploaded build. Version 1.0.4 (12) has been uploaded and the revised website is deployed. The
-App Store listing update, reply and resubmission remain pending browser access.
+in-app text, so it needs a new uploaded build. Version 1.0.4 (12), the revised
+website, App Store listing and screenshot are deployed/submitted. The response
+below was posted at 23:26 CDT, followed by confirmed resubmission at 23:27 CDT.
 
-## Draft reply to Apple: send after attaching the revised build and listing
+## Reply sent to Apple — September 22, 2026
 
 Hello App Review,
 
@@ -139,10 +141,10 @@ The revised build and screenshots retain and accurately describe the camera-awar
 
 Thank you.
 
-## Proposed listing: apply only with the matching final binary
+## Submitted listing — version 1.0.4 (12)
 
-The text below uses the owner-approved **Road Notice** branding. Save it with
-the matching binary and new screenshots after confirming name availability.
+The text below uses the owner-approved **Road Notice** branding. Apple accepted
+the name, and the listing was saved with build 12 and its new screenshot.
 
 - Name: Road Notice
 - Subtitle: Speed & red-light alerts
@@ -234,14 +236,12 @@ The default Quiet setting applies only to eligible speed-camera warnings;
 unknown data and red-light/combined cameras continue warning.
 
 Report a problem is optional and requires reviewing the exact report before
-explicitly sending it to a public issue. Privacy disclosures should remain the
-published Customer Support, Crash Data and Other Diagnostic Data categories,
-subject to checking the final binary. This revision does not add data collection.
+explicitly sending it to a public issue. This revision does not add data collection.
 
-## Verification of this local revision
+## Verification and submission record
 
 Results are recorded after the local checks in [TESTING.md](TESTING.md).
-Stale iCloud conflict copies have been isolated for the owner-requested cleanup.
-The deployment candidate is 1.0.4 (12). App identity and the camera matching
+Stale iCloud conflict copies were moved to Trash in the owner-requested cleanup.
+The submitted build is 1.0.4 (12). App identity and the camera matching
 behavior remain unchanged. Repository/reporting rename verification is recorded
 in [REPORTING.md](REPORTING.md).

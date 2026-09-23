@@ -5,7 +5,8 @@
 The candidate passes 26 Swift tests and 63 Python pipeline tests after syncing the
 September 21 published camera data. The signed release and simulator bundles
 pass checks with 2,701 records and minimum iOS 17.0. App/dSYM UUIDs match; Xcode
-confirmed successful upload and processing started. The actual 1320 x 2868
+confirmed successful upload; App Store Connect confirmed processing complete.
+The actual 1320 x 2868
 simulator screenshot is saved in `docs/screenshots/1.0.4-settings.png`.
 
 The [hosted build and tests](https://github.com/aindaco1/road-notice/actions/runs/35811525214)
@@ -17,7 +18,10 @@ iOS 18 moving-GPS limitation below still applies.
 The live site passes icon/database/manifest verification after deployment.
 Physical acceptance gaps below remain unchanged. Current logs and the cleanup
 manifest are retained under `work/release12/`; obsolete earlier work folders are
-in the dated Trash cleanup folder. App Review resubmission is still unverified.
+in the dated Trash cleanup folder. The revised metadata, screenshot and build 12
+were verified in App Store Connect, and the response to the rejection was posted.
+The resubmission showed **Waiting for Review** at 23:27 CDT on September 22, 2026.
+Build 12 is assigned to First Drive; physical installation remains unverified.
 
 ## App Review wording revision — September 22, 2026 (unreleased)
 

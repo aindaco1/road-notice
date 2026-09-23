@@ -1,11 +1,11 @@
 # Release and distribution
 
-**September 22, 2026:** the owner's App Store Connect capture shows **1.0.0 (8)
-Rejected**, Guideline 5 (Legal). See [the findings and resubmission draft](APP-REVIEW.md).
-Road Notice is the owner-approved replacement name, with a neutral road-and-marker
-icon. Version **1.0.4 (12)** is the new submission candidate. Its signed archive
-and local tests pass; upload, deployment and submission outcomes are recorded
-in the dated section below. The repository and project directory are renamed
+**September 22, 2026, 23:27 CDT:** **Road Notice 1.0.4 (12) is Waiting for Review**.
+The updated name, screenshot, listing and build replace the rejected 1.0.0 (8)
+submission; the response addressing Guideline 5 was posted at 23:26 CDT.
+See [the findings and submitted response](APP-REVIEW.md). Upload, deployment,
+validation and submission evidence are recorded in the dated section below.
+The repository and project directory are renamed
 `road-notice`; bundle identity, saved data and `finemenot.xyz` remain unchanged.
 
 **1.0.3 branding update:** source version 1.0.3 (11) matches the app header to
@@ -18,11 +18,11 @@ finemenot.xyz. See the dated verification section at the end.
 - App: Road Notice (formerly Fine Me Not)
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
-- TestFlight: **1.0.3 (11), Testing** in First Drive as of September 16, 2026
-- Rejected App Store version: 1.0.0 (8)
-- App Store: **Rejected** in the September 22, 2026 owner-provided capture; prior configuration was automatic U.S. release after approval
+- TestFlight: **1.0.4 (12)** processing complete and assigned to First Drive; physical installation is unverified
+- Previous rejected App Store version: 1.0.0 (8)
+- App Store: **1.0.4 (12), Waiting for Review**; free U.S. distribution and automatic release after approval
 - Release history: https://github.com/aindaco1/road-notice/releases
-- Minimum: iOS 17.0 for 1.0.2; earlier binaries require iOS 27.0
+- Minimum: iOS 17.0 since 1.0.2; earlier binaries require iOS 27.0
 - Source: https://github.com/aindaco1/road-notice
 - Support / privacy: https://finemenot.xyz/
 - Category: Utilities (minimal camera proximity warnings)
@@ -298,8 +298,8 @@ Release logs and ready-to-paste listing fields are in `work/release12/`.
 
 Apple accepted the upload at **21:43:07 CDT on September 22, 2026** and reported
 that processing had begun. Xcode export/upload succeeded with symbols enabled.
-Completed processing, TestFlight assignment and App Review resubmission have not
-yet been verified.
+App Store Connect subsequently confirmed processing complete, and build 12 was
+assigned to the existing First Drive internal group. No tester access changed.
 
 
 The [website deployment](https://github.com/aindaco1/road-notice/actions/runs/35811525222)
@@ -318,11 +318,20 @@ cache and `work/release12/` evidence remain. `main` is the only branch locally a
 remotely; no branch deletion was needed. Published release history, signing
 credentials and simulator runtimes were preserved.
 
-At this checkpoint, browser settings are already enabled, but the task has no
-attached browser connection and no App Store Connect API credential is configured. The uploaded build cannot yet be selected,
-its listing/screenshot saved, or the rejected submission resubmitted. The exact
-listing fields, revised reply and remaining steps are prepared under
-`work/release12/app-store/`; this is an access blocker, not successful resubmission.
+The App Store update was completed through Helium. Apple accepted the Road Notice
+name and subtitle. The saved 1.0.4 version selects build 12, revised promotional
+text/description/keywords/review notes, and `1.0.4-settings.png`; the obsolete
+screenshot was removed, with 6.5-inch reuse of the 6.9-inch screenshot retained.
+Utilities, the $0.00 U.S.-only storefront, existing privacy disclosures and
+automatic release after approval were verified and preserved.
+
+The response to the rejection was posted at **23:26 CDT**. Resubmission succeeded
+at **23:27 CDT on September 22, 2026**, with both the submission and version shown
+as **Waiting for Review**. Submission ID:
+`fb55d309-ed07-4e2c-844d-1bc3677a2d17`; build ID:
+`90ac966f-dcf8-499d-8e04-4067f9fadcd2`. The confirmation screenshot and submitted
+copy are retained locally in `work/release12/app-store/`. This confirms receipt
+for review, not approval or public App Store release.
 
 
 [Hosted source build and tests](https://github.com/aindaco1/road-notice/actions/runs/35811525214)

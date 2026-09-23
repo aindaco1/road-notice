@@ -1,5 +1,24 @@
 # Test and acceptance record
 
+## Road Notice 1.0.4 (12) — September 22, 2026
+
+The candidate passes 26 Swift tests and 63 Python pipeline tests after syncing the
+September 21 published camera data. The signed release and simulator bundles
+pass checks with 2,701 records and minimum iOS 17.0. App/dSYM UUIDs match; Xcode
+confirmed successful upload and processing started. The actual 1320 x 2868
+simulator screenshot is saved in `docs/screenshots/1.0.4-settings.png`.
+
+The [hosted build and tests](https://github.com/aindaco1/road-notice/actions/runs/35811525214)
+and [runtime compatibility checks](https://github.com/aindaco1/road-notice/actions/runs/35811525239)
+passed. iOS 17.5 and 26.5 each completed one background camera warning; iOS 18.5
+passed the saved Quiet setting and foreground Test warning scenario. The hosted
+iOS 18 moving-GPS limitation below still applies.
+
+The live site passes icon/database/manifest verification after deployment.
+Physical acceptance gaps below remain unchanged. Current logs and the cleanup
+manifest are retained under `work/release12/`; obsolete earlier work folders are
+in the dated Trash cleanup folder. App Review resubmission is still unverified.
+
 ## App Review wording revision — September 22, 2026 (unreleased)
 
 The [review revision](APP-REVIEW.md) changes Settings and website wording. No new runtime or pipeline test was added for

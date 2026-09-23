@@ -124,35 +124,18 @@ no navigation, certified-safety or hardware-detection capability is implied.
 Apple documents [replies and supporting attachments](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/reply-to-app-review-messages)
 and [review support and appeals](https://developer.apple.com/app-store/review/).
 Metadata-only rejections can sometimes use the same binary; this revision changes
-in-app text, so it needs a new uploaded build. No reply, publication, upload or
-resubmission has been performed as part of this work.
+in-app text, so it needs a new uploaded build. Version 1.0.4 (12) has been uploaded and the revised website is deployed. The
+App Store listing update, reply and resubmission remain pending browser access.
 
-## Draft reply to Apple: usable before uploading the revision
+## Draft reply to Apple: send after attaching the revised build and listing
 
 Hello App Review,
 
-Thank you for the feedback under Guideline 5. We would like to clarify the
-camera-warning functionality and address the concern about encouraging reckless
-driving.
+We have revised the app in response to the Guideline 5 concern. Version 1.0.4 (12) is named Road Notice, uses a neutral road-and-marker icon, and removes the “Keep your cash” wording. The app, website and listing now prominently tell drivers to follow traffic laws and posted limits whether or not an alert sounds. The Quiet setting states that silence does not mean the driver's speed is lawful.
 
-The app, previously named Fine Me Not, compares the iPhone's location with a saved list of published speed
-and red-light camera locations. It does not detect radar signals, interfere with
-enforcement equipment, provide evasion routes, or tell drivers that it is safe
-to speed. Some listed locations are approximate or mobile deployment areas;
-these are labeled “Possible speed camera” rather than presented as confirmed
-live equipment.
+The app compares the iPhone's location with a saved list of published speed and red-light camera locations. It does not detect radar signals, interfere with enforcement equipment, provide evasion routes, or include live police or DUI checkpoint reports. Published mobile or approximate locations are explicitly labeled “Possible speed camera”; they are not live equipment sightings.
 
-We recognize that the “Keep your cash” wording could convey the wrong purpose.
-We have prepared a local revision removing that wording and making guidance to
-follow traffic laws and posted limits prominent. It also states that silence
-does not mean the driver's speed is lawful. The revision is named Road Notice,
-with a neutral road-and-marker icon. These changes have not yet been uploaded
-for review.
-
-Could you clarify whether the concern is the current presentation or the
-underlying use of published camera locations, and identify any specific feature
-that must change? We would appreciate guidance on whether the described revision
-addresses your concern before submitting the updated binary and screenshots.
+The revised build and screenshots retain and accurately describe the camera-awareness function. Review notes explain stationary setup and the Test warning audio check. Please review the updated presentation and functionality. If a concern remains, we would appreciate clarification of the specific feature and applicable requirement so we can address it directly.
 
 Thank you.
 

@@ -91,7 +91,9 @@ an agent instruction, shell command or workflow input.
 
 ## Symbolication and release checks
 
-Retain every distribution archive and dSYM. Run:
+Retain the current distribution archive. Keep each older uploaded build's dSYM
+and archive metadata for crash symbolication; the compact symbol sets live under
+`~/Library/Developer/Xcode/RoadNoticeSymbols/` after the September 22 cleanup. Run:
 
 ```sh
 python3 Scripts/symbolicate_report.py reviewed-report.json FineMeNot.app.dSYM

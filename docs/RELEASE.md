@@ -300,3 +300,35 @@ Apple accepted the upload at **21:43:07 CDT on September 22, 2026** and reported
 that processing had begun. Xcode export/upload succeeded with symbols enabled.
 Completed processing, TestFlight assignment and App Review resubmission have not
 yet been verified.
+
+
+The [website deployment](https://github.com/aindaco1/road-notice/actions/runs/35811525222)
+succeeded for release source `c559c8e`. The public `finemenot.xyz` icon, HTTPS
+page and 2,701-record immutable database passed `Scripts/check_site.py`, including
+manifest SHA-256 and speed-limit coverage consistency. The site keeps its existing
+domain so older installed builds continue to receive database updates.
+
+The owner-requested cleanup moved 14 obsolete paths (469 MiB) to a dated folder
+in macOS Trash. This includes old development builds/caches, stale exports and
+review folders, iCloud conflict copies, and the 1.0.0–1.0.3 full archives. Their
+four dSYM sets and archive metadata were copied and byte-verified under
+`~/Library/Developer/Xcode/RoadNoticeSymbols/` before the old archives were moved.
+The current signed 1.0.4 archive, current simulator development build, Swift test
+cache and `work/release12/` evidence remain. `main` is the only branch locally and
+remotely; no branch deletion was needed. Published release history, signing
+credentials and simulator runtimes were preserved.
+
+At this checkpoint, browser settings are already enabled, but the task has no
+attached browser connection and no App Store Connect API credential is configured. The uploaded build cannot yet be selected,
+its listing/screenshot saved, or the rejected submission resubmitted. The exact
+listing fields, revised reply and remaining steps are prepared under
+`work/release12/app-store/`; this is an access blocker, not successful resubmission.
+
+
+[Hosted source build and tests](https://github.com/aindaco1/road-notice/actions/runs/35811525214)
+passed. [Runtime compatibility](https://github.com/aindaco1/road-notice/actions/runs/35811525239)
+passed on iOS 17.5, 18.5 and 26.5. The 17.5 and 26.5 scenarios each verify one
+completed background camera warning; 18.5 verifies saved Quiet settings and the
+foreground Test warning because of the documented hosted moving-GPS limitation.
+These simulator results do not replace physical-device audibility acceptance.
+No further release build was created after the accepted upload.

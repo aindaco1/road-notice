@@ -1,4 +1,5 @@
 import Foundation
+import DustWaveSupport
 
 // Only validated, location-free projections enter this file. Disk work runs on
 // this actor; a full or unwritable journal never interrupts camera warnings.
@@ -78,26 +79,7 @@ public enum CrashFilter {
     // Apple's tree is untrusted input. Keep only app-relative offsets, never
     // raw addresses, system image paths, exception text or the original JSON.
     public static func frames(from data: Data) -> [CrashEvidence.Frame] {
-        guard data.count <= 1_048_576, let root = try? JSONSerialization.jsonObject(with: data) else { return [] }
-        var result: [CrashEvidence.Frame] = []; var visited = 0
-        func walk(_ value: Any, depth: Int) {
-            guard depth < 64, visited < 4096, result.count < 32 else { return }
-            visited += 1
-            if let object = value as? [String: Any] {
-                if object["binaryName"] as? String == "FineMeNot",
-                   let uuid = object["binaryUUID"] as? String, UUID(uuidString: uuid) != nil,
-                   let number = object["offsetIntoBinaryTextSegment"] as? NSNumber,
-                   number.doubleValue >= 0, number.doubleValue <= Double(UInt32.max),
-                   number.doubleValue.rounded() == number.doubleValue {
-                    result.append(.init(uuid: uuid.lowercased(), offset: number.uint64Value))
-                }
-                // Prioritize the crashing thread, preserving frame order.
-                if let stacks = object["callStacks"] as? [[String: Any]] {
-                    for stack in stacks.sorted(by: { ($0["threadAttributed"] as? Bool == true ? 0 : 1) < ($1["threadAttributed"] as? Bool == true ? 0 : 1) }) { walk(stack, depth: depth + 1) }
-                }
-                for key in ["callStackRootFrames", "subFrames"] { if let nested = object[key] { walk(nested, depth: depth + 1) } }
-            } else if let array = value as? [Any] { for item in array.prefix(4096) { walk(item, depth: depth + 1) } }
-        }
-        walk(root, depth: 0); return result
+        MetricKitStackProjection.frames(from: data, binaryNames: ["FineMeNot"])
+            .map { .init(uuid: $0.uuid, offset: $0.offset) }
     }
 }

@@ -10,6 +10,8 @@ on:
       - 'Tests/CompatibilityUITests/**'
       - 'Tests/Fixtures/camera-approach.json'
       - 'Package.swift'
+      - 'shared/dust-wave-platform'
+      - 'platform-support.json'
       - 'project.yml'
       - 'FineMeNot.xcodeproj/**'
       - 'Scripts/check_bundle.py'
@@ -43,6 +45,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - name: Build the shipped minimum once
         run: |
           xcodebuild -version

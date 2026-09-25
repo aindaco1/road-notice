@@ -1,4 +1,5 @@
 import Foundation
+import DustWaveSupport
 #if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
@@ -131,33 +132,31 @@ public struct ReportReceipt: Codable, Sendable {
     public var url: URL { URL(string: "https://github.com/aindaco1/road-notice/issues/\(issueNumber)")! }
 }
 
-private final class NoRedirect: NSObject, URLSessionTaskDelegate, Sendable {
-    func urlSession(_ session: URLSession, task: URLSessionTask, willPerformHTTPRedirection response: HTTPURLResponse,
-                    newRequest request: URLRequest, completionHandler: @escaping @Sendable (URLRequest?) -> Void) { completionHandler(nil) }
-}
-
 public enum ReportClient {
     public static func send(_ report: SupportReport) async throws -> ReportReceipt {
-        let payload = try report.encoded()
         let config = URLSessionConfiguration.ephemeral
         config.timeoutIntervalForRequest = 25; config.timeoutIntervalForResource = 35
-        config.httpCookieStorage = nil; config.urlCache = nil; config.urlCredentialStorage = nil
-        let session = URLSession(configuration: config, delegate: NoRedirect(), delegateQueue: nil)
-        defer { session.invalidateAndCancel() }
+        return try await send(report, configuration: config)
+    }
+    static func send(_ report: SupportReport, configuration config: URLSessionConfiguration) async throws -> ReportReceipt {
+        let payload = try report.encoded()
         var request = URLRequest(url: URL(string: "https://crash.dustwave.xyz/v1/fine-me-not/reports")!)
         request.httpMethod = "POST"; request.httpBody = payload
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.setValue("FineMeNot-Reports/1", forHTTPHeaderField: "User-Agent")
         do {
-            let (bytes, response) = try await session.bytes(for: request)
-            guard let http = response as? HTTPURLResponse, http.statusCode == 200, http.url == request.url else { throw ReportError.rejected }
-            var data = Data()
-            for try await byte in bytes { guard data.count < 4096 else { throw ReportError.invalidReceipt }; data.append(byte) }
+            let endpoint = request.url
+            let (data, _) = try await BoundedReportTransport().send(request, maximumResponseBytes: 4096, configuration: config) { response in
+                guard response.statusCode == 200, response.url == endpoint else { throw ReportError.rejected }
+            }
+            // Retain the consumer's decoding-error precedence and public receipt type.
             let receipt = try JSONDecoder().decode(ReportReceipt.self, from: data)
-            guard receipt.ok, receipt.reportId == report.id, receipt.issueNumber > 0,
-                  ["created", "updated", "duplicate"].contains(receipt.action) else { throw ReportError.invalidReceipt }
+            do {
+                _ = try ReportAcknowledgement.decode(data, reportID: report.id, maximumBytes: 4096, maximumIssueNumber: Int.max)
+            } catch { throw ReportError.invalidReceipt }
             return receipt
         } catch let error as ReportError { throw error }
+        catch ReportTransportError.responseTooLarge { throw ReportError.invalidReceipt }
         catch { throw ReportError.unavailable }
     }
 }

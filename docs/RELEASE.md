@@ -17,7 +17,7 @@ answer was replaced by the disclosures in [REPORTING.md](REPORTING.md).
 - App: Road Notice (formerly Fine Me Not)
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
-- TestFlight: **1.0.4 (12)** processing complete and assigned to First Drive; physical installation is unverified
+- TestFlight: **1.0.5 (13)** processing complete and assigned to First Drive; physical installation is unverified
 - Previous rejected App Store version: 1.0.0 (8)
 - App Store: **1.0.4, available for download**; free U.S. distribution, released September 25, 2026
 - Release history: https://github.com/aindaco1/road-notice/releases
@@ -26,6 +26,27 @@ answer was replaced by the disclosures in [REPORTING.md](REPORTING.md).
 - Support / privacy: https://finemenot.xyz/
 - Category: Utilities (minimal camera proximity warnings)
 - Price: Free; no purchases, subscriptions, ads or accounts
+
+## Shared support maintenance — September 25, 2026
+
+**1.0.5 (13) is Waiting for Review**, submitted at **09:12 CDT (14:12 UTC)**
+with automatic release after approval. Version 1.0.4 remains the public release.
+Apple processed build 13 as VALID, and its assignment to the existing First Drive
+internal group was independently verified. Build-specific test instructions are
+saved; tester access and roles are unchanged. Submission ID:
+`fd7951c3-c767-4976-991b-0e2dc9eec1e6`.
+
+[Source PR #4](https://github.com/aindaco1/road-notice/pull/4) adopts the shared
+Apple support transport and MetricKit projection at source
+`804f8818b7528260890d60d43b110a270e478266`. Report review and explicit sending,
+the report schema, iOS 17 minimum, database updates and camera-warning behavior
+remain unchanged. See [migration and rollback evidence](SHARED-SUPPORT.md).
+The signed archive passed the release bundle check with 2,701 camera records;
+its dSYMs and the preceding distributed build's symbols are retained.
+
+App Store approval, public availability of 1.0.5, physical installation and
+remaining audio/background acceptance are separate checks and are not claimed
+by this submission record.
 
 ## Public App Store release — September 25, 2026
 

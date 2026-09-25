@@ -16,6 +16,11 @@ Validation: `swift test`, the iOS 17 minimum simulator build and the signed
 Release archive. Apple upload, TestFlight processing and App Store availability
 are recorded separately in the release record.
 
+Deployment: Apple processed 1.0.5 (13) as VALID, the existing First Drive group
+contains build 13, and App Store Connect confirmed Waiting for Review on
+September 25, 2026. Automatic release after approval is selected. See the
+[submission record](RELEASE.md#shared-support-maintenance--september-25-2026).
+
 Rollback: revert the migration commit to restore the prior standalone transport
 and projection. There is no local data or relay schema migration. Keep dSYMs for
 every distributed build, including the preceding 1.0.4 (12).

@@ -1,9 +1,14 @@
 # App Store listing — 1.0
 
+**Current release:** Road Notice 1.0.4 is available free on the
+[U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105) as of
+September 25, 2026. See the [approved listing](APP-REVIEW.md#submitted-listing--version-104-12)
+and [release record](RELEASE.md). The copy below is retained as submission history.
+
 **Historical submitted copy.** Apple rejected 1.0.0 (8) on September 22, 2026
 under Guideline 5 (Legal), as shown in the owner's rejection PDF. The listing
 below preserves the original submission; it is not the next submission's copy.
-Use [the resubmission draft and response](APP-REVIEW.md) for the proposed revision.
+Use [the approved resubmission and response](APP-REVIEW.md) for the current listing.
 
 **1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.
 
@@ -94,7 +99,7 @@ Suggested 1.0.1 What's New:
 
 ## Prepared compatibility update — 1.0.2 (10)
 
-Minimum iOS 17.0. For the next App Store submission, replace “Requires iOS 27 or later” in the description with “Requires iOS 17 or later.” The pending 1.0.0 submission above is a historical record and has not been replaced by the TestFlight build. Keep the reporting privacy categories published for 1.0.1.
+Minimum iOS 17.0. This compatibility update was initially distributed through TestFlight. The approved 1.0.4 listing now says “Requires iOS 17 or later” and retains the reporting privacy categories published for 1.0.1. The original 1.0.0 listing above is historical.
 
 Suggested What's New:
 

@@ -1,8 +1,9 @@
 # App Review: September 22, 2026
 
-Status: Road Notice 1.0.4 (12) was resubmitted on September 22, 2026 at 23:27 CDT
-and is **Waiting for Review**. The updated listing, screenshot, build and reply
-were verified in App Store Connect. This is not approval or public release.
+Status updated September 25, 2026: Road Notice 1.0.4 is **approved and available
+free on the [U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105)**.
+Build 12 was resubmitted on September 22 at 23:27 CDT and released automatically
+after approval. The findings and resubmission steps below preserve that history.
 See [release status](RELEASE.md). Jev is a separate [plan](JEV-PLAN.md).
 
 ## What Apple rejected
@@ -87,13 +88,13 @@ Store Connect record stay unchanged so this remains the same app for updates.
 RoadCue was the initial choice, but a public check found an existing
 [camera-alert product using that name](https://www.roadcue.ca/) and the owner
 accepted the alternative. This is a practical naming decision, not trademark
-clearance. App Store Connect name availability still needs to be confirmed when
-saving the listing; do not claim it has already been reserved.
+clearance. App Store Connect accepted the Road Notice name when the revised
+listing was saved on September 22; it now appears on the public product page.
 
 Subtitle: **Speed & red-light alerts**. The limited camera scope remains explicit;
 no navigation, certified-safety or hardware-detection capability is implied.
 
-## Suggested path to resubmission
+## Resubmission plan — historical
 
 1. Reply to the existing rejection with the factual clarification below. Ask
    which feature or presentation creates the concern and whether the proposed

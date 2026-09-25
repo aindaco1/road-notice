@@ -30,6 +30,8 @@
     a{color:var(--ink);text-underline-offset:4px;text-decoration-thickness:1px;overflow-wrap:anywhere}
     a:hover{text-decoration-thickness:2px}
     a:focus-visible,summary:focus-visible{outline:3px solid var(--muted);outline-offset:5px}
+    .download{display:inline-block;background:var(--ink);color:var(--blue);padding:12px 18px;font-weight:700;text-decoration:none}
+    .download:hover{text-decoration:underline}
     nav{display:flex;flex-wrap:wrap;gap:4px 24px;margin-top:26px;font-size:.9rem}
     nav a{display:inline-flex;align-items:center;min-height:44px}
     section{border-top:1px solid var(--line);padding-top:36px;margin-top:36px}
@@ -68,7 +70,8 @@
     <p class="intro">Road Notice gives you a heads-up as you approach listed speed and red-light cameras. Set it up while parked, put your phone away, and keep your attention on driving.</p>
     <p class="intro">Follow traffic laws and posted limits everywhere, whether or not a warning sounds. Silence does not mean your speed is lawful.</p>
     <p><strong>Free. Open source. No ads. No subscriptions.</strong></p>
-    <p class="small">For iPhone running iOS 17 or later. <a href="#compatibility">Check your iPhone</a>.</p>
+    <p><a class="download" href="https://apps.apple.com/us/app/road-notice/id6812094105">Download on the App Store</a></p>
+    <p class="small">Available in the United States. For iPhone running iOS 17 or later. <a href="#compatibility">Check your iPhone</a>.</p>
     <nav aria-label="On this page">
       <a href="#features">What it does</a>
       <a href="#setup">Set it up</a>
@@ -130,7 +133,6 @@
   <section id="compatibility" aria-labelledby="compatibility-title">
     <h2 id="compatibility-title">iPhone. iOS 17 or later.</h2>
     <p>Works on iPhone XS, XS Max, XR and newer, plus iPhone SE (2nd generation and later). Supports iOS 17, 18, 26 and 27. Check <strong>Settings → General → About</strong> for your model and iOS version.</p>
-    <p class="small">Older iOS support starts with version 1.0.2, available to TestFlight testers. The App Store release is not yet approved.</p>
   </section>
 
   <section id="support" aria-labelledby="support-title">

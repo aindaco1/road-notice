@@ -8,14 +8,14 @@ Free, open-source camera warnings for iPhone. One switch, one brief siren. No ma
 
 Road Notice 1.0.4 targets **iOS 17+**, including iOS 18, 26 and 27. It automatically monitors after one-time opt-in, including permitted background operation. It never promises uninterrupted execution in every iPhone state. The owner has confirmed an audible real-camera warning over Bluetooth with the screen locked; other device checks remain documented in [the acceptance record](docs/TESTING.md). See [release status](docs/RELEASE.md) for Apple availability.
 
-Maintained by **Alonso Indacochea**. [Website and setup instructions](https://finemenot.xyz/) · [Release notes](CHANGELOG.md).
+Available free on the **[U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105)**. Maintained by **Alonso Indacochea**. [Website and setup instructions](https://finemenot.xyz/) · [Release notes](CHANGELOG.md).
 
 - [Supported iOS versions and iPhones](docs/SUPPORT.md)
 - [Data coverage and reconciliation](docs/DATA.md)
 - [Census metro coverage and weekly source checks](docs/METRO-COVERAGE.md)
 - [Speed-check behavior and coverage](docs/SPEED-CHECK.md)
 - [Build and TestFlight release](docs/RELEASE.md)
-- [App Review findings and proposed resubmission](docs/APP-REVIEW.md)
+- [App Review findings and approved resubmission](docs/APP-REVIEW.md)
 - [Jev integration plan](docs/JEV-PLAN.md)
 - [Tests and physical acceptance](docs/TESTING.md)
 - [Research and implementation plan](docs/PLAN.md)

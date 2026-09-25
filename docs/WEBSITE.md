@@ -2,7 +2,9 @@
 
 Canonical website: **https://finemenot.xyz/**. Sources, privacy and support are sections on this one barebones page: `#sources`, `#privacy`, `#support`. `App/AppLinks.swift` owns the app’s website and database base URLs.
 
-The public page is written for drivers, with features, a seven-step permission/setup guide, compatibility, troubleshooting, camera coverage, privacy and a legal disclaimer. Its maintainer and privacy contact is **Alonso Indacochea**. The Apple signing team's name is not the website's maintainer credit. Release copy describes implemented behavior without claiming a public App Store release or universal background/audio reliability.
+The public page is written for drivers, with features, a six-step permission/setup guide, compatibility, troubleshooting, camera coverage, privacy and a legal disclaimer. Its maintainer and privacy contact is **Alonso Indacochea**. The Apple signing team's name is not the website's maintainer credit. Road Notice 1.0.4 is available free on the U.S. App Store as of September 25, 2026; the header links directly to https://apps.apple.com/us/app/road-notice/id6812094105 and states the U.S. availability and iOS 17 minimum. Release copy does not promise universal background/audio reliability.
+
+Website and documentation updates use the existing Pages workflow and do not require a new iPhone build or App Store release.
 
 `Scripts/stage_site.py` copies the canonical app icon from the asset catalog to `/app-icon.png`; the same file supplies the header, favicon and Apple touch icon. The website workflow watches the app-icon directory so future icon changes deploy automatically. Coverage figures are filled from the published summary, not edited into the page by hand.
 

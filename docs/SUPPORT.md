@@ -1,6 +1,6 @@
 # Supported iOS versions and iPhones
 
-Road Notice **1.0.2 (10) requires iOS 17.0 or later**. The supported release families are iOS 17, 18, 26 and 27. There is no Apple Intelligence requirement. See [release status](RELEASE.md) for TestFlight and App Store availability; earlier binaries required iOS 27.
+Road Notice **1.0.4 requires iOS 17.0 or later** and is available free on the [U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105). The supported release families are iOS 17, 18, 26 and 27. There is no Apple Intelligence requirement. The iOS 17 minimum was introduced in 1.0.2 (10); earlier binaries required iOS 27. See [release status](RELEASE.md).
 
 ## Supported models
 

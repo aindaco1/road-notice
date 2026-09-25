@@ -1,5 +1,12 @@
 # Test and acceptance record
 
+## Public availability — September 25, 2026
+
+Apple's public product page and catalog confirm Road Notice 1.0.4 is available
+free in the U.S. App Store for iOS 17 and later. See the [release record](RELEASE.md).
+App Store installation and the physical acceptance gaps below remain unverified;
+public availability does not turn those checks into passes.
+
 ## Road Notice 1.0.4 (12) — September 22, 2026
 
 The candidate passes 26 Swift tests and 63 Python pipeline tests after syncing the
@@ -23,7 +30,7 @@ were verified in App Store Connect, and the response to the rejection was posted
 The resubmission showed **Waiting for Review** at 23:27 CDT on September 22, 2026.
 Build 12 is assigned to First Drive; physical installation remains unverified.
 
-## App Review wording revision — September 22, 2026 (unreleased)
+## App Review wording revision — September 22, 2026 (pre-submission checks)
 
 The [review revision](APP-REVIEW.md) changes Settings and website wording. No new runtime or pipeline test was added for
 this copy change. Existing **26 Swift tests** (5 SupportCore, 21 CameraCore) and
@@ -50,7 +57,7 @@ link and staged website asset have identical bytes. No runtime behavior changed.
 The owner subsequently selected Road Notice. Rename verification is recorded
 below separately from these earlier layout checks.
 
-## Road Notice rename — September 22, 2026 (unreleased app)
+## Road Notice rename — September 22, 2026 (pre-submission checks)
 
 From the renamed `road-notice` directory, 26 Swift tests and 63 Python pipeline
 checks pass. Xcode 27.0 builds, installs and launches the revised app on iPhone

@@ -1,6 +1,8 @@
 # App icon
 
-## Camera-awareness revision — September 22, 2026 (unreleased)
+## Camera-awareness revision — September 22, 2026
+
+Released on the App Store with Road Notice 1.0.4 on September 25, 2026.
 
 The current canonical icon replaces the prohibition symbol with a white road
 and a pale-blue roadside marker on the existing blue background. It makes no

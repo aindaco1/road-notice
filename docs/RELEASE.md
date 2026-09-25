@@ -1,32 +1,43 @@
 # Release and distribution
 
-**September 22, 2026, 23:27 CDT:** **Road Notice 1.0.4 (12) is Waiting for Review**.
-The updated name, screenshot, listing and build replace the rejected 1.0.0 (8)
-submission; the response addressing Guideline 5 was posted at 23:26 CDT.
-See [the findings and submitted response](APP-REVIEW.md). Upload, deployment,
-validation and submission evidence are recorded in the dated section below.
+**September 25, 2026:** **Road Notice 1.0.4 is available free on the
+[U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105)** for
+iPhone running iOS 17 or later. Automatic release after approval published the
+submitted 1.0.4 (12) build. Apple's public catalog records the release at
+**00:57:48 CDT (05:57:48 UTC)**.
+See [the findings and submitted response](APP-REVIEW.md). The dated records below
+preserve the earlier rejection, validation and submission history.
 The repository and project directory are renamed
 `road-notice`; bundle identity, saved data and `finemenot.xyz` remain unchanged.
 
-**1.0.3 branding update:** source version 1.0.3 (11) matches the app header to
-finemenot.xyz. See the dated verification section at the end.
-
-**1.0.2 compatibility update:** version 1.0.2 (10) lowers the minimum to iOS 17.0. The dated 1.0 and 1.0.1 records below describe earlier binaries. See the latest verification section at the end and [supported versions](SUPPORT.md).
-
-**1.0.1 reporting update:** source version 1.0.1 (9). Voluntary public reports change the privacy disclosure; the 1.0 Data Not Collected answer below is historical. See [REPORTING.md](REPORTING.md). Distribution verification is recorded separately from the existing 1.0 submission.
+Earlier build records below are historical. The current release includes iOS 17
+support and voluntary public problem reports; the original 1.0 Data Not Collected
+answer was replaced by the disclosures in [REPORTING.md](REPORTING.md).
 
 - App: Road Notice (formerly Fine Me Not)
 - Bundle: `xyz.dustwave.fine-me-not`
 - Owner/team: Volver Health LLC (`PWT3Q52LZ2`), explicitly selected by the project owner
 - TestFlight: **1.0.4 (12)** processing complete and assigned to First Drive; physical installation is unverified
 - Previous rejected App Store version: 1.0.0 (8)
-- App Store: **1.0.4 (12), Waiting for Review**; free U.S. distribution and automatic release after approval
+- App Store: **1.0.4, available for download**; free U.S. distribution, released September 25, 2026
 - Release history: https://github.com/aindaco1/road-notice/releases
 - Minimum: iOS 17.0 since 1.0.2; earlier binaries require iOS 27.0
 - Source: https://github.com/aindaco1/road-notice
 - Support / privacy: https://finemenot.xyz/
 - Category: Utilities (minimal camera proximity warnings)
 - Price: Free; no purchases, subscriptions, ads or accounts
+
+## Public App Store release — September 25, 2026
+
+The public [product page](https://apps.apple.com/us/app/road-notice/id6812094105)
+and [Apple catalog lookup](https://itunes.apple.com/lookup?id=6812094105&country=us)
+confirm Road Notice, version 1.0.4, price Free, minimum iOS 17.0 and seller
+Volver Health LLC. Both catalog release timestamps are `2026-09-25T05:57:48Z`.
+This verifies public U.S. availability; installation from the App Store and the
+remaining physical audio/background scenarios are separate acceptance checks.
+
+The website download link and documentation can be updated through the existing
+GitHub Pages deployment without a new app build, version or App Review submission.
 
 ## Build
 

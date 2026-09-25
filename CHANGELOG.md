@@ -1,5 +1,10 @@
 # Release notes
 
+## 1.0.5 — September 25, 2026
+
+- Reuse shared support delivery and crash-report filtering while preserving the report preview, explicit submission, matching receipts and local privacy controls.
+- Camera database updates and warning behavior are unchanged.
+
 ## 1.0.4 — September 22, 2026
 
 Camera-awareness wording replaces the ticket-saving slogan in the app and

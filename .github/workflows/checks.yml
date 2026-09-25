@@ -13,6 +13,10 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Check pinned support package
+        run: node shared/dust-wave-platform/scripts/check-desktop-consumer.mjs . platform-support.json
       - name: Toolchain
         run: xcodebuild -version
       - name: Publisher tests

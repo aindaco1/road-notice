@@ -10,9 +10,10 @@ packages:
 settings:
   base:
     SWIFT_VERSION: "6.0"
-    MARKETING_VERSION: "1.0.5"
-    CURRENT_PROJECT_VERSION: "13"
+    MARKETING_VERSION: "1.0.6"
+    CURRENT_PROJECT_VERSION: "14"
     DEVELOPMENT_TEAM: PWT3Q52LZ2
+    CAMERA_DATABASE_URL: ""
 targets:
   FineMeNot:
     type: application
@@ -41,6 +42,7 @@ targets:
         CFBundleDisplayName: Road Notice
         CFBundleShortVersionString: "$(MARKETING_VERSION)"
         CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        CameraDatabaseURL: "$(CAMERA_DATABASE_URL)"
         LSRequiresIPhoneOS: true
         UIApplicationSupportsIndirectInputEvents: true
         UILaunchScreen: {}
@@ -55,6 +57,19 @@ targets:
       path: App/FineMeNot.entitlements
       properties:
         com.apple.developer.usernotifications.time-sensitive: true
+  MonitoringTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/MonitoringTests
+    dependencies:
+      - target: FineMeNot
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: xyz.dustwave.fine-me-not.monitoring-tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: FineMeNot
+        TARGETED_DEVICE_FAMILY: "1"
   CompatibilityUITests:
     type: bundle.ui-testing
     platform: iOS
@@ -78,6 +93,6 @@ schemes:
     run:
       config: Debug
     test:
-      targets: [CompatibilityUITests]
+      targets: [MonitoringTests, CompatibilityUITests]
     archive:
       config: Release

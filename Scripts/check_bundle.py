@@ -5,6 +5,8 @@ app = pathlib.Path(sys.argv[1])
 for name in ['Info.plist','FineMeNot','Assets.car','siren.wav','cameras.json','PrivacyInfo.xcprivacy']:
     assert (app/name).is_file(), f'Missing app resource: {name}'
 info=plistlib.loads((app/'Info.plist').read_bytes())
+expected_database = sys.argv[sys.argv.index('--database-url') + 1] if '--database-url' in sys.argv else ''
+assert info.get('CameraDatabaseURL', '') == expected_database, 'Unexpected camera database channel'
 assert info['CFBundleIdentifier']=='xyz.dustwave.fine-me-not'
 assert set(info['UIBackgroundModes'])=={'audio','location','fetch'}
 assert info['NSLocationRequireExplicitServiceSession'] is True

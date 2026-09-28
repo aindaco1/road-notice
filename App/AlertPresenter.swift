@@ -5,8 +5,14 @@ import UserNotifications
 import CameraCore
 import UIKit
 
+@MainActor
+protocol MonitoringWarningPresenter: AnyObject {
+    func present(_ warnings: [CameraWarning])
+    func requestNotifications() async
+}
+
 @MainActor @Observable
-final class AlertPresenter: NSObject, AVAudioPlayerDelegate {
+final class AlertPresenter: NSObject, AVAudioPlayerDelegate, MonitoringWarningPresenter {
     private(set) var isPlaying = false
     private(set) var audioError: String?
     private(set) var route = "Current audio output"

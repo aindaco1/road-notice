@@ -40,7 +40,8 @@ final class AppServices {
         Database: \(store.snapshot?.version ?? "unavailable")
         Status: \(monitoring.status(at: now))
         Always location: \(monitoring.authorization == .authorizedAlways ? "yes" : "no") · precise: \(monitoring.precise ? "yes" : "no")
-        Continuous GPS: \(monitoring.isTracking ? "requested" : "off") · automatic pauses: disabled
+        Location mode: \(monitoring.locationPowerStatus) · automatic stationary pause/resume
+        \(monitoring.locationResumeDiagnostic)
         Low Power Mode: \(ProcessInfo.processInfo.isLowPowerModeEnabled ? "on" : "off") · Background App Refresh: \(refresh)
         Latest GPS: \(age(monitoring.lastReceivedAt)) · accepted GPS: \(age(monitoring.lastFixAt))
         Accuracy: \(number(monitoring.lastAccuracy, unit: "m")) · reported speed: \(number(monitoring.lastReportedSpeed, unit: "m/s"))

@@ -1,0 +1,506 @@
+{
+  "eligible": 54,
+  "generatedAt": "2026-09-27T22:10:53Z",
+  "records": [
+    {
+      "id": "abq-98th-tower-central-nb",
+      "label": "98th between Tower and Central · NB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 10
+    },
+    {
+      "id": "abq-broadway-iron-coal-possible-nb",
+      "label": "Broadway between Iron and Coal · NB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 13
+    },
+    {
+      "id": "abq-broadway-iron-sb",
+      "label": "Broadway just north of Iron · SB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 12
+    },
+    {
+      "id": "abq-carlisle-hilton-delamar-possible-sb",
+      "label": "Carlisle between Hilton and Delamar · SB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 8
+    },
+    {
+      "id": "abq-central-61st-possible-eb",
+      "label": "Central near 61st Street · EB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 20
+    },
+    {
+      "id": "abq-central-61st-possible-wb",
+      "label": "Central near 61st Street · WB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 23
+    },
+    {
+      "id": "abq-central-louisiana-san-pedro-possible-eb",
+      "label": "Central between Louisiana and San Pedro · EB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 38
+    },
+    {
+      "id": "abq-central-louisiana-san-pedro-possible-wb",
+      "label": "Central between Louisiana and San Pedro · WB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 38
+    },
+    {
+      "id": "abq-central-texas-possible-wb",
+      "label": "Central at Texas · WB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 18
+    },
+    {
+      "id": "abq-central-tingley-new-york-wb",
+      "label": "Central between Tingley and New York · WB",
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "abq-cesar-chavez-walter-possible-eb",
+      "label": "Avenida Cesar Chavez and Walter · EB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 19
+    },
+    {
+      "id": "abq-coal-cornell-eb",
+      "label": "Coal at Cornell · EB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 22
+    },
+    {
+      "id": "abq-coors-bypass-ellison-sb",
+      "label": "Coors Bypass just south of Ellison · SB",
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "abq-coors-montano-paseo-nb",
+      "label": "Coors between Montano and Paseo del Norte · NB",
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "abq-coors-st-joseph-possible-nb",
+      "label": "Coors north of St. Joseph · NB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 18
+    },
+    {
+      "id": "abq-coors-st-joseph-possible-sb",
+      "label": "Coors north of St. Joseph · SB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 17
+    },
+    {
+      "id": "abq-ellison-black-diversion-eb",
+      "label": "Ellison and Black Diversion Channel Trail crossing · EB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 25
+    },
+    {
+      "id": "abq-eubank-central-nb",
+      "label": "Eubank just north of Central · NB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 14
+    },
+    {
+      "id": "abq-eubank-sierra-vista-possible-sb",
+      "label": "Eubank just south of Sierra Vista Court · SB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 11
+    },
+    {
+      "id": "abq-fourth-griegos-possible-sb",
+      "label": "Fourth Street north of Griegos · SB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 46
+    },
+    {
+      "id": "abq-gibson-carlisle-san-mateo-eb",
+      "label": "Gibson between Carlisle and San Mateo · EB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 4
+    },
+    {
+      "id": "abq-gibson-carlisle-san-mateo-wb",
+      "label": "Gibson between Carlisle and San Mateo · WB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 4
+    },
+    {
+      "id": "abq-juan-tabo-copper-possible-sb",
+      "label": "Juan Tabo near Copper · SB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 44
+    },
+    {
+      "id": "abq-lead-bryn-mawr-possible-wb",
+      "label": "Lead near Bryn Mawr · WB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 28
+    },
+    {
+      "id": "abq-lomas-third-eb",
+      "label": "Lomas near Third Street · EB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 8
+    },
+    {
+      "id": "abq-lomas-virginia-wb",
+      "label": "Lomas at Virginia · WB",
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "abq-louisiana-marquette-possible-nb",
+      "label": "Louisiana near Marquette · NB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 26
+    },
+    {
+      "id": "abq-menaul-vassar-possible-wb",
+      "label": "Menaul west of Vassar · WB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 29
+    },
+    {
+      "id": "abq-montgomery-jennifer-possible-wb",
+      "label": "Montgomery and Jennifer · WB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 11
+    },
+    {
+      "id": "abq-montgomery-julie-eb",
+      "label": "Montgomery and Julie · EB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 13
+    },
+    {
+      "id": "abq-paseo-barstow-wb",
+      "label": "Paseo del Norte west of Barstow · WB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 7
+    },
+    {
+      "id": "abq-paseo-louisiana-wb",
+      "label": "Paseo del Norte west of Louisiana · WB",
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "abq-san-mateo-montgomery-sb",
+      "label": "San Mateo just north of Montgomery · SB",
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "abq-tramway-lomas-possible-sb",
+      "label": "Tramway near Lomas · SB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 16
+    },
+    {
+      "id": "abq-unser-flor-del-sol-nb",
+      "label": "Unser at Flor Del Sol just north of Dellyne · NB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 6
+    },
+    {
+      "id": "abq-unser-gwin-possible-sb",
+      "label": "Unser near Gwin · SB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 25
+    },
+    {
+      "id": "abq-unser-old-ouray-possible-nb",
+      "label": "Unser near Old Ouray · NB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 46
+    },
+    {
+      "id": "abq-unser-tower-nb",
+      "label": "Unser at Tower · NB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 14
+    },
+    {
+      "id": "abq-wyoming-academy-nb",
+      "label": "Wyoming and just north of Academy · NB",
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "abq-zuni-mesilla-espanola-possible-wb",
+      "label": "Zuni between Mesilla and Espanola · WB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 8
+    },
+    {
+      "id": "bernco-alameda-guadalupe-rio-grande-possible-wb",
+      "label": "Alameda Pkwy (NM 528) between Rio Grande Blvd and Guadalupe Trl · WB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 13
+    },
+    {
+      "id": "bernco-arenal-isleta-tapia-possible-wb",
+      "label": "Arenal Rd between Isleta Blvd and Tapia Blvd · WB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 28
+    },
+    {
+      "id": "bernco-arenal-tapia-isleta-possible-eb",
+      "label": "Arenal Rd between Isleta Blvd and Tapia Blvd · EB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 34
+    },
+    {
+      "id": "bernco-bridge-old-coors-atrisco-possible-eb",
+      "label": "Bridge Rd between Old Coors Dr and Atrisco Dr · EB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 20
+    },
+    {
+      "id": "bernco-bridge-old-coors-atrisco-wb",
+      "label": "Bridge · Old Coors to Atrisco · WB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 11
+    },
+    {
+      "id": "bernco-coors-gun-club-rio-bravo-possible-nb",
+      "label": "Coors Blvd (NM 45) between Gun Club Rd and Rio Bravo Blvd · NB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 41
+    },
+    {
+      "id": "bernco-coors-sage-tower-possible-nb",
+      "label": "Coors Blvd (NM 45) between Sage Rd and Tower Rd · NB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 19
+    },
+    {
+      "id": "bernco-golf-course-congress-sutton",
+      "label": "Golf Course · Congress Avenue to Sutton Place",
+      "reason": "Unknown monitored direction",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "bernco-isleta-los-padillas-sanchez-possible-sb",
+      "label": "Isleta Blvd between Los Padillas Rd and Sanchez Rd · SB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 17
+    },
+    {
+      "id": "bernco-isleta-sanchez-los-padillas-possible-nb",
+      "label": "Isleta Blvd between Los Padillas Rd and Sanchez Rd · NB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 14
+    },
+    {
+      "id": "bernco-isleta-sunbeam-brother-possible-sb",
+      "label": "Isleta Blvd between Sunbeam Rd and Brother Rd · SB · approximate area",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 13
+    },
+    {
+      "id": "bernco-paradise-radcliffe-eb",
+      "label": "Paradise near Radcliffe · EB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 15
+    },
+    {
+      "id": "bernco-paradise-radcliffe-wb",
+      "label": "Paradise near Radcliffe · WB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 16
+    },
+    {
+      "id": "bernco-tramway-terrace-san-rafael-nb",
+      "label": "Tramway between Tramway Terrace and San Rafael · NB",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 9
+    },
+    {
+      "id": "rr-deployment-13380469273",
+      "label": "Golf Course @ 16th · possible deployment",
+      "reason": "Unknown monitored direction",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "rr-deployment-13380469274",
+      "label": "Idalia @ Loma Colorado · possible deployment",
+      "reason": "Unknown monitored direction",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "rr-deployment-13380469275",
+      "label": "Kim @ Saratoga · possible deployment",
+      "reason": "Unknown monitored direction",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "rr-deployment-13380469276",
+      "label": "Broadmoor SB @ Nicklaus · possible deployment",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 21
+    },
+    {
+      "id": "rr-deployment-13380469277",
+      "label": "Rockaway @ Pyrite · possible deployment",
+      "reason": "Unknown monitored direction",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "rr-deployment-13380469278",
+      "label": "Unser SB @ Paseo del Volcan · possible deployment",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 11
+    },
+    {
+      "id": "rr-deployment-13380469280",
+      "label": "Unser NB @ Paseo del Volcan · possible deployment",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 9
+    },
+    {
+      "id": "rr-deployment-13380490909",
+      "label": "Broadmoor NB @ Nicklaus · possible deployment",
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "rr-deployment-13380490911",
+      "label": "Unser SB @ 2nd · possible deployment",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 9
+    },
+    {
+      "id": "rr-deployment-13380490912",
+      "label": "Unser NB @ 2nd · possible deployment",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 5
+    },
+    {
+      "id": "rr-deployment-13380490924",
+      "label": "Broadmoor SB @ Loma Colorado · possible deployment",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 9
+    },
+    {
+      "id": "rr-deployment-13380490925",
+      "label": "Broadmoor NB @ Loma Colorado · possible deployment",
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "rr-deployment-13380490952",
+      "label": "King WB @ Lake Valley (Unser) · possible deployment",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 7
+    },
+    {
+      "id": "rr-deployment-13380490954",
+      "label": "King EB @ Lake Valley (Unser) · possible deployment",
+      "reason": null,
+      "status": "eligible",
+      "vertices": 10
+    },
+    {
+      "id": "rr-nm528-iris-idalia",
+      "label": "NM 528 · Iris Road to Idalia Road",
+      "reason": "Unknown monitored direction",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "rr-nm528-sara-zenith",
+      "label": "NM 528 · Sara Road to Zenith Court",
+      "reason": "Unknown monitored direction",
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "id": "rr-nm528-westside-19th",
+      "label": "NM 528 · Westside Boulevard to 19th Avenue SE",
+      "reason": "Unknown monitored direction",
+      "status": "fallback",
+      "vertices": 0
+    }
+  ],
+  "reviewed": 71,
+  "scope": "Existing reviewed Albuquerque metro register",
+  "totalCameras": 2701
+}

@@ -5,24 +5,8 @@
     "speed": 1582,
     "speedAndRedLight": 195
   },
-  "fetches": [
-    {
-      "checkedAt": "2026-09-21T08:48:51Z",
-      "source": "speed",
-      "status": "downloaded"
-    },
-    {
-      "checkedAt": "2026-09-21T08:49:11Z",
-      "source": "enforcement",
-      "status": "downloaded"
-    },
-    {
-      "checkedAt": "2026-09-21T08:49:37Z",
-      "source": "aliases",
-      "status": "downloaded"
-    }
-  ],
-  "generatedAt": "2026-09-25T13:11:05Z",
+  "fetches": [],
+  "generatedAt": "2026-09-27T22:10:53Z",
   "records": 2701,
   "review": [
     {

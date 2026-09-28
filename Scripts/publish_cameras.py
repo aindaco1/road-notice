@@ -12,6 +12,7 @@ from zoneinfo import ZoneInfo
 from camera_data import ROOT, UTC, read, encode, write, stamp, valid_point, distance, OVERPASS_URL
 from agency_cameras import combine, coverage_report, audit_metro_points
 from speed_limits import enrich
+from road_zones import enrich_zones, validate_zone
 OSM_URL = 'https://www.openstreetmap.org/copyright'
 QUERIES = {
     'speed': 'node(area.us)["highway"="speed_camera"];out body;',
@@ -197,6 +198,7 @@ def validate(records):
         assert len(g) == 1 or c['kind'] == 'possibleSpeed'
         assert all(distance(g[0], p) < 50_000 for p in g)
         if 'travelBearing' in c: assert 0 <= c['travelBearing'] < 360
+        if 'roadZone' in c: validate_zone(c['roadZone'])
         if 'validUntil' in c: dt.datetime.fromisoformat(c['validUntil'].replace('Z', '+00:00'))
         if limit := c.get('speedLimit'):
             assert c['kind'] in ('speed', 'possibleSpeed')
@@ -231,6 +233,7 @@ def publish(root, now, fetched=None):
     complete = all(r['status'] == 'downloaded' for r in (fetched or [])) and source_version != prior_state.get('sourceVersion')
     records, state, review = reconcile(records, overrides, previous, prior_state, now, complete)
     records, limit_sources, limit_report = enrich(root, records, documents, now)
+    records = enrich_zones(root, records, now)
     validate(records); issues += review
     coverage_report(root, records, now)
     state['sourceVersion'] = source_version

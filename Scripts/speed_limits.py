@@ -9,7 +9,7 @@ import datetime as dt
 import math
 import re
 
-from camera_data import read, write, stamp, UTC, distance
+from camera_data import read, write, stamp, UTC, distance, projection
 from geocode_locations import road_key
 from camera_identity import angle
 from fetch_speed_limits import samples, ABQ, SCHOOL, NYC, SEATTLE, NMDOT, CHICAGO, PHILLY13, PHILLY_REPORT, TACOMA_SCHOOL
@@ -123,15 +123,8 @@ def same_road(a,b):
 
 
 def closest(point,line):
-    scale=111195;cos=math.cos(math.radians(point['latitude']));best=(float('inf'),0)
-    for a,b in zip(line,line[1:]):
-        ax=(a['longitude']-point['longitude'])*scale*cos;ay=(a['latitude']-point['latitude'])*scale
-        bx=(b['longitude']-point['longitude'])*scale*cos;by=(b['latitude']-point['latitude'])*scale
-        dx,dy=bx-ax,by-ay;denom=dx*dx+dy*dy
-        if not denom:continue
-        t=max(0,min(1,-(ax*dx+ay*dy)/denom));d=math.hypot(ax+t*dx,ay+t*dy)
-        if d<best[0]:best=(d,math.degrees(math.atan2(dx,dy))%360)
-    return best
+    separation,_,bearing=projection(point,line)
+    return separation,bearing
 
 
 class RoadIndex:

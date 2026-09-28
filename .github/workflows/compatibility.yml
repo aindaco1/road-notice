@@ -8,6 +8,7 @@ on:
       - 'Tests/CameraCoreTests/**'
       - 'Tests/SupportCoreTests/**'
       - 'Tests/CompatibilityUITests/**'
+      - 'Tests/MonitoringTests/**'
       - 'Tests/Fixtures/camera-approach.json'
       - 'Package.swift'
       - 'shared/dust-wave-platform'
@@ -16,6 +17,7 @@ on:
       - 'FineMeNot.xcodeproj/**'
       - 'Scripts/check_bundle.py'
       - 'Scripts/simulator_smoke.py'
+      - 'Scripts/monitoring_smoke.py'
       - 'Scripts/prepare_simulator_runtime.py'
       - '.github/workflows/compatibility.yml'
   pull_request:
@@ -93,6 +95,13 @@ jobs:
         run: |
           tar -xzf build/simulator-app.tar.gz -C build
           python3 Scripts/check_bundle.py build/Products/Debug-iphonesimulator/FineMeNot.app --release
+      - name: Verify deterministic monitoring wake contracts
+        run: python3 Scripts/monitoring_smoke.py "$FMN_IOS_VERSION" build/Products/*.xctestrun
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: monitoring-${{ matrix.ios_version }}-evidence
+          path: build/monitoring/
       - name: Check selected runtime behavior
         run: |
           python3 Scripts/simulator_smoke.py "$FMN_IOS_VERSION" \

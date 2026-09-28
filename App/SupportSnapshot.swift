@@ -14,7 +14,7 @@ extension MatchReason {
         case .tooFar: "tooFar"
         case .oppositeDirection: "oppositeDirection"
         case .behind: "behind"
-        case .approachUnconfirmed: "approachUnconfirmed"
+        case .approachUnconfirmed, .outsideRoad, .ambiguousRoad: "approachUnconfirmed"
         case .cooldown: "cooldown"
         case .expired: "expired"
         case .belowSpeedLimit: "belowSpeedLimit"

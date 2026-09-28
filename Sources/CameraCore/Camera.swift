@@ -36,15 +36,17 @@ public struct Camera: Codable, Identifiable, Hashable, Sendable {
     public let evidence: String
     public let validUntil: Date?
     public let speedLimit: SpeedLimit?
+    public let roadZone: RoadZone?
 
     public init(id: String, siteID: String? = nil, label: String, kind: CameraKind,
                 geometry: [Coordinate], travelBearing: Double? = nil,
                 sourceIDs: [String] = [], evidence: String = "", validUntil: Date? = nil,
-                speedLimit: SpeedLimit? = nil) {
+                speedLimit: SpeedLimit? = nil, roadZone: RoadZone? = nil) {
         self.id = id; self.siteID = siteID ?? id; self.label = label; self.kind = kind
         self.geometry = geometry; self.travelBearing = travelBearing
         self.sourceIDs = sourceIDs; self.evidence = evidence; self.validUntil = validUntil
         self.speedLimit = speedLimit
+        self.roadZone = roadZone
     }
 }
 
@@ -77,6 +79,7 @@ public struct CameraSnapshot: Codable, Sendable {
             if let bearing = camera.travelBearing, !bearing.isFinite || !(0..<360).contains(bearing) {
                 throw DatabaseError.invalidCamera(camera.id)
             }
+            if let zone = camera.roadZone, !zone.isValid { throw DatabaseError.invalidCamera(camera.id) }
             if camera.geometry.count > 1 {
                 guard camera.kind == .possibleSpeed else { throw DatabaseError.invalidCamera(camera.id) }
                 let span = camera.geometry.dropFirst().reduce(0.0) { max($0, Geometry.distance(camera.geometry[0], $1)) }

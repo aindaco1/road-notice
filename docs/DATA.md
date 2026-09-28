@@ -27,7 +27,7 @@ All 40 current city-listed approaches are represented: 20 matched camera points 
 6. Failed, malformed, rollback or >25% source-count-drop responses retain the last good input. The phone verifies a SHA-256 manifest and schema before atomically replacing its offline database; it keeps a backup and bundled fallback.
 7. “Possible speed camera” means an identified deployment area with uncertain equipment presence or a documented fixed-camera site whose exact device point is unverified. Approximate fixed-site areas must follow reviewed road geometry, explicitly say approximate area, retain official direction evidence, and explain the chosen extent. A guessed point is never published as an exact camera. Sites without a defensible road segment remain excluded.
 
-The engine filters accuracy, freshness, movement, approaching direction and repeat encounters. It uses a spatial index and one geometry matcher for points and corridors. It does not perform full road/lane map matching; parallel-road false positives remain a physical-test concern.
+The engine filters accuracy, freshness, movement, approaching direction and repeat encounters. It uses a spatial index and one geometry matcher for points and corridors. The development candidate adds optional, source-connected road zones with separate lateral and along-road checks, plus nearby alternatives. The first rollout covers 54 reviewed metro approaches; missing or expired zones retain existing behavior. This is not full road/lane map matching. See [road-zone evidence, limits and coverage](ROAD-ZONES.md).
 
 ## Publishing
 

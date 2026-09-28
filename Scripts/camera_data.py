@@ -33,3 +33,17 @@ def distance(a, b):
     dlat = lat2 - lat1; dlon = math.radians(b['longitude'] - a['longitude'])
     h = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
     return 6371000 * 2 * math.asin(min(1, math.sqrt(h)))
+
+
+def projection(point, line):
+    """Return distance, distance along line, and directed bearing."""
+    scale=111195;cos=math.cos(math.radians(point['latitude']));best=(float('inf'),0,0);along=0
+    for a,b in zip(line,line[1:]):
+        ax=(a['longitude']-point['longitude'])*scale*cos;ay=(a['latitude']-point['latitude'])*scale
+        dx=(b['longitude']-a['longitude'])*scale*cos;dy=(b['latitude']-a['latitude'])*scale
+        den=dx*dx+dy*dy;length=distance(a,b)
+        if den:
+            t=max(0,min(1,-(ax*dx+ay*dy)/den));d=math.hypot(ax+t*dx,ay+t*dy)
+            if d<best[0]:best=(d,along+t*length,math.degrees(math.atan2(dx,dy))%360)
+        along+=length
+    return best

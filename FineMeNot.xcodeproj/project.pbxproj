@@ -11,6 +11,8 @@
 		18412660F5069743AE766A32 /* CameraApproachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626EAA8C2A9955CCD46F8BF8 /* CameraApproachTests.swift */; };
 		2B2E34C843E4B749B8768DFD /* ReportProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF7A738632909C3248C414 /* ReportProblemView.swift */; };
 		2E7B86187A1CFEC9DC6BE648 /* SupportDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3378984DFB0CBA142A39FD6 /* SupportDiagnostics.swift */; };
+		3B1FEC6B4654FBB231D142B4 /* MonitoringWakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F34067F13E7020E14E0CA /* MonitoringWakeTests.swift */; };
+		569F6DE90A50E174D33C2B0D /* MonitoringLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C448575B14D486CE2AA4204 /* MonitoringLocationService.swift */; };
 		64A7A39D8C922DB6359BDB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26746EA45AB88B7E205BA8CB /* Assets.xcassets */; };
 		6902E5715262B5351B4B7C02 /* cameras.json in Resources */ = {isa = PBXBuildFile; fileRef = 9372829467325A48A981C28E /* cameras.json */; };
 		805BDE0157010983D658E015 /* MonitoringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D4BF80562A1AF4EAB94B80 /* MonitoringController.swift */; };
@@ -28,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		117D78F127BC6817CBD5EB06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DFD4D41A572CFF288D2791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018EB2BA0F00A1AE01FBA402;
+			remoteInfo = FineMeNot;
+		};
 		552028B366413D8B27AE0FE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04DFD4D41A572CFF288D2791 /* Project object */;
@@ -40,9 +49,12 @@
 /* Begin PBXFileReference section */
 		159AFB1BAF8630A2BE9B1534 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
 		19E606E885B4EB83048AE48E /* CameraStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraStore.swift; sourceTree = "<group>"; };
+		1C448575B14D486CE2AA4204 /* MonitoringLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringLocationService.swift; sourceTree = "<group>"; };
 		22A3B2801432BA9232F9E83E /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
 		25D4BF80562A1AF4EAB94B80 /* MonitoringController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringController.swift; sourceTree = "<group>"; };
 		26746EA45AB88B7E205BA8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B14EC1D778E7D6554CB7F98 /* MonitoringTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MonitoringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4F34067F13E7020E14E0CA /* MonitoringWakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringWakeTests.swift; sourceTree = "<group>"; };
 		4E6D6C1C16AC3E69E9276718 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		51732EB72BB997A6B1EDE637 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		626EAA8C2A9955CCD46F8BF8 /* CameraApproachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraApproachTests.swift; sourceTree = "<group>"; };
@@ -100,6 +112,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		56AF94D247EFF816E45E91AE /* MonitoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C4F34067F13E7020E14E0CA /* MonitoringWakeTests.swift */,
+			);
+			path = MonitoringTests;
+			sourceTree = "<group>";
+		};
 		697EA669EC22368575D180E0 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +133,7 @@
 			children = (
 				7A39CA43924902D96E771E76 /* CompatibilityUITests */,
 				339D20B5C45A85629A00F9DD /* Fixtures */,
+				56AF94D247EFF816E45E91AE /* MonitoringTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -147,6 +168,7 @@
 				769B1E84C52CF2C03A6B8904 /* FineMeNotApp.swift */,
 				8BFAAEF21C56DFDC051FC509 /* Info.plist */,
 				25D4BF80562A1AF4EAB94B80 /* MonitoringController.swift */,
+				1C448575B14D486CE2AA4204 /* MonitoringLocationService.swift */,
 				BBCF7A738632909C3248C414 /* ReportProblemView.swift */,
 				4E6D6C1C16AC3E69E9276718 /* SettingsView.swift */,
 				C3378984DFB0CBA142A39FD6 /* SupportDiagnostics.swift */,
@@ -161,6 +183,7 @@
 			children = (
 				CB91157ED0519BE807494308 /* CompatibilityUITests.xctest */,
 				DA307FC16CA7335FDDA811CE /* FineMeNot.app */,
+				3B14EC1D778E7D6554CB7F98 /* MonitoringTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,6 +239,24 @@
 			productReference = CB91157ED0519BE807494308 /* CompatibilityUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AB1FCF4247B1E04A17C90404 /* MonitoringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705DB2B3FB69853EDF2987E3 /* Build configuration list for PBXNativeTarget "MonitoringTests" */;
+			buildPhases = (
+				138C8B1D69D84335EFD3AECE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A24FDC98F2A736274588CB6 /* PBXTargetDependency */,
+			);
+			name = MonitoringTests;
+			packageProductDependencies = (
+			);
+			productName = MonitoringTests;
+			productReference = 3B14EC1D778E7D6554CB7F98 /* MonitoringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -230,6 +271,10 @@
 						ProvisioningStyle = Automatic;
 					};
 					711587C23B30CF9D7688B197 = {
+						DevelopmentTeam = PWT3Q52LZ2;
+						TestTargetID = 018EB2BA0F00A1AE01FBA402;
+					};
+					AB1FCF4247B1E04A17C90404 = {
 						DevelopmentTeam = PWT3Q52LZ2;
 						TestTargetID = 018EB2BA0F00A1AE01FBA402;
 					};
@@ -253,6 +298,7 @@
 			projectRoot = "";
 			targets = (
 				018EB2BA0F00A1AE01FBA402 /* FineMeNot */,
+				AB1FCF4247B1E04A17C90404 /* MonitoringTests */,
 				711587C23B30CF9D7688B197 /* CompatibilityUITests */,
 			);
 		};
@@ -281,6 +327,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		138C8B1D69D84335EFD3AECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1FEC6B4654FBB231D142B4 /* MonitoringWakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D00A69632F7A4287D0EDEE5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +353,7 @@
 				F1FF10099611FE15F35E05FB /* CameraStore.swift in Sources */,
 				88EB6725C287529773086875 /* FineMeNotApp.swift in Sources */,
 				805BDE0157010983D658E015 /* MonitoringController.swift in Sources */,
+				569F6DE90A50E174D33C2B0D /* MonitoringLocationService.swift in Sources */,
 				2B2E34C843E4B749B8768DFD /* ReportProblemView.swift in Sources */,
 				E3688E6C69A9CD2C8B8CA070 /* SettingsView.swift in Sources */,
 				2E7B86187A1CFEC9DC6BE648 /* SupportDiagnostics.swift in Sources */,
@@ -313,6 +368,11 @@
 			isa = PBXTargetDependency;
 			target = 018EB2BA0F00A1AE01FBA402 /* FineMeNot */;
 			targetProxy = 552028B366413D8B27AE0FE3 /* PBXContainerItemProxy */;
+		};
+		8A24FDC98F2A736274588CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018EB2BA0F00A1AE01FBA402 /* FineMeNot */;
+			targetProxy = 117D78F127BC6817CBD5EB06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,10 +398,47 @@
 			};
 			name = Debug;
 		};
+		2ACACDB43E1E2CD773ED58E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.dustwave.fine-me-not.monitoring-tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FineMeNot.app/FineMeNot";
+				TEST_TARGET_NAME = FineMeNot;
+			};
+			name = Debug;
+		};
+		32AE9D281EB831C8CD69CE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.dustwave.fine-me-not.monitoring-tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FineMeNot.app/FineMeNot";
+				TEST_TARGET_NAME = FineMeNot;
+			};
+			name = Release;
+		};
 		3A24CDF09C8DB844362B2989 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CAMERA_DATABASE_URL = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -372,7 +469,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -392,7 +489,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -463,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CAMERA_DATABASE_URL = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -493,7 +591,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PWT3Q52LZ2;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -507,7 +605,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,6 +624,15 @@
 			buildConfigurations = (
 				3A24CDF09C8DB844362B2989 /* Debug */,
 				DEF3D73FDD1B045B4F36133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		705DB2B3FB69853EDF2987E3 /* Build configuration list for PBXNativeTarget "MonitoringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACACDB43E1E2CD773ED58E4 /* Debug */,
+				32AE9D281EB831C8CD69CE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

@@ -37,6 +37,8 @@ public enum MatchReason: String, Sendable {
     case oppositeDirection = "Camera monitors another direction"
     case behind = "Camera is behind the direction of travel"
     case approachUnconfirmed = "Waiting for approach or direction evidence"
+    case outsideRoad = "Position matches a different road"
+    case ambiguousRoad = "Waiting for a reliable road match"
     case cooldown = "Already warned on this approach"
     case expired = "Camera record has expired"
     case belowSpeedLimit = "Quiet: reliably below the camera's posted speed limit"
@@ -55,6 +57,7 @@ public struct MatchDiagnostic: Sendable {
 public struct AlertEngine: Sendable {
     public private(set) var encounters: [String: Encounter]
     private var previous: LocationFix?
+    private var roadHistory: [LocationFix] = []
     private var lastMovingAt: Date?
     private var motionAnchor: LocationFix?
     private var derivedMotion: (speed: Double, bearing: Double, at: Date)?
@@ -71,7 +74,12 @@ public struct AlertEngine: Sendable {
             diagnostic = MatchDiagnostic(reason: .outOfOrder, cameraLabel: nil, distance: nil, speed: nil, course: nil)
             return []
         }
-        defer { previous = fix }
+        defer {
+            previous = fix
+            roadHistory = Array((roadHistory + [fix]).filter {
+                fix.timestamp.timeIntervalSince($0.timestamp) <= 10
+            }.suffix(16))
+        }
         let motion = travelMotion(for: fix)
         if let speed = motion.speed, speed >= 2.5 { lastMovingAt = now }
         let moving = lastMovingAt.map { now.timeIntervalSince($0) < 120 } ?? false
@@ -94,10 +102,15 @@ public struct AlertEngine: Sendable {
         let course = motion.course
         var warnings: [CameraWarning] = []
         for (offset, candidate) in candidates.enumerated() {
-            let camera = candidate.camera, nearest = candidate.point, distance = candidate.distance
+            let camera = candidate.camera, nearest = candidate.point
+            var distance = candidate.distance
             var reason: MatchReason = .warning
             if let end = camera.validUntil, now >= end { reason = .expired }
             else if let encounter = encounters[camera.id], !encounter.armed { reason = .cooldown }
+            else if let zone = camera.roadZone, zone.isCurrent(at: now) {
+                let assessment = zone.assess(fix, course: course, history: roadHistory, lead: lead)
+                reason = assessment.reason; distance = assessment.distance
+            }
             else if distance > lead { reason = .tooFar }
             else if let expected = camera.travelBearing, let course,
                     Geometry.angleDifference(expected, course) > 65 { reason = .oppositeDirection }

@@ -21,10 +21,18 @@ public enum Geometry {
         return min(delta, 360 - delta)
     }
 
-    public static func nearest(to point: Coordinate, on geometry: [Coordinate]) -> Coordinate {
-        guard geometry.count > 1 else { return geometry[0] }
+    public struct Projection: Sendable {
+        public let coordinate: Coordinate
+        public let distance: Double
+        public let along: Double
+        public let bearing: Double
+    }
+
+    public static func project(_ point: Coordinate, onto geometry: [Coordinate]) -> Projection {
+        precondition(!geometry.isEmpty)
         let scale = max(0.01, cos(point.latitude * .pi / 180))
-        var nearest = geometry[0], best = Double.infinity
+        var best = Projection(coordinate: geometry[0], distance: distance(point, geometry[0]), along: 0, bearing: 0)
+        var along = 0.0
         for (a, b) in zip(geometry, geometry.dropFirst()) {
             let ax = (a.longitude - point.longitude) * scale, ay = a.latitude - point.latitude
             let bx = (b.longitude - point.longitude) * scale, by = b.latitude - point.latitude
@@ -33,9 +41,22 @@ public enum Geometry {
             let t = length2 == 0 ? 0 : min(1, max(0, -(ax * dx + ay * dy) / length2))
             let candidate = Coordinate(a.latitude + t * (b.latitude - a.latitude), a.longitude + t * (b.longitude - a.longitude))
             let d = distance(point, candidate)
-            if d < best { nearest = candidate; best = d }
+            let length = distance(a, b)
+            if d <= best.distance, length > 0 {
+                best = Projection(coordinate: candidate, distance: d, along: along + t * length,
+                                  bearing: bearing(from: a, to: b))
+            }
+            along += length
         }
-        return nearest
+        return best
+    }
+
+    public static func nearest(to point: Coordinate, on geometry: [Coordinate]) -> Coordinate {
+        project(point, onto: geometry).coordinate
+    }
+
+    public static func length(_ geometry: [Coordinate]) -> Double {
+        zip(geometry, geometry.dropFirst()).reduce(0) { $0 + distance($1.0, $1.1) }
     }
 }
 

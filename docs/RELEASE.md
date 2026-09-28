@@ -1,5 +1,52 @@
 # Release and distribution
 
+## Private stationary-power and road-zone candidate — September 27, 2026
+
+**1.0.6 (14)** is **Testing** in the existing First Drive internal TestFlight group.
+Source is [PR #7](https://github.com/aindaco1/road-notice/pull/7), app commit
+`17eac6ebf6c45f5ccae02b7d706e3f5cd24b9e67`. This is a private candidate, not an
+App Store submission or a public database deployment. At preparation time,
+App Store Connect lists the preceding 1.0.5 (13) as Ready for Distribution.
+
+Apple accepted the upload at **18:32 MDT on September 27 (00:32 UTC September
+28)**. Processing completed, the build-specific phone checklist was saved, and
+First Drive was assigned with its existing one tester. A refreshed TestFlight
+record verifies **Build 14 Internal · Testing · First Drive · 1 invite**.
+No tester roles or access changed. Apple build ID:
+`73a1a59c-ff56-4757-925d-893cc70b4a06`. Physical installation remains unverified.
+
+The Xcode 27 signed archive passes signature and release bundle checks with the
+existing iOS 17 minimum, 2,701 cameras, and 54 reviewed road zones. It contains no
+test bundles. Its matching dSYM is retained in
+`~/Library/Developer/Xcode/Archives/2026-09-27/RoadNotice-1.0.6-14-private.xcarchive`.
+The bundled snapshot is `2026-09-21-dc315dfa720e-79004776`, SHA-256
+`0b8937317ddb88f8b52446cc12164d33492ad63afce027757fd3a5a56f2cfebe`.
+
+[Hosted source checks](https://github.com/aindaco1/road-notice/actions/runs/36361637837)
+pass: 40 Swift core tests, 72 pipeline tests, the support-package check and app
+build. [Final runtime CI](https://github.com/aindaco1/road-notice/actions/runs/36361637870)
+passes all ten app-hosted tests on iOS 17.5, 18.5 and 26.5, the iOS 17.5/26.5
+background approach replays, and iOS 18.5 foreground settings/audio. The ten
+tests include the nine wake contracts and private database-channel isolation.
+Earlier attempts and the simulator's physical limits are recorded in
+[TESTING.md](TESTING.md). The exported IPA is 2,479,791 bytes; this is not Apple's
+processed download size. The export enables `testFlightInternalTestingOnly`, which makes this
+binary ineligible for external TestFlight or App Store distribution.
+
+Physical installation, overnight locked departure, Low Power Mode, battery use,
+and Coors/Alameda/I-40 road checks remain open. This private archive pins
+`CAMERA_DATABASE_URL` to the immutable candidate directory at
+`https://raw.githubusercontent.com/aindaco1/road-notice/231a1ad9cef6a3bb2cc08ab65de99a48b8dd3af6/Data/Published/`.
+It uses the normal downloader and checksum validation, but a weekly public update
+cannot remove the candidate zones during a field test. Normal builds leave this
+setting empty and use the existing public feed. The bundle checker requires an
+explicit `--database-url` for a custom channel, preventing an accidental candidate
+channel in a standard release. Road zones still expire according to source age;
+this test build does not freeze the clock or relax expiry validation.
+Local archive, CI, upload and test-instruction evidence is in `work/release14/`.
+
+## Earlier release records
+
 **September 25, 2026:** **Road Notice 1.0.4 is available free on the
 [U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105)** for
 iPhone running iOS 17 or later. Automatic release after approval published the

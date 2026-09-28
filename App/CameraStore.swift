@@ -3,8 +3,16 @@ import Observation
 import CryptoKit
 import CameraCore
 
+@MainActor
+protocol MonitoringCameraStore: AnyObject {
+    var snapshot: CameraSnapshot? { get }
+    var index: CameraIndex { get }
+    var isDue: Bool { get }
+    func refresh(force: Bool) async -> Bool
+}
+
 @MainActor @Observable
-final class CameraStore {
+final class CameraStore: MonitoringCameraStore {
     private(set) var snapshot: CameraSnapshot?
     private(set) var index = CameraIndex(cameras: [])
     private(set) var isUpdating = false
@@ -15,12 +23,18 @@ final class CameraStore {
     private let defaults: UserDefaults
     private let directory: URL
     private let session: URLSession
-    private let baseURL = AppLinks.database
+    private let baseURL: URL
     private var lastAttempt: Date?
 
-    init(defaults: UserDefaults = .standard) {
+    init(defaults: UserDefaults = .standard, baseURL: URL = AppLinks.database,
+         supportDirectory: URL = .applicationSupportDirectory) {
         self.defaults = defaults
-        directory = URL.applicationSupportDirectory.appending(path: "FineMeNot", directoryHint: .isDirectory)
+        self.baseURL = baseURL
+        // A newer saved public snapshot must not replace a private candidate's
+        // reviewed inputs. Keep the public cache path for normal upgrades.
+        let channel = SHA256.hash(data: Data(baseURL.absoluteString.utf8)).map { String(format: "%02x", $0) }.joined()
+        let cache = baseURL == AppLinks.publicDatabase ? "FineMeNot" : "FineMeNot-\(channel.prefix(12))"
+        directory = supportDirectory.appending(path: cache, directoryHint: .isDirectory)
         let config = URLSessionConfiguration.ephemeral
         config.timeoutIntervalForRequest = 20
         config.timeoutIntervalForResource = 45

@@ -2474,16 +2474,9 @@
       "lat": 33.292122,
       "lon": -111.6348329,
       "tags": {
-        "highway": "speed_camera"
-      },
-      "type": "node"
-    },
-    {
-      "id": 7940362153,
-      "lat": 33.2924142,
-      "lon": -111.6351045,
-      "tags": {
-        "highway": "speed_camera"
+        "direction": "340",
+        "highway": "speed_camera",
+        "owner": "City of Mesa"
       },
       "type": "node"
     },
@@ -11864,6 +11857,17 @@
       "type": "node"
     },
     {
+      "id": 13641431419,
+      "lat": 38.9943161,
+      "lon": -76.9323407,
+      "tags": {
+        "direction": "15",
+        "highway": "speed_camera",
+        "maxspeed": "25 mph"
+      },
+      "type": "node"
+    },
+    {
       "id": 13648192319,
       "lat": 39.682028,
       "lon": -75.7602445,
@@ -12631,6 +12635,18 @@
       "lat": 40.8823519,
       "lon": -73.9086149,
       "tags": {
+        "highway": "speed_camera"
+      },
+      "type": "node"
+    },
+    {
+      "id": 13769406701,
+      "lat": 47.2484143,
+      "lon": -122.315257,
+      "tags": {
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "233",
         "highway": "speed_camera"
       },
       "type": "node"
@@ -14723,6 +14739,7 @@
         "direction": "330",
         "highway": "speed_camera",
         "maxspeed": "46 mph",
+        "operator": "City of Tempe",
         "surveillance": "red_light",
         "surveillance:zone": "traffic",
         "website": "https://www.tempe.gov/government/police/traffic-section/photo-enforcement"
@@ -14738,6 +14755,7 @@
         "direction": "240",
         "highway": "speed_camera",
         "maxspeed": "51 mph",
+        "operator": "City of Tempe",
         "surveillance": "red_light",
         "surveillance:zone": "traffic",
         "website": "https://www.tempe.gov/government/police/traffic-section/photo-enforcement"
@@ -14824,13 +14842,83 @@
         "highway": "speed_camera"
       },
       "type": "node"
+    },
+    {
+      "id": 14253944642,
+      "lat": 33.3926245,
+      "lon": -111.9394311,
+      "tags": {
+        "description": "Red Light & Speed Camera",
+        "direction": "330",
+        "highway": "speed_camera",
+        "maxspeed": "51 mph",
+        "operator": "City of Tempe",
+        "surveillance": "red_light",
+        "surveillance:zone": "traffic",
+        "website": "https://www.tempe.gov/government/police/traffic-section/photo-enforcement"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14253944643,
+      "lat": 33.4073608,
+      "lon": -111.909506,
+      "tags": {
+        "description": "Red Light & Speed Camera",
+        "direction": "60",
+        "highway": "speed_camera",
+        "maxspeed": "56 mph",
+        "operator": "City of Tempe",
+        "surveillance": "red_light",
+        "surveillance:zone": "traffic",
+        "website": "https://www.tempe.gov/government/police/traffic-section/photo-enforcement"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14253944644,
+      "lat": 33.4221232,
+      "lon": -111.9087318,
+      "tags": {
+        "description": "Red Light & Speed Camera",
+        "direction": "240",
+        "highway": "speed_camera",
+        "maxspeed": "51 mph",
+        "operator": "City of Tempe",
+        "surveillance": "red_light",
+        "surveillance:zone": "traffic",
+        "website": "https://www.tempe.gov/government/police/traffic-section/photo-enforcement"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14256729590,
+      "lat": 38.392327,
+      "lon": -76.6458799,
+      "tags": {
+        "direction": "270",
+        "highway": "speed_camera",
+        "maxspeed": "55 mph"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14271507166,
+      "lat": 39.0007025,
+      "lon": -76.9417426,
+      "tags": {
+        "direction": "90;270",
+        "highway": "speed_camera",
+        "maxspeed": "40 mph"
+      },
+      "type": "node"
     }
   ],
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-10-05T08:43:31Z",
-    "timestamp_osm_base": "2026-10-05T10:14:35Z"
+    "timestamp_areas_base": "2026-10-12T08:12:19Z",
+    "timestamp_osm_base": "2026-10-12T10:32:46Z"
   },
   "version": 0.6
 }

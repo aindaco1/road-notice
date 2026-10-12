@@ -1,28 +1,28 @@
 {
-  "agencyAndPageChecksAt": "2026-10-05T10:17:08Z",
-  "completedAt": "2026-10-05T10:40:46Z",
+  "agencyAndPageChecksAt": "2026-10-12T10:35:02Z",
+  "completedAt": "2026-10-12T10:56:50Z",
   "osmFetches": [
     {
-      "checkedAt": "2026-10-05T10:16:36Z",
+      "checkedAt": "2026-10-12T10:34:43Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-05T10:16:53Z",
+      "checkedAt": "2026-10-12T10:35:01Z",
       "source": "enforcement",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-05T10:17:08Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "source": "aliases",
-      "status": "downloaded"
+      "status": "retained"
     }
   ],
   "overture": {
-    "checkedAt": "2026-10-05T10:36:38Z",
-    "completeRegions": 129,
+    "checkedAt": "2026-10-12T10:52:58Z",
+    "completeRegions": 130,
     "error": "34 regions unavailable, retained or deferred; see regional results",
-    "records": 26175,
+    "records": 26226,
     "regions": [
       {
         "id": "79dd4274b9005814",
@@ -65,10 +65,10 @@
         ]
       },
       {
-        "id": "1d02cfff5c5e24a6",
+        "id": "01a495300f529f63",
         "queryPoints": 205,
         "records": 3761,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           77,
           -155
@@ -108,7 +108,7 @@
         "id": "375c25ef95c35591",
         "queryPoints": 86,
         "records": 1496,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           78,
           -154
@@ -125,10 +125,10 @@
         ]
       },
       {
-        "id": "919fdc10a3ce537e",
-        "queryPoints": 59,
-        "records": 814,
-        "status": "cached",
+        "id": "98978dfe594a4a12",
+        "queryPoints": 60,
+        "records": 838,
+        "status": "downloaded",
         "tile": [
           78,
           -155
@@ -165,6 +165,16 @@
         ]
       },
       {
+        "id": "b74e1b3e8913160d",
+        "queryPoints": 28,
+        "records": 275,
+        "status": "downloaded",
+        "tile": [
+          94,
+          -245
+        ]
+      },
+      {
         "id": "ba0820ff195b62fd",
         "queryPoints": 25,
         "records": 189,
@@ -172,16 +182,6 @@
         "tile": [
           90,
           -246
-        ]
-      },
-      {
-        "id": "e9446c2c1bee4030",
-        "queryPoints": 24,
-        "records": 250,
-        "status": "cached",
-        "tile": [
-          94,
-          -245
         ]
       },
       {
@@ -685,10 +685,10 @@
         ]
       },
       {
-        "id": "d202745fec64924a",
+        "id": "d79b56721e1fbd1e",
         "queryPoints": 3,
         "records": 41,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           73,
           -244
@@ -1375,6 +1375,16 @@
         ]
       },
       {
+        "id": "8f4c876386836df9",
+        "queryPoints": 1,
+        "records": 2,
+        "status": "downloaded",
+        "tile": [
+          76,
+          -154
+        ]
+      },
+      {
         "id": "17d227959778b27a",
         "queryPoints": 1,
         "records": 15,
@@ -1528,7 +1538,7 @@
         "id": "1fe1f392db2fc616",
         "queryPoints": 1,
         "records": 7,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           83,
           -181
@@ -1538,7 +1548,7 @@
         "id": "27f64b1981a62e28",
         "queryPoints": 1,
         "records": 14,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           83,
           -164
@@ -1548,7 +1558,7 @@
         "id": "e0ec0171e3f523c6",
         "queryPoints": 1,
         "records": 3,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           84,
           -193
@@ -1558,7 +1568,7 @@
         "id": "504433b31aa90d22",
         "queryPoints": 1,
         "records": 7,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           86,
           -157
@@ -1568,7 +1578,7 @@
         "id": "a371231d30e3c99e",
         "queryPoints": 1,
         "records": 1,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           86,
           -142
@@ -1578,7 +1588,7 @@
         "id": "ed52ec358212a1d9",
         "queryPoints": 1,
         "records": 1,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           87,
           -222
@@ -1588,7 +1598,7 @@
         "id": "26184fa366d57cd8",
         "queryPoints": 1,
         "records": 13,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           87,
           -189
@@ -1598,7 +1608,7 @@
         "id": "37b355d371698aa4",
         "queryPoints": 1,
         "records": 11,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           87,
           -146
@@ -1608,7 +1618,7 @@
         "id": "eae5549c3a63cccf",
         "queryPoints": 1,
         "records": 1,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           89,
           -145
@@ -1618,7 +1628,7 @@
         "id": "f82f3a2549f3701c",
         "queryPoints": 1,
         "records": 5,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           91,
           -178
@@ -1628,7 +1638,7 @@
         "id": "39499691e7c236c1",
         "queryPoints": 1,
         "records": 1,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           93,
           -249
@@ -1638,7 +1648,7 @@
         "id": "a6ae28d1db0e30b7",
         "queryPoints": 1,
         "records": 22,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           95,
           -235
@@ -1648,7 +1658,7 @@
         "id": "06084089720f0b1e",
         "queryPoints": 1,
         "records": 22,
-        "status": "downloaded",
+        "status": "cached",
         "tile": [
           96,
           -246
@@ -1658,7 +1668,7 @@
     "release": "2026-09-23.1",
     "source": "overture",
     "status": "partial",
-    "totalRegions": 163
+    "totalRegions": 164
   },
   "reviewRequired": [
     "bernco",
@@ -1671,6 +1681,7 @@
     "michigan",
     "minneapolis",
     "hillsborough",
+    "denver",
     "iihs-speed",
     "iihs-red",
     "prince-georges-red",
@@ -1679,5 +1690,5 @@
     "cdot-program",
     "nyc-datafeeds"
   ],
-  "speedLimitChecksAt": "2026-10-05T10:17:27Z"
+  "speedLimitChecksAt": "2026-10-12T10:35:16Z"
 }

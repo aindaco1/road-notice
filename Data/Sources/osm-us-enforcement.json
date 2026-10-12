@@ -2075,23 +2075,6 @@
       "type": "node"
     },
     {
-      "id": 13131188351,
-      "lat": 39.4231436,
-      "lon": -77.4114788,
-      "tags": {
-        "camera:direction": "230",
-        "camera:type": "fixed",
-        "check_date": "2026-09-15",
-        "enforcement": "traffic_signals",
-        "man_made": "surveillance",
-        "manufacturer": "Verra Mobility",
-        "operator": "The City of Frederick",
-        "surveillance:type": "camera",
-        "surveillance:zone": "traffic"
-      },
-      "type": "node"
-    },
-    {
       "id": 13186974189,
       "lat": 41.7520924,
       "lon": -87.9444284,
@@ -2618,62 +2601,6 @@
         "man_made": "surveillance",
         "surveillance": "traffic_signals",
         "surveillance:type": "ALPR",
-        "surveillance:zone": "traffic"
-      },
-      "type": "node"
-    },
-    {
-      "id": 14144711404,
-      "lat": 39.4076041,
-      "lon": -77.3886325,
-      "tags": {
-        "camera:mount": "pole",
-        "camera:type": "fixed",
-        "direction": "100",
-        "enforcement": "traffic_signals",
-        "man_made": "surveillance",
-        "surveillance": "public",
-        "surveillance:type": "camera",
-        "surveillance:zone": "traffic"
-      },
-      "type": "node"
-    },
-    {
-      "id": 14152341948,
-      "lat": 39.4097368,
-      "lon": -77.4059123,
-      "tags": {
-        "enforcement": "traffic_signals",
-        "man_made": "surveillance",
-        "surveillance:type": "camera",
-        "surveillance:zone": "traffic"
-      },
-      "type": "node"
-    },
-    {
-      "id": 14157697255,
-      "lat": 39.407374,
-      "lon": -77.3877626,
-      "tags": {
-        "camera:mount": "pole",
-        "camera:type": "fixed",
-        "direction": "280",
-        "enforcement": "traffic_signals",
-        "man_made": "surveillance",
-        "surveillance": "public",
-        "surveillance:type": "camera",
-        "surveillance:zone": "traffic"
-      },
-      "type": "node"
-    },
-    {
-      "id": 14183659850,
-      "lat": 39.4104475,
-      "lon": -77.4062068,
-      "tags": {
-        "enforcement": "traffic_signals",
-        "man_made": "surveillance",
-        "surveillance:type": "camera",
         "surveillance:zone": "traffic"
       },
       "type": "node"
@@ -25595,8 +25522,8 @@
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-10-05T08:02:35Z",
-    "timestamp_osm_base": "2026-10-05T10:14:35Z"
+    "timestamp_areas_base": "2026-10-12T08:37:46Z",
+    "timestamp_osm_base": "2026-10-12T10:32:46Z"
   },
   "version": 0.6
 }

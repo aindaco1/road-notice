@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:59:38Z",
+  "generatedAt": "2026-10-12T10:56:50Z",
   "items": [
     {
       "lastGoodAt": null,
@@ -91,6 +91,14 @@
       "lastGoodAt": null,
       "reason": "Source page changed",
       "removed": [],
+      "source": "denver",
+      "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Police-Department/Traffic-Enforcement-and-Safety/Photo-Radar-Enforcement"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
       "source": "iihs-speed",
       "url": "https://www.iihs.org/research-areas/speed/speed-camera-communities"
     },
@@ -120,8 +128,8 @@
     },
     {
       "added": [],
-      "lastGoodAt": null,
-      "reason": "Source page changed",
+      "lastGoodAt": "2026-10-05T10:17:08Z",
+      "reason": "HTTP Error 403: Forbidden",
       "removed": [],
       "source": "wheat-ridge",
       "url": "https://www.wheatridge.gov/222/Crash-and-Traffic-Team"
@@ -410,7 +418,7 @@
     },
     {
       "id": "agency-chicago-speed-chi142-0",
-      "label": "9618 S. Ewing · NB",
+      "label": "9618 S. Ewing Ave · NB",
       "nearby": [
         {
           "id": "osm-node-7519912070",
@@ -421,7 +429,7 @@
     },
     {
       "id": "agency-chicago-speed-chi142-180",
-      "label": "9618 S. Ewing · SB",
+      "label": "9618 S. Ewing Ave · SB",
       "nearby": [
         {
           "id": "osm-node-7519912070",
@@ -1965,17 +1973,6 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
-      "id": "agency-dc-ate-0817",
-      "label": "S Capitol St SW/B @ MLK Jr Ave SE",
-      "nearby": [
-        {
-          "id": "osm-node-12580454694",
-          "meters": 11.2
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
       "id": "agency-dc-ate-0818",
       "label": "Massachusetts Ave e/b @ 9th St NW",
       "nearby": [
@@ -2108,6 +2105,17 @@
         {
           "id": "osm-node-12580479020",
           "meters": 64.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0886",
+      "label": "Unit blk H St NW e/b",
+      "nearby": [
+        {
+          "id": "osm-node-12578283043",
+          "meters": 35.8
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -2560,73 +2568,13 @@
       "source": "chicago-school-park-policy"
     },
     {
-      "lastGoodAt": "2026-09-28T09:39:22Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1485-810"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:39:40Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1483-811"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:39:44Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1483-812"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:39:46Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1482-811"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:39:52Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1480-811"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:40:04Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1480-814"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:40:25Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1479-817"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:40:31Z",
-      "reason": "HTTP Error 500: Server Error",
-      "source": "nyc-roads--1478-813"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:40:38Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1478-814"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:40:54Z",
-      "reason": "HTTP Error 500: Server Error",
-      "source": "nyc-roads--1477-814"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:40:57Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1477-816"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:41:02Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1476-813"
-    },
-    {
       "lastGoodAt": "2026-09-28T09:38:45Z",
-      "reason": "HTTP Error 504: Gateway Time-out",
+      "reason": "HTTP Error 504: Gateway Timeout",
       "source": "osm-roads-b00739b47142"
     },
     {
       "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
+      "reason": "The read operation timed out",
       "source": "osm-roads-a99a21a912a2"
     },
     {
@@ -2635,105 +2583,75 @@
       "source": "osm-roads-5f0006db1e33"
     },
     {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-04630dd7e1a6"
-    },
-    {
       "lastGoodAt": "2026-09-28T09:43:06Z",
-      "reason": "The read operation timed out",
+      "reason": "HTTP Error 504: Gateway Timeout",
       "source": "osm-roads-2ddc6a1b7a3a"
     },
     {
       "lastGoodAt": "2026-09-28T09:44:32Z",
-      "reason": "Run acquisition time budget reached",
+      "reason": "HTTP Error 504: Gateway Time-out",
       "source": "osm-roads-d86a748ada93"
     },
     {
       "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-6e2bace93b57"
+      "reason": "HTTP Error 504: Gateway Timeout",
+      "source": "osm-roads-1cf7496bb0a3"
     },
     {
-      "lastGoodAt": "2026-09-28T09:46:50Z",
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-041094a11eba"
+      "lastGoodAt": null,
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-dc5ce8c344b3"
     },
     {
-      "lastGoodAt": "2026-09-28T09:46:50Z",
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-49558e8c0c71"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:47:56Z",
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-1263aa94d82c"
+      "lastGoodAt": null,
+      "reason": "The read operation timed out",
+      "source": "osm-roads-6fbb799dd03b"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-0b0a628102fb"
+      "source": "osm-roads-4453fbac0cbd"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-38733e4a312e"
+      "source": "osm-roads-e59feffe4086"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-c1c29bfe2f15"
+      "source": "osm-roads-c685b2e9b55f"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-756cbaf85b3a"
+      "source": "osm-roads-8db97b5f4d5e"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-d4a05d4df9b3"
+      "source": "osm-roads-5d165fe27f54"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-39c6e25f7536"
+      "source": "osm-roads-ba691c63a941"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-08280438fa6a"
+      "source": "osm-roads-3e18bee6203e"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-35cb6bcf3fd9"
+      "source": "osm-roads-41f78a61bd24"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-737b9142063e"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-362b357ca0da"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-df850cd0bd36"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-69a5bc24c87d"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-b78a8b6da55b"
+      "source": "osm-roads-f0edc7f9cace"
     }
   ],
-  "reviewCount": 267
+  "reviewCount": 250
 }

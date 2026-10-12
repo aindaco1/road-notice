@@ -1,8 +1,8 @@
 # Weekly camera maintenance
 
-Generated 2026-10-05T12:59:38Z
+Generated 2026-10-12T10:56:50Z
 
-47 registered sources checked; 2 evidence-based identity matches; 267 unresolved findings.
+47 registered sources checked; 2 evidence-based identity matches; 250 unresolved findings.
 
 New unambiguous agency records and validated coordinate estimates are staged automatically. Ambiguous identities, source removals, changed page layouts, and failed checks retain previous coverage and remain in this queue until reviewed.
 
@@ -19,11 +19,12 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | michigan | HTTP Error 403: Forbidden |
 | minneapolis | HTTP Error 403: Forbidden |
 | hillsborough | Source page changed |
+| denver | Source page changed |
 | iihs-speed | Source page changed |
 | iihs-red | Source page changed |
 | prince-georges-red | HTTP Error 403: Forbidden |
 | snellville | Source page changed |
-| wheat-ridge | Source page changed |
+| wheat-ridge | HTTP Error 403: Forbidden |
 | cdot-program | Source page changed |
 | nyc-datafeeds | HTTP Error 403: Forbidden |
 | agency-chicago-speed-chi003-270 | Nearby accepted record; identity/approach review required |
@@ -176,7 +177,6 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-dc-ate-0813 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0815 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0816 | Nearby accepted record; identity/approach review required |
-| agency-dc-ate-0817 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0818 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0821 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0822 | Nearby accepted record; identity/approach review required |
@@ -188,6 +188,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-dc-ate-0847 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0852 | Nearby accepted record; identity/approach review required |
 | agency-dc-ate-0860 | Nearby accepted record; identity/approach review required |
+| agency-dc-ate-0886 | Nearby accepted record; identity/approach review required |
 | agency-seattle-se59 | Nearby accepted record; identity/approach review required |
 | agency-seattle-se69 | Nearby accepted record; identity/approach review required |
 | agency-seattle-se76 | Nearby accepted record; identity/approach review required |
@@ -240,41 +241,23 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb | Nearby accepted record; identity/approach review required |
 | osm-node-13261832160 | New OSM record overlaps accepted agency data; review identity |
 | chicago-school-park-policy | HTTP Error 403: Forbidden |
-| nyc-roads--1485-810 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1483-811 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1483-812 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1482-811 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1480-811 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1480-814 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1479-817 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1478-813 | HTTP Error 500: Server Error |
-| nyc-roads--1478-814 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1477-814 | HTTP Error 500: Server Error |
-| nyc-roads--1477-816 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1476-813 | HTTP Error 503: Service Unavailable |
-| osm-roads-b00739b47142 | HTTP Error 504: Gateway Time-out |
-| osm-roads-a99a21a912a2 | HTTP Error 504: Gateway Time-out |
+| osm-roads-b00739b47142 | HTTP Error 504: Gateway Timeout |
+| osm-roads-a99a21a912a2 | The read operation timed out |
 | osm-roads-5f0006db1e33 | HTTP Error 504: Gateway Time-out |
-| osm-roads-04630dd7e1a6 | HTTP Error 504: Gateway Time-out |
-| osm-roads-2ddc6a1b7a3a | The read operation timed out |
-| osm-roads-d86a748ada93 | Run acquisition time budget reached |
-| osm-roads-6e2bace93b57 | Run acquisition time budget reached |
-| osm-roads-041094a11eba | Run acquisition time budget reached |
-| osm-roads-49558e8c0c71 | Run acquisition time budget reached |
-| osm-roads-1263aa94d82c | Run acquisition time budget reached |
-| osm-roads-0b0a628102fb | Run acquisition time budget reached |
-| osm-roads-38733e4a312e | Run acquisition time budget reached |
-| osm-roads-c1c29bfe2f15 | Run acquisition time budget reached |
-| osm-roads-756cbaf85b3a | Run acquisition time budget reached |
-| osm-roads-d4a05d4df9b3 | Run acquisition time budget reached |
-| osm-roads-39c6e25f7536 | Run acquisition time budget reached |
-| osm-roads-08280438fa6a | Run acquisition time budget reached |
-| osm-roads-35cb6bcf3fd9 | Run acquisition time budget reached |
-| osm-roads-737b9142063e | Run acquisition time budget reached |
-| osm-roads-362b357ca0da | Run acquisition time budget reached |
-| osm-roads-df850cd0bd36 | Run acquisition time budget reached |
-| osm-roads-69a5bc24c87d | Run acquisition time budget reached |
-| osm-roads-b78a8b6da55b | Run acquisition time budget reached |
+| osm-roads-2ddc6a1b7a3a | HTTP Error 504: Gateway Timeout |
+| osm-roads-d86a748ada93 | HTTP Error 504: Gateway Time-out |
+| osm-roads-1cf7496bb0a3 | HTTP Error 504: Gateway Timeout |
+| osm-roads-dc5ce8c344b3 | HTTP Error 504: Gateway Time-out |
+| osm-roads-6fbb799dd03b | The read operation timed out |
+| osm-roads-4453fbac0cbd | Run acquisition time budget reached |
+| osm-roads-e59feffe4086 | Run acquisition time budget reached |
+| osm-roads-c685b2e9b55f | Run acquisition time budget reached |
+| osm-roads-8db97b5f4d5e | Run acquisition time budget reached |
+| osm-roads-5d165fe27f54 | Run acquisition time budget reached |
+| osm-roads-ba691c63a941 | Run acquisition time budget reached |
+| osm-roads-3e18bee6203e | Run acquisition time budget reached |
+| osm-roads-41f78a61bd24 | Run acquisition time budget reached |
+| osm-roads-f0edc7f9cace | Run acquisition time budget reached |
 
 Full added/removed facts, nearby candidates, and evidence are in maintenance.json and the source-specific reports.
 

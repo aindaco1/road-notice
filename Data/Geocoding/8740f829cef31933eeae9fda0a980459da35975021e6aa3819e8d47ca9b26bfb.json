@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-05T10:17:08Z",
+  "checkedAt": "2026-10-12T10:35:02Z",
   "error": "Census changed the requested street/state; needs review",
   "query": {
     "city": "Philadelphia",

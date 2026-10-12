@@ -1,5 +1,5 @@
 {
-  "acceptedAgencyRecords": 924,
+  "acceptedAgencyRecords": 923,
   "automaticMatches": [
     {
       "id": "osm-node-11412742529",
@@ -12,7 +12,7 @@
       "targetID": "osm-node-13726188373"
     }
   ],
-  "checkedAt": "2026-10-05T12:59:20Z",
+  "checkedAt": "2026-10-12T10:56:46Z",
   "review": [
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -282,7 +282,7 @@
     },
     {
       "id": "agency-chicago-speed-chi142-0",
-      "label": "9618 S. Ewing · NB",
+      "label": "9618 S. Ewing Ave · NB",
       "nearby": [
         {
           "id": "osm-node-7519912070",
@@ -293,7 +293,7 @@
     },
     {
       "id": "agency-chicago-speed-chi142-180",
-      "label": "9618 S. Ewing · SB",
+      "label": "9618 S. Ewing Ave · SB",
       "nearby": [
         {
           "id": "osm-node-7519912070",
@@ -1837,17 +1837,6 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
-      "id": "agency-dc-ate-0817",
-      "label": "S Capitol St SW/B @ MLK Jr Ave SE",
-      "nearby": [
-        {
-          "id": "osm-node-12580454694",
-          "meters": 11.2
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
       "id": "agency-dc-ate-0818",
       "label": "Massachusetts Ave e/b @ 9th St NW",
       "nearby": [
@@ -1980,6 +1969,17 @@
         {
           "id": "osm-node-12580479020",
           "meters": 64.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0886",
+      "label": "Unit blk H St NW e/b",
+      "nearby": [
+        {
+          "id": "osm-node-12578283043",
+          "meters": 35.8
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"

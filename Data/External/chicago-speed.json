@@ -3398,11 +3398,11 @@
       ],
       "id": "agency-chicago-speed-chi142-0",
       "kind": "speed",
-      "label": "9618 S. Ewing · NB",
-      "locationKey": "9618 S. Ewing",
+      "label": "9618 S. Ewing Ave · NB",
+      "locationKey": "9618 S. Ewing Ave",
       "positionPrecision": "agency-published-point",
       "roadNames": [
-        "S. Ewing"
+        "S. Ewing Ave"
       ],
       "siteID": "agency-chicago-speed-chi142-0",
       "sourceIDs": [
@@ -3420,11 +3420,11 @@
       ],
       "id": "agency-chicago-speed-chi142-180",
       "kind": "speed",
-      "label": "9618 S. Ewing · SB",
-      "locationKey": "9618 S. Ewing",
+      "label": "9618 S. Ewing Ave · SB",
+      "locationKey": "9618 S. Ewing Ave",
       "positionPrecision": "agency-published-point",
       "roadNames": [
-        "S. Ewing"
+        "S. Ewing Ave"
       ],
       "siteID": "agency-chicago-speed-chi142-180",
       "sourceIDs": [
@@ -7173,7 +7173,7 @@
       "travelBearing": 180
     }
   ],
-  "checkedAt": "2026-10-05T10:17:08Z",
+  "checkedAt": "2026-10-12T10:35:02Z",
   "excluded": [],
   "id": "chicago-speed",
   "rowCount": 209,

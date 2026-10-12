@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:59:20Z",
+  "generatedAt": "2026-10-12T13:51:29Z",
   "metros": [
     {
       "agencyPoints": 0,
@@ -457,7 +457,7 @@
       "withSuppressionLimit": 20
     },
     {
-      "agencyPoints": 187,
+      "agencyPoints": 188,
       "counties": [
         {
           "fips": "51013",
@@ -557,9 +557,9 @@
       "population2025": 6465724,
       "possibleAreas": 0,
       "rank": 7,
-      "speedCameraApproaches": 416,
-      "warningRecords": 512,
-      "withSuppressionLimit": 326
+      "speedCameraApproaches": 419,
+      "warningRecords": 515,
+      "withSuppressionLimit": 327
     },
     {
       "agencyPoints": 0,
@@ -660,9 +660,9 @@
       "population2025": 5228938,
       "possibleAreas": 0,
       "rank": 10,
-      "speedCameraApproaches": 33,
-      "warningRecords": 33,
-      "withSuppressionLimit": 14
+      "speedCameraApproaches": 36,
+      "warningRecords": 36,
+      "withSuppressionLimit": 17
     },
     {
       "agencyPoints": 0,
@@ -817,9 +817,9 @@
       "population2025": 4161883,
       "possibleAreas": 0,
       "rank": 15,
-      "speedCameraApproaches": 147,
-      "warningRecords": 199,
-      "withSuppressionLimit": 117
+      "speedCameraApproaches": 148,
+      "warningRecords": 200,
+      "withSuppressionLimit": 118
     },
     {
       "agencyPoints": 0,

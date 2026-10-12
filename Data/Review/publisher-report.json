@@ -1,29 +1,29 @@
 {
   "counts": {
-    "possibleSpeed": 184,
+    "possibleSpeed": 185,
     "redLight": 742,
-    "speed": 1590,
+    "speed": 1597,
     "speedAndRedLight": 195
   },
   "fetches": [
     {
-      "checkedAt": "2026-10-05T10:16:36Z",
+      "checkedAt": "2026-10-12T10:34:43Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-05T10:16:53Z",
+      "checkedAt": "2026-10-12T10:35:01Z",
       "source": "enforcement",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-05T10:17:08Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "source": "aliases",
-      "status": "downloaded"
+      "status": "retained"
     }
   ],
-  "generatedAt": "2026-10-05T12:59:20Z",
-  "records": 2711,
+  "generatedAt": "2026-10-12T13:51:29Z",
+  "records": 2719,
   "review": [
     {
       "id": "osm-relation-545916",
@@ -337,7 +337,7 @@
     },
     {
       "id": "agency-chicago-speed-chi142-0",
-      "label": "9618 S. Ewing · NB",
+      "label": "9618 S. Ewing Ave · NB",
       "nearby": [
         {
           "id": "osm-node-7519912070",
@@ -348,7 +348,7 @@
     },
     {
       "id": "agency-chicago-speed-chi142-180",
-      "label": "9618 S. Ewing · SB",
+      "label": "9618 S. Ewing Ave · SB",
       "nearby": [
         {
           "id": "osm-node-7519912070",
@@ -1892,17 +1892,6 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
-      "id": "agency-dc-ate-0817",
-      "label": "S Capitol St SW/B @ MLK Jr Ave SE",
-      "nearby": [
-        {
-          "id": "osm-node-12580454694",
-          "meters": 11.2
-        }
-      ],
-      "reason": "Nearby accepted record; identity/approach review required"
-    },
-    {
       "id": "agency-dc-ate-0818",
       "label": "Massachusetts Ave e/b @ 9th St NW",
       "nearby": [
@@ -2035,6 +2024,17 @@
         {
           "id": "osm-node-12580479020",
           "meters": 64.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0886",
+      "label": "Unit blk H St NW e/b",
+      "nearby": [
+        {
+          "id": "osm-node-12578283043",
+          "meters": 35.8
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -2744,6 +2744,21 @@
       "reason": "Missing from complete fetch; retained pending review"
     },
     {
+      "consecutiveAbsences": 0,
+      "id": "agency-dc-ate-0083",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "agency-dc-ate-0531",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-14157697255",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
       "consecutiveAbsences": 1,
       "id": "osm-node-2876763209",
       "reason": "Missing from complete fetch; retained pending review"
@@ -2751,6 +2766,11 @@
     {
       "consecutiveAbsences": 1,
       "id": "osm-node-4134798728",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-7940362153",
       "reason": "Missing from complete fetch; retained pending review"
     },
     {

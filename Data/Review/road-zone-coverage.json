@@ -1,13 +1,13 @@
 {
-  "eligible": 54,
-  "generatedAt": "2026-10-12T13:51:29Z",
+  "eligible": 24,
+  "generatedAt": "2026-10-19T11:32:07Z",
   "records": [
     {
       "id": "abq-98th-tower-central-nb",
       "label": "98th between Tower and Central · NB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 10
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "abq-broadway-iron-coal-possible-nb",
@@ -75,9 +75,9 @@
     {
       "id": "abq-cesar-chavez-walter-possible-eb",
       "label": "Avenida Cesar Chavez and Walter · EB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 19
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "abq-coal-cornell-eb",
@@ -112,14 +112,14 @@
       "label": "Coors north of St. Joseph · SB · approximate area",
       "reason": null,
       "status": "eligible",
-      "vertices": 17
+      "vertices": 12
     },
     {
       "id": "abq-ellison-black-diversion-eb",
       "label": "Ellison and Black Diversion Channel Trail crossing · EB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 25
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "abq-eubank-central-nb",
@@ -145,16 +145,16 @@
     {
       "id": "abq-gibson-carlisle-san-mateo-eb",
       "label": "Gibson between Carlisle and San Mateo · EB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 4
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "abq-gibson-carlisle-san-mateo-wb",
       "label": "Gibson between Carlisle and San Mateo · WB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 4
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "abq-juan-tabo-copper-possible-sb",
@@ -215,9 +215,9 @@
     {
       "id": "abq-paseo-barstow-wb",
       "label": "Paseo del Norte west of Barstow · WB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 7
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "abq-paseo-louisiana-wb",
@@ -243,16 +243,16 @@
     {
       "id": "abq-unser-flor-del-sol-nb",
       "label": "Unser at Flor Del Sol just north of Dellyne · NB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 6
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "abq-unser-gwin-possible-sb",
       "label": "Unser near Gwin · SB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 25
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "abq-unser-old-ouray-possible-nb",
@@ -264,9 +264,9 @@
     {
       "id": "abq-unser-tower-nb",
       "label": "Unser at Tower · NB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 14
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "abq-wyoming-academy-nb",
@@ -285,51 +285,51 @@
     {
       "id": "bernco-alameda-guadalupe-rio-grande-possible-wb",
       "label": "Alameda Pkwy (NM 528) between Rio Grande Blvd and Guadalupe Trl · WB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 13
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-arenal-isleta-tapia-possible-wb",
       "label": "Arenal Rd between Isleta Blvd and Tapia Blvd · WB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 28
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-arenal-tapia-isleta-possible-eb",
       "label": "Arenal Rd between Isleta Blvd and Tapia Blvd · EB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 34
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-bridge-old-coors-atrisco-possible-eb",
       "label": "Bridge Rd between Old Coors Dr and Atrisco Dr · EB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 20
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-bridge-old-coors-atrisco-wb",
       "label": "Bridge · Old Coors to Atrisco · WB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 11
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-coors-gun-club-rio-bravo-possible-nb",
       "label": "Coors Blvd (NM 45) between Gun Club Rd and Rio Bravo Blvd · NB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 41
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-coors-sage-tower-possible-nb",
       "label": "Coors Blvd (NM 45) between Sage Rd and Tower Rd · NB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 19
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-golf-course-congress-sutton",
@@ -341,44 +341,44 @@
     {
       "id": "bernco-isleta-los-padillas-sanchez-possible-sb",
       "label": "Isleta Blvd between Los Padillas Rd and Sanchez Rd · SB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 17
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-isleta-sanchez-los-padillas-possible-nb",
       "label": "Isleta Blvd between Los Padillas Rd and Sanchez Rd · NB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 14
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-isleta-sunbeam-brother-possible-sb",
       "label": "Isleta Blvd between Sunbeam Rd and Brother Rd · SB · approximate area",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 13
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-paradise-radcliffe-eb",
       "label": "Paradise near Radcliffe · EB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 15
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-paradise-radcliffe-wb",
       "label": "Paradise near Radcliffe · WB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 16
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "bernco-tramway-terrace-san-rafael-nb",
       "label": "Tramway between Tramway Terrace and San Rafael · NB",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 9
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "rr-deployment-13380469273",
@@ -404,9 +404,9 @@
     {
       "id": "rr-deployment-13380469276",
       "label": "Broadmoor SB @ Nicklaus · possible deployment",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 21
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "rr-deployment-13380469277",
@@ -418,16 +418,16 @@
     {
       "id": "rr-deployment-13380469278",
       "label": "Unser SB @ Paseo del Volcan · possible deployment",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 11
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "rr-deployment-13380469280",
       "label": "Unser NB @ Paseo del Volcan · possible deployment",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 9
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "rr-deployment-13380490909",
@@ -439,23 +439,23 @@
     {
       "id": "rr-deployment-13380490911",
       "label": "Unser SB @ 2nd · possible deployment",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 9
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "rr-deployment-13380490912",
       "label": "Unser NB @ 2nd · possible deployment",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 5
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "rr-deployment-13380490924",
       "label": "Broadmoor SB @ Loma Colorado · possible deployment",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 9
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "rr-deployment-13380490925",
@@ -467,16 +467,16 @@
     {
       "id": "rr-deployment-13380490952",
       "label": "King WB @ Lake Valley (Unser) · possible deployment",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 7
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "rr-deployment-13380490954",
       "label": "King EB @ Lake Valley (Unser) · possible deployment",
-      "reason": null,
-      "status": "eligible",
-      "vertices": 10
+      "reason": "No unambiguous connected approach geometry",
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "id": "rr-nm528-iris-idalia",
@@ -502,5 +502,5 @@
   ],
   "reviewed": 71,
   "scope": "Existing reviewed Albuquerque metro register",
-  "totalCameras": 2719
+  "totalCameras": 2728
 }

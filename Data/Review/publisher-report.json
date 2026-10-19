@@ -1,29 +1,29 @@
 {
   "counts": {
-    "possibleSpeed": 185,
+    "possibleSpeed": 186,
     "redLight": 742,
-    "speed": 1597,
+    "speed": 1605,
     "speedAndRedLight": 195
   },
   "fetches": [
     {
-      "checkedAt": "2026-10-12T10:34:43Z",
+      "checkedAt": "2026-10-19T08:43:25Z",
       "source": "speed",
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-12T10:35:01Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "source": "enforcement",
-      "status": "downloaded"
+      "status": "retained"
     },
     {
-      "error": "HTTP Error 504: Gateway Time-out",
+      "checkedAt": "2026-10-19T08:43:48Z",
       "source": "aliases",
-      "status": "retained"
+      "status": "downloaded"
     }
   ],
-  "generatedAt": "2026-10-12T13:51:29Z",
-  "records": 2719,
+  "generatedAt": "2026-10-19T11:32:07Z",
+  "records": 2728,
   "review": [
     {
       "id": "osm-relation-545916",
@@ -993,7 +993,7 @@
         },
         {
           "id": "osm-node-12580485629",
-          "meters": 144.9
+          "meters": 144.6
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -1012,7 +1012,7 @@
         },
         {
           "id": "osm-node-12580485629",
-          "meters": 50.1
+          "meters": 49.9
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -2040,6 +2040,17 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
+      "id": "agency-dc-ate-0889",
+      "label": "1100 blk U St NW w/b",
+      "nearby": [
+        {
+          "id": "osm-node-12580485906",
+          "meters": 49.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
       "id": "agency-seattle-se59",
       "label": "WB E Yesler Way @ Bailey Gatzert Elementary",
       "nearby": [
@@ -2750,7 +2761,97 @@
     },
     {
       "consecutiveAbsences": 0,
+      "id": "agency-dc-ate-0522",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
       "id": "agency-dc-ate-0531",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "agency-dc-ate-0580",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "agency-dc-ate-0581",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "agency-dc-ate-0585",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-13485377002",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-13936843538",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-13936843539",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-13936843540",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-13936843541",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-13936843542",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-13936843543",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-13936843544",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-13936843545",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-14018984011",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-14025273177",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-14025273179",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-14025273181",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-14025273182",
       "reason": "Missing from complete fetch; retained pending review"
     },
     {
@@ -4356,6 +4457,11 @@
     {
       "id": "agency-dc-ate-0853",
       "near": "agency-dc-ate-0602",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "agency-dc-ate-0888",
+      "near": "agency-dc-ate-0536",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
@@ -6251,6 +6357,56 @@
     {
       "id": "osm-node-14232694615",
       "near": "osm-node-14232694614",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14284335173",
+      "near": "osm-node-13670251978",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14297756396",
+      "near": "osm-node-13095149968",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14297756396",
+      "near": "osm-node-13095149969",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14297756396",
+      "near": "osm-node-13517790870",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14297874689",
+      "near": "osm-node-14297874688",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14297874690",
+      "near": "osm-node-14297874688",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14297874690",
+      "near": "osm-node-14297874689",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14297874691",
+      "near": "osm-node-14297874688",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14297874691",
+      "near": "osm-node-14297874689",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-14297874691",
+      "near": "osm-node-14297874690",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {

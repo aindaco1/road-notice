@@ -1,12 +1,12 @@
 # Source checks
 
-Checked: 2026-10-12T10:35:02Z
+Checked: 2026-10-19T08:43:48Z
 
 | Source | Status | Records | Review |
 |---|---|---:|---|
-| [Chicago speed cameras](https://data.cityofchicago.org/resource/4i42-qv3h.json) | changed | 326 | — |
+| [Chicago speed cameras](https://data.cityofchicago.org/resource/4i42-qv3h.json) | ok | 326 | — |
 | [Chicago red-light cameras](https://data.cityofchicago.org/resource/thvf-6diy.json) | ok | 300 | — |
-| [DC automated safety cameras](https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Safety_WebMercator/MapServer/43) | changed | 267 | — |
+| [DC automated safety cameras](https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Safety_WebMercator/MapServer/43) | changed | 265 | — |
 | [Seattle active safety cameras](https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Automatic_Traffic_Safety_Cameras_(ATSC)_view/FeatureServer/0) | ok | 100 | — |
 | [Arlington photo speed cameras](https://arlgis.arlingtonva.us/arcgis/rest/services/Open_Data/od_DES_Signal_PhotoSpeed_Cameras_pnt/FeatureServer/0) | ok | 31 | — |
 | [Tacoma automated enforcement](https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/AutomatedEnforcementLocations_Tacoma/FeatureServer/0) | ok | 14 | — |
@@ -20,7 +20,7 @@ Checked: 2026-10-12T10:35:02Z
 | [Los Angeles speed safety rollout](https://ladot.lacity.gov/speed-safety-system) | changed | 0 | Required |
 | [Long Beach speed safety rollout](https://longbeach.gov/pw/projects/automated-speed-enforcement-system/) | changed | 0 | Required |
 | [Culver City photo enforcement](https://www.culvercitypd.gov/Bureau-Information/Patrol-Bureau/Photo-Enforcement) | ok | 0 | — |
-| [Texas current photo enforcement reports and exceptions](https://www.txdot.gov/safety/traffic-signs-signals/red-light-cameras/annual-reports.html) | ok | 0 | — |
+| [Texas current photo enforcement reports and exceptions](https://www.txdot.gov/safety/traffic-signs-signals/red-light-cameras/annual-reports.html) | changed | 0 | Required |
 | [Gwinnett school camera locations](https://www.gwinnettcounty.com/government/departments/police/school-zone-safety) | ok | 0 | — |
 | [Miami-Dade school camera locations](https://www.miamidade.gov/global/transportation/public-works/redspeed-initiative.page) | ok | 0 | — |
 | [Boynton Beach photo enforcement](https://bbpd.org/programs/photo_enforcement.php) | ok | 0 | — |
@@ -33,7 +33,7 @@ Checked: 2026-10-12T10:35:02Z
 | [Tampa red-light program](https://www.tampa.gov/police/info/stop-on-red-tampa) | ok | 0 | — |
 | [Hillsborough red-light locations](https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras) | changed | 0 | Required |
 | [Solana Beach current red-light locations](https://www.cityofsolanabeach.ca.gov/sites/default/files/Solana%20Beach/Community%20Development/Code%20Compliance/SB%20RedLight%2C%20Pkg%202025%202%20sided%20ENG-SPN%20-%20O.pdf) | ok | 0 | — |
-| [Denver photo enforcement program](https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Police-Department/Traffic-Enforcement-and-Safety/Photo-Radar-Enforcement) | changed | 0 | Required |
+| [Denver photo enforcement program](https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Police-Department/Traffic-Enforcement-and-Safety/Photo-Radar-Enforcement) | ok | 0 | — |
 | [Orlando red-light program](https://www.orlando.gov/Parking-Transportation/Red-Light-Camera-Violations) | ok | 0 | — |
 | [Orlando red-light location map](https://gis.orlando.gov/PDF_Docs/TransportationMaps/RedLightCameras.pdf) | ok | 0 | — |
 | [US speed enforcement program discovery](https://www.iihs.org/research-areas/speed/speed-camera-communities) | changed | 0 | Required |

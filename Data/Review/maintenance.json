@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T13:51:57Z",
+  "generatedAt": "2026-10-19T09:04:29Z",
   "items": [
     {
       "lastGoodAt": null,
@@ -37,6 +37,14 @@
       "removed": [],
       "source": "long-beach",
       "url": "https://longbeach.gov/pw/projects/automated-speed-enforcement-system/"
+    },
+    {
+      "added": [],
+      "lastGoodAt": null,
+      "reason": "Source page changed",
+      "removed": [],
+      "source": "texas",
+      "url": "https://www.txdot.gov/safety/traffic-signs-signals/red-light-cameras/annual-reports.html"
     },
     {
       "added": [],
@@ -85,14 +93,6 @@
       "removed": [],
       "source": "hillsborough",
       "url": "https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras"
-    },
-    {
-      "added": [],
-      "lastGoodAt": null,
-      "reason": "Source page changed",
-      "removed": [],
-      "source": "denver",
-      "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Police-Department/Traffic-Enforcement-and-Safety/Photo-Radar-Enforcement"
     },
     {
       "added": [],
@@ -1074,7 +1074,7 @@
         },
         {
           "id": "osm-node-12580485629",
-          "meters": 144.9
+          "meters": 144.6
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -1093,7 +1093,7 @@
         },
         {
           "id": "osm-node-12580485629",
-          "meters": 50.1
+          "meters": 49.9
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -2121,6 +2121,17 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
+      "id": "agency-dc-ate-0889",
+      "label": "1100 blk U St NW w/b",
+      "nearby": [
+        {
+          "id": "osm-node-12580485906",
+          "meters": 49.1
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
       "id": "agency-seattle-se59",
       "label": "WB E Yesler Way @ Bailey Gatzert Elementary",
       "nearby": [
@@ -2568,90 +2579,110 @@
       "source": "chicago-school-park-policy"
     },
     {
-      "lastGoodAt": "2026-09-28T09:38:45Z",
-      "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-b00739b47142"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "The read operation timed out",
-      "source": "osm-roads-a99a21a912a2"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:40:07Z",
+      "lastGoodAt": "2026-10-12T10:36:48Z",
       "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-5f0006db1e33"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:43:06Z",
-      "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-2ddc6a1b7a3a"
-    },
-    {
-      "lastGoodAt": "2026-09-28T09:44:32Z",
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-d86a748ada93"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-1cf7496bb0a3"
+      "source": "osm-roads-e72ef6afce2b"
     },
     {
       "lastGoodAt": null,
       "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-dc5ce8c344b3"
+      "source": "osm-roads-8adc186d0276"
     },
     {
       "lastGoodAt": null,
-      "reason": "The read operation timed out",
-      "source": "osm-roads-6fbb799dd03b"
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-e8e869dfa041"
     },
     {
       "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-4453fbac0cbd"
+      "reason": "HTTP Error 504: Gateway Timeout",
+      "source": "osm-roads-357e74f3d36d"
     },
     {
       "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-e59feffe4086"
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-946b1357cdfd"
     },
     {
       "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-c685b2e9b55f"
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-db662f5537d6"
     },
     {
       "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-8db97b5f4d5e"
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-55d3ac3819f4"
     },
     {
       "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-5d165fe27f54"
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-e7900176800e"
     },
     {
       "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-ba691c63a941"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-3e18bee6203e"
+      "reason": "HTTP Error 504: Gateway Timeout",
+      "source": "osm-roads-9347592ec4cf"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-41f78a61bd24"
+      "source": "osm-roads-4bd679dff83a"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-f0edc7f9cace"
+      "source": "osm-roads-cdc4ac9d56c3"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-5c16ae37853a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-95efe79f54b7"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-3821904afe80"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-ecb68bc8ab84"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-0c1c35478bad"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-ef15d622356c"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-d824d47a35fd"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-623981efde35"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-8afcc879be64"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-7d451797ee77"
     }
   ],
-  "reviewCount": 250
+  "reviewCount": 255
 }

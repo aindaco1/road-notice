@@ -1,5 +1,5 @@
 {
-  "acceptedAgencyRecords": 923,
+  "acceptedAgencyRecords": 920,
   "automaticMatches": [
     {
       "id": "osm-node-11412742529",
@@ -12,7 +12,7 @@
       "targetID": "osm-node-13726188373"
     }
   ],
-  "checkedAt": "2026-10-12T13:51:29Z",
+  "checkedAt": "2026-10-19T09:04:26Z",
   "review": [
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -938,7 +938,7 @@
         },
         {
           "id": "osm-node-12580485629",
-          "meters": 144.9
+          "meters": 144.6
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -957,7 +957,7 @@
         },
         {
           "id": "osm-node-12580485629",
-          "meters": 50.1
+          "meters": 49.9
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
@@ -1980,6 +1980,17 @@
         {
           "id": "osm-node-12578283043",
           "meters": 35.8
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "agency-dc-ate-0889",
+      "label": "1100 blk U St NW w/b",
+      "nearby": [
+        {
+          "id": "osm-node-12580485906",
+          "meters": 49.1
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"

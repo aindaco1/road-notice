@@ -2476,6 +2476,7 @@
       "tags": {
         "direction": "340",
         "highway": "speed_camera",
+        "maxspeed": "45 mph",
         "owner": "City of Mesa"
       },
       "type": "node"
@@ -7419,8 +7420,8 @@
     },
     {
       "id": 12578282471,
-      "lat": 38.891821,
-      "lon": -77.0858488,
+      "lat": 38.8919298,
+      "lon": -77.0858354,
       "tags": {
         "direction": "355",
         "highway": "speed_camera"
@@ -8903,8 +8904,8 @@
     },
     {
       "id": 12580485629,
-      "lat": 38.9223457,
-      "lon": -77.0727878,
+      "lat": 38.9223453,
+      "lon": -77.0727817,
       "tags": {
         "direction": "160",
         "highway": "speed_camera"
@@ -11644,19 +11645,6 @@
       "type": "node"
     },
     {
-      "id": 13485377002,
-      "lat": 44.9538014,
-      "lon": -93.2523193,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "225",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
       "id": 13495974401,
       "lat": 37.4711761,
       "lon": -121.1409907,
@@ -13262,110 +13250,6 @@
       "type": "node"
     },
     {
-      "id": 13936843538,
-      "lat": 44.9591892,
-      "lon": -93.2525159,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "135",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 13936843539,
-      "lat": 44.9499898,
-      "lon": -93.2525872,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "45",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 13936843540,
-      "lat": 44.9572505,
-      "lon": -93.2523102,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "315",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 13936843541,
-      "lat": 44.9482678,
-      "lon": -93.2511231,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "315",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 13936843542,
-      "lat": 44.9554495,
-      "lon": -93.2523439,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "315",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 13936843543,
-      "lat": 44.9482396,
-      "lon": -93.2500628,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "45",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 13936843544,
-      "lat": 44.9484722,
-      "lon": -93.2472286,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "225",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 13936843545,
-      "lat": 44.9518744,
-      "lon": -93.2523672,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "315",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
       "id": 13937103645,
       "lat": 32.9696127,
       "lon": -96.9766272,
@@ -13588,19 +13472,6 @@
       "type": "node"
     },
     {
-      "id": 14018984011,
-      "lat": 44.9485391,
-      "lon": -93.2055414,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "135",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
       "id": 14023463065,
       "lat": 38.855395,
       "lon": -77.1003321,
@@ -13609,58 +13480,6 @@
         "highway": "speed_camera",
         "maxspeed": "30 mph",
         "maxspeed:conditional": "20 @ flashing"
-      },
-      "type": "node"
-    },
-    {
-      "id": 14025273177,
-      "lat": 44.9608179,
-      "lon": -93.2929665,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "20",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 14025273179,
-      "lat": 44.9626083,
-      "lon": -93.2881753,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "45",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 14025273181,
-      "lat": 44.962602,
-      "lon": -93.2917256,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "20",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
-      },
-      "type": "node"
-    },
-    {
-      "id": 14025273182,
-      "lat": 44.9590077,
-      "lon": -93.2943477,
-      "tags": {
-        "camera:type": "panorama_with_ptz",
-        "direction": "20",
-        "highway": "speed_camera",
-        "manufacturer": "Hanhwa Vision",
-        "model": "XNP-6550RH"
       },
       "type": "node"
     },
@@ -14912,13 +14731,100 @@
         "maxspeed": "40 mph"
       },
       "type": "node"
+    },
+    {
+      "id": 14284335173,
+      "lat": 33.0036164,
+      "lon": -96.9910438,
+      "tags": {
+        "direction": "182",
+        "highway": "speed_camera"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14285455470,
+      "lat": 39.7350261,
+      "lon": -84.1406238,
+      "tags": {
+        "camera:type": "fixed",
+        "direction": "210;338",
+        "enforcement": "maxspeed",
+        "highway": "speed_camera",
+        "maxspeed": "35 mph",
+        "maxspeed:conditional": "20 mph @ (Mo-Fr 07:30-15:15; SH off)",
+        "note": "Enforced only while school zone beacons are flashing; posted hours not stated"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14294947519,
+      "lat": 32.4425941,
+      "lon": -84.9506985,
+      "tags": {
+        "highway": "speed_camera"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14297756396,
+      "lat": 33.0035186,
+      "lon": -96.9896437,
+      "tags": {
+        "direction": "270",
+        "highway": "speed_camera",
+        "maxspeed": "50"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14297874688,
+      "lat": 33.0050099,
+      "lon": -97.0065338,
+      "tags": {
+        "direction": "180",
+        "highway": "speed_camera"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14297874689,
+      "lat": 33.0047949,
+      "lon": -97.0067297,
+      "tags": {
+        "direction": "89",
+        "highway": "speed_camera",
+        "maxspeed": "50"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14297874690,
+      "lat": 33.0048528,
+      "lon": -97.0063396,
+      "tags": {
+        "direction": "269",
+        "highway": "speed_camera",
+        "maxspeed": "50"
+      },
+      "type": "node"
+    },
+    {
+      "id": 14297874691,
+      "lat": 33.0046409,
+      "lon": -97.0064941,
+      "tags": {
+        "direction": "1",
+        "highway": "speed_camera"
+      },
+      "type": "node"
     }
   ],
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-10-12T08:12:19Z",
-    "timestamp_osm_base": "2026-10-12T10:32:46Z"
+    "timestamp_areas_base": "2026-10-19T07:06:45Z",
+    "timestamp_osm_base": "2026-10-19T08:42:01Z"
   },
   "version": 0.6
 }

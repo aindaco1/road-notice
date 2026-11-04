@@ -1,11 +1,12 @@
-# App Store listing — 1.0
+# App Store listing and submission history
 
-## 1.0.7 release copy — November 3, 2026
+## 1.0.7 release copy — November 4, 2026
 
 Quiet now stays silent at or below a usable speed limit. Road-aware approaches
 keep working when database source checks are overdue, and a brief loss of travel
 direction no longer triggers an opposing camera. Expanded road zones include
-supported red-light cameras, with longer mapped approaches. Both Coors north of
+supported red-light cameras, with 701 mapped approaches and warning lead based on sourced road and speed
+information. Both Coors north of
 St. Joseph limits have been reconfirmed at 45 mph.
 
 Setup and support now explain that Do Not Disturb and other Focus settings can
@@ -14,8 +15,9 @@ use Critical Alerts. Test warning checks the current audio connection, not futur
 background alert delivery.
 
 The public App Store listing shows 1.0.6, released October 8. The following
-listing and submission records are historical; 1.0.7 packaging and submission
-are tracked in [RELEASE.md](RELEASE.md).
+listing and submission records are historical. Apple accepted the standard
+1.0.7 (20) upload with symbols on November 4; processing and submission are
+tracked in [RELEASE.md](RELEASE.md).
 
 ## October 7 submission record
 

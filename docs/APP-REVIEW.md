@@ -1,7 +1,8 @@
 # App Review: September 22, 2026
 
-**November 3, 2026:** The public App Store listing shows 1.0.6, released October 8.
-The 1.0.7 (20) candidate keeps the existing time-sensitive notification entitlement;
+**November 4, 2026:** Apple accepted the standard 1.0.7 (20) upload with symbols.
+Processing completion and App Review submission remain pending verification.
+The build keeps the existing time-sensitive notification entitlement;
 it does not request Critical Alerts. See [release status](RELEASE.md) and the
 [alert correction record](ALERT-FIXES.md). Earlier submission statuses below are
 historical.

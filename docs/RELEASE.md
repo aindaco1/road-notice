@@ -1,16 +1,34 @@
 # Release and distribution
 
-## 1.0.7 (20) preparation — November 3, 2026
+## 1.0.7 (20) upload — November 4, 2026
 
-The public App Store listing now shows **1.0.6**, released October 8. The earlier
-submission records below are historical. This branch prepares **1.0.7 (20)**
-with the [alert corrections](ALERT-FIXES.md), refreshed camera data, Do Not
-Disturb guidance and updated website copy. Critical Alerts are not added.
+[PR #8](https://github.com/aindaco1/road-notice/pull/8) merged as `fb2ad15`.
+The [website and camera deployment](https://github.com/aindaco1/road-notice/actions/runs/41790954702)
+succeeded. Both public feeds pass canonical HTTPS, immutable snapshot, digest,
+record-count and coverage checks. The current database has **2,728 cameras and
+701 road zones**; the website includes the current Quiet, persistent-zone and
+Do Not Disturb guidance.
 
-The website describes the new release without an “upcoming” label at the owner's
-request. That wording does not establish an App Store upload, submission or
-production website deployment. Those actions have not been performed for this
-candidate. The normal release archive must retain the public `/data/v2/` channel.
+The signed **1.0.7 (20)** archive was built from `55e3459` with Xcode 27.2,
+retaining the project minimum **iOS 17.0** and public `/data/v2/` channel.
+Apple accepted its standard App Store Connect upload with symbols at
+**00:26:41 MST (07:26:41 UTC)** and began processing it. This is not an
+internal-only TestFlight build. Processing completion and App Review submission
+remain pending verification.
+
+Release-bundle and signature checks pass. The app and dSYM share UUID
+`0C649BD3-F8F3-34A7-852A-4EF9B68B7521`. Bundled snapshot
+`2026-11-02-849ee6ac8b27-d0ef599a` exactly matches the live modern feed, with
+SHA-256 `bca51a4fd9045fbd8c649d269d517d94f68774c6dbc783c579f5525fb62398df`.
+The complete archive is retained at
+`~/Library/Developer/Xcode/Archives/2026-11-04/RoadNotice-1.0.7-20.xcarchive`;
+prepared listing copy, verification and upload evidence are in ignored
+`work/release20/` in the release worktree.
+
+The [alert correction record](ALERT-FIXES.md) retains the regression and road-data
+acquisition evidence. Critical Alerts are not added. Physical battery, overnight
+departure and normal phone notification-tap checks remain separate acceptance
+items; archive and upload success do not establish those results.
 
 ## App Store submission — October 7, 2026
 

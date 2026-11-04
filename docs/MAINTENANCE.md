@@ -16,6 +16,8 @@ Field-verification tests compare the original edited snapshot with its immutable
 pre-edit baseline. The current weekly snapshot may regenerate road zones; it
 must retain camera geometry, direction and field-verified speed limits and pass
 zone validation, without matching every historical road edge or source date.
+The Swift replay retains the fixed 54-zone corpus and checks every current zone
+against the generated coverage report rather than an obsolete minimum count.
 
 ## Review queue
 

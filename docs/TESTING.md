@@ -1,5 +1,41 @@
 # Test and acceptance record
 
+## 1.0.7 (20) alert corrections — November 3, 2026
+
+**84 Python pipeline tests, 45 Swift package tests (39 camera + six support),
+and 16 app-hosted tests pass, with zero app-hosted skips.** The new incident
+regressions first failed against the old runtime. They now cover overdue zones
+and 180-day offline use, the I-40/Menaul negative and monitored-road positive,
+both Coors directions during course dropout, exact-limit Quiet suppression and
+full lead distance for the three incident approaches. The existing per-zone
+corpus and reviewed-area replays pass against the refreshed 2,728-camera bundle.
+
+Pipeline checks cover all camera kinds, the 600 m minimum for newly generated
+zones, retention without renewed source dates, invalidation after camera moves
+or direction changes, parallel-road selection and fair continuation after a
+bounded source fetch. Distribution-feed compatibility and immutable-byte checks
+pass. The shared support dependency pins and generated project pass validation.
+
+The final iPhone 18 Pro / iOS 27 simulator app-hosted run completed in 52.1 seconds.
+It exercises both bundled Coors directions through `MonitoringController` at
+40/44/45 mph (quiet), 46 mph (warning), and unknown speed accuracy (warning).
+Notification tests confirm the existing time-sensitive interruption level and
+no log entry for a Quiet approach. The result is
+`~/Library/Developer/XcodeBuildMCP/workspaces/road-notice-f91eaf62e6fc/result-bundles/test_sim_2026-11-04T03-35-46-706Z_pid53567_c92a620d.xcresult`.
+The simulator bundle passes resource, 1.0.7 (20) version, camera-count and iOS 17
+minimum checks. No signed archive or App Store upload is claimed by these tests.
+
+The staged website was visually checked at 320, 390 and 1,440 px widths,
+including the expanded Do Not Disturb FAQ; no horizontal overflow or broken
+section anchors was found. Both staged data feeds retain all 2,728 records.
+The website has new-release copy without an “upcoming” label at the owner's
+request. Production deployment is tracked separately in [RELEASE.md](RELEASE.md).
+
+This does not establish physical iOS 27.2 audibility under Focus, battery use or
+background GPS delivery. The owner's parked Test warning succeeding under Do
+Not Disturb is recorded separately from the missing real camera alert. The
+existing physical acceptance matrix remains open. See [ALERT-FIXES.md](ALERT-FIXES.md).
+
 ## Public build 19 — October 4, 2026
 
 Local 41 Swift package tests (including a second fixed-corpus case) and 77 Python

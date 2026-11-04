@@ -11,21 +11,21 @@ An optional `roadZone` accompanies the existing camera record. It contains a dir
 - Project the fix onto the centerline and check its local direction, remaining along-road distance, and lateral separation. The corridor has a 20 m half-width, with at most 10 m additional GPS tolerance. Road matching waits if horizontal accuracy exceeds 25 m.
 - Reject positions clearly closer to an aligned alternative road. At an overlapping crossing, require recent clear evidence of the monitored approach; otherwise wait for a distinguishable position. The latest clear evidence wins. The bounded history is at most 16 fixes from the last 10 seconds, in memory only, never saved or uploaded.
 - Preserve the existing movement, speed-limit, encounter, cooldown and rearming rules. Entering while below a reliable speed limit does not consume the encounter: accelerating inside the zone can still produce the warning. Unknown speed limits retain the existing conservative warning policy.
-- Keep the existing matcher for cameras with absent or expired zones. That preserves coverage but also preserves its nearby-road false-positive risk at those locations. An ambiguous fix within a current zone waits; it does not bypass road matching through the fallback.
+- Validated zones remain active offline and after their source recheck date. Only cameras without a zone use the existing matcher; directional cameras always require course or sufficient displacement evidence. An ambiguous fix waits instead of bypassing the road constraint.
 
 This is a compact local-road check, not a complete navigation map matcher. Identical stacked geometry cannot always be resolved, particularly on a cold start. Phone altitude is not used as a substitute for missing road evidence.
 
 ## Automatic generation and staged coverage
 
-`Scripts/road_zones.py` extends the single publisher and reuses the existing road cache, spatial index, name matching and projection primitives. It requires a known monitored direction, a close named-road or explicit source match, and fresh direct OSM geometry. Paths connect through actual shared source node IDs, respect one-way travel, and stop at ambiguous forks. Every camera-area segment must fit the path. Guessed straight extensions and proximity-based road joins are excluded. Other nearby ways remain alternatives even when their names match the monitored road.
+`Scripts/road_zones.py` extends the single publisher and reuses the existing road cache, spatial index, name matching and projection primitives. It requires a known monitored direction, a close named-road or explicit source match, and dated direct OSM geometry. Paths connect through actual shared source node IDs, respect one-way travel, and stop at ambiguous forks. Every camera-area segment must fit the path. Guessed straight extensions and proximity-based road joins are excluded. Other nearby ways remain alternatives even when their names match the monitored road.
 
-Each zone is bounded to the useful approach and monitored area. Source checks expire after 30 days. Both publisher and app validate geometry, dimensions and dates. Weekly regeneration can remove an unsupported zone while retaining its camera record. The optional schema field is backward compatible with existing apps, which ignore it.
+New zones require at least 600 m of sourced approach geometry before the monitored point or area, supporting the engine's full 150–600 m warning range. Source checks become due after 30 days; geometry does not expire. Both publisher and app validate geometry, dimensions and dates. If a refresh cannot produce a complete replacement, the publisher retains the prior zone only while camera geometry and travel direction remain unchanged. Short retained approaches and overdue checks are explicit in the coverage report. Camera retirement and changes to its geometry/direction still invalidate the old association. The optional schema field is backward compatible with existing apps, which ignore it.
 
-The original candidate uses the existing reviewed Albuquerque metro register: **54 zones from 71 reviewed approaches**, within the unchanged **2,701 camera records**. All other camera fields, IDs, speed limits and source metadata remain unchanged. [Coverage report](../Data/Review/road-zone-coverage.json) lists each eligible approach and every fallback reason.
+The September candidate used the reviewed Albuquerque metro register: **54 zones from 71 reviewed approaches**, within the unchanged **2,701 camera records**. All other camera fields, IDs, speed limits and source metadata remain unchanged. [Coverage report](../Data/Review/road-zone-coverage.json) lists each eligible approach and every fallback reason.
 
 The included zones cover **Coors north of St. Joseph in both directions**, **Alameda between Guadalupe Trail and Rio Grande**, and **Menaul west of Vassar westbound**. Coors at Montaño and Coors Bypass retain the existing matcher because this input set does not support an unambiguous connected approach.
 
-National expansion should apply these same evidence gates and automated replays to newly eligible data. It does not require driving every camera location, nor does passing a local field drive certify all source geometry. Field testing checks representative scenarios—divided road, parallel road, curved approach, crossing, and parked departure—while the publisher and corpus tests check each generated zone. Reviewed Albuquerque coverage is the initial rollout boundary, not an algorithmic restriction.
+The November implementation applies these same evidence gates to every camera kind and region. Road acquisition includes red-light and combined cameras, with 750 m query envelopes, bounded regional batches and incremental activation of successful results. It does not require driving every camera location, nor does passing a local field drive certify all source geometry. Field testing checks representative scenarios—divided road, parallel road, curved approach, crossing, and parked departure—while the publisher and corpus tests check each generated zone. Reviewed Albuquerque coverage is the initial rollout boundary, not an algorithmic restriction.
 
 ## Size and dependencies
 
@@ -39,7 +39,7 @@ Python tests cover source-node connectivity, direction, stale sources, ambiguous
 
 On Coors and Alameda, use normal lawful driving with Quiet configured as appropriate for testing, and compare the warning with the actual monitored road/direction. Include the nearby-road negative case and an overnight parked-to-driving departure with the phone locked. The battery and recovery acceptance procedure is in [BATTERY-MONITORING.md](BATTERY-MONITORING.md). Physical wake timing, GPS accuracy on departure, battery savings and actual audibility remain unverified for this candidate.
 
-## October 4 public feed preparation
+## Historical October 4 public feed preparation
 
 The public candidate retains all 54 zones, byte-for-byte identical to build 17.
 An incomplete road-source refresh initially hid valid cached geometry because
@@ -49,3 +49,7 @@ remain unchanged; unrelated inactive shards are not reintroduced.
 
 Version 1.0.6 reads `/data/v2/`; the original feed retains classifications accepted
 by older validators. Both feeds are produced together from the same camera data.
+
+## November 3 correction
+
+The October 28 regressions and implementation evidence are in [ALERT-FIXES.md](ALERT-FIXES.md). The wire field `validUntil` is retained for compatibility, but is now a source-review deadline, not a runtime geometry cutoff. Earlier binaries still enforce the old cutoff and need an app update. Speed-limit and mobile-camera expiration rules are separate and unchanged.

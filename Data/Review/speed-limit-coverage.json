@@ -1,19 +1,19 @@
 {
   "albuquerqueCity": {
-    "eligible": 36,
+    "eligible": 23,
     "speedCameras": 40
   },
   "byBasis": {
-    "agency-posted": 208,
-    "conservative-lower-bound": 139,
+    "agency-posted": 209,
+    "conservative-lower-bound": 127,
     "field-verified": 2,
-    "osm-posted": 452,
-    "road-matched": 29
+    "osm-posted": 461,
+    "road-matched": 12
   },
   "candidateOnly": 307,
-  "coveragePercent": 46.3,
-  "eligible": 830,
-  "generatedAt": "2026-10-19T11:32:07Z",
+  "coveragePercent": 45.3,
+  "eligible": 811,
+  "generatedAt": "2026-11-04T03:34:10Z",
   "records": [
     {
       "candidates": [
@@ -68,55 +68,15 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/14422165",
-          "sourceURL": "https://www.openstreetmap.org/way/14422165",
-          "sourceUpdatedAt": "2026-04-27T00:39:34Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-broadway-iron-coal-possible-nb",
       "kind": "possibleSpeed",
       "label": "Broadway between Iron and Coal · NB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/14422165",
-        "sourceURL": "https://www.openstreetmap.org/way/14422165",
-        "sourceUpdatedAt": "2026-04-27T00:39:34Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -129,79 +89,25 @@
           "sourceURL": "https://www.cabq.gov/automated-speed-enforcement/camera-data",
           "unit": "mph",
           "value": 30
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 8.3,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/547150786",
-          "sourceURL": "https://www.openstreetmap.org/way/547150786",
-          "sourceUpdatedAt": "2026-04-27T00:39:34Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "basis": "road-matched",
-          "checkedAt": "2026-10-19T08:44:14Z",
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 21.22,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "nmdot/4951/0",
-          "sourceURL": "https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer/33",
-          "sourceUpdatedAt": 1675203847000,
-          "unit": "mph",
-          "unitBasis": "MPH inferred from NMDOT US roadway values and HPMS reporting convention; road-matched estimate, not a camera-specific posted-limit assertion.",
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 42.75,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/172665255",
-          "sourceURL": "https://www.openstreetmap.org/way/172665255",
-          "sourceUpdatedAt": "2026-02-01T19:18:45Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
         }
       ],
       "id": "abq-broadway-iron-sb",
       "kind": "speed",
       "label": "Broadway just north of Iron · SB",
       "selected": {
-        "basis": "conservative-lower-bound",
+        "basis": "agency-posted",
         "checkedAt": "2026-10-19T08:44:03Z",
         "label": "Broadway at Iron",
-        "reason": "Reviewed named camera/approach join to city camera passing-data page; lower of credible alternatives",
+        "reason": "Reviewed named camera/approach join to city camera passing-data page",
         "sourceID": "abq-limit/abq-broadway-iron-sb",
         "sourceURL": "https://www.cabq.gov/automated-speed-enforcement/camera-data",
         "unit": "mph",
         "value": 30
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -215,532 +121,59 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 41.09,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1109849751",
-          "sourceURL": "https://www.openstreetmap.org/way/1109849751",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 31.95,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1109849750",
-          "sourceURL": "https://www.openstreetmap.org/way/1109849750",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 29.52,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1109849749",
-          "sourceURL": "https://www.openstreetmap.org/way/1109849749",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/750995623",
-          "sourceURL": "https://www.openstreetmap.org/way/750995623",
-          "sourceUpdatedAt": "2026-09-16T06:39:00Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-central-61st-possible-eb",
       "kind": "possibleSpeed",
       "label": "Central near 61st Street · EB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 29.52,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/1109849749",
-        "sourceURL": "https://www.openstreetmap.org/way/1109849749",
-        "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 41.4,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/608819258",
-          "sourceURL": "https://www.openstreetmap.org/way/608819258",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 31.92,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/750501355",
-          "sourceURL": "https://www.openstreetmap.org/way/750501355",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 39.73,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/608819260",
-          "sourceURL": "https://www.openstreetmap.org/way/608819260",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 42.76,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/608819262",
-          "sourceURL": "https://www.openstreetmap.org/way/608819262",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 39.63,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/750501356",
-          "sourceURL": "https://www.openstreetmap.org/way/750501356",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/750501357",
-          "sourceURL": "https://www.openstreetmap.org/way/750501357",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-central-61st-possible-wb",
       "kind": "possibleSpeed",
       "label": "Central near 61st Street · WB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 41.4,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/608819258",
-        "sourceURL": "https://www.openstreetmap.org/way/608819258",
-        "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 29.99,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/587564900",
-          "sourceURL": "https://www.openstreetmap.org/way/587564900",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 42.61,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/807094336",
-          "sourceURL": "https://www.openstreetmap.org/way/807094336",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 26.39,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/807094338",
-          "sourceURL": "https://www.openstreetmap.org/way/807094338",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 43.87,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/587564610",
-          "sourceURL": "https://www.openstreetmap.org/way/587564610",
-          "sourceUpdatedAt": "2026-06-30T13:01:51Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 43.25,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/587564619",
-          "sourceURL": "https://www.openstreetmap.org/way/587564619",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/587564604",
-          "sourceURL": "https://www.openstreetmap.org/way/587564604",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-central-louisiana-san-pedro-possible-eb",
       "kind": "possibleSpeed",
       "label": "Central between Louisiana and San Pedro · EB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/587564604",
-        "sourceURL": "https://www.openstreetmap.org/way/587564604",
-        "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/48489645",
-          "sourceURL": "https://www.openstreetmap.org/way/48489645",
-          "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-central-louisiana-san-pedro-possible-wb",
       "kind": "possibleSpeed",
       "label": "Central between Louisiana and San Pedro · WB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/48489645",
-        "sourceURL": "https://www.openstreetmap.org/way/48489645",
-        "sourceUpdatedAt": "2026-05-21T23:05:17Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/162050342",
-          "sourceURL": "https://www.openstreetmap.org/way/162050342",
-          "sourceUpdatedAt": "2026-08-12T02:26:54Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-central-texas-possible-wb",
       "kind": "possibleSpeed",
       "label": "Central at Texas · WB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/162050342",
-        "sourceURL": "https://www.openstreetmap.org/way/162050342",
-        "sourceUpdatedAt": "2026-08-12T02:26:54Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -837,27 +270,6 @@
           "sourceURL": "https://www.cabq.gov/automated-speed-enforcement/camera-data",
           "unit": "mph",
           "value": 30
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 30.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/704094468",
-          "sourceURL": "https://www.openstreetmap.org/way/704094468",
-          "sourceUpdatedAt": "2026-09-16T20:36:36Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 30.0
         }
       ],
       "id": "abq-coal-cornell-eb",
@@ -874,7 +286,9 @@
         "value": 30
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -984,10 +398,10 @@
       "candidates": [
         {
           "basis": "field-verified",
-          "checkedAt": "2026-10-01T06:00:00Z",
-          "reason": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied.",
-          "sourceID": "field/coors-st-joseph-2026-10-01/nb",
-          "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
+          "checkedAt": "2026-11-03T07:00:00Z",
+          "reason": "Project owner confirmed on 2026-11-03 that both Coors north of St. Joseph approaches are posted at 45 mph. No surveyed camera position or revised warning geometry supplied.",
+          "sourceID": "field/coors-st-joseph-2026-11-03/nb",
+          "sourceURL": "https://github.com/aindaco1/road-notice/blob/main/docs/COORS-FIELD-VERIFICATION.md",
           "unit": "mph",
           "value": 45.0
         },
@@ -999,7 +413,7 @@
             }
           ],
           "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
+          "checkedAt": "2026-11-04T03:25:18Z",
           "conditional": false,
           "expiresAt": null,
           "lineage": null,
@@ -1018,10 +432,10 @@
       "label": "Coors north of St. Joseph · NB · approximate area",
       "selected": {
         "basis": "field-verified",
-        "checkedAt": "2026-10-01T06:00:00Z",
-        "reason": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied.",
-        "sourceID": "field/coors-st-joseph-2026-10-01/nb",
-        "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
+        "checkedAt": "2026-11-03T07:00:00Z",
+        "reason": "Project owner confirmed on 2026-11-03 that both Coors north of St. Joseph approaches are posted at 45 mph. No surveyed camera position or revised warning geometry supplied.",
+        "sourceID": "field/coors-st-joseph-2026-11-03/nb",
+        "sourceURL": "https://github.com/aindaco1/road-notice/blob/main/docs/COORS-FIELD-VERIFICATION.md",
         "unit": "mph",
         "value": 45.0
       },
@@ -1032,10 +446,10 @@
       "candidates": [
         {
           "basis": "field-verified",
-          "checkedAt": "2026-10-01T06:00:00Z",
-          "reason": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied.",
-          "sourceID": "field/coors-st-joseph-2026-10-01/sb",
-          "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
+          "checkedAt": "2026-11-03T07:00:00Z",
+          "reason": "Project owner confirmed on 2026-11-03 that both Coors north of St. Joseph approaches are posted at 45 mph. No surveyed camera position or revised warning geometry supplied.",
+          "sourceID": "field/coors-st-joseph-2026-11-03/sb",
+          "sourceURL": "https://github.com/aindaco1/road-notice/blob/main/docs/COORS-FIELD-VERIFICATION.md",
           "unit": "mph",
           "value": 45.0
         },
@@ -1047,7 +461,7 @@
             }
           ],
           "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
+          "checkedAt": "2026-11-04T03:25:18Z",
           "conditional": false,
           "expiresAt": null,
           "lineage": null,
@@ -1066,10 +480,10 @@
       "label": "Coors north of St. Joseph · SB · approximate area",
       "selected": {
         "basis": "field-verified",
-        "checkedAt": "2026-10-01T06:00:00Z",
-        "reason": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied.",
-        "sourceID": "field/coors-st-joseph-2026-10-01/sb",
-        "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
+        "checkedAt": "2026-11-03T07:00:00Z",
+        "reason": "Project owner confirmed on 2026-11-03 that both Coors north of St. Joseph approaches are posted at 45 mph. No surveyed camera position or revised warning geometry supplied.",
+        "sourceID": "field/coors-st-joseph-2026-11-03/sb",
+        "sourceURL": "https://github.com/aindaco1/road-notice/blob/main/docs/COORS-FIELD-VERIFICATION.md",
         "unit": "mph",
         "value": 45.0
       },
@@ -1160,41 +574,6 @@
           "sourceURL": "https://www.cabq.gov/automated-speed-enforcement/camera-data",
           "unit": "mph",
           "value": 40
-        },
-        {
-          "basis": "road-matched",
-          "checkedAt": "2026-10-19T08:44:14Z",
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 3.92,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "nmdot/4094/0",
-          "sourceURL": "https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer/33",
-          "sourceUpdatedAt": 1690228008000,
-          "unit": "mph",
-          "unitBasis": "MPH inferred from NMDOT US roadway values and HPMS reporting convention; road-matched estimate, not a camera-specific posted-limit assertion.",
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 5.16,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/48489634",
-          "sourceURL": "https://www.openstreetmap.org/way/48489634",
-          "sourceUpdatedAt": "2026-09-17T19:25:35Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
         }
       ],
       "id": "abq-eubank-central-nb",
@@ -1211,7 +590,9 @@
         "value": 40
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -1234,27 +615,6 @@
           "sourceID": "osm/node/13921481508",
           "sourceURL": "https://www.openstreetmap.org/node/13921481508",
           "unit": "mph",
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 6.7,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1478493562",
-          "sourceURL": "https://www.openstreetmap.org/way/1478493562",
-          "sourceUpdatedAt": "2026-09-17T19:27:03Z",
-          "unit": "mph",
-          "unitBasis": null,
           "value": 40.0
         }
       ],
@@ -1283,79 +643,20 @@
         "value": 40.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 44.21,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1416884055",
-          "sourceURL": "https://www.openstreetmap.org/way/1416884055",
-          "sourceUpdatedAt": "2026-02-09T12:47:48Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1416884057",
-          "sourceURL": "https://www.openstreetmap.org/way/1416884057",
-          "sourceUpdatedAt": "2025-07-24T04:24:52Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-fourth-griegos-possible-sb",
       "kind": "possibleSpeed",
       "label": "Fourth Street north of Griegos · SB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 44.21,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/1416884055",
-        "sourceURL": "https://www.openstreetmap.org/way/1416884055",
-        "sourceUpdatedAt": "2026-02-09T12:47:48Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -1462,106 +763,26 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/813748249",
-          "sourceURL": "https://www.openstreetmap.org/way/813748249",
-          "sourceUpdatedAt": "2026-09-17T18:48:22Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-juan-tabo-copper-possible-sb",
       "kind": "possibleSpeed",
       "label": "Juan Tabo near Copper · SB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/813748249",
-        "sourceURL": "https://www.openstreetmap.org/way/813748249",
-        "sourceUpdatedAt": "2026-09-17T18:48:22Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 30.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/14407793",
-          "sourceURL": "https://www.openstreetmap.org/way/14407793",
-          "sourceUpdatedAt": "2026-09-16T20:35:10Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 30.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-lead-bryn-mawr-possible-wb",
       "kind": "possibleSpeed",
       "label": "Lead near Bryn Mawr · WB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 30.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/14407793",
-        "sourceURL": "https://www.openstreetmap.org/way/14407793",
-        "sourceUpdatedAt": "2026-09-16T20:35:10Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 30.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -1595,62 +816,6 @@
           "sourceURL": "https://www.cabq.gov/automated-speed-enforcement/camera-data",
           "unit": "mph",
           "value": 30
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 30.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 5.98,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/516540391",
-          "sourceURL": "https://www.openstreetmap.org/way/516540391",
-          "sourceUpdatedAt": "2020-08-28T06:42:08Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 30.0
-        },
-        {
-          "basis": "road-matched",
-          "checkedAt": "2026-10-19T08:44:14Z",
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 6.93,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "nmdot/4003/0",
-          "sourceURL": "https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer/33",
-          "sourceUpdatedAt": 1630184621000,
-          "unit": "mph",
-          "unitBasis": "MPH inferred from NMDOT US roadway values and HPMS reporting convention; road-matched estimate, not a camera-specific posted-limit assertion.",
-          "value": 30.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 30.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 42.14,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/546924483",
-          "sourceURL": "https://www.openstreetmap.org/way/546924483",
-          "sourceUpdatedAt": "2021-01-09T04:10:44Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 30.0
         }
       ],
       "id": "abq-lomas-third-eb",
@@ -1667,7 +832,9 @@
         "value": 30
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -1701,62 +868,6 @@
           "sourceURL": "https://www.cabq.gov/automated-speed-enforcement/camera-data",
           "unit": "mph",
           "value": 40
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 6.88,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/741128095",
-          "sourceURL": "https://www.openstreetmap.org/way/741128095",
-          "sourceUpdatedAt": "2026-02-15T08:10:22Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 16.09,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/1309257127",
-          "sourceURL": "https://www.openstreetmap.org/way/1309257127",
-          "sourceUpdatedAt": "2026-02-15T08:10:22Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "basis": "road-matched",
-          "checkedAt": "2026-10-19T08:44:14Z",
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 24.27,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "nmdot/2867/0",
-          "sourceURL": "https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer/33",
-          "sourceUpdatedAt": 1630184621000,
-          "unit": "mph",
-          "unitBasis": "MPH inferred from NMDOT US roadway values and HPMS reporting convention; road-matched estimate, not a camera-specific posted-limit assertion.",
-          "value": 40.0
         }
       ],
       "id": "abq-lomas-virginia-wb",
@@ -1773,79 +884,20 @@
         "value": 40
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 29.13,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/14424917",
-          "sourceURL": "https://www.openstreetmap.org/way/14424917",
-          "sourceUpdatedAt": "2026-09-16T23:39:51Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/202446478",
-          "sourceURL": "https://www.openstreetmap.org/way/202446478",
-          "sourceUpdatedAt": "2026-09-16T23:39:51Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-louisiana-marquette-possible-nb",
       "kind": "possibleSpeed",
       "label": "Louisiana near Marquette · NB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "conservative-lower-bound",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 29.13,
-        "reason": "Camera member of road; lower of credible alternatives",
-        "sourceID": "osm/way/14424917",
-        "sourceURL": "https://www.openstreetmap.org/way/14424917",
-        "sourceUpdatedAt": "2026-09-16T23:39:51Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -1857,7 +909,7 @@
             }
           ],
           "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
+          "checkedAt": "2026-11-04T03:15:05Z",
           "conditional": false,
           "expiresAt": null,
           "lineage": null,
@@ -1882,7 +934,7 @@
           }
         ],
         "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
+        "checkedAt": "2026-11-04T03:15:05Z",
         "conditional": false,
         "expiresAt": null,
         "lineage": null,
@@ -1899,139 +951,15 @@
       "unavailableReasons": []
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 26.29,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/624119061",
-          "sourceURL": "https://www.openstreetmap.org/way/624119061",
-          "sourceUpdatedAt": "2025-05-25T12:03:20Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 23.78,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1368969390",
-          "sourceURL": "https://www.openstreetmap.org/way/1368969390",
-          "sourceUpdatedAt": "2025-03-19T05:46:40Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 27.66,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1368959437",
-          "sourceURL": "https://www.openstreetmap.org/way/1368959437",
-          "sourceUpdatedAt": "2025-03-19T04:19:35Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 1.05,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/814515102",
-          "sourceURL": "https://www.openstreetmap.org/way/814515102",
-          "sourceUpdatedAt": "2025-03-19T04:19:35Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1059489382",
-          "sourceURL": "https://www.openstreetmap.org/way/1059489382",
-          "sourceUpdatedAt": "2026-05-05T19:00:20Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-montgomery-jennifer-possible-wb",
       "kind": "possibleSpeed",
       "label": "Montgomery and Jennifer · WB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/1059489382",
-        "sourceURL": "https://www.openstreetmap.org/way/1059489382",
-        "sourceUpdatedAt": "2026-05-05T19:00:20Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -2055,83 +983,36 @@
           "sourceURL": "https://www.openstreetmap.org/node/12087956673",
           "unit": "mph",
           "value": 40.0
-        },
-        {
-          "basis": "road-matched",
-          "checkedAt": "2026-10-19T08:44:14Z",
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 7.57,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "nmdot/4663/0",
-          "sourceURL": "https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer/33",
-          "sourceUpdatedAt": 1630184621000,
-          "unit": "mph",
-          "unitBasis": "MPH inferred from NMDOT US roadway values and HPMS reporting convention; road-matched estimate, not a camera-specific posted-limit assertion.",
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 8.54,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/1368675012",
-          "sourceURL": "https://www.openstreetmap.org/way/1368675012",
-          "sourceUpdatedAt": "2026-05-05T19:00:20Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 31.68,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/547171158",
-          "sourceURL": "https://www.openstreetmap.org/way/547171158",
-          "sourceUpdatedAt": "2025-03-18T09:31:49Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
         }
       ],
       "id": "abq-montgomery-julie-eb",
       "kind": "speed",
       "label": "Montgomery and Julie · EB",
       "selected": {
-        "basis": "road-matched",
-        "checkedAt": "2026-10-19T08:44:14Z",
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 7.57,
-        "reason": "Same named monitored road and compatible alignment",
-        "sourceID": "nmdot/4663/0",
-        "sourceURL": "https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer/33",
-        "sourceUpdatedAt": 1630184621000,
+        "alternatives": [
+          {
+            "unit": "mph",
+            "value": 40.0
+          }
+        ],
+        "basis": "osm-posted",
+        "checkedAt": "2026-10-19T08:42:01Z",
+        "conditional": false,
+        "rawTags": {
+          "direction": "270",
+          "highway": "speed_camera",
+          "maxspeed": "40 mph"
+        },
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
+        "sourceID": "osm/node/12087956673",
+        "sourceURL": "https://www.openstreetmap.org/node/12087956673",
         "unit": "mph",
-        "unitBasis": "MPH inferred from NMDOT US roadway values and HPMS reporting convention; road-matched estimate, not a camera-specific posted-limit assertion.",
         "value": 40.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -2228,27 +1109,6 @@
           "sourceURL": "https://www.cabq.gov/automated-speed-enforcement/camera-data",
           "unit": "mph",
           "value": 40
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1366454580",
-          "sourceURL": "https://www.openstreetmap.org/way/1366454580",
-          "sourceUpdatedAt": "2025-05-28T07:23:27Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
         }
       ],
       "id": "abq-san-mateo-montgomery-sb",
@@ -2265,79 +1125,20 @@
         "value": 40
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 50.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 24.21,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/247947381",
-          "sourceURL": "https://www.openstreetmap.org/way/247947381",
-          "sourceUpdatedAt": "2025-08-31T17:10:00Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 50.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 50.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/706094877",
-          "sourceURL": "https://www.openstreetmap.org/way/706094877",
-          "sourceUpdatedAt": "2025-05-08T21:56:56Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 50.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-tramway-lomas-possible-sb",
       "kind": "possibleSpeed",
       "label": "Tramway near Lomas · SB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 50.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 24.21,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/247947381",
-        "sourceURL": "https://www.openstreetmap.org/way/247947381",
-        "sourceUpdatedAt": "2025-08-31T17:10:00Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 50.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -2423,7 +1224,63 @@
             }
           ],
           "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
+          "checkedAt": "2026-11-04T03:15:05Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Same named monitored road and compatible alignment",
+          "sourceID": "osm/way/1561647382",
+          "sourceURL": "https://www.openstreetmap.org/way/1561647382",
+          "sourceUpdatedAt": "2026-09-23T09:03:44Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 45.0
+        },
+        {
+          "basis": "road-matched",
+          "checkedAt": "2026-10-19T08:44:14Z",
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 3.69,
+          "reason": "Same named monitored road and compatible alignment",
+          "sourceID": "nmdot/4928/0",
+          "sourceURL": "https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer/33",
+          "sourceUpdatedAt": 1659644130000,
+          "unit": "mph",
+          "unitBasis": "MPH inferred from NMDOT US roadway values and HPMS reporting convention; road-matched estimate, not a camera-specific posted-limit assertion.",
+          "value": 45.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 45.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:15:05Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 40.54,
+          "reason": "Same named monitored road and compatible alignment",
+          "sourceID": "osm/way/1561647381",
+          "sourceURL": "https://www.openstreetmap.org/way/1561647381",
+          "sourceUpdatedAt": "2026-09-23T09:03:44Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 45.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 45.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:15:05Z",
           "conditional": false,
           "expiresAt": null,
           "lineage": null,
@@ -2431,7 +1288,7 @@
           "reason": "Camera member of road",
           "sourceID": "osm/way/1371054943",
           "sourceURL": "https://www.openstreetmap.org/way/1371054943",
-          "sourceUpdatedAt": "2025-12-28T06:31:41Z",
+          "sourceUpdatedAt": "2026-09-23T09:03:44Z",
           "unit": "mph",
           "unitBasis": null,
           "value": 45.0
@@ -2441,24 +1298,17 @@
       "kind": "possibleSpeed",
       "label": "Unser near Old Ouray · NB · approximate area",
       "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 45.0
-          }
-        ],
         "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
+        "checkedAt": "2026-10-19T08:44:14Z",
         "expiresAt": null,
         "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/1371054943",
-        "sourceURL": "https://www.openstreetmap.org/way/1371054943",
-        "sourceUpdatedAt": "2025-12-28T06:31:41Z",
+        "matchDistanceMeters": 3.69,
+        "reason": "Same named monitored road and compatible alignment",
+        "sourceID": "nmdot/4928/0",
+        "sourceURL": "https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer/33",
+        "sourceUpdatedAt": 1659644130000,
         "unit": "mph",
-        "unitBasis": null,
+        "unitBasis": "MPH inferred from NMDOT US roadway values and HPMS reporting convention; road-matched estimate, not a camera-specific posted-limit assertion.",
         "value": 45.0
       },
       "status": "eligible",
@@ -2548,55 +1398,15 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 30.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:57:50Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/349950458",
-          "sourceURL": "https://www.openstreetmap.org/way/349950458",
-          "sourceUpdatedAt": "2026-02-08T18:11:53Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 30.0
-        }
-      ],
+      "candidates": [],
       "id": "abq-zuni-mesilla-espanola-possible-wb",
       "kind": "possibleSpeed",
       "label": "Zuni between Mesilla and Espanola · WB · approximate area",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 30.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:57:50Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/349950458",
-        "sourceURL": "https://www.openstreetmap.org/way/349950458",
-        "sourceUpdatedAt": "2026-02-08T18:11:53Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 30.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -2709,6 +1519,27 @@
           "suppressionApproved": false,
           "unit": "mph",
           "value": 20.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.42,
+          "reason": "Same named monitored road and compatible alignment",
+          "sourceID": "osm/way/8795781",
+          "sourceURL": "https://www.openstreetmap.org/way/8795781",
+          "sourceUpdatedAt": "2026-05-27T22:41:21Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
         }
       ],
       "id": "agency-arlington-acsp017",
@@ -2718,7 +1549,7 @@
         "basis": "conservative-lower-bound",
         "checkedAt": "2026-10-19T08:43:48Z",
         "conditional": true,
-        "reason": "Agency camera-ID join; reduced school value retained as lower bound",
+        "reason": "Agency camera-ID join; reduced school value retained as lower bound; lower of credible alternatives",
         "sourceID": "agency/arlington/ACSP017",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
         "suppressionApproved": false,
@@ -2726,9 +1557,7 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -2973,6 +1802,27 @@
           "suppressionApproved": false,
           "unit": "mph",
           "value": 20.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 30.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 8.72,
+          "reason": "Same named monitored road and compatible alignment",
+          "sourceID": "osm/way/746748205",
+          "sourceURL": "https://www.openstreetmap.org/way/746748205",
+          "sourceUpdatedAt": "2026-01-17T00:22:10Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 30.0
         }
       ],
       "id": "agency-arlington-acsp032",
@@ -2982,7 +1832,7 @@
         "basis": "conservative-lower-bound",
         "checkedAt": "2026-10-19T08:43:48Z",
         "conditional": true,
-        "reason": "Agency camera-ID join; reduced school value retained as lower bound",
+        "reason": "Agency camera-ID join; reduced school value retained as lower bound; lower of credible alternatives",
         "sourceID": "agency/arlington/ACSP032",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
         "suppressionApproved": false,
@@ -2990,9 +1840,7 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -3062,6 +1910,27 @@
           "suppressionApproved": false,
           "unit": "mph",
           "value": 20.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 10.02,
+          "reason": "Same named monitored road and compatible alignment",
+          "sourceID": "osm/way/657062206",
+          "sourceURL": "https://www.openstreetmap.org/way/657062206",
+          "sourceUpdatedAt": "2022-03-18T21:14:23Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
         }
       ],
       "id": "agency-arlington-acsp035",
@@ -3071,7 +1940,7 @@
         "basis": "conservative-lower-bound",
         "checkedAt": "2026-10-19T08:43:48Z",
         "conditional": true,
-        "reason": "Agency camera-ID join; reduced school value retained as lower bound",
+        "reason": "Agency camera-ID join; reduced school value retained as lower bound; lower of credible alternatives",
         "sourceID": "agency/arlington/ACSP035",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
         "suppressionApproved": false,
@@ -3079,9 +1948,7 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -3184,6 +2051,27 @@
           "suppressionApproved": false,
           "unit": "mph",
           "value": 20.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 5.06,
+          "reason": "Same named monitored road and compatible alignment",
+          "sourceID": "osm/way/59338828",
+          "sourceURL": "https://www.openstreetmap.org/way/59338828",
+          "sourceUpdatedAt": "2026-05-27T22:41:21Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
         }
       ],
       "id": "agency-arlington-acsp044",
@@ -3193,7 +2081,7 @@
         "basis": "conservative-lower-bound",
         "checkedAt": "2026-10-19T08:43:48Z",
         "conditional": true,
-        "reason": "Agency camera-ID join; reduced school value retained as lower bound",
+        "reason": "Agency camera-ID join; reduced school value retained as lower bound; lower of credible alternatives",
         "sourceID": "agency/arlington/ACSP044",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
         "suppressionApproved": false,
@@ -3201,9 +2089,7 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -15240,97 +14126,15 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 25.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 8.62,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/243815001",
-          "sourceURL": "https://www.openstreetmap.org/way/243815001",
-          "sourceUpdatedAt": "2024-07-18T23:29:12Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 25.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 8.79,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/436967055",
-          "sourceURL": "https://www.openstreetmap.org/way/436967055",
-          "sourceUpdatedAt": "2025-11-21T05:29:03Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 45.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 25.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 25.81,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/168649747",
-          "sourceURL": "https://www.openstreetmap.org/way/168649747",
-          "sourceUpdatedAt": "2024-07-18T22:35:26Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 25.0
-        }
-      ],
+      "candidates": [],
       "id": "agency-phoenix-points-e-b-thunderbird-rd-35th-ave-to-i-17",
       "kind": "possibleSpeed",
       "label": "E/B, Thunderbird Rd: 35th Ave to I-17",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 25.0
-          }
-        ],
-        "basis": "conservative-lower-bound",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 25.81,
-        "reason": "Same named monitored road and compatible alignment; lower of credible alternatives",
-        "sourceID": "osm/way/168649747",
-        "sourceURL": "https://www.openstreetmap.org/way/168649747",
-        "sourceUpdatedAt": "2024-07-18T22:35:26Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 25.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -15344,178 +14148,37 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 14.32,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/253131937",
-          "sourceURL": "https://www.openstreetmap.org/way/253131937",
-          "sourceUpdatedAt": "2025-11-21T04:35:27Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 45.0
-        }
-      ],
+      "candidates": [],
       "id": "agency-phoenix-points-n-b-51st-ave-van-buren-st-to-i-10",
       "kind": "possibleSpeed",
       "label": "N/B, 51st Ave: Van Buren St to I-10",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 45.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 14.32,
-        "reason": "Same named monitored road and compatible alignment",
-        "sourceID": "osm/way/253131937",
-        "sourceURL": "https://www.openstreetmap.org/way/253131937",
-        "sourceUpdatedAt": "2025-11-21T04:35:27Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 45.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 11.39,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/1527670952",
-          "sourceURL": "https://www.openstreetmap.org/way/1527670952",
-          "sourceUpdatedAt": "2026-06-08T22:33:45Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "agency-phoenix-points-n-b-7th-st-thomas-rd-to-indian-school-rd",
       "kind": "possibleSpeed",
       "label": "N/B, 7th St: Thomas Rd to Indian School Rd",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 11.39,
-        "reason": "Same named monitored road and compatible alignment",
-        "sourceID": "osm/way/1527670952",
-        "sourceURL": "https://www.openstreetmap.org/way/1527670952",
-        "sourceUpdatedAt": "2026-06-08T22:33:45Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 9.68,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/530468144",
-          "sourceURL": "https://www.openstreetmap.org/way/530468144",
-          "sourceUpdatedAt": "2025-10-17T01:52:28Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 45.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 21.19,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/530468150",
-          "sourceURL": "https://www.openstreetmap.org/way/530468150",
-          "sourceUpdatedAt": "2025-10-17T01:52:28Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 45.0
-        }
-      ],
+      "candidates": [],
       "id": "agency-phoenix-points-w-b-baseline-rd-16th-st-to-24th-st",
       "kind": "possibleSpeed",
       "label": "W/B, Baseline Rd: 16th St to 24th St",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 45.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 9.68,
-        "reason": "Same named monitored road and compatible alignment",
-        "sourceID": "osm/way/530468144",
-        "sourceURL": "https://www.openstreetmap.org/way/530468144",
-        "sourceUpdatedAt": "2025-10-17T01:52:28Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 45.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -15529,106 +14192,26 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 11.76,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/326855539",
-          "sourceURL": "https://www.openstreetmap.org/way/326855539",
-          "sourceUpdatedAt": "2026-06-03T17:08:25Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "agency-phoenix-points-w-b-northern-avenue-16th-street-to-18th-street",
       "kind": "possibleSpeed",
       "label": "W/B Northern Avenue: 16th Street to 18th Street",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 11.76,
-        "reason": "Same named monitored road and compatible alignment",
-        "sourceID": "osm/way/326855539",
-        "sourceURL": "https://www.openstreetmap.org/way/326855539",
-        "sourceUpdatedAt": "2026-06-03T17:08:25Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 15.26,
-          "reason": "Same named monitored road and compatible alignment",
-          "sourceID": "osm/way/244121271",
-          "sourceURL": "https://www.openstreetmap.org/way/244121271",
-          "sourceUpdatedAt": "2025-01-29T16:28:52Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "agency-phoenix-points-w-b-thunderbird-rd-i-17-to-19th-ave",
       "kind": "possibleSpeed",
       "label": "W/B, Thunderbird Rd: I-17 to 19th Ave",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 15.26,
-        "reason": "Same named monitored road and compatible alignment",
-        "sourceID": "osm/way/244121271",
-        "sourceURL": "https://www.openstreetmap.org/way/244121271",
-        "sourceUpdatedAt": "2025-01-29T16:28:52Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -19458,6 +18041,27 @@
           "sourceURL": "https://www.openstreetmap.org/node/10294314095",
           "unit": "mph",
           "value": 25.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:24:18Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/76848347",
+          "sourceURL": "https://www.openstreetmap.org/way/76848347",
+          "sourceUpdatedAt": "2022-12-30T01:00:18Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
         }
       ],
       "id": "osm-node-10294314095",
@@ -19487,9 +18091,7 @@
         "value": 25.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -21971,6 +20573,27 @@
           "sourceURL": "https://www.openstreetmap.org/node/11639996474",
           "unit": "km/h",
           "value": 45.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 45.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:25:18Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 7.84,
+          "reason": "Unique road within 12 m; alternatives at least 15 m farther away",
+          "sourceID": "osm/way/1105536471",
+          "sourceURL": "https://www.openstreetmap.org/way/1105536471",
+          "sourceUpdatedAt": "2026-09-30T06:25:35Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 45.0
         }
       ],
       "id": "osm-node-11639996474",
@@ -21983,7 +20606,7 @@
             "value": 45.0
           }
         ],
-        "basis": "osm-posted",
+        "basis": "conservative-lower-bound",
         "checkedAt": "2026-10-12T10:32:46Z",
         "conditional": false,
         "rawTags": {
@@ -21991,16 +20614,14 @@
           "highway": "speed_camera",
           "maxspeed": "45"
         },
-        "reason": "Explicit maxspeed on the camera or its enforcement relation",
+        "reason": "Explicit maxspeed on the camera or its enforcement relation; lower of credible alternatives",
         "sourceID": "osm/node/11639996474",
         "sourceURL": "https://www.openstreetmap.org/node/11639996474",
         "unit": "km/h",
         "value": 45.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -26124,26 +24745,106 @@
       ]
     },
     {
-      "candidates": [],
+      "candidates": [
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/24220644",
+          "sourceURL": "https://www.openstreetmap.org/way/24220644",
+          "sourceUpdatedAt": "2026-02-16T22:27:09Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
+        }
+      ],
       "id": "osm-node-12541139525",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": null,
-      "status": "unknown",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "selected": {
+        "alternatives": [
+          {
+            "unit": "mph",
+            "value": 25.0
+          }
+        ],
+        "basis": "road-matched",
+        "checkedAt": "2026-11-04T03:29:26Z",
+        "conditional": false,
+        "expiresAt": null,
+        "lineage": null,
+        "matchDistanceMeters": 0.0,
+        "reason": "Camera member of road",
+        "sourceID": "osm/way/24220644",
+        "sourceURL": "https://www.openstreetmap.org/way/24220644",
+        "sourceUpdatedAt": "2026-02-16T22:27:09Z",
+        "unit": "mph",
+        "unitBasis": null,
+        "value": 25.0
+      },
+      "status": "eligible",
+      "unavailableReasons": []
     },
     {
-      "candidates": [],
+      "candidates": [
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/50429569",
+          "sourceURL": "https://www.openstreetmap.org/way/50429569",
+          "sourceUpdatedAt": "2026-02-16T22:27:09Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
+        }
+      ],
       "id": "osm-node-12541145586",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": null,
-      "status": "unknown",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "selected": {
+        "alternatives": [
+          {
+            "unit": "mph",
+            "value": 25.0
+          }
+        ],
+        "basis": "road-matched",
+        "checkedAt": "2026-11-04T03:29:26Z",
+        "conditional": false,
+        "expiresAt": null,
+        "lineage": null,
+        "matchDistanceMeters": 0.0,
+        "reason": "Camera member of road",
+        "sourceID": "osm/way/50429569",
+        "sourceURL": "https://www.openstreetmap.org/way/50429569",
+        "sourceUpdatedAt": "2026-02-16T22:27:09Z",
+        "unit": "mph",
+        "unitBasis": null,
+        "value": 25.0
+      },
+      "status": "eligible",
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -26470,15 +25171,55 @@
       ]
     },
     {
-      "candidates": [],
+      "candidates": [
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 30.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 6.63,
+          "reason": "Unique road within 12 m; alternatives at least 15 m farther away",
+          "sourceID": "osm/way/1120010905",
+          "sourceURL": "https://www.openstreetmap.org/way/1120010905",
+          "sourceUpdatedAt": "2023-03-19T22:27:07Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 30.0
+        }
+      ],
       "id": "osm-node-12578282477",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": null,
-      "status": "unknown",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "selected": {
+        "alternatives": [
+          {
+            "unit": "mph",
+            "value": 30.0
+          }
+        ],
+        "basis": "road-matched",
+        "checkedAt": "2026-11-04T03:29:26Z",
+        "conditional": false,
+        "expiresAt": null,
+        "lineage": null,
+        "matchDistanceMeters": 6.63,
+        "reason": "Unique road within 12 m; alternatives at least 15 m farther away",
+        "sourceID": "osm/way/1120010905",
+        "sourceURL": "https://www.openstreetmap.org/way/1120010905",
+        "sourceUpdatedAt": "2023-03-19T22:27:07Z",
+        "unit": "mph",
+        "unitBasis": null,
+        "value": 30.0
+      },
+      "status": "eligible",
+      "unavailableReasons": []
     },
     {
       "candidates": [],
@@ -26492,15 +25233,55 @@
       ]
     },
     {
-      "candidates": [],
+      "candidates": [
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/6057581",
+          "sourceURL": "https://www.openstreetmap.org/way/6057581",
+          "sourceUpdatedAt": "2026-02-12T18:47:35Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
+        }
+      ],
       "id": "osm-node-12578283026",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": null,
-      "status": "unknown",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "selected": {
+        "alternatives": [
+          {
+            "unit": "mph",
+            "value": 25.0
+          }
+        ],
+        "basis": "road-matched",
+        "checkedAt": "2026-11-04T03:29:26Z",
+        "conditional": false,
+        "expiresAt": null,
+        "lineage": null,
+        "matchDistanceMeters": 0.0,
+        "reason": "Camera member of road",
+        "sourceID": "osm/way/6057581",
+        "sourceURL": "https://www.openstreetmap.org/way/6057581",
+        "sourceUpdatedAt": "2026-02-12T18:47:35Z",
+        "unit": "mph",
+        "unitBasis": null,
+        "value": 25.0
+      },
+      "status": "eligible",
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -26523,6 +25304,27 @@
           "sourceID": "osm/node/12578283028",
           "sourceURL": "https://www.openstreetmap.org/node/12578283028",
           "unit": "mph",
+          "value": 25.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1135620595",
+          "sourceURL": "https://www.openstreetmap.org/way/1135620595",
+          "sourceUpdatedAt": "2026-01-21T01:41:00Z",
+          "unit": "mph",
+          "unitBasis": null,
           "value": 25.0
         }
       ],
@@ -26551,9 +25353,7 @@
         "value": 25.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -26683,6 +25483,27 @@
           "sourceURL": "https://www.openstreetmap.org/node/12578283031",
           "unit": "mph",
           "value": 25.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1211715528",
+          "sourceURL": "https://www.openstreetmap.org/way/1211715528",
+          "sourceUpdatedAt": "2026-03-28T18:36:36Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
         }
       ],
       "id": "osm-node-12578283031",
@@ -26710,9 +25531,7 @@
         "value": 25.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -26735,6 +25554,27 @@
           "sourceID": "osm/node/12578283032",
           "sourceURL": "https://www.openstreetmap.org/node/12578283032",
           "unit": "mph",
+          "value": 25.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1445836670",
+          "sourceURL": "https://www.openstreetmap.org/way/1445836670",
+          "sourceUpdatedAt": "2026-08-07T12:45:30Z",
+          "unit": "mph",
+          "unitBasis": null,
           "value": 25.0
         }
       ],
@@ -26763,9 +25603,7 @@
         "value": 25.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -26788,6 +25626,27 @@
           "sourceID": "osm/node/12578283033",
           "sourceURL": "https://www.openstreetmap.org/node/12578283033",
           "unit": "mph",
+          "value": 25.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1445836670",
+          "sourceURL": "https://www.openstreetmap.org/way/1445836670",
+          "sourceUpdatedAt": "2026-08-07T12:45:30Z",
+          "unit": "mph",
+          "unitBasis": null,
           "value": 25.0
         }
       ],
@@ -26816,9 +25675,7 @@
         "value": 25.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -26841,6 +25698,27 @@
           "sourceID": "osm/node/12578283034",
           "sourceURL": "https://www.openstreetmap.org/node/12578283034",
           "unit": "mph",
+          "value": 25.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/288581933",
+          "sourceURL": "https://www.openstreetmap.org/way/288581933",
+          "sourceUpdatedAt": "2026-08-07T12:45:30Z",
+          "unit": "mph",
+          "unitBasis": null,
           "value": 25.0
         }
       ],
@@ -26869,9 +25747,7 @@
         "value": 25.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -27098,6 +25974,27 @@
           "sourceURL": "https://www.openstreetmap.org/node/12578283040",
           "unit": "mph",
           "value": 25.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1031072742",
+          "sourceURL": "https://www.openstreetmap.org/way/1031072742",
+          "sourceUpdatedAt": "2026-01-21T01:41:00Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
         }
       ],
       "id": "osm-node-12578283040",
@@ -27125,9 +26022,7 @@
         "value": 25.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -27183,15 +26078,55 @@
       ]
     },
     {
-      "candidates": [],
+      "candidates": [
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 45.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/50511179",
+          "sourceURL": "https://www.openstreetmap.org/way/50511179",
+          "sourceUpdatedAt": "2026-04-28T01:43:18Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 45.0
+        }
+      ],
       "id": "osm-node-12578283042",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": null,
-      "status": "unknown",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "selected": {
+        "alternatives": [
+          {
+            "unit": "mph",
+            "value": 45.0
+          }
+        ],
+        "basis": "road-matched",
+        "checkedAt": "2026-11-04T03:29:26Z",
+        "conditional": false,
+        "expiresAt": null,
+        "lineage": null,
+        "matchDistanceMeters": 0.0,
+        "reason": "Camera member of road",
+        "sourceID": "osm/way/50511179",
+        "sourceURL": "https://www.openstreetmap.org/way/50511179",
+        "sourceUpdatedAt": "2026-04-28T01:43:18Z",
+        "unit": "mph",
+        "unitBasis": null,
+        "value": 45.0
+      },
+      "status": "eligible",
+      "unavailableReasons": []
     },
     {
       "candidates": [],
@@ -27205,15 +26140,55 @@
       ]
     },
     {
-      "candidates": [],
+      "candidates": [
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/580463166",
+          "sourceURL": "https://www.openstreetmap.org/way/580463166",
+          "sourceUpdatedAt": "2026-04-21T01:18:26Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
+        }
+      ],
       "id": "osm-node-12578283044",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": null,
-      "status": "unknown",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "selected": {
+        "alternatives": [
+          {
+            "unit": "mph",
+            "value": 25.0
+          }
+        ],
+        "basis": "road-matched",
+        "checkedAt": "2026-11-04T03:29:26Z",
+        "conditional": false,
+        "expiresAt": null,
+        "lineage": null,
+        "matchDistanceMeters": 0.0,
+        "reason": "Camera member of road",
+        "sourceID": "osm/way/580463166",
+        "sourceURL": "https://www.openstreetmap.org/way/580463166",
+        "sourceUpdatedAt": "2026-04-21T01:18:26Z",
+        "unit": "mph",
+        "unitBasis": null,
+        "value": 25.0
+      },
+      "status": "eligible",
+      "unavailableReasons": []
     },
     {
       "candidates": [],
@@ -28134,15 +27109,55 @@
       ]
     },
     {
-      "candidates": [],
+      "candidates": [
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 7.2,
+          "reason": "Unique road within 12 m; alternatives at least 15 m farther away",
+          "sourceID": "osm/way/130788146",
+          "sourceURL": "https://www.openstreetmap.org/way/130788146",
+          "sourceUpdatedAt": "2025-12-15T23:30:13Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
+        }
+      ],
       "id": "osm-node-12580479022",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": null,
-      "status": "unknown",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "selected": {
+        "alternatives": [
+          {
+            "unit": "mph",
+            "value": 25.0
+          }
+        ],
+        "basis": "road-matched",
+        "checkedAt": "2026-11-04T03:29:26Z",
+        "conditional": false,
+        "expiresAt": null,
+        "lineage": null,
+        "matchDistanceMeters": 7.2,
+        "reason": "Unique road within 12 m; alternatives at least 15 m farther away",
+        "sourceID": "osm/way/130788146",
+        "sourceURL": "https://www.openstreetmap.org/way/130788146",
+        "sourceUpdatedAt": "2025-12-15T23:30:13Z",
+        "unit": "mph",
+        "unitBasis": null,
+        "value": 25.0
+      },
+      "status": "eligible",
+      "unavailableReasons": []
     },
     {
       "candidates": [],
@@ -29694,6 +28709,27 @@
           "sourceURL": "https://www.openstreetmap.org/node/12798966181",
           "unit": "mph",
           "value": 45.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 45.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:25:18Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1105536471",
+          "sourceURL": "https://www.openstreetmap.org/way/1105536471",
+          "sourceUpdatedAt": "2026-09-30T06:25:35Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 45.0
         }
       ],
       "id": "osm-node-12798966181",
@@ -29720,9 +28756,7 @@
         "value": 45.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -29744,6 +28778,27 @@
           "sourceID": "osm/node/12798966182",
           "sourceURL": "https://www.openstreetmap.org/node/12798966182",
           "unit": "mph",
+          "value": 45.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 45.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:25:18Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1105536471",
+          "sourceURL": "https://www.openstreetmap.org/way/1105536471",
+          "sourceUpdatedAt": "2026-09-30T06:25:35Z",
+          "unit": "mph",
+          "unitBasis": null,
           "value": 45.0
         }
       ],
@@ -29771,9 +28826,7 @@
         "value": 45.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -29797,27 +28850,6 @@
           "sourceID": "osm/node/12810024326",
           "sourceURL": "https://www.openstreetmap.org/node/12810024326",
           "unit": "mph",
-          "value": 20.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 20.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/6009866",
-          "sourceURL": "https://www.openstreetmap.org/way/6009866",
-          "sourceUpdatedAt": "2025-05-04T18:58:34Z",
-          "unit": "mph",
-          "unitBasis": null,
           "value": 20.0
         }
       ],
@@ -29847,7 +28879,9 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -29871,27 +28905,6 @@
           "sourceID": "osm/node/12810024327",
           "sourceURL": "https://www.openstreetmap.org/node/12810024327",
           "unit": "mph",
-          "value": 20.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 20.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/6009866",
-          "sourceURL": "https://www.openstreetmap.org/way/6009866",
-          "sourceUpdatedAt": "2025-05-04T18:58:34Z",
-          "unit": "mph",
-          "unitBasis": null,
           "value": 20.0
         }
       ],
@@ -29921,7 +28934,9 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -29946,27 +28961,6 @@
           "sourceID": "osm/node/12810033766",
           "sourceURL": "https://www.openstreetmap.org/node/12810033766",
           "unit": "mph",
-          "value": 20.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 20.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/6009866",
-          "sourceURL": "https://www.openstreetmap.org/way/6009866",
-          "sourceUpdatedAt": "2025-05-04T18:58:34Z",
-          "unit": "mph",
-          "unitBasis": null,
           "value": 20.0
         }
       ],
@@ -29997,7 +28991,9 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -30022,27 +29018,6 @@
           "sourceID": "osm/node/12810046443",
           "sourceURL": "https://www.openstreetmap.org/node/12810046443",
           "unit": "mph",
-          "value": 20.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 20.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/6009866",
-          "sourceURL": "https://www.openstreetmap.org/way/6009866",
-          "sourceUpdatedAt": "2025-05-04T18:58:34Z",
-          "unit": "mph",
-          "unitBasis": null,
           "value": 20.0
         }
       ],
@@ -30073,7 +29048,9 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -30097,27 +29074,6 @@
           "sourceID": "osm/node/12810050352",
           "sourceURL": "https://www.openstreetmap.org/node/12810050352",
           "unit": "mph",
-          "value": 20.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 20.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/6009866",
-          "sourceURL": "https://www.openstreetmap.org/way/6009866",
-          "sourceUpdatedAt": "2025-05-04T18:58:34Z",
-          "unit": "mph",
-          "unitBasis": null,
           "value": 20.0
         }
       ],
@@ -30147,7 +29103,9 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -30171,27 +29129,6 @@
           "sourceID": "osm/node/12810139408",
           "sourceURL": "https://www.openstreetmap.org/node/12810139408",
           "unit": "mph",
-          "value": 20.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 20.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/6009866",
-          "sourceURL": "https://www.openstreetmap.org/way/6009866",
-          "sourceUpdatedAt": "2025-05-04T18:58:34Z",
-          "unit": "mph",
-          "unitBasis": null,
           "value": 20.0
         }
       ],
@@ -30221,7 +29158,9 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -30889,106 +29828,26 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/129230177",
-          "sourceURL": "https://www.openstreetmap.org/way/129230177",
-          "sourceUpdatedAt": "2026-08-27T05:42:30Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "osm-node-12922301994",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/129230177",
-        "sourceURL": "https://www.openstreetmap.org/way/129230177",
-        "sourceUpdatedAt": "2026-08-27T05:42:30Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/259492955",
-          "sourceURL": "https://www.openstreetmap.org/way/259492955",
-          "sourceUpdatedAt": "2025-08-19T08:43:57Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "osm-node-12922327709",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/259492955",
-        "sourceURL": "https://www.openstreetmap.org/way/259492955",
-        "sourceUpdatedAt": "2025-08-19T08:43:57Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -34484,27 +33343,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/13256701159",
           "unit": "km/h",
           "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1074100038",
-          "sourceURL": "https://www.openstreetmap.org/way/1074100038",
-          "sourceUpdatedAt": "2026-08-07T01:43:12Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 45.0
         }
       ],
       "id": "osm-node-13256701159",
@@ -34517,7 +33355,7 @@
             "value": 40.0
           }
         ],
-        "basis": "conservative-lower-bound",
+        "basis": "osm-posted",
         "checkedAt": "2026-10-19T08:42:01Z",
         "conditional": false,
         "rawTags": {
@@ -34525,14 +33363,16 @@
           "highway": "speed_camera",
           "maxspeed": "40"
         },
-        "reason": "Explicit maxspeed on the camera or its enforcement relation; lower of credible alternatives",
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
         "sourceID": "osm/node/13256701159",
         "sourceURL": "https://www.openstreetmap.org/node/13256701159",
         "unit": "km/h",
         "value": 40.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -34845,27 +33685,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/13274406488",
           "unit": "km/h",
           "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1170997050",
-          "sourceURL": "https://www.openstreetmap.org/way/1170997050",
-          "sourceUpdatedAt": "2025-11-01T18:56:17Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
         }
       ],
       "id": "osm-node-13274406488",
@@ -34878,7 +33697,7 @@
             "value": 40.0
           }
         ],
-        "basis": "conservative-lower-bound",
+        "basis": "osm-posted",
         "checkedAt": "2026-10-19T08:42:01Z",
         "conditional": false,
         "rawTags": {
@@ -34886,14 +33705,16 @@
           "highway": "speed_camera",
           "maxspeed": "40"
         },
-        "reason": "Explicit maxspeed on the camera or its enforcement relation; lower of credible alternatives",
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
         "sourceID": "osm/node/13274406488",
         "sourceURL": "https://www.openstreetmap.org/node/13274406488",
         "unit": "km/h",
         "value": 40.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -34953,76 +33774,15 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "conservative-lower-bound",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 10.19,
-          "reason": "Conservative minimum across plausible segments/carriageways of the same named road",
-          "sourceID": "osm/way/436794894",
-          "sourceURL": "https://www.openstreetmap.org/way/436794894",
-          "sourceUpdatedAt": "2024-03-27T16:20:13Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "conservative-lower-bound",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 39.08,
-          "reason": "Conservative minimum across plausible segments/carriageways of the same named road",
-          "sourceID": "osm/way/436795258",
-          "sourceURL": "https://www.openstreetmap.org/way/436795258",
-          "sourceUpdatedAt": "2024-07-19T22:20:56Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "osm-node-13296925187",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "conservative-lower-bound",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 10.19,
-        "reason": "Conservative minimum across plausible segments/carriageways of the same named road",
-        "sourceID": "osm/way/436794894",
-        "sourceURL": "https://www.openstreetmap.org/way/436794894",
-        "sourceUpdatedAt": "2024-03-27T16:20:13Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -35904,157 +34664,37 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1078473397",
-          "sourceURL": "https://www.openstreetmap.org/way/1078473397",
-          "sourceUpdatedAt": "2026-01-04T20:13:37Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "osm-node-13431067537",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/1078473397",
-        "sourceURL": "https://www.openstreetmap.org/way/1078473397",
-        "sourceUpdatedAt": "2026-01-04T20:13:37Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1078473399",
-          "sourceURL": "https://www.openstreetmap.org/way/1078473399",
-          "sourceUpdatedAt": "2026-01-04T20:13:37Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "osm-node-13431067538",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/1078473399",
-        "sourceURL": "https://www.openstreetmap.org/way/1078473399",
-        "sourceUpdatedAt": "2026-01-04T20:13:37Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1113123706",
-          "sourceURL": "https://www.openstreetmap.org/way/1113123706",
-          "sourceUpdatedAt": "2026-01-04T20:13:37Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "osm-node-13431067539",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/1113123706",
-        "sourceURL": "https://www.openstreetmap.org/way/1113123706",
-        "sourceUpdatedAt": "2026-01-04T20:13:37Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -36079,55 +34719,15 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1078151215",
-          "sourceURL": "https://www.openstreetmap.org/way/1078151215",
-          "sourceUpdatedAt": "2026-01-16T23:24:09Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
-        }
-      ],
+      "candidates": [],
       "id": "osm-node-13461363287",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 40.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/1078151215",
-        "sourceURL": "https://www.openstreetmap.org/way/1078151215",
-        "sourceUpdatedAt": "2026-01-16T23:24:09Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 40.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -39475,27 +38075,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/13728204912",
           "unit": "km/h",
           "value": 45.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1075950650",
-          "sourceURL": "https://www.openstreetmap.org/way/1075950650",
-          "sourceUpdatedAt": "2026-09-17T18:50:13Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 45.0
         }
       ],
       "id": "osm-node-13728204912",
@@ -39508,7 +38087,7 @@
             "value": 45.0
           }
         ],
-        "basis": "conservative-lower-bound",
+        "basis": "osm-posted",
         "checkedAt": "2026-10-19T08:42:01Z",
         "conditional": false,
         "rawTags": {
@@ -39516,14 +38095,16 @@
           "highway": "speed_camera",
           "maxspeed": "45"
         },
-        "reason": "Explicit maxspeed on the camera or its enforcement relation; lower of credible alternatives",
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
         "sourceID": "osm/node/13728204912",
         "sourceURL": "https://www.openstreetmap.org/node/13728204912",
         "unit": "km/h",
         "value": 45.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -39643,55 +38224,15 @@
       ]
     },
     {
-      "candidates": [
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1107362636",
-          "sourceURL": "https://www.openstreetmap.org/way/1107362636",
-          "sourceUpdatedAt": "2026-04-16T13:59:02Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        }
-      ],
+      "candidates": [],
       "id": "osm-node-13734792092",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": {
-        "alternatives": [
-          {
-            "unit": "mph",
-            "value": 35.0
-          }
-        ],
-        "basis": "road-matched",
-        "checkedAt": "2026-09-21T08:52:51Z",
-        "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 0.0,
-        "reason": "Camera member of road",
-        "sourceID": "osm/way/1107362636",
-        "sourceURL": "https://www.openstreetmap.org/way/1107362636",
-        "sourceUpdatedAt": "2026-04-16T13:59:02Z",
-        "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
-      },
-      "status": "eligible",
-      "unavailableReasons": []
+      "selected": null,
+      "status": "unknown",
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -41573,27 +40114,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/13884884832",
           "unit": "km/h",
           "value": 45.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1003421624",
-          "sourceURL": "https://www.openstreetmap.org/way/1003421624",
-          "sourceUpdatedAt": "2026-05-26T18:24:57Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 45.0
         }
       ],
       "id": "osm-node-13884884832",
@@ -41606,7 +40126,7 @@
             "value": 45.0
           }
         ],
-        "basis": "conservative-lower-bound",
+        "basis": "osm-posted",
         "checkedAt": "2026-10-19T08:42:01Z",
         "conditional": false,
         "rawTags": {
@@ -41614,14 +40134,16 @@
           "highway": "speed_camera",
           "maxspeed": "45"
         },
-        "reason": "Explicit maxspeed on the camera or its enforcement relation; lower of credible alternatives",
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
         "sourceID": "osm/node/13884884832",
         "sourceURL": "https://www.openstreetmap.org/node/13884884832",
         "unit": "km/h",
         "value": 45.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -41689,27 +40211,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/13897654328",
           "unit": "km/h",
           "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 50.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/419002835",
-          "sourceURL": "https://www.openstreetmap.org/way/419002835",
-          "sourceUpdatedAt": "2026-05-30T21:35:15Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 50.0
         }
       ],
       "id": "osm-node-13897654328",
@@ -41722,7 +40223,7 @@
             "value": 40.0
           }
         ],
-        "basis": "conservative-lower-bound",
+        "basis": "osm-posted",
         "checkedAt": "2026-10-19T08:42:01Z",
         "conditional": false,
         "rawTags": {
@@ -41730,14 +40231,16 @@
           "highway": "speed_camera",
           "maxspeed": "40"
         },
-        "reason": "Explicit maxspeed on the camera or its enforcement relation; lower of credible alternatives",
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
         "sourceID": "osm/node/13897654328",
         "sourceURL": "https://www.openstreetmap.org/node/13897654328",
         "unit": "km/h",
         "value": 40.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -41761,27 +40264,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/13897654329",
           "unit": "km/h",
           "value": 40.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 50.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1109070448",
-          "sourceURL": "https://www.openstreetmap.org/way/1109070448",
-          "sourceUpdatedAt": "2026-05-30T21:35:15Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 50.0
         }
       ],
       "id": "osm-node-13897654329",
@@ -41794,7 +40276,7 @@
             "value": 40.0
           }
         ],
-        "basis": "conservative-lower-bound",
+        "basis": "osm-posted",
         "checkedAt": "2026-10-19T08:42:01Z",
         "conditional": false,
         "rawTags": {
@@ -41802,14 +40284,16 @@
           "highway": "speed_camera",
           "maxspeed": "40"
         },
-        "reason": "Explicit maxspeed on the camera or its enforcement relation; lower of credible alternatives",
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
         "sourceID": "osm/node/13897654329",
         "sourceURL": "https://www.openstreetmap.org/node/13897654329",
         "unit": "km/h",
         "value": 40.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -41833,27 +40317,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/13897654330",
           "unit": "km/h",
           "value": 50.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1109070457",
-          "sourceURL": "https://www.openstreetmap.org/way/1109070457",
-          "sourceUpdatedAt": "2026-07-06T20:38:01Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
         }
       ],
       "id": "osm-node-13897654330",
@@ -41866,7 +40329,7 @@
             "value": 50.0
           }
         ],
-        "basis": "conservative-lower-bound",
+        "basis": "osm-posted",
         "checkedAt": "2026-10-19T08:42:01Z",
         "conditional": false,
         "rawTags": {
@@ -41874,14 +40337,16 @@
           "highway": "speed_camera",
           "maxspeed": "50"
         },
-        "reason": "Explicit maxspeed on the camera or its enforcement relation; lower of credible alternatives",
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
         "sourceID": "osm/node/13897654330",
         "sourceURL": "https://www.openstreetmap.org/node/13897654330",
         "unit": "km/h",
         "value": 50.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -42784,27 +41249,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/13954378939",
           "unit": "km/h",
           "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 40.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1170997036",
-          "sourceURL": "https://www.openstreetmap.org/way/1170997036",
-          "sourceUpdatedAt": "2026-06-20T18:44:53Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 40.0
         }
       ],
       "id": "osm-node-13954378939",
@@ -42817,7 +41261,7 @@
             "value": 35.0
           }
         ],
-        "basis": "conservative-lower-bound",
+        "basis": "osm-posted",
         "checkedAt": "2026-10-19T08:42:01Z",
         "conditional": false,
         "rawTags": {
@@ -42825,14 +41269,16 @@
           "highway": "speed_camera",
           "maxspeed": "35"
         },
-        "reason": "Explicit maxspeed on the camera or its enforcement relation; lower of credible alternatives",
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
         "sourceID": "osm/node/13954378939",
         "sourceURL": "https://www.openstreetmap.org/node/13954378939",
         "unit": "km/h",
         "value": 35.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -43237,15 +41683,55 @@
       ]
     },
     {
-      "candidates": [],
+      "candidates": [
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 35.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:30:21Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1390129988",
+          "sourceURL": "https://www.openstreetmap.org/way/1390129988",
+          "sourceUpdatedAt": "2026-07-15T01:33:49Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 35.0
+        }
+      ],
       "id": "osm-node-14016406694",
       "kind": "speed",
       "label": "Mapped camera",
-      "selected": null,
-      "status": "unknown",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "selected": {
+        "alternatives": [
+          {
+            "unit": "mph",
+            "value": 35.0
+          }
+        ],
+        "basis": "road-matched",
+        "checkedAt": "2026-11-04T03:30:21Z",
+        "conditional": false,
+        "expiresAt": null,
+        "lineage": null,
+        "matchDistanceMeters": 0.0,
+        "reason": "Camera member of road",
+        "sourceID": "osm/way/1390129988",
+        "sourceURL": "https://www.openstreetmap.org/way/1390129988",
+        "sourceUpdatedAt": "2026-07-15T01:33:49Z",
+        "unit": "mph",
+        "unitBasis": null,
+        "value": 35.0
+      },
+      "status": "eligible",
+      "unavailableReasons": []
     },
     {
       "candidates": [],
@@ -43612,6 +42098,27 @@
           "sourceURL": "https://www.openstreetmap.org/node/14049924433",
           "unit": "mph",
           "value": 40.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 40.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:29:26Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/50429533",
+          "sourceURL": "https://www.openstreetmap.org/way/50429533",
+          "sourceUpdatedAt": "2026-07-25T21:55:51Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 40.0
         }
       ],
       "id": "osm-node-14049924433",
@@ -43639,9 +42146,7 @@
         "value": 40.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [],
@@ -45727,90 +44232,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/14180521509",
           "unit": "mph",
           "value": 51.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "conservative-lower-bound",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 10.29,
-          "reason": "Conservative minimum across plausible segments/carriageways of the same named road",
-          "sourceID": "osm/way/436795890",
-          "sourceURL": "https://www.openstreetmap.org/way/436795890",
-          "sourceUpdatedAt": "2024-03-27T16:07:21Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "conservative-lower-bound",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 22.51,
-          "reason": "Conservative minimum across plausible segments/carriageways of the same named road",
-          "sourceID": "osm/way/1108351929",
-          "sourceURL": "https://www.openstreetmap.org/way/1108351929",
-          "sourceUpdatedAt": "2024-03-27T16:07:21Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "conservative-lower-bound",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 28.67,
-          "reason": "Conservative minimum across plausible segments/carriageways of the same named road",
-          "sourceID": "osm/way/436795893",
-          "sourceURL": "https://www.openstreetmap.org/way/436795893",
-          "sourceUpdatedAt": "2024-03-27T16:07:21Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "conservative-lower-bound",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 34.19,
-          "reason": "Conservative minimum across plausible segments/carriageways of the same named road",
-          "sourceID": "osm/way/436795892",
-          "sourceURL": "https://www.openstreetmap.org/way/436795892",
-          "sourceUpdatedAt": "2024-03-27T16:07:21Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
         }
       ],
       "id": "osm-node-14180521509",
@@ -45820,25 +44241,32 @@
         "alternatives": [
           {
             "unit": "mph",
-            "value": 35.0
+            "value": 51.0
           }
         ],
-        "basis": "conservative-lower-bound",
-        "checkedAt": "2026-09-21T08:52:51Z",
+        "basis": "osm-posted",
+        "checkedAt": "2026-10-19T08:42:01Z",
         "conditional": false,
-        "expiresAt": null,
-        "lineage": null,
-        "matchDistanceMeters": 22.51,
-        "reason": "Conservative minimum across plausible segments/carriageways of the same named road; lower of credible alternatives",
-        "sourceID": "osm/way/1108351929",
-        "sourceURL": "https://www.openstreetmap.org/way/1108351929",
-        "sourceUpdatedAt": "2024-03-27T16:07:21Z",
+        "rawTags": {
+          "description": "Red Light & Speed Camera for WB and WB to SB traffic",
+          "direction": "240",
+          "highway": "speed_camera",
+          "maxspeed": "51 mph",
+          "operator": "City of Tempe",
+          "surveillance": "red_light",
+          "surveillance:zone": "traffic",
+          "website": "https://www.tempe.gov/government/police/traffic-section/photo-enforcement"
+        },
+        "reason": "Explicit maxspeed on the camera or its enforcement relation",
+        "sourceID": "osm/node/14180521509",
+        "sourceURL": "https://www.openstreetmap.org/node/14180521509",
         "unit": "mph",
-        "unitBasis": null,
-        "value": 35.0
+        "value": 51.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -45850,28 +44278,15 @@
             }
           ],
           "basis": "road-matched",
-          "checkedAt": "2026-09-28T09:55:06Z",
+          "checkedAt": "2026-11-04T03:21:05Z",
           "conditional": false,
-          "expiresAt": "2026-11-07T00:00:00Z",
-          "lineage": [
-            {
-              "between": null,
-              "confidence": null,
-              "dataset": "OpenStreetMap",
-              "license": "ODbL-1.0",
-              "property": "",
-              "provider": "osm",
-              "record_id": "w740541581@12",
-              "resource": "planet",
-              "update_time": "2026-06-23T15:52:21Z",
-              "version": "2026-09-09"
-            }
-          ],
+          "expiresAt": null,
+          "lineage": null,
           "matchDistanceMeters": 0.0,
-          "reason": "Unique road within 12 m; alternatives at least 15 m farther away",
-          "sourceID": "overture/bcb276ac-9ba6-4d58-afec-04504dc10a3f",
-          "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
-          "sourceUpdatedAt": "2026-09-23",
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1559188066",
+          "sourceURL": "https://www.openstreetmap.org/way/1559188066",
+          "sourceUpdatedAt": "2026-09-15T20:31:21Z",
           "unit": "mph",
           "unitBasis": null,
           "value": 35.0
@@ -45888,28 +44303,15 @@
           }
         ],
         "basis": "road-matched",
-        "checkedAt": "2026-09-28T09:55:06Z",
+        "checkedAt": "2026-11-04T03:21:05Z",
         "conditional": false,
-        "expiresAt": "2026-11-07T00:00:00Z",
-        "lineage": [
-          {
-            "between": null,
-            "confidence": null,
-            "dataset": "OpenStreetMap",
-            "license": "ODbL-1.0",
-            "property": "",
-            "provider": "osm",
-            "record_id": "w740541581@12",
-            "resource": "planet",
-            "update_time": "2026-06-23T15:52:21Z",
-            "version": "2026-09-09"
-          }
-        ],
+        "expiresAt": null,
+        "lineage": null,
         "matchDistanceMeters": 0.0,
-        "reason": "Unique road within 12 m; alternatives at least 15 m farther away",
-        "sourceID": "overture/bcb276ac-9ba6-4d58-afec-04504dc10a3f",
-        "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
-        "sourceUpdatedAt": "2026-09-23",
+        "reason": "Camera member of road",
+        "sourceID": "osm/way/1559188066",
+        "sourceURL": "https://www.openstreetmap.org/way/1559188066",
+        "sourceUpdatedAt": "2026-09-15T20:31:21Z",
         "unit": "mph",
         "unitBasis": null,
         "value": 35.0
@@ -45927,28 +44329,15 @@
             }
           ],
           "basis": "road-matched",
-          "checkedAt": "2026-09-28T09:55:06Z",
+          "checkedAt": "2026-11-04T03:21:05Z",
           "conditional": false,
-          "expiresAt": "2026-11-07T00:00:00Z",
-          "lineage": [
-            {
-              "between": null,
-              "confidence": null,
-              "dataset": "OpenStreetMap",
-              "license": "ODbL-1.0",
-              "property": "",
-              "provider": "osm",
-              "record_id": "w740541581@12",
-              "resource": "planet",
-              "update_time": "2026-06-23T15:52:21Z",
-              "version": "2026-09-09"
-            }
-          ],
+          "expiresAt": null,
+          "lineage": null,
           "matchDistanceMeters": 0.0,
-          "reason": "Unique road within 12 m; alternatives at least 15 m farther away",
-          "sourceID": "overture/18f8576e-02da-48f1-9104-c077aac161da",
-          "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
-          "sourceUpdatedAt": "2026-09-23",
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/1559188066",
+          "sourceURL": "https://www.openstreetmap.org/way/1559188066",
+          "sourceUpdatedAt": "2026-09-15T20:31:21Z",
           "unit": "mph",
           "unitBasis": null,
           "value": 35.0
@@ -45965,28 +44354,15 @@
           }
         ],
         "basis": "road-matched",
-        "checkedAt": "2026-09-28T09:55:06Z",
+        "checkedAt": "2026-11-04T03:21:05Z",
         "conditional": false,
-        "expiresAt": "2026-11-07T00:00:00Z",
-        "lineage": [
-          {
-            "between": null,
-            "confidence": null,
-            "dataset": "OpenStreetMap",
-            "license": "ODbL-1.0",
-            "property": "",
-            "provider": "osm",
-            "record_id": "w740541581@12",
-            "resource": "planet",
-            "update_time": "2026-06-23T15:52:21Z",
-            "version": "2026-09-09"
-          }
-        ],
+        "expiresAt": null,
+        "lineage": null,
         "matchDistanceMeters": 0.0,
-        "reason": "Unique road within 12 m; alternatives at least 15 m farther away",
-        "sourceID": "overture/18f8576e-02da-48f1-9104-c077aac161da",
-        "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
-        "sourceUpdatedAt": "2026-09-23",
+        "reason": "Camera member of road",
+        "sourceID": "osm/way/1559188066",
+        "sourceURL": "https://www.openstreetmap.org/way/1559188066",
+        "sourceUpdatedAt": "2026-09-15T20:31:21Z",
         "unit": "mph",
         "unitBasis": null,
         "value": 35.0
@@ -47824,27 +46200,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/2502872591",
           "unit": "mph",
           "value": 45.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/27573791",
-          "sourceURL": "https://www.openstreetmap.org/way/27573791",
-          "sourceUpdatedAt": "2025-01-30T08:12:01Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 45.0
         }
       ],
       "id": "osm-node-2502872591",
@@ -47871,7 +46226,9 @@
         "value": 45.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -48991,31 +47348,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/338996922",
           "unit": "mph",
           "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            },
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "conservative-lower-bound",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": true,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1018404228",
-          "sourceURL": "https://www.openstreetmap.org/way/1018404228",
-          "sourceUpdatedAt": "2022-02-23T17:05:25Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
         }
       ],
       "id": "osm-node-338996922",
@@ -49048,7 +47380,9 @@
         "value": 35.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -49160,6 +47494,27 @@
           "sourceURL": "https://www.openstreetmap.org/node/3987164713",
           "unit": "mph",
           "value": 25.0
+        },
+        {
+          "alternatives": [
+            {
+              "unit": "mph",
+              "value": 25.0
+            }
+          ],
+          "basis": "road-matched",
+          "checkedAt": "2026-11-04T03:24:18Z",
+          "conditional": false,
+          "expiresAt": null,
+          "lineage": null,
+          "matchDistanceMeters": 0.0,
+          "reason": "Camera member of road",
+          "sourceID": "osm/way/76848347",
+          "sourceURL": "https://www.openstreetmap.org/way/76848347",
+          "sourceUpdatedAt": "2022-12-30T01:00:18Z",
+          "unit": "mph",
+          "unitBasis": null,
+          "value": 25.0
         }
       ],
       "id": "osm-node-3987164713",
@@ -49189,9 +47544,7 @@
         "value": 25.0
       },
       "status": "eligible",
-      "unavailableReasons": [
-        "Matched road has unknown or stale limit"
-      ]
+      "unavailableReasons": []
     },
     {
       "candidates": [
@@ -49326,31 +47679,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/408046785",
           "unit": "mph",
           "value": 35.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 45.0
-            },
-            {
-              "unit": "mph",
-              "value": 35.0
-            }
-          ],
-          "basis": "conservative-lower-bound",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": true,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/1409730404",
-          "sourceURL": "https://www.openstreetmap.org/way/1409730404",
-          "sourceUpdatedAt": "2025-06-26T11:16:49Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 35.0
         }
       ],
       "id": "osm-node-408046785",
@@ -49383,7 +47711,9 @@
         "value": 35.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [],
@@ -49718,27 +48048,6 @@
           "sourceURL": "https://www.openstreetmap.org/node/49270409",
           "unit": "mph",
           "value": 20.0
-        },
-        {
-          "alternatives": [
-            {
-              "unit": "mph",
-              "value": 20.0
-            }
-          ],
-          "basis": "road-matched",
-          "checkedAt": "2026-09-21T08:52:51Z",
-          "conditional": false,
-          "expiresAt": null,
-          "lineage": null,
-          "matchDistanceMeters": 0.0,
-          "reason": "Camera member of road",
-          "sourceID": "osm/way/5978872",
-          "sourceURL": "https://www.openstreetmap.org/way/5978872",
-          "sourceUpdatedAt": "2025-05-04T19:13:18Z",
-          "unit": "mph",
-          "unitBasis": null,
-          "value": 20.0
         }
       ],
       "id": "osm-node-49270409",
@@ -49767,7 +48076,9 @@
         "value": 20.0
       },
       "status": "eligible",
-      "unavailableReasons": []
+      "unavailableReasons": [
+        "Matched road has unknown or stale limit"
+      ]
     },
     {
       "candidates": [
@@ -55902,6 +54213,6 @@
   ],
   "speedCameras": 1791,
   "totalCameras": 2728,
-  "unknown": 654,
-  "version": "2026-10-19-49463424717f-730d153a"
+  "unknown": 673,
+  "version": "2026-11-02-8172bfb35e77-0f48cfde"
 }

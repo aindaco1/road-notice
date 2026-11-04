@@ -42,8 +42,8 @@ public enum SpeedCheck {
               fix.speed.isFinite, fix.speed >= 0,
               let uncertainty = fix.speedAccuracy, uncertainty.isFinite,
               (0...2).contains(uncertainty) else { return false }
-        // Use the upper uncertainty bound, with a 1 m/s minimum margin. Never
-        // use displacement-derived speed to decide that a warning is unnecessary.
-        return fix.speed + max(1, uncertainty) < limit
+        // Accuracy gates whether the measurement is usable; it does not move
+        // the posted threshold. Never quiet using displacement-derived speed.
+        return fix.speed <= limit
     }
 }

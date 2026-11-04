@@ -1,22 +1,22 @@
 # Speed-limit coverage
 
-Snapshot 2026-10-19-49463424717f-730d153a
+Snapshot 2026-11-02-8172bfb35e77-0f48cfde
 
-830 / 1791 speed-camera approaches have an approved posted limit or conservative suppression bound.
+811 / 1791 speed-camera approaches have an approved posted limit or conservative suppression bound.
 
 | Census metro | Speed approaches | With limit/bound |
 |---|---:|---:|
-| Albuquerque, NM | 72 | 54 |
-| New York-Newark-Jersey City, NY-NJ | 88 | 37 |
+| Albuquerque, NM | 72 | 41 |
+| New York-Newark-Jersey City, NY-NJ | 88 | 38 |
 | Los Angeles-Long Beach-Anaheim, CA | 11 | 4 |
 | Chicago-Naperville-Elgin, IL-IN | 315 | 12 |
-| Dallas-Fort Worth-Arlington, TX | 91 | 70 |
+| Dallas-Fort Worth-Arlington, TX | 91 | 65 |
 | Houston-Pasadena-The Woodlands, TX | 1 | 0 |
 | Atlanta-Sandy Springs-Roswell, GA | 28 | 15 |
-| Washington-Arlington-Alexandria, DC-VA-MD-WV | 420 | 253 |
+| Washington-Arlington-Alexandria, DC-VA-MD-WV | 420 | 260 |
 | Miami-Fort Lauderdale-West Palm Beach, FL | 12 | 0 |
 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD | 23 | 20 |
-| Phoenix-Mesa-Chandler, AZ | 36 | 18 |
+| Phoenix-Mesa-Chandler, AZ | 36 | 11 |
 | Boston-Cambridge-Newton, MA-NH | 0 | 0 |
 | Riverside-San Bernardino-Ontario, CA | 2 | 0 |
 | San Francisco-Oakland-Fremont, CA | 70 | 68 |

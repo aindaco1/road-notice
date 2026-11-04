@@ -9,8 +9,8 @@ private func camera(_ id: String = "abq-1", bearing: Double? = 0, kind: CameraKi
            sourceIDs: ["test"], evidence: "Fixture")
 }
 private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, course: Double? = 0,
-                 speed: Double = 20, accuracy: Double = 5) -> LocationFix {
-    LocationFix(coordinate: Coordinate(latitude, lon), timestamp: start.addingTimeInterval(seconds),
+                 speed: Double = 20, accuracy: Double = 5, at date: Date = start) -> LocationFix {
+    LocationFix(coordinate: Coordinate(latitude, lon), timestamp: date.addingTimeInterval(seconds),
                 accuracy: accuracy, speed: speed, course: course)
 }
 
@@ -143,8 +143,8 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
         var engine = AlertEngine()
         var matches: [String] = []
         for second in 0..<90 {
-            let at = start.addingTimeInterval(Double(second))
-            let update = fix(origin + step * Double(second), lon: longitude, seconds: Double(second), course: nil, speed: -1)
+            let at = snapshot.generatedAt.addingTimeInterval(Double(second))
+            let update = fix(origin + step * Double(second), lon: longitude, seconds: Double(second), course: nil, speed: -1, at: snapshot.generatedAt)
             matches += engine.evaluate(update, index: index, now: at).map(\.camera.id)
         }
         #expect(matches == ["abq-coors-st-joseph-possible-\(direction)"])
@@ -152,8 +152,8 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
     // Waiting at the intersection must not invent driving from stationary fixes.
     var parked = AlertEngine()
     for second in 0..<10 {
-        let update = fix(35.1282, lon: -106.70156, seconds: Double(second), course: nil, speed: -1)
-        #expect(parked.evaluate(update, index: index, now: start.addingTimeInterval(Double(second))).isEmpty)
+        let update = fix(35.1282, lon: -106.70156, seconds: Double(second), course: nil, speed: -1, at: snapshot.generatedAt)
+        #expect(parked.evaluate(update, index: index, now: snapshot.generatedAt.addingTimeInterval(Double(second))).isEmpty)
     }
 }
 
@@ -176,7 +176,7 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
             for step in 0..<steps {
                 let t = Double(step) / Double(steps)
                 let position = Coordinate(a.latitude + (b.latitude-a.latitude)*t, a.longitude + (b.longitude-a.longitude)*t)
-                let time = start.addingTimeInterval(elapsed)
+                let time = snapshot.generatedAt.addingTimeInterval(elapsed)
                 let update = LocationFix(coordinate: position, timestamp: time, accuracy: 5, speed: 15, course: heading)
                 matches += forward.evaluate(update, index: index, now: time).map(\.camera.id).filter { $0 == area.id }
                 let opposite = LocationFix(coordinate: position, timestamp: time, accuracy: 5, speed: 15,
@@ -199,9 +199,9 @@ private func fix(_ latitude: Double, lon: Double = -106, seconds: Double = 0, co
     var engine = AlertEngine()
     var warned: [String] = []
     for second in 0..<60 {
-        let at = start.addingTimeInterval(Double(second))
+        let at = snapshot.generatedAt.addingTimeInterval(Double(second))
         let update = fix(35.132 - 0.00018 * Double(second), lon: -106.53343,
-                         seconds: Double(second), course: nil, speed: -1)
+                         seconds: Double(second), course: nil, speed: -1, at: snapshot.generatedAt)
         warned += engine.evaluate(update, index: index, now: at).map(\.camera.id)
     }
     #expect(warned == [camera.id])

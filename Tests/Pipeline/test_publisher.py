@@ -105,10 +105,13 @@ class PublisherTests(unittest.TestCase):
             # refreshes may regenerate current zones without moving the camera.
             self.assertEqual(field_verified[identifier]['roadZone'],old[identifier]['roadZone'])
             p.validate_zone(c['roadZone'])
-            self.assertEqual(c['speedLimit']['value'],45)
-            self.assertEqual(c['speedLimit']['unit'],'mph')
-            self.assertEqual(c['speedLimit']['verifiedAt'],'2026-10-01T06:00:00Z')
-            self.assertEqual(c['speedLimit']['basis'],'field-verified')
+            # Pin the historical field edit, not a limit that can legitimately
+            # expire or be replaced by newer source evidence in current output.
+            observed=field_verified[identifier]['speedLimit']
+            self.assertEqual(observed['value'],45)
+            self.assertEqual(observed['unit'],'mph')
+            self.assertEqual(observed['verifiedAt'],'2026-10-01T06:00:00Z')
+            self.assertEqual(observed['basis'],'field-verified')
         p.validate(current['cameras'])
 
     def test_publication_is_immutable_and_checksum_matches(self):

@@ -14,12 +14,12 @@ import urllib.parse
 import urllib.request
 import urllib.error
 
-from camera_data import ROOT, UTC, read, write, stamp, encode, distance, valid_point, OVERPASS_URL
+from camera_data import ROOT, UTC, read, write, stamp, encode, distance, valid_point
 from source_watch import parse_page, USER_AGENT
 
-# Public global mirror listed by OSM; direct FOSSGIS was unavailable and the
-# Private.coffee replica failed the freshness check during validation.
-OVERPASS = OVERPASS_URL
+# The public FOSSGIS service supplied fresh complete Coors geometry on November 3.
+# Keep bounded queries/backoff and validate replica age on every response.
+OVERPASS = 'https://overpass-api.de/api/interpreter'
 ABQ = 'https://www.cabq.gov/automated-speed-enforcement/camera-data'
 NMDOT = 'https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer'
 SEATTLE = 'https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Seattle_Streets_1/FeatureServer/0'
@@ -159,7 +159,9 @@ def nyc_lines(bounds):
 
 
 def osm_roads(points):
-    queries=''.join(f'way(around:80,{p["latitude"]:.6f},{p["longitude"]:.6f})[highway];' for p in points)
+    # 600 m upstream look-ahead plus the competing-road corridor. This is a
+    # source query envelope, never invented runtime road geometry.
+    queries=''.join(f'way(around:750,{p["latitude"]:.6f},{p["longitude"]:.6f})[highway];' for p in points)
     try:
         value=json.loads(get(OVERPASS,{'data':'[out:json][timeout:40];('+queries+');out meta geom;'},post=True))
     except (urllib.error.HTTPError,TimeoutError) as error:
@@ -184,24 +186,53 @@ def osm_roads(points):
     return value
 
 
+def road_requests(cameras):
+    # Regional batches avoid invalidating the entire country's query hashes when
+    # one camera changes. All kinds need road applicability, including red lights.
+    regions={}
+    for camera in cameras:
+        for point in samples(camera['geometry'],500):
+            key=(math.floor(point['latitude']*4),math.floor(point['longitude']*4))
+            region=regions.setdefault(key,{})
+            region[(round(point['latitude'],6),round(point['longitude'],6))]=point
+    result=[]
+    for key,region in sorted(regions.items()):
+        points=[region[k] for k in sorted(region)]
+        for start in range(0,len(points),25):
+            batch=points[start:start+25]
+            name='osm-roads-'+hashlib.sha256(encode({'radius':750,'points':batch})).hexdigest()[:12]
+            result.append((name,batch))
+    return result
+
+
 def active_osm_shards(root, requested, previous):
     # Query hashes change when camera inputs change. A partial replacement set
     # must not disconnect still-valid roads from the last complete source set.
     complete = all(read(root / f'Data/SpeedLimits/{name}.json', {}).get('checkedAt')
                    for name in requested)
-    return requested if complete else previous.get('activeOSMShards', requested)
+    if complete:return requested
+    # Use successful parts immediately, while preserving coverage for failed
+    # regions. load_roads already picks the newest observation of each source way.
+    available=[name for name in requested if read(root / f'Data/SpeedLimits/{name}.json', {}).get('checkedAt')]
+    return sorted(set(previous.get('activeOSMShards', [])) | set(available)) or requested
 
 
 def refresh(root=ROOT, now=None, force=False, budget=900, osm_only=False):
     now=now or dt.datetime.now(UTC); checks=[]; started=time.monotonic()
+    previous=read(root/'Data/Review/speed-limit-fetch.json',{})
+    attempts={c['id']:c.get('attemptedAt',c.get('checkedAt',previous.get('checkedAt','')))
+              for c in previous.get('checks',[]) if c.get('attemptedAt') or c.get('status')!='deferred'}
     folder=root/'Data/SpeedLimits'; folder.mkdir(parents=True,exist_ok=True)
     def cached(name,url,fetch,minimum=0):
         path=folder/(name+'.json');old=read(path,{})
         if not force and old.get('checkedAt') and dt.timedelta(0)<=now-dt.datetime.fromisoformat(old['checkedAt'].replace('Z','+00:00'))<dt.timedelta(days=6):
             checks.append({'id':name,'status':'retained' if old.get('automatedCheckError') else 'cached','checkedAt':old['checkedAt'],
                 **({'error':old['automatedCheckError'],'lastGoodAt':old['checkedAt']} if old.get('automatedCheckError') else {})});return
+        if time.monotonic()-started>budget:
+            checks.append({'id':name,'status':'deferred','error':'Run acquisition time budget reached',
+                           **({'attemptedAt':attempts[name]} if name in attempts else {})})
+            return
         try:
-            if time.monotonic()-started>budget:raise TimeoutError('Run acquisition time budget reached')
             value=fetch()
             count=len(value.get('elements',value.get('features',value.get('rows',value.get('limits',[])))))
             if count<minimum:raise ValueError('Source below minimum expected count')
@@ -212,6 +243,7 @@ def refresh(root=ROOT, now=None, force=False, budget=900, osm_only=False):
             write(path,value,compact=True);checks.append({'id':name,'status':'downloaded','records':count,'checkedAt':value['checkedAt']})
         except Exception as error:
             checks.append({'id':name,'status':'retained' if old else 'unavailable','lastGoodAt':old.get('checkedAt'),'error':str(error)})
+        checks[-1]['attemptedAt']=stamp(now)
         print(name,checks[-1]['status'],checks[-1].get('error',''),flush=True)
     if not osm_only:
         cached('abq-camera-limits',ABQ,abq_limits,18)
@@ -236,22 +268,18 @@ def refresh(root=ROOT, now=None, force=False, budget=900, osm_only=False):
                 name=f'{prefix}-{x}-{y}'
                 cached(name,url,(lambda bounds=bounds:nyc_lines(bounds)) if prefix=='nyc-roads' else
                     (lambda bounds=bounds:arcgis_lines(SEATTLE,bounds,'1=1','OBJECTID,ONSTREET,SPEEDLIMIT,ONEWAY,ONEWAYDIR')))
-    # Spatially sorted shards are cached by exact query, including corridor vertices.
-    points={}
-    for c in cameras:
-        if c['kind'] not in ('speed','possibleSpeed'):continue
-        for p in samples(c['geometry']):points[(round(p['latitude'],6),round(p['longitude'],6))]=p
-    points=[points[k] for k in sorted(points)]
-    shards=[];backoff=False
-    for start in range(0,len(points),100):
-        ps=points[start:start+100];name='osm-roads-'+hashlib.sha256(encode(ps)).hexdigest()[:12];shards.append(name)
+    requests=road_requests(cameras)
+    shards=[name for name,_ in requests];backoff=False
+    # Missing/unattempted regions first; oldest attempts next. A failing region
+    # cannot consume every week's acquisition budget and starve the rest.
+    for name,ps in sorted(requests,key=lambda r:(attempts.get(r[0],''),r[0])):
         if backoff:
-            checks.append({'id':name,'status':'deferred','error':'Overpass backoff after upstream refusal; retry on next run'})
+            checks.append({'id':name,'status':'deferred','error':'Overpass backoff after upstream refusal; retry on next run',
+                           **({'attemptedAt':attempts[name]} if name in attempts else {})})
         else:
             cached(name,OVERPASS,lambda ps=ps:osm_roads(ps))
             backoff=any(x in checks[-1].get('error','') for x in ('429','Connection refused','rate limit'))
-            if checks[-1]['status']!='cached':time.sleep(10)
-    previous=read(root/'Data/Review/speed-limit-fetch.json',{})
+            if checks[-1]['status'] not in ('cached','deferred'):time.sleep(10)
     if osm_only:
         checks=[x for x in previous.get('checks',[]) if not x['id'].startswith('osm-roads-')]+checks
     active=active_osm_shards(root,shards,previous)

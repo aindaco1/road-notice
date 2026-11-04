@@ -38,7 +38,7 @@ Build checks use the same iOS 17.0 minimum as distribution. The iOS runtime comp
 
 ## Background and audio
 
-Version 1.0.6 retains one automotive live-location stream through system-managed stationary pauses and automatic movement recovery. iOS 17 uses the two-step location-permission request; iOS 18 and later use a retained Core Location service session. A background activity session spans idle periods, and significant-change monitoring supports permitted relaunch/recovery. Physical battery savings and departure timing still need acceptance; see [battery monitoring](docs/BATTERY-MONITORING.md). Every fix uses one on-device alert engine. Alerts are one original 1.8-second siren, using the system-selected audio route and media volume, with brief audio ducking. No silent-audio keepalive, location uploads, or claimed critical-alert entitlement.
+Version 1.0.6 retains one automotive live-location stream through system-managed stationary pauses and automatic movement recovery. iOS 17 uses the two-step location-permission request; iOS 18 and later use a retained Core Location service session. A background activity session spans idle periods, and significant-change monitoring supports permitted relaunch/recovery. Physical battery savings and departure timing still need acceptance; see [battery monitoring](docs/BATTERY-MONITORING.md). Every fix uses one on-device alert engine. Alerts are one original 1.8-second siren, using the system-selected audio route and media volume, with brief audio ducking. Do Not Disturb/Focus can silence notifications unless Road Notice is allowed through. Test warning may still play; it does not prove background delivery. No silent-audio keepalive, location uploads, or Critical Alerts override.
 
 ## Weekly database
 
@@ -48,7 +48,7 @@ Upstream source checks run Sunday at 9 p.m. Denver time, with automatic reconcil
 
 Code, original icon and siren: [MIT](LICENSE). Camera database: [ODbL 1.0](Data/LICENSE.md), © OpenStreetMap contributors, with source-linked municipal facts.
 
-The **Quiet below speed limit** setting is on by default. It only suppresses speed-camera warnings when both the measured speed and applicable limit are reliable; unknown limits and red-light cameras still warn. See [speed check](docs/SPEED-CHECK.md), [geocoding and identity](docs/GEOCODING-AND-IDENTITY.md), and [source maintenance](docs/MAINTENANCE.md).
+The **Quiet below speed limit** setting is on by default. It suppresses speed-camera warnings at or below a usable limit when the measured speed is reliable; unknown limits and red-light cameras still warn. See [speed check](docs/SPEED-CHECK.md), [geocoding and identity](docs/GEOCODING-AND-IDENTITY.md), and [source maintenance](docs/MAINTENANCE.md).
 
 ## Problem reports
 

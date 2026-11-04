@@ -37,7 +37,7 @@ private func fix(speed: Double = 10, uncertainty: Double? = 0.5, age: Double = 0
     let c = camera()
     for f in [fix(speed: -1), fix(speed: .nan), fix(uncertainty: nil), fix(uncertainty: -1),
               fix(uncertainty: 2.1), fix(uncertainty: .infinity), fix(age: 4), fix(age: -1),
-              fix(speed: 40 * 0.44704), fix(speed: 40 * 0.44704 - 0.9)] {
+              fix(speed: 40 * 0.44704 + 0.01)] {
         #expect(!SpeedCheck.shouldSuppress(c, fix: f, now: now))
     }
     for l in [nil, limit(unit: "knots"), limit(conditional: true), limit(expiry: now),
@@ -70,9 +70,9 @@ private func fix(speed: Double = 10, uncertainty: Double? = 0.5, age: Double = 0
     }
 }
 
-@Test func verifiedCoorsApproachesQuietAt40AndWarnAt45OrWithUnknownSpeedAccuracy() throws {
+@Test func verifiedCoorsApproachesQuietAtOrBelow45AndWarnAboveOrWithUnknownSpeedAccuracy() throws {
     let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
-    let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras.json")))
+    let snapshot = try CameraSnapshot.decode(Data(contentsOf: root.appending(path: "Data/Published/cameras-2026-09-28-161eb14e875c-1f615099.json")))
     let cameras = snapshot.cameras.filter { $0.id.hasPrefix("abq-coors-st-joseph-") }
     #expect(cameras.count == 2)
     for camera in cameras {
@@ -83,7 +83,9 @@ private func fix(speed: Double = 10, uncertainty: Double? = 0.5, age: Double = 0
                 accuracy: 5, speed: mph * 0.44704, course: camera.travelBearing, speedAccuracy: uncertainty)
         }
         #expect(SpeedCheck.shouldSuppress(camera, fix: observed(40), now: snapshot.generatedAt))
-        #expect(!SpeedCheck.shouldSuppress(camera, fix: observed(45), now: snapshot.generatedAt))
+        #expect(SpeedCheck.shouldSuppress(camera, fix: observed(44), now: snapshot.generatedAt))
+        #expect(SpeedCheck.shouldSuppress(camera, fix: observed(45), now: snapshot.generatedAt))
+        #expect(!SpeedCheck.shouldSuppress(camera, fix: observed(45.01), now: snapshot.generatedAt))
         #expect(!SpeedCheck.shouldSuppress(camera, fix: observed(40, uncertainty: nil), now: snapshot.generatedAt))
     }
 }

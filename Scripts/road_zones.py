@@ -1,7 +1,7 @@
 """Compact, optional road zones built from source-connected OSM ways.
 
-The matcher is geographic-agnostic. Rollout eligibility uses the existing reviewed
-metro register. Missing/ambiguous paths retain ordinary warnings, with a report.
+The same evidence gates apply to every camera kind and region. Source age makes
+geometry due for review; it does not remove a validated road constraint.
 No driver locations or online requests are involved.
 """
 import collections
@@ -11,7 +11,10 @@ import math
 from camera_data import distance, read, stamp, write, UTC, valid_point, projection
 from camera_identity import angle
 from fetch_speed_limits import samples
-from speed_limits import RoadIndex, camera_names, same_road, fresh, load_roads
+from speed_limits import RoadIndex, camera_names, same_road, load_roads
+
+# Covers the engine's maximum look-ahead, including speeds above a posted limit.
+APPROACH_METERS = 600
 
 
 
@@ -34,7 +37,8 @@ class ZoneBuilder:
     def __init__(self,roads,now):
         # Direct OSM retains shared-node connectivity and one-way semantics.
         self.roads=[r for r in roads if r['source']=='osm' and len(r['geometry'])>=2
-                    and len(r['nodes'])==len(r['geometry']) and fresh(r.get('checkedAt'),now)]
+                    and len(r['nodes'])==len(r['geometry'])
+                    and r.get('checkedAt') and r['checkedAt']<=stamp(now)]
         self.index=RoadIndex(self.roads);self.ends=collections.defaultdict(list)
         for r in self.roads:
             self.ends[r['nodes'][0]].append((r,False))
@@ -86,7 +90,6 @@ class ZoneBuilder:
             checks=[projection(p,path) for p in samples(g,30)]
             if any(v[0]>25 for v in checks):continue
             lo=min(v[1] for v in checks);hi=max(v[1] for v in checks)
-            if len(g)==1 and lo<150:continue  # Need a useful approach, not a tiny island.
             start=max(0,lo-650);end=min(length(path),hi+60)
             path=clip(path,start,end)
             if not 2<=len(path)<=2000:continue
@@ -97,6 +100,9 @@ class ZoneBuilder:
         if any(not chosen[3].intersection(c[3]) and c[1]-chosen[1]<10 for c in choices[1:]):
             return None,'Competing monitored-road paths'
         _,_,path,used,at,lo,hi,seed=chosen
+        # Establish the correct road before checking lead length; a longer
+        # neighboring road must not win merely because the real approach is short.
+        if lo<APPROACH_METERS:return None,'Insufficient mapped approach (600 m required)'
         # Include other ways even when their names match: frontage roads and
         # separate carriageways must not become proof of road membership.
         alternatives={}
@@ -140,16 +146,29 @@ def validate_zone(zone):
 
 
 def enrich_zones(root,records,now):
-    reviewed={c['id'] for c in read(root/'Data/Overrides/metro.json',{}).get('cameras',[])}
+    previous={c['id']:c for c in read(root/'Data/Published/cameras.json',{}).get('cameras',[])}
     builder=ZoneBuilder(load_roads(root,now),now);report=[];result=[]
     for camera in records:
         camera=dict(camera);camera.pop('roadZone',None)
-        if camera['id'] in reviewed:
-            zone,reason=builder.build(camera)
-            if zone:camera['roadZone']=zone
-            report.append({'id':camera['id'],'label':camera['label'],'status':'eligible' if zone else 'fallback','reason':reason,
-                           'vertices':len(zone['geometry']) if zone else 0})
+        zone,reason=builder.build(camera)
+        status='eligible' if zone else 'fallback'
+        old=previous.get(camera['id'],{})
+        # A failed/incomplete refresh must not reopen nearby-road warnings.
+        # Camera moves/direction changes explicitly invalidate the old association.
+        if not zone and old.get('roadZone') and all(camera.get(k)==old.get(k) for k in ('geometry','travelBearing')):
+            validate_zone(old['roadZone'])
+            zone=old['roadZone'];status='retained'
+        if zone:camera['roadZone']=zone
+        report.append({'id':camera['id'],'label':camera['label'],'kind':camera['kind'],
+                       'status':status,'reason':reason,'vertices':len(zone['geometry']) if zone else 0,
+                       'approachMeters':zone['startMeters'] if zone else None,
+                       'sourceCheckDue':bool(zone and zone['validUntil']<=stamp(now))})
         result.append(camera)
-    write(root/'Data/Review/road-zone-coverage.json',{'generatedAt':stamp(now),'scope':'Existing reviewed Albuquerque metro register',
-          'eligible':sum(r['status']=='eligible' for r in report),'reviewed':len(report),'totalCameras':len(records),'records':report})
+    write(root/'Data/Review/road-zone-coverage.json',{'generatedAt':stamp(now),'scope':'All camera kinds and regions',
+          'eligible':sum(r['status']!='fallback' for r in report),
+          'generated':sum(r['status']=='eligible' for r in report),
+          'retained':sum(r['status']=='retained' for r in report),
+          'sourceChecksDue':sum(r['sourceCheckDue'] for r in report),
+          'requiredApproachMeters':APPROACH_METERS,
+          'reviewed':len(report),'totalCameras':len(records),'records':report})
     return result

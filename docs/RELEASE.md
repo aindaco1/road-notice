@@ -1,5 +1,37 @@
 # Release and distribution
 
+## 1.0.7 (20) preparation — November 3, 2026
+
+The public App Store listing now shows **1.0.6**, released October 8. The earlier
+submission records below are historical. This branch prepares **1.0.7 (20)**
+with the [alert corrections](ALERT-FIXES.md), refreshed camera data, Do Not
+Disturb guidance and updated website copy. Critical Alerts are not added.
+
+The website describes the new release without an “upcoming” label at the owner's
+request. That wording does not establish an App Store upload, submission or
+production website deployment. Those actions have not been performed for this
+candidate. The normal release archive must retain the public `/data/v2/` channel.
+
+## App Store submission — October 7, 2026
+
+**Road Notice 1.0.6 (19) is Waiting for Review.** Apple confirmed one item
+submitted at **17:40 MDT (23:40 UTC)**. The
+[submission](https://appstoreconnect.apple.com/apps/6812094105/distribution/reviewsubmissions/details/da791fd7-1e17-462b-a334-05dec756bdd0)
+contains standard build `c5761094-66b0-4f6a-a807-6d6e74f37b9f`.
+The saved description, What's New and review notes cover the local alert log,
+road-aware approaches, stationary recovery and notification-opening crash fix.
+Existing screenshots and published privacy disclosures were verified. Automatic
+release after approval and immediate updates remain selected. Version 1.0.5 (13)
+remains Ready for Distribution; submission does not establish approval or public
+availability of 1.0.6.
+
+Source/runtime CI, the retained archive signature and release-bundle checks were
+reverified. Both live public feeds pass their website and data checks with 2,711
+records; the submitted bundle retains its 2,701 records and 54 road zones.
+Physical battery, overnight departure and normal phone notification-tap checks
+remain open. No TestFlight group assignment changed. Confirmation and the
+submission record are retained in ignored `work/release19/`.
+
 ## Public 1.0.6 deployment — October 4, 2026
 
 [Version 1.0.6](https://github.com/aindaco1/road-notice/releases/tag/v1.0.6)
@@ -14,9 +46,10 @@ count and speed-limit coverage checks. The `/data/v2/` snapshot
 `2026-09-28-161eb14e875c-1f615099` exactly matches the uploaded archive's camera
 bytes; the actual released 1.0.5 validator accepts all 2,701 legacy-feed records.
 
-**Apple submission remains pending.** The last verified App Store version is
+**At deployment, Apple submission was pending.** The last verified App Store version was
 1.0.5 (13), Ready for Distribution. Upload success does not establish build 19's
-processing, selection for App Review, submission, or First Drive assignment.
+processing, selection for App Review, submission, or First Drive assignment;
+the October 7 record above establishes the subsequent submission.
 Prepared description, What's New, review notes and test instructions are in
 ignored `work/release19/`. Existing distributed betas remain available until the
 replacement is assigned. GitHub and website publication are separate from App

@@ -48,3 +48,7 @@ See the [September 14 follow-up investigation](DATA-RESEARCH.md) for NMDOT, Seat
 | Municipal Socrata, ArcGIS and agency-linked KML feeds already registered | Stable IDs and explicit coordinates; source-specific status/type filters | Continue Chicago, DC, Arlington, Seattle, Tacoma, San Francisco and Phoenix refreshes. |
 
 No new single complete, open and authoritative US camera inventory was found. Coverage remains the Census top 20 metros plus Albuquerque, with uneven source quality. The source registry is extensible; current coverage counts are generated in [metro-coverage.json](../Data/Review/metro-coverage.json).
+
+## Durable road zones
+
+Road-zone geometry remains active until replaced or its camera geometry/direction changes. Its 30-day date schedules a source review; it does not remove the road constraint. The shared road cache now covers every camera kind with wider, bounded regional queries. Partial refreshes activate completed queries alongside the previous set; per-way timestamps select newer evidence without inventing new dates. Missing and least-recently-attempted regions get the next acquisition budget. The road-zone coverage report lists every camera, retained short approaches and overdue checks; maintenance findings summarize those gaps. Tests pin historical field edits separately from current data, so routine regeneration and speed-limit expiry cannot freeze the updater.

@@ -1,5 +1,16 @@
 # App Review: September 22, 2026
 
+**November 3, 2026:** The public App Store listing shows 1.0.6, released October 8.
+The 1.0.7 (20) candidate keeps the existing time-sensitive notification entitlement;
+it does not request Critical Alerts. See [release status](RELEASE.md) and the
+[alert correction record](ALERT-FIXES.md). Earlier submission statuses below are
+historical.
+
+**October 7, 2026:** Road Notice **1.0.6 (19)** was submitted at 17:40 MDT and
+is **Waiting for Review**, with automatic release after approval selected.
+The prior 1.0.5 (13) release remains available. See the
+[current release record](RELEASE.md#app-store-submission--october-7-2026).
+
 Status updated September 25, 2026: Road Notice 1.0.4 is **approved and available
 free on the [U.S. App Store](https://apps.apple.com/us/app/road-notice/id6812094105)**.
 Build 12 was resubmitted on September 22 at 23:27 CDT and released automatically

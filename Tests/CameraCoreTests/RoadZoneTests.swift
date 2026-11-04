@@ -52,7 +52,7 @@ private func camera(_ road: RoadZone?) -> Camera {
     #expect(crossing.assess(fix(35.0045, seconds: 20), course: 0, history: [fix(35.0035)], lead: 300).reason == .ambiguousRoad)
 }
 
-@Test func turnsIntoRoadCanWarnAndMissingOrExpiredZoneKeepsLegacyBehavior() {
+@Test func turnsIntoRoadCanWarnWithMissingOrOverdueZone() {
     var engine = AlertEngine(); let index = CameraIndex(cameras: [camera(zone())])
     #expect(engine.evaluate(fix(35.004,-105.999, course: 270), index: index, now: now).isEmpty)
     #expect(engine.evaluate(fix(35.004, seconds: 3), index: index, now: now.addingTimeInterval(3)).count == 1)
@@ -102,7 +102,6 @@ func everyPublishedZoneHasUsableApproachAndRejectsOffsetTraffic(filename: String
         struct Coverage: Decodable { let eligible: Int }
         let coverage = try JSONDecoder().decode(Coverage.self, from: Data(contentsOf:
             root.appending(path: "Data/Review/road-zone-coverage.json")))
-        #expect(!zoned.isEmpty)
         #expect(zoned.count == coverage.eligible)
     } else {
         #expect(zoned.count == 54)

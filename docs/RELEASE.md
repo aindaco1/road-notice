@@ -1,6 +1,21 @@
 # Release and distribution
 
-## 1.0.7 (20) upload — November 4, 2026
+## 1.0.7 (20) App Review submission — November 4, 2026
+
+**Road Notice 1.0.7 (20) is submitted for App Review.** Apple confirmed
+“1 Item Submitted” on November 4. The
+[submission](https://appstoreconnect.apple.com/apps/6812094105/distribution/reviewsubmissions/details/3f741866-2eff-4c07-8019-f2f4bf53c6fd)
+contains standard build `fa8bc4b3-b97d-4242-9d64-5542016270ad`.
+Apple validated the binary, confirmed symbols are included and non-exempt
+encryption is not used, and accepted the version for submission. Approval and
+public App Store availability remain pending; 1.0.6 remains Ready for Distribution.
+
+The saved description, What's New and review notes cover Quiet at or below a
+usable limit, persistent road zones, expanded road/direction checks, 701 mapped
+approaches and Do Not Disturb guidance. Existing screenshots and published
+privacy disclosures were verified. Free U.S. distribution, automatic release
+after approval, immediate updates and the existing rating remain selected.
+No TestFlight group assignment changed.
 
 [PR #8](https://github.com/aindaco1/road-notice/pull/8) merged as `fb2ad15`.
 The [website and camera deployment](https://github.com/aindaco1/road-notice/actions/runs/41790954702)
@@ -13,16 +28,19 @@ The signed **1.0.7 (20)** archive was built from `55e3459` with Xcode 27.2,
 retaining the project minimum **iOS 17.0** and public `/data/v2/` channel.
 Apple accepted its standard App Store Connect upload with symbols at
 **00:26:41 MST (07:26:41 UTC)** and began processing it. This is not an
-internal-only TestFlight build. Processing completion and App Review submission
-remain pending verification.
+internal-only TestFlight build. Subsequent processing and submission were
+verified in App Store Connect as recorded above.
 
+[Source CI](https://github.com/aindaco1/road-notice/actions/runs/41790954653)
+and [runtime CI](https://github.com/aindaco1/road-notice/actions/runs/41790954707)
+pass on the merge, including iOS 17.5, 18.5 and 26.5.
 Release-bundle and signature checks pass. The app and dSYM share UUID
 `0C649BD3-F8F3-34A7-852A-4EF9B68B7521`. Bundled snapshot
 `2026-11-02-849ee6ac8b27-d0ef599a` exactly matches the live modern feed, with
 SHA-256 `bca51a4fd9045fbd8c649d269d517d94f68774c6dbc783c579f5525fb62398df`.
 The complete archive is retained at
 `~/Library/Developer/Xcode/Archives/2026-11-04/RoadNotice-1.0.7-20.xcarchive`;
-prepared listing copy, verification and upload evidence are in ignored
+Submitted listing copy, verification, upload and submission evidence are in ignored
 `work/release20/` in the release worktree.
 
 The [alert correction record](ALERT-FIXES.md) retains the regression and road-data

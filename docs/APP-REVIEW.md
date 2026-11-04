@@ -1,7 +1,7 @@
 # App Review: September 22, 2026
 
-**November 4, 2026:** Apple accepted the standard 1.0.7 (20) upload with symbols.
-Processing completion and App Review submission remain pending verification.
+**November 4, 2026:** Road Notice **1.0.7 (20) is submitted for App Review**.
+Apple validated the standard upload with symbols and confirmed “1 Item Submitted”.
 The build keeps the existing time-sensitive notification entitlement;
 it does not request Critical Alerts. See [release status](RELEASE.md) and the
 [alert correction record](ALERT-FIXES.md). Earlier submission statuses below are

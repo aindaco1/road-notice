@@ -2,26 +2,28 @@
 
 ## 1.0.7 release copy — November 4, 2026
 
+**1.0.7 (20) is submitted for App Review.** Apple confirmed “1 Item Submitted”
+on November 4. See the [submission and release record](RELEASE.md).
+Version 1.0.6 remains Ready for Distribution; submission does not establish
+approval or public availability of the update.
+
 Quiet now stays silent at or below a usable speed limit. Road-aware approaches
 keep working when database source checks are overdue, and a brief loss of travel
-direction no longer triggers an opposing camera. Expanded road zones include
-supported red-light cameras, with 701 mapped approaches and warning lead based on sourced road and speed
-information. Both Coors north of
-St. Joseph limits have been reconfirmed at 45 mph.
+direction no longer triggers an opposing camera. Expanded road zones cover
+701 cameras, including supported red-light cameras, with warning lead based on
+sourced road and speed information. Both Coors north of St. Joseph limits have
+been reconfirmed at 45 mph.
 
-Setup and support now explain that Do Not Disturb and other Focus settings can
-silence notifications unless you allow Road Notice through. Road Notice does not
-use Critical Alerts. Test warning checks the current audio connection, not future
-background alert delivery.
+The saved description, What's New and review notes explain that Do Not Disturb
+and other Focus settings can silence alerts unless Road Notice is allowed
+through. Road Notice does not use Critical Alerts. Test warning checks the
+current audio connection, not future background delivery.
 
-The public App Store listing shows 1.0.6, released October 8. The following
-listing and submission records are historical. Apple accepted the standard
-1.0.7 (20) upload with symbols on November 4; processing and submission are
-tracked in [RELEASE.md](RELEASE.md).
+The following listing and submission records are historical.
 
 ## October 7 submission record
 
-**Current Apple status:** Road Notice **1.0.6 (19), Waiting for Review**, submitted
+**Apple status at submission:** Road Notice **1.0.6 (19), Waiting for Review**, submitted
 October 7, 2026 at 17:40 MDT with automatic release after approval selected.
 Version **1.0.5 (13)** remains Ready for Distribution. The website and
 GitHub release are published separately. See the [approved listing](APP-REVIEW.md#submitted-listing--version-104-12)

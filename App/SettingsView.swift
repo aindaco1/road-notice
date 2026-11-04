@@ -72,9 +72,6 @@ struct SettingsView: View {
                             if let error = services.presenter.audioError { Text(error).font(.footnote) }
                             Text("For notifications during Do Not Disturb, allow Road Notice in that Focus and enable Time Sensitive Notifications in Settings. Test warning checks sound, not background delivery.")
                                 .font(.footnote).foregroundStyle(accent)
-                            Button("Open notification settings") {
-                                openURL(URL(string: UIApplication.openNotificationSettingsURLString)!)
-                            }.foregroundStyle(accent)
                         }
                     }
                     row {

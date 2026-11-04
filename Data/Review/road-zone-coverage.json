@@ -2,7 +2,7 @@
   "approachPolicy": "15 seconds at sourced approach speed, 150–600 m; retain up to 650 m of available geometry",
   "eligible": 701,
   "generated": 701,
-  "generatedAt": "2026-11-04T07:48:13Z",
+  "generatedAt": "2026-11-04T08:00:34Z",
   "records": [
     {
       "approachMeters": 650.0,

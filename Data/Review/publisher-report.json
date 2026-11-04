@@ -5,8 +5,24 @@
     "speed": 1605,
     "speedAndRedLight": 195
   },
-  "fetches": [],
-  "generatedAt": "2026-11-04T05:50:36Z",
+  "fetches": [
+    {
+      "checkedAt": "2026-10-19T08:43:25Z",
+      "source": "speed",
+      "status": "downloaded"
+    },
+    {
+      "error": "HTTP Error 504: Gateway Time-out",
+      "source": "enforcement",
+      "status": "retained"
+    },
+    {
+      "checkedAt": "2026-10-19T08:43:48Z",
+      "source": "aliases",
+      "status": "downloaded"
+    }
+  ],
+  "generatedAt": "2026-11-04T07:15:32Z",
   "records": 2728,
   "review": [
     {

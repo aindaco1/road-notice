@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-10-19T11:32:33Z",
+  "generatedAt": "2026-11-04T05:52:06Z",
   "items": [
+    {
+      "reason": "4 road zones need source rechecks; validated geometry remains active",
+      "source": "road-zones"
+    },
     {
       "lastGoodAt": null,
       "reason": "34 regions unavailable, retained or deferred; see regional results",
@@ -2577,112 +2581,7 @@
       "lastGoodAt": "2026-09-15T05:50:03Z",
       "reason": "HTTP Error 403: Forbidden",
       "source": "chicago-school-park-policy"
-    },
-    {
-      "lastGoodAt": "2026-10-12T10:36:48Z",
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-e72ef6afce2b"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-8adc186d0276"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-e8e869dfa041"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-357e74f3d36d"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-946b1357cdfd"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-db662f5537d6"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-55d3ac3819f4"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-e7900176800e"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Timeout",
-      "source": "osm-roads-9347592ec4cf"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-4bd679dff83a"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-cdc4ac9d56c3"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-5c16ae37853a"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-95efe79f54b7"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-3821904afe80"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-ecb68bc8ab84"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-0c1c35478bad"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-ef15d622356c"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-d824d47a35fd"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-623981efde35"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-8afcc879be64"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-7d451797ee77"
     }
   ],
-  "reviewCount": 255
+  "reviewCount": 235
 }

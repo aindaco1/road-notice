@@ -31,6 +31,27 @@ private func camera(_ road: RoadZone?) -> Camera {
     #expect(z.assess(fix(35.006), course: 0, history: [], lead: 300).reason == .behind)
 }
 
+@Test func shorterApproachesStillWarnEarlyAndRejectAdjacentOrOppositeTravel() throws {
+    let road = zone([Coordinate(35, -106), Coordinate(35.004, -106)], start: 350, end: 350)
+    for kind in [CameraKind.speed, .possibleSpeed, .redLight, .speedAndRedLight] {
+        let c = Camera(id: "short", label: "Short sourced approach", kind: kind,
+            geometry: [Coordinate(35.00315, -106)], travelBearing: 0,
+            sourceIDs: ["fixture"], evidence: "Fixture", roadZone: road)
+        let index = CameraIndex(cameras: [c])
+        var engine = AlertEngine()
+        #expect(engine.evaluate(fix(35, speed: 50 * 0.44704), index: index, now: now).isEmpty)
+        let warnings = engine.evaluate(fix(35.0002, seconds: 1, speed: 50 * 0.44704),
+            index: index, now: now.addingTimeInterval(1))
+        let warning = try #require(warnings.first)
+        #expect((300...335).contains(warning.distance))
+        for sample in [fix(35.0002, -105.999, speed: 50 * 0.44704),
+                       fix(35.0002, course: 180, speed: 50 * 0.44704)] {
+            var wrongRoad = AlertEngine()
+            #expect(wrongRoad.evaluate(sample, index: index, now: now).isEmpty)
+        }
+    }
+}
+
 @Test func curvedApproachUsesRoadDistanceAndLocalDirection() {
     let curved = [Coordinate(35,-106),Coordinate(35.005,-106),Coordinate(35.005,-105.995),Coordinate(35,-105.995)]
     let z = zone(curved, start: Geometry.length(curved), end: Geometry.length(curved))
@@ -52,7 +73,7 @@ private func camera(_ road: RoadZone?) -> Camera {
     #expect(crossing.assess(fix(35.0045, seconds: 20), course: 0, history: [fix(35.0035)], lead: 300).reason == .ambiguousRoad)
 }
 
-@Test func turnsIntoRoadCanWarnAndMissingOrExpiredZoneKeepsLegacyBehavior() {
+@Test func turnsIntoRoadCanWarnWithMissingOrOverdueZone() {
     var engine = AlertEngine(); let index = CameraIndex(cameras: [camera(zone())])
     #expect(engine.evaluate(fix(35.004,-105.999, course: 270), index: index, now: now).isEmpty)
     #expect(engine.evaluate(fix(35.004, seconds: 3), index: index, now: now.addingTimeInterval(3)).count == 1)
@@ -98,8 +119,14 @@ func everyPublishedZoneHasUsableApproachAndRejectsOffsetTraffic(filename: String
     let zoned = snapshot.cameras.filter { $0.roadZone != nil }
     // Keep the original 54-zone corpus as a fixed regression fixture. Current
     // coverage follows source freshness/connectivity and can legitimately shrink.
-    if filename != "cameras.json" { #expect(zoned.count == 54) }
-    #expect(zoned.count >= 40)
+    if filename == "cameras.json" {
+        struct Coverage: Decodable { let eligible: Int }
+        let coverage = try JSONDecoder().decode(Coverage.self, from: Data(contentsOf:
+            root.appending(path: "Data/Review/road-zone-coverage.json")))
+        #expect(zoned.count == coverage.eligible)
+    } else {
+        #expect(zoned.count == 54)
+    }
     for c in zoned {
         let z = try #require(c.roadZone)
         var warned = false

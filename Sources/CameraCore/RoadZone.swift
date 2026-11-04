@@ -17,6 +17,7 @@ public struct RoadZone: Codable, Hashable, Sendable {
     public let alternatives: [Alternative]
     public let sourceIDs: [String]
     public let verifiedAt: Date
+    /// Legacy wire name for the source recheck deadline, not a geometry kill switch.
     public let validUntil: Date
 
     public init(geometry: [Coordinate], startMeters: Double, endMeters: Double,
@@ -39,6 +40,7 @@ public struct RoadZone: Codable, Hashable, Sendable {
             && validUntil > verifiedAt && validUntil.timeIntervalSince(verifiedAt) <= 30 * 86400
     }
 
+    /// Freshness reporting only. Validated geometry remains useful offline.
     public func isCurrent(at now: Date) -> Bool { verifiedAt <= now && now < validUntil }
 
     public func assess(_ fix: LocationFix, course: Double?, history: [LocationFix], lead: Double) -> (reason: MatchReason, distance: Double) {

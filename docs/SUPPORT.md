@@ -35,3 +35,7 @@ Continuous location monitoring uses battery. Low Power Mode does not turn monito
 Version 1.0.2 uses Xcode 26.6 / iOS 26.5 SDK with an iOS 17.0 deployment target. The SDK and the minimum OS are different settings: building with a newer SDK does not require users to install that SDK's OS version. The generated Xcode project and Swift package both target iOS 17, and bundle validation checks the minimum against `project.yml`.
 
 App Store validation, Apple processing, TestFlight availability and physical acceptance are separate release gates. See [Apple's Xcode requirements](https://developer.apple.com/xcode/system-requirements).
+
+## Do Not Disturb and Focus
+
+Do Not Disturb can silence camera notifications unless Road Notice is allowed in the active Focus. Enable Time Sensitive Notifications for the app and check the allowed apps/time-sensitive options in each Focus used. Driving Focus has different controls. Road Notice does not use Critical Alerts and cannot override those settings. The parked Test warning plays through media audio and may work while Focus is on; it does not establish background GPS delivery, a camera match, or actual driving audibility. See [Apple's Focus setup](https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios).

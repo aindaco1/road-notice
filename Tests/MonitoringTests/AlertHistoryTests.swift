@@ -34,6 +34,7 @@ final class AlertHistoryTests: XCTestCase {
         for _ in 0..<100 where history.entries.isEmpty { try await Task.sleep(for: .milliseconds(10)) }
         let entry = try XCTUnwrap(history.entries.first)
         let request = try XCTUnwrap(requests.first)
+        XCTAssertEqual(request.content.interruptionLevel, .timeSensitive)
         XCTAssertEqual(request.identifier, entry.id.uuidString)
         XCTAssertEqual(AlertLogEntry.decode(request.content.userInfo[AlertLogEntry.payloadKey] as? String), entry)
         let relaunched = AlertHistory(supportDirectory: root)

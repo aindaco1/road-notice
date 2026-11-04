@@ -1,13 +1,14 @@
 # Weekly camera maintenance
 
-Generated 2026-10-19T11:32:33Z
+Generated 2026-11-04T05:52:06Z
 
-47 registered sources checked; 2 evidence-based identity matches; 255 unresolved findings.
+47 registered sources checked; 2 evidence-based identity matches; 235 unresolved findings.
 
 New unambiguous agency records and validated coordinate estimates are staged automatically. Ambiguous identities, source removals, changed page layouts, and failed checks retain previous coverage and remain in this queue until reviewed.
 
 | Source or record | Finding |
 |---|---|
+| road-zones | 4 road zones need source rechecks; validated geometry remains active |
 | overture | 34 regions unavailable, retained or deferred; see regional results |
 | bernco | HTTP Error 403: Forbidden |
 | nyc | HTTP Error 403: Forbidden |
@@ -242,34 +243,13 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb | Nearby accepted record; identity/approach review required |
 | osm-node-13261832160 | New OSM record overlaps accepted agency data; review identity |
 | chicago-school-park-policy | HTTP Error 403: Forbidden |
-| osm-roads-e72ef6afce2b | HTTP Error 504: Gateway Time-out |
-| osm-roads-8adc186d0276 | HTTP Error 504: Gateway Time-out |
-| osm-roads-e8e869dfa041 | HTTP Error 504: Gateway Time-out |
-| osm-roads-357e74f3d36d | HTTP Error 504: Gateway Timeout |
-| osm-roads-946b1357cdfd | HTTP Error 504: Gateway Time-out |
-| osm-roads-db662f5537d6 | HTTP Error 504: Gateway Time-out |
-| osm-roads-55d3ac3819f4 | HTTP Error 504: Gateway Time-out |
-| osm-roads-e7900176800e | HTTP Error 504: Gateway Time-out |
-| osm-roads-9347592ec4cf | HTTP Error 504: Gateway Timeout |
-| osm-roads-4bd679dff83a | Run acquisition time budget reached |
-| osm-roads-cdc4ac9d56c3 | Run acquisition time budget reached |
-| osm-roads-5c16ae37853a | Run acquisition time budget reached |
-| osm-roads-95efe79f54b7 | Run acquisition time budget reached |
-| osm-roads-3821904afe80 | Run acquisition time budget reached |
-| osm-roads-ecb68bc8ab84 | Run acquisition time budget reached |
-| osm-roads-0c1c35478bad | Run acquisition time budget reached |
-| osm-roads-ef15d622356c | Run acquisition time budget reached |
-| osm-roads-d824d47a35fd | Run acquisition time budget reached |
-| osm-roads-623981efde35 | Run acquisition time budget reached |
-| osm-roads-8afcc879be64 | Run acquisition time budget reached |
-| osm-roads-7d451797ee77 | Run acquisition time budget reached |
 
 Full added/removed facts, nearby candidates, and evidence are in maintenance.json and the source-specific reports.
 
 ## Speed-limit coverage
 
-830 / 1791 speed-camera approaches can suppress (46.3%). Red-light and combined cameras are excluded from this denominator.
+954 / 1791 speed-camera approaches can suppress (53.3%). Red-light and combined cameras are excluded from this denominator.
 
-Evidence: {'agency-posted': 208, 'conservative-lower-bound': 139, 'field-verified': 2, 'osm-posted': 452, 'road-matched': 29}. 307 candidate-only; 654 unknown.
+Evidence: {'agency-posted': 207, 'conservative-lower-bound': 204, 'field-verified': 2, 'osm-posted': 422, 'road-matched': 119}. 332 candidate-only; 505 unknown.
 
 Per-camera values, sources, timestamps, inferred lower bounds and missing-data reasons: speed-limit-coverage.json.

@@ -35,7 +35,7 @@ struct SettingsView: View {
                                 set: { services.monitoring.setQuietBelowSpeedLimit($0) }))
                                 .font(.system(.headline, design: .monospaced)).tint(accent)
                                 .accessibilityIdentifier("speed-check-toggle")
-                            Text("Speed cameras only. Unknown speed or limit? You'll still get a warning. Red-light warnings stay on. Silence does not mean your speed is lawful.")
+                            Text("Quiet at or below a usable speed limit. Unknown speed or limit? You'll still get a warning. Red-light warnings stay on. Follow posted signs.")
                                 .font(.footnote).foregroundStyle(accent)
                         }
                     }
@@ -70,6 +70,8 @@ struct SettingsView: View {
                                 Text("Media volume is low. Turn it up to hear warnings.").font(.footnote)
                             }
                             if let error = services.presenter.audioError { Text(error).font(.footnote) }
+                            Text("For notifications during Do Not Disturb, allow Road Notice in that Focus and enable Time Sensitive Notifications in Settings. Test warning checks sound, not background delivery.")
+                                .font(.footnote).foregroundStyle(accent)
                         }
                     }
                     row {

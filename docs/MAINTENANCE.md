@@ -10,6 +10,15 @@ The pattern follows the owner’s [RSS digest workflow](https://github.com/ainda
 
 The [restaurant-locations pipeline](https://github.com/aindaco1/restaurant-locations/blob/main/.github/workflows/pipeline.yml) is a second verified example: tests before retrieval, dataset validation, commits only when data changes, and 30-day evidence artifacts. Its latest three scheduled runs succeeded, including [September 14](https://github.com/aindaco1/restaurant-locations/actions/runs/34818742807). Fine Me Not explicitly deploys in its publication job instead of depending on a bot commit to trigger another workflow.
 
+## Regression fixtures
+
+Field-verification tests compare the original edited snapshot with its immutable
+pre-edit baseline. The current weekly snapshot may regenerate road zones; it
+must retain camera geometry, direction and field-verified speed limits and pass
+zone validation, without matching every historical road edge or source date.
+The Swift replay retains the fixed 54-zone corpus and checks every current zone
+against the generated coverage report rather than an obsolete minimum count.
+
 ## Review queue
 
 Start with [maintenance.md](../Data/Review/maintenance.md) and its full [JSON](../Data/Review/maintenance.json). Each workflow retains a 30-day artifact. Git history preserves earlier reports and source caches. Source changes, added/removed list entries, unresolved coordinates, aliases and failures remain inspectable. The Sunday job summary links those findings; monitoring does not automatically certify a whole metro.
@@ -39,3 +48,22 @@ See the [September 14 follow-up investigation](DATA-RESEARCH.md) for NMDOT, Seat
 | Municipal Socrata, ArcGIS and agency-linked KML feeds already registered | Stable IDs and explicit coordinates; source-specific status/type filters | Continue Chicago, DC, Arlington, Seattle, Tacoma, San Francisco and Phoenix refreshes. |
 
 No new single complete, open and authoritative US camera inventory was found. Coverage remains the Census top 20 metros plus Albuquerque, with uneven source quality. The source registry is extensible; current coverage counts are generated in [metro-coverage.json](../Data/Review/metro-coverage.json).
+
+## Durable road zones
+
+Road-zone geometry remains active until replaced or its camera geometry/direction changes. Its 30-day date schedules a source review; it does not remove the road constraint. The shared road cache now covers every camera kind with wider, bounded regional queries. Partial refreshes activate completed queries alongside the previous set; per-way timestamps select newer evidence without inventing new dates. Missing and least-recently-attempted regions get the next acquisition budget. The road-zone coverage report lists every camera, retained short approaches and overdue checks; maintenance findings summarize those gaps. Tests pin historical field edits separately from current data, so routine regeneration and speed-limit expiry cannot freeze the updater.
+
+### Completing directional road acquisition
+
+Run `python3 Scripts/fetch_speed_limits.py --osm-only --directional-only --budget-seconds 10800` for a complete candidate pass. It selects existing regional batches that cover known-direction cameras, preserving query hashes and the full active-source set. Every 500 m sample along a warning area must have its batch acquired. `directionalCoverage` in `Data/Review/speed-limit-fetch.json` records each candidate, required batches, pending batches and completion; acquiring a batch does not itself certify a road-zone match. Retry failed batches with the same command; successful caches are reused. `--overpass-url` can select another public HTTPS mirror when the configured service is unavailable; each cache records its actual source URL and replica date. Respect the selected provider’s usage policy.
+
+Queries use the same automotive road classes as the resolver. A padded bounding box covers every original 750 m camera envelope in a batch, using one spatial query. Full road geometry and source node IDs are returned without output clipping; the bounding box is only an acquisition filter, never a generated road. Overpass checks crossing segments as well as interior nodes ([implementation](https://github.com/drolbr/Overpass-API/blob/master/src/overpass_api/data/bbox_filter.cc)). Temporary large-query failures and oversized responses split into batches of at most five points, then single points if necessary, with complete-response checks and delays. Successful pieces are cached under ignored `work/road-query-cache/`, keyed by endpoint and selection query; retries reuse them with their original source dates. A parent batch becomes available only when all pieces succeed. Rate-limit responses still stop acquisition for backoff. A partial response never counts as a completed batch. Queries reserve 64 MiB and allow the service’s capacity wait to finish; memory/time failures still split into smaller requests. Recursive retries share the run deadline. The routine weekly time budget remains bounded; the explicit longer pass is for completing the initial rollout.
+
+
+For a large initial acquisition or prolonged Overpass outages, `Scripts/import_road_extract.py` fills missing caches from [Geofabrik OSM extracts](https://download.geofabrik.de/technical.html). Install the optional readers in `Scripts/requirements-data.txt`; download `index-v1.json`, the needed `.osm.pbf` files and each adjacent `.md5` file. For example:
+
+```sh
+python3 Scripts/import_road_extract.py --index work/geofabrik-index.json --extract us/illinois=work/illinois-latest.osm.pbf
+```
+
+Repeat `--extract` for adjoining regions. Every original camera query envelope must fit inside the supplied clipping polygons, and adjoining extracts must share a replication timestamp. The importer verifies checksums, rejects missing/future/over-two-day-old snapshots, preserves complete ways and shared node IDs, and keeps the actual snapshot date. It writes the existing road-cache format with source-file and clipping-polygon digests, so the same zone builder, direction checks and speed-limit evidence rules apply. It does not overwrite a completed API cache. Re-run the directional fetch command afterward to refresh the per-camera acquisition report. The separate `Tests/Extracts` suite runs in CI; the core pipeline remains stdlib-only.

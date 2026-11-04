@@ -7,6 +7,17 @@ on:
 permissions:
   contents: read
 jobs:
+  road-extracts:
+    name: Road extract integrity and coverage
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install -r Scripts/requirements-data.txt
+      - run: python3 -m unittest discover -s Tests/Extracts -v
   app:
     name: Core tests and release-minimum simulator build
     runs-on: macos-26

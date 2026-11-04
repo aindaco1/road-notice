@@ -37,3 +37,7 @@ below 45 mph. Thus a measured 44 mph still warns; 40 mph with good speed
 accuracy can be quiet. Unknown speed accuracy also warns. The report alone
 does not establish which condition occurred on the phone. New log entries
 show their saved speed-check limit to make the loaded data visible.
+
+## November 3 confirmation and threshold correction
+
+The owner explicitly confirmed that **both Coors north of St. Joseph approaches remain posted at 45 mph**. New dated speed-limit observations use November 3, 2026 (00:00 MST / 07:00 UTC), retaining camera identities and warning-area geometry. This is a new owner observation, not an automatic extension of October evidence. The corrected Quiet rule suppresses usable measured speeds at or below 45 mph and warns above it; unknown/expired limits and unusable measurements still warn. Road geometry itself no longer stops working when a source recheck becomes due. See [the implementation record](ALERT-FIXES.md).

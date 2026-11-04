@@ -9,14 +9,12 @@ import datetime as dt
 import math
 import re
 
-from camera_data import read, write, stamp, UTC, distance, projection
+from camera_data import read, write, stamp, UTC, distance, projection, ROAD_TYPES
 from geocode_locations import road_key
 from camera_identity import angle
 from fetch_speed_limits import samples, ABQ, SCHOOL, NYC, SEATTLE, NMDOT, CHICAGO, PHILLY13, PHILLY_REPORT, TACOMA_SCHOOL
 
 SPEED_KINDS = {'speed','possibleSpeed'}
-ROAD_TYPES = {'motorway','trunk','primary','secondary','tertiary','unclassified','residential',
-              'motorway_link','trunk_link','primary_link','secondary_link','tertiary_link'}
 ABQ_JOIN = {
     'abq-gibson-carlisle-san-mateo-eb':'Gibson at San Mateo (EB)',
     'abq-gibson-carlisle-san-mateo-wb':'Gibson at San Mateo (WB)',

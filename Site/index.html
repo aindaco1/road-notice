@@ -74,6 +74,7 @@
     <p class="small">Available in the United States. For iPhone running iOS 17 or later. <a href="#compatibility">Check your iPhone</a>.</p>
     <nav aria-label="On this page">
       <a href="#features">What it does</a>
+      <a href="#release">What’s new</a>
       <a href="#setup">Set it up</a>
       <a href="#support">Get help</a>
       <a href="#reporting">Report a problem</a>
@@ -89,11 +90,25 @@
     <ul>
       <li><strong>Background warnings.</strong> With Always and Precise Location approved, monitoring can continue while another app is open or the screen is locked, when iOS permits. Reopen Road Notice after restarting your phone or swiping it away.</li>
       <li><strong>Your usual car audio.</strong> The siren uses the iPhone speaker, connected Bluetooth or CarPlay audio, including in Silent mode. It uses media volume; calls, a muted stereo or an interrupted connection can keep you from hearing it.</li>
-      <li><strong>Quiet below the limit.</strong> On by default. Speed-camera sirens stay quiet when the phone reliably reports a speed below the camera’s known or estimated limit. Unknown or uncertain information still gets a warning. Red-light and combined-camera warnings stay on.</li>
+      <li><strong>Quiet at or below the limit.</strong> On by default. With usable speed and limit information, speed-camera sirens stay quiet at or below the limit and warn above it. Unknown or uncertain information still gets a warning. Red-light and combined-camera warnings stay on.</li>
+      <li><strong>Road-aware approaches.</strong> Where road data supports it, warnings follow the monitored road and direction. Saved road zones keep working when a source update is overdue. Coverage varies by location.</li>
+      <li><strong>A local alert log.</strong> Review camera notifications and their available speed-limit details on your phone. Tap a notification to open its saved entry. Quiet approaches and Test warning are not logged.</li>
       <li><strong>Works without a mobile signal.</strong> A camera list is saved on your phone. Internet access is needed for updates and sending a problem report, not for checking saved cameras.</li>
-      <li><strong>Tell me when something breaks.</strong> Version 1.0.1 adds a reviewed problem report with an optional explanation and technical details. <a href="#reporting">Here’s how it works</a>.</li>
+      <li><strong>Tell me when something breaks.</strong> Review a problem report with an optional explanation and technical details before sending it. <a href="#reporting">Here’s how it works</a>.</li>
     </ul>
     <p class="note">Background location uses battery. Road Notice keeps monitoring requested in Low Power Mode, but iOS, GPS reception and audio conditions can still delay or prevent a warning. It cannot guarantee every camera or every alert.</p>
+  </section>
+
+  <section id="release" aria-labelledby="release-title">
+    <h2 id="release-title">What’s new.</h2>
+    <ul>
+      <li>Quiet stays silent at the limit, as well as below it, when speed and limit information are usable.</li>
+      <li>Road zones keep their road and direction checks when an update is overdue, addressing nearby-highway warnings such as I-40 beside Menaul.</li>
+      <li>A brief loss of travel direction no longer triggers the opposite-direction camera.</li>
+      <li>Road-following zones now cover 701 camera directions, including 321 red-light cameras and one combined speed/red-light camera. Approach length follows the road’s sourced speed, with longer mapped approaches kept wherever available. Warnings target about 15 seconds ahead, within 150–600 metres.</li>
+      <li>Both Coors north of St. Joseph approaches have newly confirmed 45 mph limits. Source refreshes retain working road zones when a replacement is incomplete.</li>
+    </ul>
+    <p>Some older zones have shorter mapped approaches, and some cameras have no road zone. Actual warning timing depends on GPS, camera-location accuracy and iOS background delivery. <a href="https://github.com/aindaco1/road-notice/blob/main/CHANGELOG.md">Full release notes</a>.</p>
   </section>
 
   <section id="setup" aria-labelledby="setup-title">
@@ -111,7 +126,7 @@
       <li>
         <h3>Allow notifications and sound.</h3>
         <p>Choose <strong>Allow</strong> at the notification prompt. Then check <strong>Settings → Notifications → Road Notice</strong>: turn on <strong>Allow Notifications</strong>, <strong>Sounds</strong> and <strong>Time Sensitive Notifications</strong> where available. Allow Lock Screen and banner alerts if you want to see them.</p>
-        <p>If you use a Focus, check <strong>Settings → Focus</strong> and allow Road Notice and time-sensitive notifications where those options appear. Driving Focus has different controls; test with the Focus you actually use. <a href="https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios">Apple’s Focus instructions</a>.</p>
+        <p><strong>Do Not Disturb can silence Road Notice notifications.</strong> In <strong>Settings → Focus → Do Not Disturb</strong>, allow Road Notice and enable time-sensitive notifications where available. Check each Focus you use; Driving Focus has different controls. Road Notice does not use Critical Alerts and cannot force notifications through your Focus settings. <a href="https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios">Apple’s Focus instructions</a>.</p>
       </li>
       <li>
         <h3>Allow camera-list updates.</h3>
@@ -120,7 +135,7 @@
       <li>
         <h3>Test the sound in your car.</h3>
         <p>Connect Bluetooth or CarPlay, select the correct stereo input, and tap <strong>Test warning</strong>. Start at a comfortable volume, then raise the phone’s <strong>media volume</strong> and the car volume until the short siren is easy to hear. Try Silent mode too. The ringtone-volume setting is separate.</p>
-        <p>If sound comes from the wrong place, check the output shown beneath Test warning and the audio-output control in Control Center. A sound test checks your current audio connection, not future background GPS reception.</p>
+        <p>If sound comes from the wrong place, check the output shown beneath Test warning and the audio-output control in Control Center. Test warning can play while Do Not Disturb is on. That checks the current audio connection; it does not prove that camera alerts will arrive while the app is in the background.</p>
       </li>
       <li>
         <h3>Check the list and Status.</h3>
@@ -137,6 +152,11 @@
 
   <section id="support" aria-labelledby="support-title">
     <h2 id="support-title">Something not working?</h2>
+    <details>
+      <summary>Alerts don’t come through with Do Not Disturb on.</summary>
+      <p>Focus can silence notifications unless you allow Road Notice through. Enable Time Sensitive Notifications for Road Notice and check the allowed apps in the Focus you use. Road Notice has no Critical Alerts override.</p>
+      <p>If Test warning plays but a camera warning is missing, also check Always and Precise Location, Camera warnings, Quiet, the database date and the local Diagnostics after parking. The siren uses media playback separately from the notification. A successful sound test does not verify background location delivery, camera matching or future audibility.</p>
+    </details>
     <details>
       <summary>I passed a camera and heard nothing.</summary>
       <p>When parked, check Camera warnings, Always and Precise Location, then try Test warning on the same audio connection. Tap Update now. With Quiet below speed limit on, silence may be expected. Missing cameras, poor GPS, direction of travel and interrupted monitoring can also explain it.</p>

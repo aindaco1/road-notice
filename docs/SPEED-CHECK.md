@@ -6,12 +6,12 @@ The current database enriches existing camera identities with agency camera limi
 
 ## What can silence a siren
 
-The existing app requires a usable GPS fix no more than three seconds old, a measured nonnegative speed, speed uncertainty of 0–2 m/s, and an unexpired approved value. Measured speed plus the larger of its uncertainty or 1 m/s must be **strictly below** that value. Displacement-derived speed cannot suppress a warning. Accelerating before reaching the camera can still trigger its siren; a quiet approach does not consume its alert cooldown.
+The existing app requires a usable GPS fix no more than three seconds old, a measured nonnegative speed, speed uncertainty of 0–2 m/s, and an unexpired approved value. Measured speed must be **at or below** that value. The uncertainty gate determines whether the measurement is usable; it no longer adds a margin to the posted threshold. Displacement-derived speed cannot suppress a warning. Accelerating before reaching the camera can still trigger its siren; a quiet approach does not consume its alert cooldown.
 
 An approved value has one of five evidence bases:
 
 - **Agency posted:** a current camera-ID or exact reviewed location join to an agency's posted-limit field/table.
-- **Field verified:** a dated observation of the posted limit for one reviewed approach, with source and evidence retained. It expires after 30 days and is not renewed by publishing. The October 1 Coors northbound/southbound observations are 45 mph; see [field verification](COORS-FIELD-VERIFICATION.md).
+- **Field verified:** a dated observation of the posted limit for one reviewed approach, with source and evidence retained. It expires after 30 days and is not renewed by publishing. The November 3 Coors northbound/southbound observations are 45 mph; see [field verification](COORS-FIELD-VERIFICATION.md).
 - **OSM posted:** an explicit numeric maxspeed on the camera or its enforcement relation. Bare OSM numbers mean km/h; explicit mph remains mph.
 - **Road matched:** an estimate from the named, aligned monitored road or explicit OSM membership. This is not a field-verified sign reading. NMDOT's unit is recorded as an inference from its US roadway/HPMS convention, rather than asserted as an explicit field declaration.
 - **Conservative lower bound:** the minimum of fully parsed alternatives or an established reduced school/park limit. For example, a school camera with a 20 mph reduced limit can use 20 throughout the day; this does not assert that its beacon is on. Conflicting credible 30/35 mph values use a 30 mph bound, not an asserted 35 mph limit.

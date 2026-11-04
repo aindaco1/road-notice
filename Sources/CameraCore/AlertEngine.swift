@@ -41,7 +41,7 @@ public enum MatchReason: String, Sendable {
     case ambiguousRoad = "Waiting for a reliable road match"
     case cooldown = "Already warned on this approach"
     case expired = "Camera record has expired"
-    case belowSpeedLimit = "Quiet: reliably below the camera's posted speed limit"
+    case belowSpeedLimit = "Quiet: at or below the camera's speed limit"
     case warning = "Camera matched for a warning"
 }
 
@@ -107,11 +107,17 @@ public struct AlertEngine: Sendable {
             var reason: MatchReason = .warning
             if let end = camera.validUntil, now >= end { reason = .expired }
             else if let encounter = encounters[camera.id], !encounter.armed { reason = .cooldown }
-            else if let zone = camera.roadZone, zone.isCurrent(at: now) {
-                let assessment = zone.assess(fix, course: course, history: roadHistory, lead: lead)
-                reason = assessment.reason; distance = assessment.distance
+            else if let zone = camera.roadZone {
+                // A source recheck becoming due must never restore the broad
+                // proximity matcher. Keep the last validated road constraint.
+                if zone.verifiedAt > now { reason = .ambiguousRoad }
+                else {
+                    let assessment = zone.assess(fix, course: course, history: roadHistory, lead: lead)
+                    reason = assessment.reason; distance = assessment.distance
+                }
             }
             else if distance > lead { reason = .tooFar }
+            else if camera.travelBearing != nil && course == nil { reason = .approachUnconfirmed }
             else if let expected = camera.travelBearing, let course,
                     Geometry.angleDifference(expected, course) > 65 { reason = .oppositeDirection }
             // A good course rejects cameras behind the driver. Near a point or

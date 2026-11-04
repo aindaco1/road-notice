@@ -288,7 +288,7 @@ final class MonitoringWakeTests: XCTestCase {
         for (direction, origin, sign, longitude, course) in [
             ("nb", 35.124, 1.0, -106.70156, 0.0), ("sb", 35.139, -1.0, -106.70177, 180.0)
         ] {
-            for (mph, uncertainty, quiet) in [(40.0, 0.5, true), (44.0, 0.5, false), (45.0, 0.5, false), (40.0, -1.0, false)] {
+            for (mph, uncertainty, quiet) in [(40.0, 0.5, true), (44.0, 0.5, true), (45.0, 0.5, true), (46.0, 0.5, false), (40.0, -1.0, false)] {
                 let suite = "coors-tests-\(UUID().uuidString)"
                 let defaults = try XCTUnwrap(UserDefaults(suiteName: suite))
                 defaults.set(true, forKey: "warnings.enabled")

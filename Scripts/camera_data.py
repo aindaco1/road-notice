@@ -6,6 +6,8 @@ import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 UTC = dt.timezone.utc
+ROAD_TYPES = {'motorway','trunk','primary','secondary','tertiary','unclassified','residential',
+              'motorway_link','trunk_link','primary_link','secondary_link','tertiary_link'}
 # Public global OSM mirror with current replication, listed in OSM's instance directory.
 OVERPASS_URL = 'https://maps.mail.ru/osm/tools/overpass/api/interpreter'
 

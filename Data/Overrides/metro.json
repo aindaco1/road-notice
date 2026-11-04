@@ -942,7 +942,7 @@
       "travelBearing": 270
     },
     {
-      "evidence": "City entries ABQ-37/38 establish fixed speed cameras in both directions on Coors north of St. Joseph. On 2026-10-01 the project owner confirmed both speed cameras and the posted 45 mph limit during Albuquerque driving tests, and reported the existing alert locations work well. The existing OSM road geometry and warning extent are retained; these are warning areas, not surveyed hardware coordinates or official enforcement boundaries.",
+      "evidence": "City entries ABQ-37/38 establish fixed speed cameras in both directions on Coors north of St. Joseph. The owner confirmed posted 45 mph limits in both directions on 2026-11-03. Reviewed OSM warning areas are retained; these are not surveyed hardware coordinates or official enforcement boundaries.",
       "geometry": [
         {
           "latitude": 35.1280454,
@@ -1003,14 +1003,14 @@
       "speedLimitObservation": {
         "value": 45,
         "unit": "mph",
-        "verifiedAt": "2026-10-01T06:00:00Z",
-        "sourceID": "field/coors-st-joseph-2026-10-01/nb",
-        "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
-        "evidence": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied."
+        "verifiedAt": "2026-11-03T07:00:00Z",
+        "sourceID": "field/coors-st-joseph-2026-11-03/nb",
+        "sourceURL": "https://github.com/aindaco1/road-notice/blob/main/docs/COORS-FIELD-VERIFICATION.md",
+        "evidence": "Project owner confirmed on 2026-11-03 that both Coors north of St. Joseph approaches are posted at 45 mph. No surveyed camera position or revised warning geometry supplied."
       }
     },
     {
-      "evidence": "City entries ABQ-37/38 establish fixed speed cameras in both directions on Coors north of St. Joseph. On 2026-10-01 the project owner confirmed both speed cameras and the posted 45 mph limit during Albuquerque driving tests, and reported the existing alert locations work well. The existing OSM road geometry and warning extent are retained; these are warning areas, not surveyed hardware coordinates or official enforcement boundaries.",
+      "evidence": "City entries ABQ-37/38 establish fixed speed cameras in both directions on Coors north of St. Joseph. The owner confirmed posted 45 mph limits in both directions on 2026-11-03. Reviewed OSM warning areas are retained; these are not surveyed hardware coordinates or official enforcement boundaries.",
       "geometry": [
         {
           "latitude": 35.1347804,
@@ -1063,10 +1063,10 @@
       "speedLimitObservation": {
         "value": 45,
         "unit": "mph",
-        "verifiedAt": "2026-10-01T06:00:00Z",
-        "sourceID": "field/coors-st-joseph-2026-10-01/sb",
-        "sourceURL": "https://github.com/aindaco1/road-notice/blob/battery-road-zones/docs/COORS-FIELD-VERIFICATION.md",
-        "evidence": "Project owner field confirmation on 2026-10-01: posted 45 mph at this directional speed-camera approach. Existing warning geometry accepted; no surveyed device position supplied."
+        "verifiedAt": "2026-11-03T07:00:00Z",
+        "sourceID": "field/coors-st-joseph-2026-11-03/sb",
+        "sourceURL": "https://github.com/aindaco1/road-notice/blob/main/docs/COORS-FIELD-VERIFICATION.md",
+        "evidence": "Project owner confirmed on 2026-11-03 that both Coors north of St. Joseph approaches are posted at 45 mph. No surveyed camera position or revised warning geometry supplied."
       }
     },
     {

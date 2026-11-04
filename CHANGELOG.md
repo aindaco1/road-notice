@@ -1,5 +1,16 @@
 # Release notes
 
+## 1.0.7 — November 3, 2026
+
+- Keep validated road zones active when source rechecks are overdue; partial refreshes retain existing road constraints.
+- Require direction evidence for directional cameras, preventing opposing Coors warnings during a course dropout.
+- Keep Quiet silent at or below a usable limit; warn above it. Renew both field-confirmed Coors 45 mph observations on November 3.
+- Apply the shared zone builder to all camera kinds and regions, with mapped approach length suited to the sourced road speed and the 15-second warning target. Retain up to 650 m where available. Expand bounded road queries and activate successful refresh regions incrementally.
+- Complete road acquisition for all 1,071 direction-known candidates and expand coverage to 701 road zones, including 321 red-light and one combined camera. Keep uncertain or insufficiently mapped approaches out of zone coverage.
+- Explain Do Not Disturb/Focus limitations in the app, website and support docs. Critical Alerts remain disabled.
+- Add regressions for offline/overdue geometry, both Coors directions, exact-limit suppression, source retention and approach length.
+
+
 ## 1.0.6 — October 4, 2026
 
 - Road-following camera approach zones and automatic stationary pause/recovery.

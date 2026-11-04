@@ -34,11 +34,11 @@ CHICAGO_PARK = 'https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/
 SCHOOL = 'https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement'
 
 
-def get(url, params=None, post=False):
+def get(url, params=None, post=False, timeout=50):
     data = urllib.parse.urlencode(params or {}).encode()
     req = urllib.request.Request(url if post or not params else url+'?'+data.decode(),
         data=data if post else None, headers={'User-Agent': USER_AGENT})
-    with urllib.request.urlopen(req, timeout=50) as response:
+    with urllib.request.urlopen(req, timeout=timeout) as response:
         raw = response.read(25_000_001)
     if len(raw) > 25_000_000: raise OverflowError('Response exceeds 25 MB')
     return raw
@@ -186,7 +186,11 @@ def osm_roads(points, partial_cache=None, deadline=None):
     if deadline is not None and time.monotonic()>=deadline:
         raise TimeoutError('Run acquisition time budget reached')
     try:
-        value=json.loads(get(OVERPASS,{'data':query},post=True))
+        # Reserve 64 MiB instead of Overpass's 512 MiB default. Allow its
+        # approximately 60-second capacity wait plus query/transfer time; an
+        # earlier client timeout can leave needless requests queued upstream.
+        # Resource limits do not change the selection or invalidate cached data.
+        value=json.loads(get(OVERPASS,{'data':query.replace('[timeout:40]','[timeout:40][maxsize:67108864]')},post=True,timeout=130))
         if any(reason in value.get('remark','').lower() for reason in ('timed out','out of memory')):
             raise TimeoutError('Overpass could not complete the road batch')
     except (urllib.error.HTTPError,TimeoutError,OverflowError) as error:
@@ -201,8 +205,8 @@ def osm_roads(points, partial_cache=None, deadline=None):
     if value.get('remark') or not isinstance(value.get('elements'),list):
         raise ValueError('Incomplete Overpass road result')
     base=value.get('osm3s',{}).get('timestamp_osm_base')
-    if not base or dt.datetime.now(UTC)-dt.datetime.fromisoformat(base.replace('Z','+00:00'))>dt.timedelta(days=2):
-        raise ValueError('Overpass replica is more than two days stale')
+    if not base or not dt.timedelta(0)<=dt.datetime.now(UTC)-dt.datetime.fromisoformat(base.replace('Z','+00:00'))<=dt.timedelta(days=2):
+        raise ValueError('Overpass replica date is missing, future or more than two days stale')
     for e in value['elements']:
         if (e.get('type')!='way' or not isinstance(e.get('id'),int)
             or len(e.get('geometry',[]))<2 or len(e.get('nodes',[]))!=len(e['geometry'])):

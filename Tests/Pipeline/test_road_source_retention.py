@@ -182,6 +182,14 @@ class RoadSourceRetentionTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'Invalid road geometry'):
                 osm_roads([{'latitude':35,'longitude':-106}])
 
+    def test_invalid_replica_date_cannot_count_as_acquired(self):
+        now=dt.datetime.now(dt.timezone.utc)
+        for date in (None,now-dt.timedelta(days=3),now+dt.timedelta(hours=1)):
+            value={'osm3s':{'timestamp_osm_base':date.isoformat() if date else None},'elements':[]}
+            with patch('fetch_speed_limits.get',return_value=json.dumps(value).encode()):
+                with self.assertRaisesRegex(ValueError,'replica date'):
+                    osm_roads([{'latitude':35,'longitude':-106}])
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -2,7 +2,7 @@
 
 ## 1.0.7 (20) alert corrections — November 3, 2026
 
-**84 Python pipeline tests, 45 Swift package tests (39 camera + six support),
+**96 Python pipeline tests, five regional-extract tests, 46 Swift package tests (40 camera + six support),
 and 16 app-hosted tests pass, with zero app-hosted skips.** The new incident
 regressions first failed against the old runtime. They now cover overdue zones
 and 180-day offline use, the I-40/Menaul negative and monitored-road positive,
@@ -10,22 +10,33 @@ both Coors directions during course dropout, exact-limit Quiet suppression and
 full lead distance for the three incident approaches. Their mapped-path replays
 at 50 mph each warn 250–340 m before the monitored area, including after 180
 days offline. The existing per-zone
-corpus and reviewed-area replays pass against the refreshed 2,728-camera bundle.
+corpus and reviewed-area replays pass against the refreshed 2,728-camera bundle,
+including every one of its 701 zones and the fixed historical 54-zone corpus.
 
-Pipeline checks cover all camera kinds, the 600 m minimum for newly generated
-zones, retention without renewed source dates, invalidation after camera moves
-or direction changes, parallel-road selection and fair continuation after a
-bounded source fetch. Distribution-feed compatibility and immutable-byte checks
+Pipeline checks cover all camera kinds, speed-aware lead requirements (including
+a 350 m approach accepted at 45 mph and rejected at 65 mph), closed loops,
+stacked and parallel roads, retention without renewed source dates, invalidation
+after camera moves or direction changes, and resumable acquisition. Failed,
+partial, stale and future-dated responses cannot complete a batch. Extract tests
+cover checksums, complete crossing ways, source dates and adjoining-region coverage.
+Distribution-feed compatibility and immutable-byte checks
 pass. The shared support dependency pins and generated project pass validation.
 
-The final iPhone 18 Pro / iOS 27 simulator app-hosted run completed in 52.1 seconds.
+The final iPhone 18 Pro / iOS 27 simulator app-hosted run completed in 23.9 seconds.
 It exercises both bundled Coors directions through `MonitoringController` at
 40/44/45 mph (quiet), 46 mph (warning), and unknown speed accuracy (warning).
 Notification tests confirm the existing time-sensitive interruption level and
 no log entry for a Quiet approach. The result is
-`~/Library/Developer/XcodeBuildMCP/workspaces/road-notice-f91eaf62e6fc/result-bundles/test_sim_2026-11-04T03-35-46-706Z_pid53567_c92a620d.xcresult`.
+`~/Library/Developer/XcodeBuildMCP/workspaces/road-notice-f91eaf62e6fc/result-bundles/test_sim_2026-11-04T05-52-20-298Z_pid53567_b0c6337f.xcresult`.
 The simulator bundle passes resource, 1.0.7 (20) version, camera-count and iOS 17
 minimum checks. No signed archive or App Store upload is claimed by these tests.
+
+The final acquisition audit verifies 1,071 of 1,071 candidates and 117 of 117
+required batches, with no pending shards. All 2,728 camera IDs, geometries,
+directions and classifications are preserved. The 15,226,599-byte current feed
+and its legacy projection pass the existing 20 MB download bound and digest
+checks. The three incident zones retain 650 m of approach. The all-kind shorter
+zone replay warns 300–335 m ahead at 50 mph and rejects adjacent/opposing traffic.
 
 The staged website was visually checked at 320, 390 and 1,440 px widths,
 including the expanded Do Not Disturb FAQ; no horizontal overflow or broken

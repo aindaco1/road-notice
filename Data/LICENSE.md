@@ -4,6 +4,8 @@
 
 Attribution: https://www.openstreetmap.org/copyright
 
+Some road inputs are distributed by [Geofabrik](https://download.geofabrik.de/). These remain OpenStreetMap data under the same ODbL terms; the cached extracts retain their source URLs, snapshot dates and file digests.
+
 Reproduction/derivation inputs and transformation code are published in this repository. Preserve source references and follow the ODbL attribution and share-alike terms when distributing or adapting the database. Individual source-linked municipal location facts are documented in the source/reconciliation records; municipal page graphics and prose are not bundled. The root MIT license covers application and publisher code, not OSM database rights.
 
 ## Speed-limit enrichment

@@ -1,3 +1,5 @@
 # Optional acquisition readers. Core publisher and its tests remain stdlib-only.
 duckdb==1.5.5
 pypdf==6.18.1
+osmium==4.3.2
+shapely==2.2.0

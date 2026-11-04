@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T03:34:10Z",
+  "generatedAt": "2026-11-04T05:50:36Z",
   "metros": [
     {
       "agencyPoints": 0,
@@ -28,7 +28,7 @@
       "rank": null,
       "speedCameraApproaches": 72,
       "warningRecords": 72,
-      "withSuppressionLimit": 41
+      "withSuppressionLimit": 63
     },
     {
       "agencyPoints": 0,
@@ -129,7 +129,7 @@
       "rank": 1,
       "speedCameraApproaches": 88,
       "warningRecords": 99,
-      "withSuppressionLimit": 38
+      "withSuppressionLimit": 40
     },
     {
       "agencyPoints": 0,
@@ -215,7 +215,7 @@
       "rank": 3,
       "speedCameraApproaches": 315,
       "warningRecords": 643,
-      "withSuppressionLimit": 12
+      "withSuppressionLimit": 13
     },
     {
       "agencyPoints": 0,
@@ -454,7 +454,7 @@
       "rank": 6,
       "speedCameraApproaches": 28,
       "warningRecords": 31,
-      "withSuppressionLimit": 15
+      "withSuppressionLimit": 16
     },
     {
       "agencyPoints": 189,
@@ -559,7 +559,7 @@
       "rank": 7,
       "speedCameraApproaches": 420,
       "warningRecords": 516,
-      "withSuppressionLimit": 260
+      "withSuppressionLimit": 327
     },
     {
       "agencyPoints": 0,
@@ -584,7 +584,7 @@
       "rank": 8,
       "speedCameraApproaches": 12,
       "warningRecords": 24,
-      "withSuppressionLimit": 0
+      "withSuppressionLimit": 3
     },
     {
       "agencyPoints": 19,
@@ -662,7 +662,7 @@
       "rank": 10,
       "speedCameraApproaches": 36,
       "warningRecords": 36,
-      "withSuppressionLimit": 11
+      "withSuppressionLimit": 17
     },
     {
       "agencyPoints": 0,
@@ -819,7 +819,7 @@
       "rank": 15,
       "speedCameraApproaches": 148,
       "warningRecords": 200,
-      "withSuppressionLimit": 110
+      "withSuppressionLimit": 113
     },
     {
       "agencyPoints": 0,

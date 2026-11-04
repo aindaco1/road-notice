@@ -1,21 +1,21 @@
 {
   "albuquerqueCity": {
-    "eligible": 23,
+    "eligible": 38,
     "speedCameras": 40
   },
   "byBasis": {
-    "agency-posted": 209,
-    "conservative-lower-bound": 127,
+    "agency-posted": 207,
+    "conservative-lower-bound": 204,
     "field-verified": 2,
-    "osm-posted": 461,
-    "road-matched": 12
+    "osm-posted": 422,
+    "road-matched": 119
   },
-  "candidateOnly": 307,
-  "coveragePercent": 45.3,
-  "eligible": 811,
-  "generatedAt": "2026-11-04T03:34:10Z",
+  "candidateOnly": 332,
+  "coveragePercent": 53.3,
+  "eligible": 954,
+  "generatedAt": "2026-11-04T05:50:36Z",
   "speedCameras": 1791,
   "totalCameras": 2728,
-  "unknown": 673,
-  "version": "2026-11-02-8172bfb35e77-0f48cfde"
+  "unknown": 505,
+  "version": "2026-11-02-849ee6ac8b27-d0ef599a"
 }

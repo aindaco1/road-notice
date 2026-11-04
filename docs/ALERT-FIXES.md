@@ -50,20 +50,32 @@ evidence and temporary-camera expiration remain separate and unchanged.
 
 ## Data and limits
 
-The candidate snapshot generated at **2026-11-04 03:34:10 UTC** (November 3
-Mountain time) retains **2,728 cameras** and contains **56 road zones**:
-40 generated with at least 600 m of approach and 16 retained from prior evidence.
-It covers 26 speed, 24 possible-speed and six red-light records. Menaul/Vassar
+The candidate snapshot generated at **2026-11-04 05:50:36 UTC** (November 3
+Mountain time), `2026-11-02-849ee6ac8b27-d0ef599a`, retains **2,728 cameras**
+and contains **701 road zones**, all generated under the speed-aware lead policy.
+It covers 334 speed, 45 possible-speed, 321 red-light and one combined record.
+Menaul/Vassar
 and both Coors/St. Joseph zones each provide **650 m** of sourced approach.
 The existing warning target remains about 15 seconds, bounded to 150–600 m.
 
-The remaining 2,672 cameras lack a zone: 1,657 have unknown monitored direction,
-654 lack a clear connected path in the available cache, 358 lack the required
-lead and three have competing candidate paths. No combined camera yet passes
-all gates. Fifty-one zone source checks remain overdue; retaining their dates
-does not imply a fresh source verification. The bounded fetch completed fresh
-regional downloads but did not finish nationwide acquisition. Weekly checks
-continue the same queue. See the [coverage report](../Data/Review/road-zone-coverage.json).
+Road-data acquisition is complete for **all 1,071 direction-known candidates**:
+all 117 required regional batches are available, with no pending query envelopes.
+Validated Overpass responses and checksum-verified Geofabrik extracts supply the
+same source-connected matcher; raw facts retain their actual snapshot dates.
+See the per-camera acquisition records in [speed-limit-fetch.json](../Data/Review/speed-limit-fetch.json).
+
+The remaining 2,027 cameras lack a zone: 1,657 have unknown monitored direction,
+347 lack a clear connected path, 19 lack sufficient mapped lead, three have
+competing candidate paths and one has indistinguishable stacked approaches.
+Thus 370 of the acquired candidates remain unsupported by the road checks.
+Four generated zones still incorporate older cached road evidence whose source
+checks are overdue; acquisition does not renew those dates. Geometry remains
+active while these checks stay visible for maintenance. See the
+[coverage report](../Data/Review/road-zone-coverage.json).
+
+The complete snapshot is **15,226,599 bytes** (1,039,938 bytes with gzip), below
+the app's existing 20 MB download limit. Only this current snapshot is bundled;
+the bulk regional extracts are acquisition inputs, not app resources.
 
 Both Coors field observations now use the owner's November 3 confirmation,
 valid through December 3 for Quiet. Camera IDs, monitored geometry and travel

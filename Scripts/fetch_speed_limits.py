@@ -14,12 +14,12 @@ import urllib.parse
 import urllib.request
 import urllib.error
 
-from camera_data import ROOT, UTC, read, write, stamp, encode, distance, valid_point
+from camera_data import ROOT, UTC, read, write, stamp, encode, distance, valid_point, ROAD_TYPES, OVERPASS_URL
 from source_watch import parse_page, USER_AGENT
 
-# The public FOSSGIS service supplied fresh complete Coors geometry on November 3.
-# Keep bounded queries/backoff and validate replica age on every response.
-OVERPASS = 'https://overpass-api.de/api/interpreter'
+# Share the camera pipeline's configured mirror. A maintenance pass can select
+# another public endpoint; every cache retains its actual URL and replica date.
+OVERPASS = OVERPASS_URL
 ABQ = 'https://www.cabq.gov/automated-speed-enforcement/camera-data'
 NMDOT = 'https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer'
 SEATTLE = 'https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Seattle_Streets_1/FeatureServer/0'
@@ -40,7 +40,7 @@ def get(url, params=None, post=False):
         data=data if post else None, headers={'User-Agent': USER_AGENT})
     with urllib.request.urlopen(req, timeout=50) as response:
         raw = response.read(25_000_001)
-    if len(raw) > 25_000_000: raise ValueError('Response exceeds 25 MB')
+    if len(raw) > 25_000_000: raise OverflowError('Response exceeds 25 MB')
     return raw
 
 
@@ -158,31 +158,60 @@ def nyc_lines(bounds):
     raise ValueError('NYC road result exceeded bound')
 
 
-def osm_roads(points):
-    # 600 m upstream look-ahead plus the competing-road corridor. This is a
-    # source query envelope, never invented runtime road geometry.
-    queries=''.join(f'way(around:750,{p["latitude"]:.6f},{p["longitude"]:.6f})[highway];' for p in points)
+def road_bounds(points):
+    # A padded box covers every original 750 m query circle. The extra 50 m
+    # absorbs coordinate rounding and latitude-dependent metres per degree.
+    latitude_pad=800/110_000
+    south=min(p['latitude'] for p in points)-latitude_pad
+    north=max(p['latitude'] for p in points)+latitude_pad
+    longitude_pad=latitude_pad/math.cos(math.radians(max(abs(south),abs(north))))
+    return south,min(p['longitude'] for p in points)-longitude_pad,north,max(p['longitude'] for p in points)+longitude_pad
+
+
+def osm_roads(points, partial_cache=None, deadline=None):
+    # One spatial lookup instead of up to 25 repeated around filters. Overpass
+    # bbox selection includes crossing way segments; output geometry is NOT
+    # cropped. Extra roads are harmless, and the original query hashes remain
+    # valid: both strategies cover every required 750 m camera envelope.
+    highways='|'.join(sorted(ROAD_TYPES))
+    bounds=','.join(f'{value:.6f}' for value in road_bounds(points))
+    query=f'[out:json][timeout:40];way({bounds})[highway~"^({highways})$"];out meta geom;'
+    cache_path=None
+    if partial_cache is not None:
+        cache_path=partial_cache/(hashlib.sha256(encode({'url':OVERPASS,'query':query})).hexdigest()+'.json')
+        cached=read(cache_path,{})
+        at=cached.get('osm3s',{}).get('timestamp_osm_base')
+        if at and dt.timedelta(0)<=dt.datetime.now(UTC)-dt.datetime.fromisoformat(at.replace('Z','+00:00'))<dt.timedelta(days=2):
+            return cached
+    if deadline is not None and time.monotonic()>=deadline:
+        raise TimeoutError('Run acquisition time budget reached')
     try:
-        value=json.loads(get(OVERPASS,{'data':'[out:json][timeout:40];('+queries+');out meta geom;'},post=True))
-    except (urllib.error.HTTPError,TimeoutError) as error:
-        if len(points)<=25 or (isinstance(error,urllib.error.HTTPError) and error.code not in (502,503,504)):raise
+        value=json.loads(get(OVERPASS,{'data':query},post=True))
+        if any(reason in value.get('remark','').lower() for reason in ('timed out','out of memory')):
+            raise TimeoutError('Overpass could not complete the road batch')
+    except (urllib.error.HTTPError,TimeoutError,OverflowError) as error:
+        if len(points)<=1 or (isinstance(error,urllib.error.HTTPError) and error.code not in (502,503,504)):raise
         chunks=[]
-        for start in range(0,len(points),25):
-            time.sleep(5);chunks.append(osm_roads(points[start:start+25]))
-        return {'osm3s':{'timestamp_osm_base':min(x['osm3s']['timestamp_osm_base'] for x in chunks)},
-                'elements':list({e['id']:e for x in chunks for e in x['elements']}.values())}
+        size=5 if len(points)>5 else 1
+        for start in range(0,len(points),size):
+            time.sleep(10);chunks.append(osm_roads(points[start:start+size],partial_cache,deadline))
+        chunks.sort(key=lambda x:x['osm3s']['timestamp_osm_base'])
+        value={'osm3s':{'timestamp_osm_base':min(x['osm3s']['timestamp_osm_base'] for x in chunks)},
+               'elements':list({e['id']:e for x in chunks for e in x['elements']}.values())}
     if value.get('remark') or not isinstance(value.get('elements'),list):
         raise ValueError('Incomplete Overpass road result')
     base=value.get('osm3s',{}).get('timestamp_osm_base')
     if not base or dt.datetime.now(UTC)-dt.datetime.fromisoformat(base.replace('Z','+00:00'))>dt.timedelta(days=2):
         raise ValueError('Overpass replica is more than two days stale')
     for e in value['elements']:
-        if e.get('type')!='way' or not isinstance(e.get('id'),int) or not e.get('geometry'):
+        if (e.get('type')!='way' or not isinstance(e.get('id'),int)
+            or len(e.get('geometry',[]))<2 or len(e.get('nodes',[]))!=len(e['geometry'])):
             raise ValueError('Invalid road geometry')
         if not all(valid_point(p.get('lat'),p.get('lon')) for p in e['geometry']):
             raise ValueError('Invalid road coordinate')
         # Editor usernames are unnecessary for this public fact extract.
         for key in ('user','uid','changeset'):e.pop(key,None)
+    if cache_path is not None:write(cache_path,value,compact=True)
     return value
 
 
@@ -205,6 +234,30 @@ def road_requests(cameras):
     return result
 
 
+def directional_request_members(cameras, requests):
+    """Keep existing query hashes while selecting every directional approach."""
+    by_point={}
+    for camera in cameras:
+        if camera.get('travelBearing') is None:continue
+        for point in samples(camera['geometry'],500):
+            key=(round(point['latitude'],6),round(point['longitude'],6))
+            by_point.setdefault(key,set()).add(camera['id'])
+    return {name:sorted(set().union(*(by_point.get((round(p['latitude'],6),round(p['longitude'],6)),set())
+                                     for p in points))) for name,points in requests}
+
+
+def directional_coverage(root, cameras, members):
+    required={c['id']:[] for c in cameras if c.get('travelBearing') is not None}
+    available={name for name in members if read(root/f'Data/SpeedLimits/{name}.json',{}).get('checkedAt')}
+    for name,ids in members.items():
+        for identifier in ids:required[identifier].append(name)
+    records=[{'id':identifier,'shards':sorted(names),'pendingShards':sorted(set(names)-available),
+              'complete':bool(names) and set(names)<=available} for identifier,names in sorted(required.items())]
+    return {'candidates':len(records),'complete':sum(r['complete'] for r in records),
+            'requiredBatches':sum(bool(ids) for ids in members.values()),
+            'availableBatches':sum(bool(ids) and name in available for name,ids in members.items()),'records':records}
+
+
 def active_osm_shards(root, requested, previous):
     # Query hashes change when camera inputs change. A partial replacement set
     # must not disconnect still-valid roads from the last complete source set.
@@ -217,11 +270,11 @@ def active_osm_shards(root, requested, previous):
     return sorted(set(previous.get('activeOSMShards', [])) | set(available)) or requested
 
 
-def refresh(root=ROOT, now=None, force=False, budget=900, osm_only=False):
+def refresh(root=ROOT, now=None, force=False, budget=900, osm_only=False, directional_only=False):
     now=now or dt.datetime.now(UTC); checks=[]; started=time.monotonic()
     previous=read(root/'Data/Review/speed-limit-fetch.json',{})
     attempts={c['id']:c.get('attemptedAt',c.get('checkedAt',previous.get('checkedAt','')))
-              for c in previous.get('checks',[]) if c.get('attemptedAt') or c.get('status')!='deferred'}
+              for c in previous.get('checks',[]) if c.get('attemptedAt') or c.get('status') not in ('deferred','not_requested')}
     folder=root/'Data/SpeedLimits'; folder.mkdir(parents=True,exist_ok=True)
     def cached(name,url,fetch,minimum=0):
         path=folder/(name+'.json');old=read(path,{})
@@ -237,6 +290,8 @@ def refresh(root=ROOT, now=None, force=False, budget=900, osm_only=False):
             count=len(value.get('elements',value.get('features',value.get('rows',value.get('limits',[])))))
             if count<minimum:raise ValueError('Source below minimum expected count')
             previous_count=old.get('recordCount',0)
+            if name.startswith('osm-roads-'):
+                previous_count=sum(e.get('tags',{}).get('highway') in ROAD_TYPES for e in old.get('elements',[]))
             if previous_count and count<.75*previous_count:raise ValueError('Source lost over 25%; retained for review')
             at=value.get('osm3s',{}).get('timestamp_osm_base',stamp(dt.datetime.now(UTC)))
             value.update(sourceURL=url,checkedAt=at,recordCount=count)
@@ -269,26 +324,38 @@ def refresh(root=ROOT, now=None, force=False, budget=900, osm_only=False):
                 cached(name,url,(lambda bounds=bounds:nyc_lines(bounds)) if prefix=='nyc-roads' else
                     (lambda bounds=bounds:arcgis_lines(SEATTLE,bounds,'1=1','OBJECTID,ONSTREET,SPEEDLIMIT,ONEWAY,ONEWAYDIR')))
     requests=road_requests(cameras)
+    members=directional_request_members(cameras,requests)
     shards=[name for name,_ in requests];backoff=False
     # Missing/unattempted regions first; oldest attempts next. A failing region
     # cannot consume every week's acquisition budget and starve the rest.
     for name,ps in sorted(requests,key=lambda r:(attempts.get(r[0],''),r[0])):
-        if backoff:
+        if directional_only and not members[name]:
+            checks.append({'id':name,'status':'not_requested','reason':'Outside directional-camera acquisition pass',
+                           **({'attemptedAt':attempts[name]} if name in attempts else {})})
+        elif backoff:
             checks.append({'id':name,'status':'deferred','error':'Overpass backoff after upstream refusal; retry on next run',
                            **({'attemptedAt':attempts[name]} if name in attempts else {})})
         else:
-            cached(name,OVERPASS,lambda ps=ps:osm_roads(ps))
-            backoff=any(x in checks[-1].get('error','') for x in ('429','Connection refused','rate limit'))
+            cached(name,OVERPASS,lambda ps=ps:osm_roads(ps,root/'work/road-query-cache',started+budget))
+            backoff=any(x in checks[-1].get('error','') for x in ('429','406','Connection refused','rate limit'))
             if checks[-1]['status'] not in ('cached','deferred'):time.sleep(10)
     if osm_only:
         checks=[x for x in previous.get('checks',[]) if not x['id'].startswith('osm-roads-')]+checks
     active=active_osm_shards(root,shards,previous)
     report={'checkedAt':stamp(now),'activeOSMShards':active,'requestedOSMShards':shards,
-            'retainedPreviousOSMShards':active!=shards,'checks':checks}
+            'retainedPreviousOSMShards':active!=shards,'checks':checks,
+            'directionalCoverage':directional_coverage(root,cameras,members)}
     write(root/'Data/Review/speed-limit-fetch.json',report)
     return report
 
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--force',action='store_true');p.add_argument('--osm-only',action='store_true')
-    args=p.parse_args();refresh(force=args.force,osm_only=args.osm_only)
+    p.add_argument('--directional-only',action='store_true',help='Acquire road batches covering cameras with known travel direction')
+    p.add_argument('--budget-seconds',type=int,default=900,help='Acquisition time budget; cached progress is reused on the next pass')
+    p.add_argument('--overpass-url',default=OVERPASS,help='Public HTTPS Overpass endpoint for this road acquisition pass')
+    args=p.parse_args()
+    if args.budget_seconds<=0:p.error('--budget-seconds must be positive')
+    if not args.overpass_url.startswith('https://'):p.error('--overpass-url must use HTTPS')
+    OVERPASS=args.overpass_url
+    refresh(force=args.force,osm_only=args.osm_only,budget=args.budget_seconds,directional_only=args.directional_only)

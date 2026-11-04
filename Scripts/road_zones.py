@@ -11,11 +11,29 @@ import math
 from camera_data import distance, read, stamp, write, UTC, valid_point, projection
 from camera_identity import angle
 from fetch_speed_limits import samples
-from speed_limits import RoadIndex, camera_names, same_road, load_roads
+from speed_limits import RoadIndex, camera_names, same_road, load_roads, numeric, mps
 
-# Covers the engine's maximum look-ahead, including speeds above a posted limit.
-APPROACH_METERS = 600
 
+def approach_requirement(camera, road):
+    """Plan geometry for the existing 15-second warning target, not Quiet.
+
+    A school/conditional suppression bound must not shorten ordinary-road lead.
+    Keep the full available path (up to 650 m) even when this minimum is smaller.
+    """
+    speeds=[]
+    camera_limit=camera.get('speedLimit') or {}
+    if camera_limit.get('basis')!='conservative-lower-bound' and not camera_limit.get('conditional'):
+        value=numeric(camera_limit.get('value'),camera_limit.get('unit'))
+        if value:speeds.append(mps(value))
+    road_limit=road.get('limit') or {}
+    for raw in road_limit.get('alternatives',[road_limit]):
+        value=numeric(raw.get('value'),raw.get('unit'))
+        if value:speeds.append(mps(value))
+    if speeds:
+        return {'meters':25*math.ceil(min(600,max(150,15*max(speeds)))/25),
+                'basis':'15 seconds at the highest sourced camera/road limit, rounded up to 25 m'}
+    return {'meters':600 if road['tags'].get('highway') in ('motorway','trunk') else 325,
+            'basis':'Unknown speed: maximum lead on motorway/trunk; approximately 15 seconds at 45 mph elsewhere'}
 
 
 def length(line): return sum(distance(a,b) for a,b in zip(line,line[1:]))
@@ -64,6 +82,9 @@ class ZoneBuilder:
                     oriented=self.oriented(road,not at_end if prepend else at_end)
                     if not oriented:continue
                     g,n=oriented
+                    # A closed loop cannot be an entire upstream approach: its
+                    # repeated junction makes nearest-segment direction ambiguous.
+                    if set(n[:-1] if prepend else n[1:]).intersection(nodes):continue
                     heading=projection(g[-2] if prepend else g[1],g)[2]
                     current=projection(geometry[0] if prepend else geometry[-1],geometry)[2]
                     if angle(heading,current)<=60:choices.append((road,g,n))
@@ -75,11 +96,12 @@ class ZoneBuilder:
 
     def build(self,camera):
         bearing=camera.get('travelBearing')
-        if bearing is None:return None,'Unknown monitored direction'
+        if bearing is None:return None,'Unknown monitored direction',None
         g=camera['geometry'];middle=g[len(g)//2];names=camera_names(camera)
         members=set(camera['sourceIDs']);device_nodes={int(x.rsplit('/',1)[1]) for x in members if x.startswith('osm/node/')}
         choices=[]
         for road in self.index.nearby(middle):
+            if len(set(road['nodes']))!=len(road['nodes']):continue
             d,_,heading=projection(middle,road['geometry'])
             explicit=road['id'] in members or bool(device_nodes & set(road['nodes']))
             if d>25 or not (explicit or any(same_road(a,b) for a in names for b in road['names'])):continue
@@ -95,14 +117,15 @@ class ZoneBuilder:
             if not 2<=len(path)<=2000:continue
             choices.append((not explicit,d,path,used,at,lo-start,hi-start,road))
         choices.sort(key=lambda c:(c[0],c[1]))
-        if not choices:return None,'No unambiguous connected approach geometry'
+        if not choices:return None,'No unambiguous connected approach geometry',None
         chosen=choices[0]
         if any(not chosen[3].intersection(c[3]) and c[1]-chosen[1]<10 for c in choices[1:]):
-            return None,'Competing monitored-road paths'
+            return None,'Competing monitored-road paths',None
         _,_,path,used,at,lo,hi,seed=chosen
+        required=approach_requirement(camera,seed)
         # Establish the correct road before checking lead length; a longer
         # neighboring road must not win merely because the real approach is short.
-        if lo<APPROACH_METERS:return None,'Insufficient mapped approach (600 m required)'
+        if lo<required['meters']:return None,f"Insufficient mapped approach ({required['meters']} m required)",required
         # Include other ways even when their names match: frontage roads and
         # separate carriageways must not become proof of road membership.
         alternatives={}
@@ -115,18 +138,31 @@ class ZoneBuilder:
                 if len(part)>=2:
                     old=alternatives.get(road['id'])
                     alternatives[road['id']]=(road,min(old[1],progress-120) if old else progress-120,max(old[2],progress+120) if old else progress+120)
-        if len(alternatives)>80:return None,'Too many competing roads for a bounded zone'
+        if len(alternatives)>80:return None,'Too many competing roads for a bounded zone',required
         others=[]
         for road,start,end in sorted(alternatives.values(),key=lambda v:v[0]['id']):
             others.append({'geometry':clip(road['geometry'],max(0,start),end),
                            'oneWay':road['tags'].get('oneway') in ('yes','1','-1')})
             if road['tags'].get('oneway')=='-1':others[-1]['geometry'].reverse()
             at=min(at,road['checkedAt'])
+        # Stacked roads can coincide throughout the approach. Require at least
+        # one distinguishable position inside the planned warning lead; otherwise
+        # the runtime cannot establish membership even with perfect GPS.
+        clear=False
+        for point in samples(clip(path,max(0,lo-required['meters']),lo),20):
+            heading=projection(point,path)[2]
+            ambiguous=False
+            for other in others:
+                d,_,bearing=projection(point,other['geometry'])
+                difference=angle(heading,bearing) if other['oneWay'] else min(angle(heading,bearing),angle(heading,(bearing+180)%360))
+                if d<=5 and difference<=60:ambiguous=True;break
+            if not ambiguous:clear=True;break
+        if not clear:return None,'No distinguishable approach among overlapping roads',required
         zone={'geometry':path,'startMeters':round(lo,2),'endMeters':round(hi,2),'halfWidthMeters':20,
               'alternatives':others,'sourceIDs':sorted(used|set(alternatives)),
               'verifiedAt':at,'validUntil':stamp(dt.datetime.fromisoformat(at.replace('Z','+00:00'))+dt.timedelta(days=30))}
         validate_zone(zone)
-        return zone,None
+        return zone,None,required
 
 
 def validate_zone(zone):
@@ -150,7 +186,7 @@ def enrich_zones(root,records,now):
     builder=ZoneBuilder(load_roads(root,now),now);report=[];result=[]
     for camera in records:
         camera=dict(camera);camera.pop('roadZone',None)
-        zone,reason=builder.build(camera)
+        zone,reason,required=builder.build(camera)
         status='eligible' if zone else 'fallback'
         old=previous.get(camera['id'],{})
         # A failed/incomplete refresh must not reopen nearby-road warnings.
@@ -162,6 +198,8 @@ def enrich_zones(root,records,now):
         report.append({'id':camera['id'],'label':camera['label'],'kind':camera['kind'],
                        'status':status,'reason':reason,'vertices':len(zone['geometry']) if zone else 0,
                        'approachMeters':zone['startMeters'] if zone else None,
+                       'requiredApproachMeters':required['meters'] if required else None,
+                       'leadBasis':required['basis'] if required else None,
                        'sourceCheckDue':bool(zone and zone['validUntil']<=stamp(now))})
         result.append(camera)
     write(root/'Data/Review/road-zone-coverage.json',{'generatedAt':stamp(now),'scope':'All camera kinds and regions',
@@ -169,6 +207,6 @@ def enrich_zones(root,records,now):
           'generated':sum(r['status']=='eligible' for r in report),
           'retained':sum(r['status']=='retained' for r in report),
           'sourceChecksDue':sum(r['sourceCheckDue'] for r in report),
-          'requiredApproachMeters':APPROACH_METERS,
+          'approachPolicy':'15 seconds at sourced approach speed, 150–600 m; retain up to 650 m of available geometry',
           'reviewed':len(report),'totalCameras':len(records),'records':report})
     return result

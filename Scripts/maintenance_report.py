@@ -13,6 +13,9 @@ def generate(root=ROOT):
     overture=read(root/'Data/Review/overture-fetch.json',{})
     items=[]
     zones=read(root/'Data/Review/road-zone-coverage.json',{})
+    acquisition=limit_fetch.get('directionalCoverage',{})
+    if acquisition.get('complete',0)<acquisition.get('candidates',0):
+        items.append({'source':'road-acquisition','reason':f"{acquisition['complete']} / {acquisition['candidates']} directional cameras have complete road-query coverage; see speed-limit-fetch.json"})
     if zones.get('sourceChecksDue'):
         items.append({'source':'road-zones','reason':f"{zones['sourceChecksDue']} road zones need source rechecks; validated geometry remains active"})
     if zones.get('retained'):

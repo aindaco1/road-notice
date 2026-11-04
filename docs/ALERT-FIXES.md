@@ -26,9 +26,13 @@ code; they are not a replay of a recorded drive or proof of each incident's caus
   unusable speed still warn; red-light and combined warnings remain enabled.
   Quiet does not consume the encounter, so accelerating above the limit can warn.
 - **Use one zone builder everywhere.** All camera kinds and regions use the
-  existing source-connected road matcher. New zones require at least 600 m
-  before the monitored point or area. Paths follow actual shared OSM nodes,
-  respect one-way travel, stop at ambiguous forks and keep nearby road alternatives.
+  existing source-connected road matcher. New zones require roughly 15 seconds
+  of approach at the highest sourced camera/road speed (150–600 m, rounded up
+  to 25 m), retaining up to 650 m wherever available. Unknown-speed approaches
+  require 325 m, or 600 m on motorway/trunk roads; those defaults do not create
+  posted limits. Paths follow actual shared OSM nodes,
+  respect one-way travel, stop at ambiguous forks/cycles and keep nearby road alternatives.
+  Fully overlapping approaches without a distinguishable position remain unsupported.
   A longer adjacent road cannot replace a closer road with insufficient lead.
 - **Preserve evidence through incomplete updates.** Successful regional road
   downloads activate immediately alongside the previous active set. An unchanged

@@ -5,7 +5,7 @@
 - Keep validated road zones active when source rechecks are overdue; partial refreshes retain existing road constraints.
 - Require direction evidence for directional cameras, preventing opposing Coors warnings during a course dropout.
 - Keep Quiet silent at or below a usable limit; warn above it. Renew both field-confirmed Coors 45 mph observations on November 3.
-- Apply the shared zone builder to all camera kinds and regions, with 600 m of mapped approach for newly generated zones. Expand bounded road queries and activate successful refresh regions incrementally.
+- Apply the shared zone builder to all camera kinds and regions, with mapped approach length suited to the sourced road speed and the 15-second warning target. Retain up to 650 m where available. Expand bounded road queries and activate successful refresh regions incrementally.
 - Explain Do Not Disturb/Focus limitations in the app, website and support docs. Critical Alerts remain disabled.
 - Add regressions for offline/overdue geometry, both Coors directions, exact-limit suppression, source retention and approach length.
 

@@ -48,6 +48,31 @@ acquisition evidence. Critical Alerts are not added. Physical battery, overnight
 departure and normal phone notification-tap checks remain separate acceptance
 items; archive and upload success do not establish those results.
 
+### November 4 website copy and local cleanup
+
+The two owner-requested Albuquerque examples were removed from the website's
+release copy. The [deployment](https://github.com/aindaco1/road-notice/actions/runs/41794728256)
+succeeded, and the public page and both camera feeds passed verification.
+
+Local cleanup moved **21 obsolete generated paths (3,099 MiB)** to
+`~/.Trash/road-notice-cleanup-2026-11-04/`. These include downloaded regional
+extracts, duplicate road-query and Swift caches, release DerivedData, a generated
+site preview, an exact historical source extract and superseded test products.
+The files remain recoverable; moving them to Trash does not reclaim disk space
+until Trash is emptied. The two merged local work branches were removed after
+verifying their commits are ancestors of `origin/main`. Remote branches and
+unrelated worktrees were preserved.
+
+The complete build 20 archive and matching symbols remain, along with older
+symbolication records, compact release/investigation evidence, the current
+`.build` cache, `/tmp/road-notice-fixes-ios-2026-11-03`, and the final app-hosted
+and UI test products/results. The archive's release-bundle and signature checks
+still pass. Build 20 was the only full Road Notice archive present at inventory;
+older retention entries below describe their respective release dates.
+Tracked road data, published snapshots, simulator runtimes and signing assets
+remain. The inventory, move manifest, original documentation backups and branch
+heads are in ignored `work/cleanup-2026-11-04/` in the maintenance worktree.
+
 ## App Store submission — October 7, 2026
 
 **Road Notice 1.0.6 (19) is Waiting for Review.** Apple confirmed one item

@@ -9,6 +9,8 @@ The owner reconfirmed both Coors approaches at 45 mph on November 3.
 The alert log does not retain the GPS fix or database/build used for each event.
 These regressions reproduce plausible failure paths from the shipped data and
 code; they are not a replay of a recorded drive or proof of each incident's cause.
+The [original investigation](ALERT-REGRESSION-INVESTIGATION-2026-11-03.md)
+preserves the pre-fix replays, source-refresh failures and initial coverage audit.
 
 ## Corrections
 

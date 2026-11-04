@@ -7,7 +7,9 @@ and 16 app-hosted tests pass, with zero app-hosted skips.** The new incident
 regressions first failed against the old runtime. They now cover overdue zones
 and 180-day offline use, the I-40/Menaul negative and monitored-road positive,
 both Coors directions during course dropout, exact-limit Quiet suppression and
-full lead distance for the three incident approaches. The existing per-zone
+full lead distance for the three incident approaches. Their mapped-path replays
+at 50 mph each warn 250–340 m before the monitored area, including after 180
+days offline. The existing per-zone
 corpus and reviewed-area replays pass against the refreshed 2,728-camera bundle.
 
 Pipeline checks cover all camera kinds, the 600 m minimum for newly generated

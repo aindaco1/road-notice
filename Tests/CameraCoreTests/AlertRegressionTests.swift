@@ -22,6 +22,29 @@ private func releasedCameras() throws -> [Camera] {
         var engine = AlertEngine()
         #expect(engine.evaluate(observed(camera.geometry[5], at: later, course: camera.travelBearing),
             index: index, now: later).count == 1)
+        // Replay the actual mapped approach: useful lead must produce an early
+        // warning, not merely enough vertices before an inside-area warning.
+        var approaching = AlertEngine()
+        var second = 0.0
+        var firstWarningDistance: Double?
+        approach: for (a, b) in zip(zone.geometry, zone.geometry.dropFirst()) {
+            let steps = max(1, Int(ceil(Geometry.distance(a, b) / 20)))
+            for step in 0..<steps {
+                let t = Double(step) / Double(steps)
+                let point = Coordinate(a.latitude + t * (b.latitude - a.latitude),
+                    a.longitude + t * (b.longitude - a.longitude))
+                let date = later.addingTimeInterval(second)
+                second += 1
+                let warnings = approaching.evaluate(observed(point, at: date,
+                    course: Geometry.bearing(from: a, to: b)), index: index, now: date)
+                if let warning = warnings.first {
+                    firstWarningDistance = warning.distance
+                    break approach
+                }
+            }
+        }
+        let lead = try #require(firstWarningDistance)
+        #expect((250...340).contains(lead), "Useful warning lead for \(id): \(lead) m at 50 mph")
         if id.contains("vassar") {
             var highway = AlertEngine()
             #expect(highway.evaluate(observed(Coordinate(35.1071565, -106.6128987), at: later,

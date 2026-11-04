@@ -41,11 +41,19 @@ zone replay warns 300–335 m ahead at 50 mph and rejects adjacent/opposing traf
 The first expanded-data CI run passed source checks and the complete iOS 17.5
 and 18.5 jobs. Its iOS 26.5 monitoring suite passed, but the background-audio
 check failed: the saved journal shows monitoring switched off before the route.
-The UI helper tapped off/on before SwiftUI finished updating the first switch
-state. Its later diagnostic foreground replay produced a completed warning.
-The shared UI setup now waits for confirmed off/on states, including Quiet
-changes before relaunch. That failed run remains evidence, not a passing
-background result; the PR records the final compatibility rerun.
+Its later diagnostic foreground replay produced a completed warning. A second
+run with switch-state assertions caught an ignored initial tap before driving;
+the exported input event targeted the actual switch, but its value never changed.
+The shared UI setup now starts disabled, enables warnings through real opt-in,
+and confirms each requested switch state, including Quiet before relaunch. It
+retries one ignored input only when that state was not applied. The required
+switch-state and exactly-one-background-siren assertions remain intact. These
+failed runs remain evidence, not passing background results; the PR records the
+final compatibility rerun.
+
+The simplified setup passes the local iOS 27 foreground/settings/siren UI test
+with zero skips. Its completed result is
+`~/Library/Developer/XcodeBuildMCP/workspaces/road-notice-f91eaf62e6fc/result-bundles/test_sim_2026-11-04T06-46-13-592Z_pid53567_afa3859a.xcresult`.
 
 The staged website was visually checked at 320, 390 and 1,440 px widths,
 including the expanded Do Not Disturb FAQ; no horizontal overflow or broken

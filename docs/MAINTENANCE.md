@@ -10,6 +10,13 @@ The pattern follows the owner’s [RSS digest workflow](https://github.com/ainda
 
 The [restaurant-locations pipeline](https://github.com/aindaco1/restaurant-locations/blob/main/.github/workflows/pipeline.yml) is a second verified example: tests before retrieval, dataset validation, commits only when data changes, and 30-day evidence artifacts. Its latest three scheduled runs succeeded, including [September 14](https://github.com/aindaco1/restaurant-locations/actions/runs/34818742807). Fine Me Not explicitly deploys in its publication job instead of depending on a bot commit to trigger another workflow.
 
+## Regression fixtures
+
+Field-verification tests compare the original edited snapshot with its immutable
+pre-edit baseline. The current weekly snapshot may regenerate road zones; it
+must retain camera geometry, direction and field-verified speed limits and pass
+zone validation, without matching every historical road edge or source date.
+
 ## Review queue
 
 Start with [maintenance.md](../Data/Review/maintenance.md) and its full [JSON](../Data/Review/maintenance.json). Each workflow retains a 30-day artifact. Git history preserves earlier reports and source caches. Source changes, added/removed list entries, unresolved coordinates, aliases and failures remain inspectable. The Sunday job summary links those findings; monitoring does not automatically certify a whole metro.

@@ -104,7 +104,7 @@ class PublisherTests(unittest.TestCase):
             # The field edit must preserve its original zone. Weekly road-source
             # refreshes may regenerate current zones without moving the camera.
             self.assertEqual(field_verified[identifier]['roadZone'],old[identifier]['roadZone'])
-            self.assertEqual(c['roadZone'],old[identifier]['roadZone'])
+            p.validate_zone(c['roadZone'])
             self.assertEqual(c['speedLimit']['value'],45)
             self.assertEqual(c['speedLimit']['unit'],'mph')
             self.assertEqual(c['speedLimit']['verifiedAt'],'2026-10-01T06:00:00Z')

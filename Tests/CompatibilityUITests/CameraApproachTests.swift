@@ -7,6 +7,13 @@ final class CameraApproachTests: XCTestCase {
     }
 
     @MainActor
+    private func waitForSwitch(_ toggle: XCUIElement, value: String) {
+        let settled = XCTNSPredicateExpectation(predicate: NSPredicate(format: "value == %@", value), object: toggle)
+        XCTAssertEqual(XCTWaiter.wait(for: [settled], timeout: 10), .completed,
+                       "Switch must reach its requested state before the next action")
+    }
+
+    @MainActor
     private func launchApp() -> XCUIApplication {
         continueAfterFailure = false
         let app = XCUIApplication()
@@ -24,10 +31,14 @@ final class CameraApproachTests: XCTestCase {
         XCTAssertTrue(warnings.waitForExistence(timeout: 60))
         // Starting enabled via launch arguments doesn't request notification permission.
         // Exercise the real opt-in UI on a fresh simulator before driving.
-        if warnings.value as? String == "1" { warnings.tap() }
+        if warnings.value as? String == "1" {
+            warnings.tap()
+            waitForSwitch(warnings, value: "0")
+        }
         warnings.tap()
         let allow = springboard.buttons["Allow"]
         if allow.waitForExistence(timeout: 3) { allow.tap() }
+        waitForSwitch(warnings, value: "1")
         return app
     }
 
@@ -37,11 +48,13 @@ final class CameraApproachTests: XCTestCase {
         let quiet = app.switches["speed-check-toggle"]
         XCTAssertEqual(quiet.value as? String, "1")
         quiet.tap()
+        waitForSwitch(quiet, value: "0")
         app.terminate()
         app.launch()
         XCTAssertTrue(quiet.waitForExistence(timeout: 60))
         XCTAssertEqual(quiet.value as? String, "0")
         quiet.tap()
+        waitForSwitch(quiet, value: "1")
         let warning = app.buttons["test-warning"]
         if !warning.isHittable { app.swipeUp() }
         warning.tap()

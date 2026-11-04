@@ -38,6 +38,15 @@ and its legacy projection pass the existing 20 MB download bound and digest
 checks. The three incident zones retain 650 m of approach. The all-kind shorter
 zone replay warns 300–335 m ahead at 50 mph and rejects adjacent/opposing traffic.
 
+The first expanded-data CI run passed source checks and the complete iOS 17.5
+and 18.5 jobs. Its iOS 26.5 monitoring suite passed, but the background-audio
+check failed: the saved journal shows monitoring switched off before the route.
+The UI helper tapped off/on before SwiftUI finished updating the first switch
+state. Its later diagnostic foreground replay produced a completed warning.
+The shared UI setup now waits for confirmed off/on states, including Quiet
+changes before relaunch. That failed run remains evidence, not a passing
+background result; the PR records the final compatibility rerun.
+
 The staged website was visually checked at 320, 390 and 1,440 px widths,
 including the expanded Do Not Disturb FAQ; no horizontal overflow or broken
 section anchors was found. Both staged data feeds retain all 2,728 records.

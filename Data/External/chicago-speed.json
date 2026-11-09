@@ -6891,13 +6891,13 @@
       "geometry": [
         {
           "latitude": 41.9242,
-          "longitude": -87.7534
+          "longitude": -87.7529
         }
       ],
       "id": "agency-chicago-speed-chi254-270",
       "kind": "speed",
-      "label": "5050 W Fullerton Ave · WB",
-      "locationKey": "5050 W Fullerton Ave",
+      "label": "5044 W Fullerton Ave · WB",
+      "locationKey": "5044 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
       "roadNames": [
         "W Fullerton Ave"
@@ -6913,13 +6913,13 @@
       "geometry": [
         {
           "latitude": 41.9242,
-          "longitude": -87.7534
+          "longitude": -87.7529
         }
       ],
       "id": "agency-chicago-speed-chi254-90",
       "kind": "speed",
-      "label": "5050 W Fullerton Ave · EB",
-      "locationKey": "5050 W Fullerton Ave",
+      "label": "5044 W Fullerton Ave · EB",
+      "locationKey": "5044 W Fullerton Ave",
       "positionPrecision": "agency-published-point",
       "roadNames": [
         "W Fullerton Ave"
@@ -7173,7 +7173,7 @@
       "travelBearing": 180
     }
   ],
-  "checkedAt": "2026-10-19T08:43:48Z",
+  "checkedAt": "2026-11-09T12:46:16Z",
   "excluded": [],
   "id": "chicago-speed",
   "rowCount": 209,

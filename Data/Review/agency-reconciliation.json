@@ -1,5 +1,5 @@
 {
-  "acceptedAgencyRecords": 920,
+  "acceptedAgencyRecords": 927,
   "automaticMatches": [
     {
       "id": "osm-node-11412742529",
@@ -12,7 +12,7 @@
       "targetID": "osm-node-13726188373"
     }
   ],
-  "checkedAt": "2026-11-04T08:00:34Z",
+  "checkedAt": "2026-11-09T13:17:08Z",
   "review": [
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -2276,6 +2276,17 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
+      "id": "agency-phoenix-points-northern-ave-16th-street-to-sr-51",
+      "label": "Northern Ave: 16th Street to SR 51",
+      "nearby": [
+        {
+          "id": "agency-phoenix-points-w-b-northern-avenue-16th-street-to-18th-street",
+          "meters": 10.5
+        }
+      ],
+      "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
       "reason": "Location needs review: Expected one Census address match, got 0",
       "source": "philadelphia-addresses",
       "sourceRecord": "3600 S. Broad Street"
@@ -2359,6 +2370,21 @@
       "reason": "Location needs review: Census changed the requested street/state; needs review",
       "source": "philadelphia-addresses",
       "sourceRecord": "2100 Robbins Street"
+    },
+    {
+      "reason": "Location needs review: Expected one Census address match, got 0",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "3300 W Girard Ave (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Location needs review: Expected one Census address match, got 0",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "2000 N 33rd Street (Live Enforcement Begins 10-30-26)"
+    },
+    {
+      "reason": "Location needs review: Expected one Census address match, got 0",
+      "source": "philadelphia-addresses",
+      "sourceRecord": "3400 Ridge Ave (Live Enforcement Begins 10-30-26)"
     },
     {
       "id": "agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb",

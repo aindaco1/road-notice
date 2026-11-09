@@ -455,9 +455,201 @@
         "agency/philadelphia-addresses/3100 Levick Street",
         "census"
       ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.944614135079,
+          "longitude": -75.243454069345
+        }
+      ],
+      "id": "agency-philadelphia-addresses-6000-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "6000 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "6000 Baltimore Ave (Live Enforcement Begins 10-30-26)",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Baltimore Ave"
+      ],
+      "siteID": "agency-philadelphia-addresses-6000-baltimore-ave",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/6000 Baltimore Ave",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.946756729094,
+          "longitude": -75.235849407034
+        }
+      ],
+      "id": "agency-philadelphia-addresses-5600-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "5600 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "5600 Baltimore Ave (Live Enforcement Begins 10-30-26)",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Baltimore Ave"
+      ],
+      "siteID": "agency-philadelphia-addresses-5600-baltimore-ave",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/5600 Baltimore Ave",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.948095559737,
+          "longitude": -75.221299295272
+        }
+      ],
+      "id": "agency-philadelphia-addresses-4900-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "4900 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "4900 Baltimore Ave (Live Enforcement Begins 10-30-26)",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Baltimore Ave"
+      ],
+      "siteID": "agency-philadelphia-addresses-4900-baltimore-ave",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/4900 Baltimore Ave",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.94947337696,
+          "longitude": -75.209317218761
+        }
+      ],
+      "id": "agency-philadelphia-addresses-4300-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "4300 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "4300 Baltimore Ave (Live Enforcement Begins 10-30-26)",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Baltimore Ave"
+      ],
+      "siteID": "agency-philadelphia-addresses-4300-baltimore-ave",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/4300 Baltimore Ave",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.949723798262,
+          "longitude": -75.207208786597
+        }
+      ],
+      "id": "agency-philadelphia-addresses-4200-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "4200 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "4200 Baltimore Ave (Live Enforcement Begins 10-30-26)",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "Baltimore Ave"
+      ],
+      "siteID": "agency-philadelphia-addresses-4200-baltimore-ave",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/4200 Baltimore Ave",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.951212333024,
+          "longitude": -75.199292134357
+        }
+      ],
+      "id": "agency-philadelphia-addresses-300-s-university-ave",
+      "kind": "possibleSpeed",
+      "label": "300 S University Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "300 S University Ave (Live Enforcement Begins 10-30-26)",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "S University Ave"
+      ],
+      "siteID": "agency-philadelphia-addresses-300-s-university-ave",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/300 S University Ave",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.959730742786,
+          "longitude": -75.197043222839
+        }
+      ],
+      "id": "agency-philadelphia-addresses-200-n-38th-street",
+      "kind": "possibleSpeed",
+      "label": "200 N 38th Street (Live Enforcement Begins 10-30-26) · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "200 N 38th Street (Live Enforcement Begins 10-30-26)",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N 38th Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-200-n-38th-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/200 N 38th Street",
+        "census"
+      ]
+    },
+    {
+      "evidence": "Agency-listed enforcement location: https://philapark.org/speed-cameras/. Census TIGER address-range interpolation; approximate listed block, not a camera survey.",
+      "geocodingSource": "https://geocoding.geo.census.gov/geocoder/locations/address",
+      "geometry": [
+        {
+          "latitude": 39.96148892666,
+          "longitude": -75.191201266857
+        }
+      ],
+      "id": "agency-philadelphia-addresses-400-n-34th-street",
+      "kind": "possibleSpeed",
+      "label": "400 N 34th Street (Live Enforcement Begins 10-30-26) · approximate location",
+      "locationAccuracyMeters": 150,
+      "locationKey": "400 N 34th Street (Live Enforcement Begins 10-30-26)",
+      "positionPrecision": "census-address-estimate",
+      "roadNames": [
+        "N 34th Street"
+      ],
+      "siteID": "agency-philadelphia-addresses-400-n-34th-street",
+      "sourceIDs": [
+        "agency/philadelphia-addresses/400 N 34th Street",
+        "census"
+      ]
     }
   ],
-  "checkedAt": "2026-10-19T08:43:48Z",
+  "checkedAt": "2026-11-09T12:46:16Z",
   "excluded": [
     {
       "reason": "Location needs review: Expected one Census address match, got 0",
@@ -528,47 +720,15 @@
       "sourceRecord": "2100 Robbins Street"
     },
     {
-      "reason": "Published future enforcement date; not active yet",
-      "sourceRecord": "6000 Baltimore Ave (Live Enforcement Begins 10-30-26)"
-    },
-    {
-      "reason": "Published future enforcement date; not active yet",
-      "sourceRecord": "5600 Baltimore Ave (Live Enforcement Begins 10-30-26)"
-    },
-    {
-      "reason": "Published future enforcement date; not active yet",
-      "sourceRecord": "4900 Baltimore Ave (Live Enforcement Begins 10-30-26)"
-    },
-    {
-      "reason": "Published future enforcement date; not active yet",
-      "sourceRecord": "4300 Baltimore Ave (Live Enforcement Begins 10-30-26)"
-    },
-    {
-      "reason": "Published future enforcement date; not active yet",
-      "sourceRecord": "4200 Baltimore Ave (Live Enforcement Begins 10-30-26)"
-    },
-    {
-      "reason": "Published future enforcement date; not active yet",
-      "sourceRecord": "300 S University Ave (Live Enforcement Begins 10-30-26)"
-    },
-    {
-      "reason": "Published future enforcement date; not active yet",
-      "sourceRecord": "200 N 38th Street (Live Enforcement Begins 10-30-26)"
-    },
-    {
-      "reason": "Published future enforcement date; not active yet",
-      "sourceRecord": "400 N 34th Street (Live Enforcement Begins 10-30-26)"
-    },
-    {
-      "reason": "Published future enforcement date; not active yet",
+      "reason": "Location needs review: Expected one Census address match, got 0",
       "sourceRecord": "3300 W Girard Ave (Live Enforcement Begins 10-30-26)"
     },
     {
-      "reason": "Published future enforcement date; not active yet",
+      "reason": "Location needs review: Expected one Census address match, got 0",
       "sourceRecord": "2000 N 33rd Street (Live Enforcement Begins 10-30-26)"
     },
     {
-      "reason": "Published future enforcement date; not active yet",
+      "reason": "Location needs review: Expected one Census address match, got 0",
       "sourceRecord": "3400 Ridge Ave (Live Enforcement Begins 10-30-26)"
     }
   ],

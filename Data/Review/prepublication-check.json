@@ -1,34 +1,34 @@
 {
-  "agencyAndPageChecksAt": "2026-10-19T08:43:48Z",
-  "completedAt": "2026-10-19T09:04:29Z",
+  "agencyAndPageChecksAt": "2026-11-09T12:46:16Z",
+  "completedAt": "2026-11-09T13:17:14Z",
   "osmFetches": [
     {
-      "checkedAt": "2026-10-19T08:43:25Z",
+      "error": "HTTP Error 504: Gateway Timeout",
       "source": "speed",
-      "status": "downloaded"
+      "status": "retained"
     },
     {
-      "error": "HTTP Error 504: Gateway Time-out",
+      "error": "HTTP Error 504: Gateway Timeout",
       "source": "enforcement",
       "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:43:48Z",
+      "error": "HTTP Error 504: Gateway Timeout",
       "source": "aliases",
-      "status": "downloaded"
+      "status": "retained"
     }
   ],
   "overture": {
-    "checkedAt": "2026-10-19T09:01:10Z",
-    "completeRegions": 130,
+    "checkedAt": "2026-11-09T13:03:48Z",
+    "completeRegions": 131,
     "error": "34 regions unavailable, retained or deferred; see regional results",
-    "records": 26324,
+    "records": 26370,
     "regions": [
       {
         "id": "79dd4274b9005814",
         "queryPoints": 759,
-        "records": 2284,
-        "status": "cached",
+        "records": 2266,
+        "status": "downloaded",
         "tile": [
           70,
           -214
@@ -38,7 +38,7 @@
         "id": "87d904edbe3f658e",
         "queryPoints": 16,
         "records": 68,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           70,
           -213
@@ -48,7 +48,7 @@
         "id": "6959db5b7bb786bf",
         "queryPoints": 6,
         "records": 26,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           69,
           -214
@@ -58,17 +58,17 @@
         "id": "57d1725caf45722c",
         "queryPoints": 1,
         "records": 8,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           71,
           -213
         ]
       },
       {
-        "id": "01a495300f529f63",
+        "id": "8944de31e49dbf82",
         "queryPoints": 205,
-        "records": 3761,
-        "status": "cached",
+        "records": 3757,
+        "status": "downloaded",
         "tile": [
           77,
           -155
@@ -77,16 +77,16 @@
       {
         "id": "fc06f2c711327b9b",
         "queryPoints": 200,
-        "records": 2756,
-        "status": "cached",
+        "records": 2759,
+        "status": "downloaded",
         "tile": [
           83,
           -176
         ]
       },
       {
-        "id": "1728ff12d377a44c",
-        "queryPoints": 165,
+        "id": "fd66052819652cd3",
+        "queryPoints": 166,
         "records": 2730,
         "status": "downloaded",
         "tile": [
@@ -97,8 +97,8 @@
       {
         "id": "d3578b36212562d6",
         "queryPoints": 110,
-        "records": 1781,
-        "status": "cached",
+        "records": 1782,
+        "status": "downloaded",
         "tile": [
           95,
           -245
@@ -107,7 +107,7 @@
       {
         "id": "9b44b451ec45d0dd",
         "queryPoints": 87,
-        "records": 1517,
+        "records": 1526,
         "status": "downloaded",
         "tile": [
           78,
@@ -118,7 +118,7 @@
         "id": "1dbb1e6241ee7917",
         "queryPoints": 69,
         "records": 1601,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           75,
           -245
@@ -128,7 +128,7 @@
         "id": "98978dfe594a4a12",
         "queryPoints": 60,
         "records": 838,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -155
@@ -137,18 +137,18 @@
       {
         "id": "0d15ce0108eed120",
         "queryPoints": 57,
-        "records": 1269,
-        "status": "cached",
+        "records": 1271,
+        "status": "downloaded",
         "tile": [
           81,
           -148
         ]
       },
       {
-        "id": "0c616489efc1462a",
-        "queryPoints": 44,
-        "records": 401,
-        "status": "cached",
+        "id": "9fb3e52fcb732062",
+        "queryPoints": 48,
+        "records": 416,
+        "status": "downloaded",
         "tile": [
           66,
           -195
@@ -158,7 +158,7 @@
         "id": "07d7833ccee68594",
         "queryPoints": 29,
         "records": 598,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           81,
           -149
@@ -177,8 +177,8 @@
       {
         "id": "ba0820ff195b62fd",
         "queryPoints": 25,
-        "records": 189,
-        "status": "cached",
+        "records": 190,
+        "status": "downloaded",
         "tile": [
           90,
           -246
@@ -195,30 +195,30 @@
         ]
       },
       {
-        "id": "8515f5e440bf4cf0",
-        "queryPoints": 20,
-        "records": 220,
-        "status": "cached",
-        "tile": [
-          85,
-          -148
-        ]
-      },
-      {
-        "id": "fad6b0105b398ce8",
-        "queryPoints": 19,
-        "records": 97,
-        "status": "cached",
+        "id": "cc3523e5f258a673",
+        "queryPoints": 21,
+        "records": 98,
+        "status": "downloaded",
         "tile": [
           66,
           -194
         ]
       },
       {
+        "id": "8515f5e440bf4cf0",
+        "queryPoints": 20,
+        "records": 220,
+        "status": "downloaded",
+        "tile": [
+          85,
+          -148
+        ]
+      },
+      {
         "id": "3903e6e516092300",
         "queryPoints": 15,
         "records": 129,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           65,
           -194
@@ -238,7 +238,7 @@
         "id": "626e1de1627c809b",
         "queryPoints": 15,
         "records": 192,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           89,
           -187
@@ -248,7 +248,7 @@
         "id": "c40329c051487cb9",
         "queryPoints": 14,
         "records": 103,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -164
@@ -258,7 +258,7 @@
         "id": "c01661f20bb55a4f",
         "queryPoints": 13,
         "records": 356,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           80,
           -151
@@ -268,7 +268,7 @@
         "id": "d05c225c2433227e",
         "queryPoints": 11,
         "records": 209,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -143
@@ -278,7 +278,7 @@
         "id": "a28bc7c83486281a",
         "queryPoints": 9,
         "records": 192,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           51,
           -161
@@ -288,7 +288,7 @@
         "id": "e65d583f2b13a506",
         "queryPoints": 9,
         "records": 35,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -146
@@ -298,7 +298,7 @@
         "id": "f445c5f890932968",
         "queryPoints": 9,
         "records": 69,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           89,
           -247
@@ -308,17 +308,27 @@
         "id": "1e8ea2c343e1ca31",
         "queryPoints": 9,
         "records": 90,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           94,
           -246
         ]
       },
       {
+        "id": "a2c2059ead2826be",
+        "queryPoints": 8,
+        "records": 102,
+        "status": "downloaded",
+        "tile": [
+          64,
+          -170
+        ]
+      },
+      {
         "id": "ee34e92c130745a3",
         "queryPoints": 8,
         "records": 314,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           79,
           -151
@@ -328,7 +338,7 @@
         "id": "dab62428fa3b704e",
         "queryPoints": 8,
         "records": 72,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           86,
           -153
@@ -338,27 +348,17 @@
         "id": "eec1cecbc5f74422",
         "queryPoints": 8,
         "records": 74,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           91,
           -246
         ]
       },
       {
-        "id": "40b46363a70a24c6",
-        "queryPoints": 7,
-        "records": 81,
-        "status": "cached",
-        "tile": [
-          64,
-          -170
-        ]
-      },
-      {
         "id": "eab792ebfce7f7b5",
         "queryPoints": 7,
         "records": 16,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           66,
           -234
@@ -368,7 +368,7 @@
         "id": "e39186b586c814b5",
         "queryPoints": 7,
         "records": 113,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           67,
           -225
@@ -378,7 +378,7 @@
         "id": "1acb6622f3a402d2",
         "queryPoints": 7,
         "records": 147,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -184
@@ -398,7 +398,7 @@
         "id": "ec7fceabda63fc81",
         "queryPoints": 6,
         "records": 29,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -170
@@ -408,7 +408,7 @@
         "id": "3b4b32bae2652c34",
         "queryPoints": 6,
         "records": 12,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -163
@@ -428,7 +428,7 @@
         "id": "27a14bd447c1baf2",
         "queryPoints": 5,
         "records": 56,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           60,
           -168
@@ -438,7 +438,7 @@
         "id": "c72d61f2393c82b6",
         "queryPoints": 5,
         "records": 47,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           65,
           -195
@@ -448,7 +448,7 @@
         "id": "3230ac8a5d8613d3",
         "queryPoints": 5,
         "records": 38,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -169
@@ -458,7 +458,7 @@
         "id": "31ef06cfee95ffae",
         "queryPoints": 5,
         "records": 94,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           77,
           -243
@@ -478,7 +478,7 @@
         "id": "7107fc952086d845",
         "queryPoints": 5,
         "records": 26,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           80,
           -211
@@ -498,7 +498,7 @@
         "id": "27039670de603093",
         "queryPoints": 5,
         "records": 88,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           84,
           -176
@@ -508,7 +508,7 @@
         "id": "ff38a63479b7670e",
         "queryPoints": 4,
         "records": 31,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           54,
           -166
@@ -518,7 +518,7 @@
         "id": "ef0641ee15eb7150",
         "queryPoints": 4,
         "records": 116,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           64,
           -214
@@ -528,7 +528,7 @@
         "id": "3b3c543ed1511c69",
         "queryPoints": 4,
         "records": 58,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           66,
           -225
@@ -548,7 +548,7 @@
         "id": "9d7e1ab613fb662e",
         "queryPoints": 4,
         "records": 20,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           70,
           -171
@@ -558,7 +558,7 @@
         "id": "1b7d4fcd1e9ac4ec",
         "queryPoints": 4,
         "records": 24,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           75,
           -156
@@ -578,7 +578,7 @@
         "id": "3d21d6c4d23ad5f6",
         "queryPoints": 4,
         "records": 25,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -168
@@ -598,7 +598,7 @@
         "id": "c242b5c164dcc842",
         "queryPoints": 4,
         "records": 62,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           81,
           -245
@@ -608,7 +608,7 @@
         "id": "2d3ad1d3e22681a3",
         "queryPoints": 4,
         "records": 12,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -160
@@ -618,7 +618,7 @@
         "id": "14727d0be4a7ca1c",
         "queryPoints": 4,
         "records": 9,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           84,
           -188
@@ -628,7 +628,7 @@
         "id": "14a3867685244a2a",
         "queryPoints": 4,
         "records": 57,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           84,
           -184
@@ -638,7 +638,7 @@
         "id": "156a571d6f81204b",
         "queryPoints": 3,
         "records": 46,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           56,
           -164
@@ -648,7 +648,7 @@
         "id": "8ed572c7733b0840",
         "queryPoints": 3,
         "records": 113,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           59,
           -181
@@ -658,7 +658,7 @@
         "id": "740f46d60619e2c2",
         "queryPoints": 3,
         "records": 61,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           67,
           -224
@@ -688,7 +688,7 @@
         "id": "d79b56721e1fbd1e",
         "queryPoints": 3,
         "records": 41,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           73,
           -244
@@ -698,7 +698,7 @@
         "id": "124d24353e6b4846",
         "queryPoints": 3,
         "records": 23,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -243
@@ -708,7 +708,7 @@
         "id": "687fba52952bc281",
         "queryPoints": 3,
         "records": 50,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           79,
           -211
@@ -718,7 +718,7 @@
         "id": "f884d43d5900e666",
         "queryPoints": 3,
         "records": 44,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           79,
           -156
@@ -738,7 +738,7 @@
         "id": "89c3024a5350e901",
         "queryPoints": 3,
         "records": 3,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -162
@@ -748,7 +748,7 @@
         "id": "727ac0460351940e",
         "queryPoints": 3,
         "records": 7,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -148
@@ -758,7 +758,7 @@
         "id": "acb6f0fe729083c6",
         "queryPoints": 3,
         "records": 29,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -168
@@ -788,7 +788,7 @@
         "id": "26a7fdbb4633b9a9",
         "queryPoints": 3,
         "records": 17,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           89,
           -246
@@ -808,7 +808,7 @@
         "id": "32b80635b0cd0783",
         "queryPoints": 3,
         "records": 11,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           123,
           -299
@@ -818,7 +818,7 @@
         "id": "33661cc4d93196e1",
         "queryPoints": 2,
         "records": 35,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           52,
           -161
@@ -828,7 +828,7 @@
         "id": "a5d1814084a0e4b3",
         "queryPoints": 2,
         "records": 49,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           56,
           -165
@@ -838,7 +838,7 @@
         "id": "a0952f2bc87ac4d5",
         "queryPoints": 2,
         "records": 17,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           60,
           -172
@@ -848,7 +848,7 @@
         "id": "b4f298174851982c",
         "queryPoints": 2,
         "records": 9,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           63,
           -214
@@ -858,7 +858,7 @@
         "id": "cfb82e711dbc18e4",
         "queryPoints": 2,
         "records": 17,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           63,
           -163
@@ -868,7 +868,7 @@
         "id": "ddb088ff90fabe49",
         "queryPoints": 2,
         "records": 9,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           64,
           -195
@@ -888,7 +888,7 @@
         "id": "e3a3db336d99d598",
         "queryPoints": 2,
         "records": 14,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           65,
           -170
@@ -898,7 +898,7 @@
         "id": "e4d866d515abb903",
         "queryPoints": 2,
         "records": 10,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           66,
           -169
@@ -928,7 +928,7 @@
         "id": "4f82c4bce71a92ac",
         "queryPoints": 2,
         "records": 21,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           67,
           -174
@@ -938,7 +938,7 @@
         "id": "73e8b6a80115aada",
         "queryPoints": 2,
         "records": 37,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -235
@@ -948,7 +948,7 @@
         "id": "60bc3464b4c82f17",
         "queryPoints": 2,
         "records": 7,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -171
@@ -968,7 +968,7 @@
         "id": "9970a608da9ab46a",
         "queryPoints": 2,
         "records": 3,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           74,
           -161
@@ -988,7 +988,7 @@
         "id": "2851746e121938ce",
         "queryPoints": 2,
         "records": 29,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           77,
           -210
@@ -998,7 +998,7 @@
         "id": "2267746a02c6a987",
         "queryPoints": 2,
         "records": 13,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           77,
           -156
@@ -1008,7 +1008,7 @@
         "id": "0ae415b47ec7f148",
         "queryPoints": 2,
         "records": 1,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -156
@@ -1018,7 +1018,7 @@
         "id": "5250f6352f35bd05",
         "queryPoints": 2,
         "records": 9,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -153
@@ -1028,7 +1028,7 @@
         "id": "64812047ee9bc30b",
         "queryPoints": 2,
         "records": 67,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           79,
           -214
@@ -1048,7 +1048,7 @@
         "id": "ddfb01e74c74f13f",
         "queryPoints": 2,
         "records": 3,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           80,
           -173
@@ -1058,7 +1058,7 @@
         "id": "99e914c3aaa99e7c",
         "queryPoints": 2,
         "records": 10,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           81,
           -210
@@ -1068,7 +1068,7 @@
         "id": "67dc12c4368a8b1c",
         "queryPoints": 2,
         "records": 5,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -161
@@ -1098,7 +1098,7 @@
         "id": "ef11a0a6264501bf",
         "queryPoints": 2,
         "records": 12,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           85,
           -158
@@ -1108,7 +1108,7 @@
         "id": "b509bc89cd362fbb",
         "queryPoints": 2,
         "records": 16,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           86,
           -180
@@ -1128,7 +1128,7 @@
         "id": "ca365aff48caffa0",
         "queryPoints": 2,
         "records": 0,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           88,
           -177
@@ -1138,7 +1138,7 @@
         "id": "125288e2f25a3270",
         "queryPoints": 2,
         "records": 6,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           89,
           -186
@@ -1168,7 +1168,7 @@
         "id": "13b6cbcbd4603380",
         "queryPoints": 1,
         "records": 17,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           56,
           -163
@@ -1198,7 +1198,7 @@
         "id": "69c76355824b7c85",
         "queryPoints": 1,
         "records": 29,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           60,
           -181
@@ -1208,7 +1208,7 @@
         "id": "9dea0e4c1ab480a9",
         "queryPoints": 1,
         "records": 24,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           60,
           -169
@@ -1218,7 +1218,7 @@
         "id": "da677107ad149ae7",
         "queryPoints": 1,
         "records": 27,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           60,
           -167
@@ -1228,7 +1228,7 @@
         "id": "f420f977050d6ef3",
         "queryPoints": 1,
         "records": 26,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           64,
           -222
@@ -1248,7 +1248,7 @@
         "id": "f13b2e2a3ca9bd0d",
         "queryPoints": 1,
         "records": 1,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           66,
           -212
@@ -1258,7 +1258,7 @@
         "id": "bcb9e0114ec8d0b4",
         "queryPoints": 1,
         "records": 0,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -238
@@ -1268,7 +1268,7 @@
         "id": "c36e40fb50f893bd",
         "queryPoints": 1,
         "records": 1,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -186
@@ -1288,7 +1288,7 @@
         "id": "cec1a27a33b2440f",
         "queryPoints": 1,
         "records": 6,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           69,
           -166
@@ -1298,7 +1298,7 @@
         "id": "cbfce38cae768132",
         "queryPoints": 1,
         "records": 12,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           70,
           -163
@@ -1308,7 +1308,7 @@
         "id": "dcc4c9473797320c",
         "queryPoints": 1,
         "records": 4,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           71,
           -168
@@ -1328,7 +1328,7 @@
         "id": "9248e7e5a6353619",
         "queryPoints": 1,
         "records": 28,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           73,
           -166
@@ -1338,7 +1338,7 @@
         "id": "8d9c4d08802f0246",
         "queryPoints": 1,
         "records": 19,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           74,
           -243
@@ -1348,7 +1348,7 @@
         "id": "f67d54656de44052",
         "queryPoints": 1,
         "records": 20,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           75,
           -246
@@ -1358,7 +1358,7 @@
         "id": "f7ccea7b426f332a",
         "queryPoints": 1,
         "records": 36,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           75,
           -155
@@ -1368,7 +1368,7 @@
         "id": "877a322d6e6be9e4",
         "queryPoints": 1,
         "records": 26,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           76,
           -210
@@ -1378,7 +1378,7 @@
         "id": "10c2991f5382115f",
         "queryPoints": 1,
         "records": 9,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           76,
           -155
@@ -1388,7 +1388,7 @@
         "id": "17d227959778b27a",
         "queryPoints": 1,
         "records": 15,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           76,
           -152
@@ -1398,7 +1398,7 @@
         "id": "4eaf8c765b1db88c",
         "queryPoints": 1,
         "records": 5,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -172
@@ -1408,10 +1408,20 @@
         "id": "b2b8b007ec743d8b",
         "queryPoints": 1,
         "records": 31,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           79,
           -173
+        ]
+      },
+      {
+        "id": "d702663c70b40e08",
+        "queryPoints": 1,
+        "records": 15,
+        "status": "downloaded",
+        "tile": [
+          79,
+          -169
         ]
       },
       {
@@ -1428,7 +1438,7 @@
         "id": "31716c7bdf816983",
         "queryPoints": 1,
         "records": 4,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           80,
           -161
@@ -1448,7 +1458,7 @@
         "id": "851bcc137ed42bd7",
         "queryPoints": 1,
         "records": 41,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           81,
           -211
@@ -1458,7 +1468,7 @@
         "id": "73186198f781d649",
         "queryPoints": 1,
         "records": 27,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           81,
           -163
@@ -1468,7 +1478,7 @@
         "id": "98fd0e796690b80a",
         "queryPoints": 1,
         "records": 12,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -192
@@ -1478,7 +1488,7 @@
         "id": "f7d79cca94fd1829",
         "queryPoints": 1,
         "records": 3,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -159
@@ -1508,7 +1518,7 @@
         "id": "642e1af1f41a2c1c",
         "queryPoints": 1,
         "records": 6,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -224
@@ -1518,7 +1528,7 @@
         "id": "8cc5c9b9f5191433",
         "queryPoints": 1,
         "records": 5,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -188
@@ -1538,7 +1548,7 @@
         "id": "1fe1f392db2fc616",
         "queryPoints": 1,
         "records": 7,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -181
@@ -1548,7 +1558,7 @@
         "id": "27f64b1981a62e28",
         "queryPoints": 1,
         "records": 14,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -164
@@ -1558,7 +1568,7 @@
         "id": "e0ec0171e3f523c6",
         "queryPoints": 1,
         "records": 3,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           84,
           -193
@@ -1568,7 +1578,7 @@
         "id": "504433b31aa90d22",
         "queryPoints": 1,
         "records": 7,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           86,
           -157
@@ -1578,7 +1588,7 @@
         "id": "a371231d30e3c99e",
         "queryPoints": 1,
         "records": 1,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           86,
           -142
@@ -1588,7 +1598,7 @@
         "id": "ed52ec358212a1d9",
         "queryPoints": 1,
         "records": 1,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           87,
           -222
@@ -1598,7 +1608,7 @@
         "id": "26184fa366d57cd8",
         "queryPoints": 1,
         "records": 13,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           87,
           -189
@@ -1608,7 +1618,7 @@
         "id": "37b355d371698aa4",
         "queryPoints": 1,
         "records": 11,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           87,
           -146
@@ -1618,7 +1628,7 @@
         "id": "eae5549c3a63cccf",
         "queryPoints": 1,
         "records": 1,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           89,
           -145
@@ -1628,7 +1638,7 @@
         "id": "f82f3a2549f3701c",
         "queryPoints": 1,
         "records": 5,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           91,
           -178
@@ -1638,7 +1648,7 @@
         "id": "39499691e7c236c1",
         "queryPoints": 1,
         "records": 1,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           93,
           -249
@@ -1648,7 +1658,7 @@
         "id": "a6ae28d1db0e30b7",
         "queryPoints": 1,
         "records": 22,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           95,
           -235
@@ -1658,19 +1668,20 @@
         "id": "06084089720f0b1e",
         "queryPoints": 1,
         "records": 22,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           96,
           -246
         ]
       }
     ],
-    "release": "2026-09-23.1",
+    "release": "2026-10-21.0",
     "source": "overture",
     "status": "partial",
-    "totalRegions": 164
+    "totalRegions": 165
   },
   "reviewRequired": [
+    "abq-documents",
     "bernco",
     "nyc",
     "la",
@@ -1678,17 +1689,19 @@
     "texas",
     "philadelphia",
     "philadelphia-red",
+    "phoenix",
     "massachusetts",
     "michigan",
     "minneapolis",
     "hillsborough",
     "iihs-speed",
     "iihs-red",
+    "mesa",
     "prince-georges-red",
     "snellville",
     "wheat-ridge",
     "cdot-program",
     "nyc-datafeeds"
   ],
-  "speedLimitChecksAt": "2026-10-19T08:44:02Z"
+  "speedLimitChecksAt": "2026-11-09T12:48:09Z"
 }

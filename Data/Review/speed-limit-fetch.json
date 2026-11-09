@@ -15,6 +15,9 @@
     "osm-roads-1415a9f6202e",
     "osm-roads-16404c05d1d6",
     "osm-roads-169a38474fe5",
+    "osm-roads-16c055434f3d",
+    "osm-roads-1753fde288e4",
+    "osm-roads-17d9e99cc84a",
     "osm-roads-1c396d9f0c2f",
     "osm-roads-1c44d25700f4",
     "osm-roads-1c4bd9b63904",
@@ -151,336 +154,1697 @@
     "osm-roads-ffcedda93f69",
     "osm-roads-ffed040d4c2a"
   ],
-  "checkedAt": "2026-11-04T05:50:14Z",
+  "checkedAt": "2026-11-09T12:48:09Z",
   "checks": [
     {
-      "checkedAt": "2026-10-19T08:44:03Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:48:10Z",
       "id": "abq-camera-limits",
       "records": 21,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:04Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:48:11Z",
       "id": "seattle-school-policy",
       "records": 0,
       "status": "downloaded"
     },
     {
+      "attemptedAt": "2026-11-09T12:48:09Z",
       "error": "HTTP Error 403: Forbidden",
       "id": "chicago-school-park-policy",
       "lastGoodAt": "2026-09-15T05:50:03Z",
       "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:44:05Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:48:12Z",
       "id": "philadelphia-report-limits",
       "records": 15,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:06Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:48:13Z",
       "id": "philadelphia-route13-limits",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:06Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:48:14Z",
       "id": "tacoma-school-policy",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:14Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:48:21Z",
       "id": "nmdot-roads",
       "records": 995,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:21Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:48:29Z",
       "id": "nmdot-names",
       "records": 1003,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:22Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:48:33Z",
       "id": "seattle-roads--2449-951",
       "records": 358,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:25Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:48:51Z",
       "id": "seattle-roads--2448-950",
       "records": 1633,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:28Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:49:06Z",
       "id": "seattle-roads--2448-951",
       "records": 1495,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:34Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:49:38Z",
       "id": "seattle-roads--2448-953",
       "records": 3304,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:36Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:49:48Z",
       "id": "seattle-roads--2448-954",
       "records": 929,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:40Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:50:22Z",
       "id": "seattle-roads--2447-951",
       "records": 2392,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:46Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:50:35Z",
       "id": "seattle-roads--2447-952",
       "records": 3553,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:53Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:50:48Z",
       "id": "seattle-roads--2447-953",
       "records": 3287,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:55Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:50:59Z",
       "id": "seattle-roads--2447-954",
       "records": 1502,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:55Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:50:59Z",
       "id": "seattle-roads--2446-949",
       "records": 74,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:44:58Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:51:12Z",
       "id": "seattle-roads--2446-950",
       "records": 1708,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:45:02Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:51:27Z",
       "id": "seattle-roads--2446-951",
       "records": 1855,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:45:05Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:51:36Z",
       "id": "seattle-roads--2446-953",
       "records": 1597,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:45:06Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:51:42Z",
       "id": "seattle-roads--2446-954",
       "records": 682,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:45:06Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:51:42Z",
       "id": "seattle-roads--2445-954",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:45:13Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1485-810",
-      "records": 2005,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:45:13Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:45:19Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1484-810",
-      "records": 1963,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:45:19Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:45:26Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1484-811",
-      "records": 2044,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:45:26Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:45:30Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:52:52Z",
       "id": "nyc-roads--1484-812",
       "records": 1442,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:45:30Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:52:56Z",
       "id": "nyc-roads--1484-819",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:45:35Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1483-811",
-      "records": 2676,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:45:35Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:45:41Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1483-812",
-      "records": 3450,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:45:41Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:45:47Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:53:46Z",
       "id": "nyc-roads--1482-811",
       "records": 1598,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:45:55Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1481-814",
-      "records": 2413,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:45:55Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:46:04Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1480-811",
-      "records": 2323,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:46:04Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:46:12Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1480-813",
-      "records": 4404,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:46:12Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:46:21Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1480-814",
-      "records": 5703,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:46:21Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:46:27Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1479-812",
-      "records": 3716,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:46:27Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:46:35Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1479-814",
-      "records": 4877,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:46:35Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:46:41Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1479-815",
-      "records": 4259,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:46:41Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:46:46Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1479-817",
-      "records": 2789,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:46:46Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:46:46Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:56:02Z",
       "id": "nyc-roads--1479-819",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:46:52Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1478-813",
-      "records": 4067,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:46:52Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:46:59Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1478-814",
-      "records": 5292,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:46:59Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:47:06Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1478-817",
-      "records": 4055,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:47:06Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:47:11Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1477-813",
-      "records": 3926,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:47:11Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:47:18Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1477-814",
-      "records": 5127,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:47:18Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:47:22Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1477-816",
-      "records": 2606,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:47:22Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:47:28Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1476-813",
-      "records": 4112,
-      "status": "downloaded"
+      "lastGoodAt": "2026-10-19T08:47:28Z",
+      "status": "retained"
     },
     {
-      "checkedAt": "2026-10-19T08:47:38Z",
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
       "id": "nyc-roads--1476-814",
-      "records": 4669,
+      "lastGoodAt": "2026-10-19T08:47:38Z",
+      "status": "retained"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 503: Service Unavailable",
+      "id": "nyc-roads--1475-814",
+      "lastGoodAt": "2026-10-19T08:47:42Z",
+      "status": "retained"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:57:36Z",
+      "id": "osm-roads-16c055434f3d",
+      "records": 763,
       "status": "downloaded"
     },
     {
-      "checkedAt": "2026-10-19T08:47:42Z",
-      "id": "nyc-roads--1475-814",
-      "records": 3221,
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:59:36Z",
+      "id": "osm-roads-1753fde288e4",
+      "records": 72,
       "status": "downloaded"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "checkedAt": "2026-11-09T12:59:36Z",
+      "id": "osm-roads-17d9e99cc84a",
+      "records": 105,
+      "status": "downloaded"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 504: Gateway Time-out",
+      "id": "osm-roads-19e3a478c864",
+      "lastGoodAt": null,
+      "status": "unavailable"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 504: Gateway Time-out",
+      "id": "osm-roads-1a341807bcb1",
+      "lastGoodAt": null,
+      "status": "unavailable"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 504: Gateway Time-out",
+      "id": "osm-roads-1ae1e5ade814",
+      "lastGoodAt": null,
+      "status": "unavailable"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "HTTP Error 504: Gateway Time-out",
+      "id": "osm-roads-1fe63d66048c",
+      "lastGoodAt": null,
+      "status": "unavailable"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-202188d500ee",
+      "lastGoodAt": null,
+      "status": "unavailable"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-206434df4f9a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-206d024e4b15",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-212c51d39fdc",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-21e897e94d9e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-245bb57964fe",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-25e163b63a4f",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-2649c5e7adec",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-269474ddf5a5",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-26995a028745",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-2732090bbe3b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-27f4b2564f5a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-2a1eb08c5ea3",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-2bcf4c78b3a2",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-2ec1f87327c8",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-30d3b71f0ad9",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-310104135cc7",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-328e98553b23",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-339cc11ecd52",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-33c871c1c50d",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-33e73aa6e025",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-357b7b597610",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-378ef12d70a9",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-388cedb81866",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-39913a3ce3c6",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-39fc835ef7e6",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-3a74659006b3",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-3b987989b91b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-3d51ae8164fe",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-3d6a06497eaf",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-3e3303441db1",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-3e33a7fafffc",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-3eae0b91e076",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-40c68b9c27d8",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-40e3464261c5",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-40f000f6cde3",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-41985ce16a92",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-429f769d2902",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-4309daef80ca",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-464637396b1d",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-46857f912293",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-47bb17d5e86d",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-4a5e1d4e108a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-4d46da63c186",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-4f4738e24489",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-51a78a5bd71b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-525391e7d9d5",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-52809d7de876",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-5325e684f01e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-539d159e3aed",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-56ad14c17f29",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-57947f583800",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-5c03c4be36da",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-5ca0ce3d5568",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-5dcfeac647c9",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-5e432e691cc8",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-5f9701192886",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-61c7b9adbccc",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-62739008844d",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-6305551fb7ec",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-64a4c89fd50f",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-64df6247a304",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-666f4dbb0b25",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-668175f7f116",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-668b509cb457",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-6b66948f1476",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-6c73870df855",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-6e4dfd610118",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-6ebe5cdfe40e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-6f818a740515",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-6f9b1602be22",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-70ff68482f57",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-71e0cfeab2b3",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-745f7e7024dd",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-75ba15ebd63b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-760d025fcf28",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-77285883518f",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-77825ef701b9",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-785822a667cb",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-79befaf81809",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-7b4fa967ceb9",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-7e45d006f266",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8013e976cb0e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-80783e5af94e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-81348e5d76eb",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-82637843eaf4",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-830d4de91e39",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-832c2af59fba",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8350a58800b3",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-836bb9b93c1e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-83d6125071a8",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-84866e0f5987",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-85558a439367",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-85adf1bdea87",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-863f382b5994",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-868c83e68340",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8779a280f34e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-886ad316040a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-89e50ea5dec4",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8c28b736794a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8c87e615f032",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8d336e67c8fa",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8d539c2a1be7",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8dbb542c670a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8e18e8d3fe0d",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8ebb72fd7290",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-8f9fe5312a2c",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-909e76a0395f",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-94186f5f77a0",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-94536e625d88",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-94aaf1755680",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-951ca41cc330",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-960a194c1943",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-9698f2d02d94",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-97833916863f",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-989e15630c3b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-98feed6cd00d",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-9a3dd5081f04",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-9b54a8b6dc73",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-9e3d09fb877b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-9ecd133aca8f",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a18644f84562",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a200068ecd34",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a2329a8f4e17",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a3a07945e816",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a8d436e56ba2",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a97081bafd01",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a9fa1de03bf2",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-aa3ef7c8581e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ac21440ffc08",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ac415617449a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ac48562eb73d",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ade1fdca9cac",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ae6e3efdd484",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-af33a38c4981",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b07caeed3837",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b0c1efa63494",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b3af58771197",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b53a658616f2",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b5770c2ee6d7",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b6fbbd33e848",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b846c78ded27",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b9815763669c",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ba0d328afefd",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-bf082071cdc9",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-bf37bcd7110a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-bfa370cdebbd",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c24b21f53dff",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c48a6e83f5f5",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c529152cfe82",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c67c33c8f32b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c6b8a4f8a12f",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c751de18f45a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c8515b932182",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c8c5c945562c",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c93ccff7fdbf",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c964e7dbd792",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c9bd980dafc5",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-cb0c5a820635",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-cde04e7c802c",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-cea17c5f0470",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ced309f49ae1",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d28d945d8447",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d2d687640cae",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d2f7c4523a68",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d555f7d39828",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d60a0a71c7ae",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d694f612241f",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d69892064593",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d71c3fbbb537",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d8efc9d8fc8d",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d94e18db666b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-db2a118b5b36",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-dc3b7eda1353",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-dd00c5cd85b5",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ddda3fa6d0c0",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-de090dfcb2a8",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-dea3aad7c812",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-deba87e68361",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-dfd2d529d0d4",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-e1630bd9671f",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-e17933e3d00b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-e2f4d6a0866e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-e75474f94ac1",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-e7c39156de5a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-e7f88a4c4dca",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ea376773914b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-eb3156fc1935",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ebb509a3d1e8",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ec9cd8558f41",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ee1d20e035c9",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-ee8138569ef6",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f16d7b340a4b",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f20b4bbb71d8",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f4ae953ac25d",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f5dd467ca300",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f6f8e9704821",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f846ab7a7d34",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f862460c1d41",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f8ab5293f8f5",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-fa594e368ce5",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-fac974798ca6",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-fae8070ab2d3",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-fbe49bb04638",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-fe39964288b3",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-09cbd7731b03",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-104a47bcdb75",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-11a0014b2f8b",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-4ee3c34d1a3c",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-58937cc07a9b",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-6ef57a2ed3b7",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-7e352e52a4d6",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-83f985a5f81a",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-861bf02b0227",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-91cda25b1e8c",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-92ecab4328bf",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-9f146c59a4ac",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a4f74d69ae64",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a61a8345e672",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a7e2417beddc",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-a954c7bdb405",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-aaf12dfd6712",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b14b73522f20",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b24d287ab25d",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-bae37542e4a1",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c19c0ca47a04",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c2710232f1a1",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c2fd664c97c5",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-c3946e9a9501",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d8a0fd8b2206",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-02T21:21:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f02f90885da8",
+      "status": "deferred"
+    },
+    {
+      "checkedAt": "2026-11-04T03:15:05Z",
+      "id": "osm-roads-73963b9a8a79",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T03:17:05Z",
+      "id": "osm-roads-003f4704b28a",
+      "status": "cached"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-0048f9e803de",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-031f310485bc",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-0550c2b8c1a0",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-07c602a2823e",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-08fb93db364d",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-0be2adeaee81",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-0d00f341b3f3",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-0d75481b5429",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-103e25461c35",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:18:05Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-1275d879e786",
+      "status": "deferred"
+    },
+    {
+      "checkedAt": "2026-11-04T03:19:05Z",
+      "id": "osm-roads-048910866479",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T03:21:05Z",
+      "id": "osm-roads-08c3543fa4f9",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T03:24:18Z",
+      "id": "osm-roads-0e355aa41fb4",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T03:25:18Z",
+      "id": "osm-roads-1120c60977c5",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T03:26:19Z",
+      "id": "osm-roads-1262af5e2c95",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T03:29:26Z",
+      "id": "osm-roads-1415a9f6202e",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T03:28:22Z",
+      "id": "osm-roads-13e574b42dd6",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T03:30:21Z",
+      "id": "osm-roads-16404c05d1d6",
+      "status": "cached"
     },
     {
       "checkedAt": "2026-11-04T04:06:07Z",
       "id": "osm-roads-169a38474fe5",
       "status": "cached"
-    },
-    {
-      "id": "osm-roads-16c055434f3d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-1753fde288e4",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-17d9e99cc84a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-19e3a478c864",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-1a341807bcb1",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-1ae1e5ade814",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
     },
     {
       "checkedAt": "2026-11-04T04:07:09Z",
@@ -498,39 +1862,9 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-1fe63d66048c",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-202188d500ee",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:09:09Z",
       "id": "osm-roads-2051fa1c48a1",
       "status": "cached"
-    },
-    {
-      "id": "osm-roads-206434df4f9a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-206d024e4b15",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-212c51d39fdc",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-21e897e94d9e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
     },
     {
       "checkedAt": "2026-11-04T04:10:06Z",
@@ -543,44 +1877,14 @@
       "status": "cached"
     },
     {
-      "checkedAt": "2026-11-04T04:17:13Z",
-      "id": "osm-roads-2381954ba9cb",
-      "status": "cached"
-    },
-    {
       "checkedAt": "2026-11-04T04:12:09Z",
       "id": "osm-roads-23c61071153d",
       "status": "cached"
     },
     {
-      "id": "osm-roads-245bb57964fe",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-25e163b63a4f",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-2649c5e7adec",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:13:05Z",
       "id": "osm-roads-2666c7c0abb0",
       "status": "cached"
-    },
-    {
-      "id": "osm-roads-269474ddf5a5",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-26995a028745",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
     },
     {
       "checkedAt": "2026-11-04T04:14:07Z",
@@ -593,53 +1897,8 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-2732090bbe3b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-27f4b2564f5a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-2a1eb08c5ea3",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-2bcf4c78b3a2",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:15:09Z",
       "id": "osm-roads-2c70d6aa5758",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T04:18:19Z",
-      "id": "osm-roads-2e7e109f462f",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-2ec1f87327c8",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-30d3b71f0ad9",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-310104135cc7",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:19:18Z",
-      "id": "osm-roads-314dbc1a3c97",
       "status": "cached"
     },
     {
@@ -648,43 +1907,28 @@
       "status": "cached"
     },
     {
+      "checkedAt": "2026-11-04T04:17:13Z",
+      "id": "osm-roads-2381954ba9cb",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T04:18:19Z",
+      "id": "osm-roads-2e7e109f462f",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T04:19:18Z",
+      "id": "osm-roads-314dbc1a3c97",
+      "status": "cached"
+    },
+    {
       "checkedAt": "2026-11-04T04:19:18Z",
       "id": "osm-roads-325d25e140c8",
       "status": "cached"
     },
     {
-      "id": "osm-roads-328e98553b23",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:20:21Z",
       "id": "osm-roads-331c951d3c1d",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-339cc11ecd52",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-33c871c1c50d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-33e73aa6e025",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-357b7b597610",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:28:21Z",
-      "id": "osm-roads-35aac3fec583",
       "status": "cached"
     },
     {
@@ -693,39 +1937,9 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-378ef12d70a9",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:26:20Z",
       "id": "osm-roads-3794ccdb4116",
       "status": "cached"
-    },
-    {
-      "id": "osm-roads-388cedb81866",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-39913a3ce3c6",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-39fc835ef7e6",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-3a74659006b3",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-3b987989b91b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
     },
     {
       "checkedAt": "2026-11-04T04:26:20Z",
@@ -733,33 +1947,13 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-3d51ae8164fe",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-3d6a06497eaf",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-3e3303441db1",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-3e33a7fafffc",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-3eae0b91e076",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:27:19Z",
       "id": "osm-roads-3fe0b7c46e3c",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T04:28:21Z",
+      "id": "osm-roads-35aac3fec583",
       "status": "cached"
     },
     {
@@ -778,99 +1972,9 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-40c68b9c27d8",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-40e3464261c5",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-40f000f6cde3",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-41985ce16a92",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:30:21Z",
       "id": "osm-roads-42840f7baf73",
       "status": "cached"
-    },
-    {
-      "id": "osm-roads-429f769d2902",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-4309daef80ca",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:41:33Z",
-      "id": "osm-roads-45e44279d76a",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-464637396b1d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-46857f912293",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-47bb17d5e86d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:41:26Z",
-      "id": "osm-roads-4a07f017f78d",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-4a5e1d4e108a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:42:35Z",
-      "id": "osm-roads-4b7ff8401ff3",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-4d46da63c186",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-4ee3c34d1a3c",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-4f4738e24489",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:44:35Z",
-      "id": "osm-roads-515264097ed2",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-51a78a5bd71b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
     },
     {
       "checkedAt": "2026-11-04T04:38:36Z",
@@ -878,43 +1982,8 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-525391e7d9d5",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-52809d7de876",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:38:36Z",
       "id": "osm-roads-52c5cd4a93de",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-5325e684f01e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-539d159e3aed",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-56ad14c17f29",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-57947f583800",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:44:35Z",
-      "id": "osm-roads-579d9deb757a",
       "status": "cached"
     },
     {
@@ -923,24 +1992,34 @@
       "status": "cached"
     },
     {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-58937cc07a9b",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-5c03c4be36da",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:40:33Z",
       "id": "osm-roads-5c5941fe227d",
       "status": "cached"
     },
     {
-      "id": "osm-roads-5ca0ce3d5568",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
+      "checkedAt": "2026-11-04T04:41:33Z",
+      "id": "osm-roads-45e44279d76a",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T04:42:35Z",
+      "id": "osm-roads-4b7ff8401ff3",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T04:44:35Z",
+      "id": "osm-roads-515264097ed2",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T04:44:35Z",
+      "id": "osm-roads-579d9deb757a",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T04:44:35Z",
+      "id": "osm-roads-ffed040d4c2a",
+      "status": "cached"
     },
     {
       "checkedAt": "2026-11-04T04:46:37Z",
@@ -948,34 +2027,9 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-5dcfeac647c9",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-5e432e691cc8",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-5f9701192886",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:46:37Z",
       "id": "osm-roads-6173cfef4b3f",
       "status": "cached"
-    },
-    {
-      "id": "osm-roads-61c7b9adbccc",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-62739008844d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
     },
     {
       "checkedAt": "2026-11-04T04:46:37Z",
@@ -983,49 +2037,19 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-6305551fb7ec",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:39:18Z",
-      "id": "osm-roads-64a23d2aa50c",
+      "checkedAt": "2026-11-04T04:46:37Z",
+      "id": "osm-roads-eaa9728cde5a",
       "status": "cached"
     },
     {
-      "id": "osm-roads-64a4c89fd50f",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-64df6247a304",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:38:18Z",
-      "id": "osm-roads-65c63575cf13",
+      "checkedAt": "2026-11-04T04:46:37Z",
+      "id": "osm-roads-fd98d67bfde2",
       "status": "cached"
     },
     {
-      "id": "osm-roads-666f4dbb0b25",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-668175f7f116",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-668b509cb457",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-6b66948f1476",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
+      "checkedAt": "2026-11-04T04:46:37Z",
+      "id": "osm-roads-ff9d92aadc98",
+      "status": "cached"
     },
     {
       "checkedAt": "2026-11-04T04:49:37Z",
@@ -1033,684 +2057,39 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-6c73870df855",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-6e4dfd610118",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-6ebe5cdfe40e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-6ef57a2ed3b7",
+      "checkedAt": "2026-11-04T04:49:37Z",
+      "id": "osm-roads-e0da04fc5d01",
       "status": "cached"
     },
     {
-      "id": "osm-roads-6f818a740515",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-6f9b1602be22",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-70ff68482f57",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-71e0cfeab2b3",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:44:32Z",
-      "id": "osm-roads-7428c415eaa9",
+      "checkedAt": "2026-11-04T04:49:37Z",
+      "id": "osm-roads-e5db865a35e7",
       "status": "cached"
     },
     {
-      "id": "osm-roads-745f7e7024dd",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-75ba15ebd63b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-760d025fcf28",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-77285883518f",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-77825ef701b9",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-785822a667cb",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-79befaf81809",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-7b4fa967ceb9",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-7e352e52a4d6",
+      "checkedAt": "2026-11-04T04:50:42Z",
+      "id": "osm-roads-faec0e334946",
       "status": "cached"
     },
     {
-      "id": "osm-roads-7e45d006f266",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:38:18Z",
-      "id": "osm-roads-7e9a859e1b32",
+      "checkedAt": "2026-11-04T04:51:46Z",
+      "id": "osm-roads-e7290a55dc49",
       "status": "cached"
     },
     {
-      "id": "osm-roads-8013e976cb0e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-80783e5af94e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:37:21Z",
-      "id": "osm-roads-8132c759f0a2",
+      "checkedAt": "2026-11-04T04:51:46Z",
+      "id": "osm-roads-e9d85df74ef1",
       "status": "cached"
     },
     {
-      "id": "osm-roads-81348e5d76eb",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:37:21Z",
-      "id": "osm-roads-8227c90d116b",
+      "checkedAt": "2026-11-04T04:53:47Z",
+      "id": "osm-roads-dd032998864e",
       "status": "cached"
     },
     {
-      "id": "osm-roads-82637843eaf4",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-830d4de91e39",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:36:21Z",
-      "id": "osm-roads-832138688848",
+      "checkedAt": "2026-11-04T04:54:48Z",
+      "id": "osm-roads-d4721e988d72",
       "status": "cached"
-    },
-    {
-      "id": "osm-roads-832c2af59fba",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-8350a58800b3",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-836bb9b93c1e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-83d6125071a8",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-83f985a5f81a",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-84866e0f5987",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:36:21Z",
-      "id": "osm-roads-84a02a0f8827",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-85558a439367",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-85adf1bdea87",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-861bf02b0227",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-863f382b5994",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-868c83e68340",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-8779a280f34e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:36:21Z",
-      "id": "osm-roads-87ff0984853d",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-886ad316040a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:11:51Z",
-      "id": "osm-roads-896b2a56a577",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-89e50ea5dec4",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:11:51Z",
-      "id": "osm-roads-8a9aaa42c9ca",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:11:51Z",
-      "id": "osm-roads-8c11981f848f",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-8c28b736794a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-8c87e615f032",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-8d336e67c8fa",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-8d539c2a1be7",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-8dbb542c670a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-8e18e8d3fe0d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:35:18Z",
-      "id": "osm-roads-8e97d6fd9b13",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-8ebb72fd7290",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-8f9fe5312a2c",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-909e76a0395f",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-91cda25b1e8c",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-92ecab4328bf",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:09:58Z",
-      "id": "osm-roads-938e52154a64",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-94186f5f77a0",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-94536e625d88",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:34:19Z",
-      "id": "osm-roads-9475703d19b1",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-94aaf1755680",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-951ca41cc330",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-960a194c1943",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:45:32Z",
-      "id": "osm-roads-961195f4aeb2",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-9698f2d02d94",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-97833916863f",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-989e15630c3b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-98feed6cd00d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-9a3dd5081f04",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:34:19Z",
-      "id": "osm-roads-9a8cdf6e754a",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-9b54a8b6dc73",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:07:57Z",
-      "id": "osm-roads-9b6f6fc2d949",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:07:57Z",
-      "id": "osm-roads-9cdc0874cd1f",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-9e3d09fb877b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-9ecd133aca8f",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-9f146c59a4ac",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:31:16Z",
-      "id": "osm-roads-a0a11f628e95",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-a18644f84562",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-a200068ecd34",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-a2329a8f4e17",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-a3a07945e816",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-a4f74d69ae64",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-a61a8345e672",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-a7e2417beddc",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-a8d436e56ba2",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-a954c7bdb405",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-a97081bafd01",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-a9fa1de03bf2",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-aa3ef7c8581e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-aaf12dfd6712",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:03:51Z",
-      "id": "osm-roads-ab0336f3f687",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-ac21440ffc08",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-ac415617449a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-ac48562eb73d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-ade1fdca9cac",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-ae6e3efdd484",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:28:09Z",
-      "id": "osm-roads-ae75b99e0234",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-af33a38c4981",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:27:05Z",
-      "id": "osm-roads-af58b4af499b",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-b07caeed3837",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-b0c1efa63494",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-b14b73522f20",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-b24d287ab25d",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:00:50Z",
-      "id": "osm-roads-b2c0c68883a7",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-b3af58771197",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-b53a658616f2",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-b5770c2ee6d7",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-b6fbbd33e848",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-b846c78ded27",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-b9815763669c",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-ba0d328afefd",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-bae37542e4a1",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:25:07Z",
-      "id": "osm-roads-bd00d437913c",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-bf082071cdc9",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-bf37bcd7110a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-bfa370cdebbd",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-c19c0ca47a04",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:24:04Z",
-      "id": "osm-roads-c238021253cd",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-c24b21f53dff",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-c2710232f1a1",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-c2fd664c97c5",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-c3946e9a9501",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-c48a6e83f5f5",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-c529152cfe82",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-c67c33c8f32b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-c6b8a4f8a12f",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-c751de18f45a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-c8515b932182",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-c8c5c945562c",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:57:50Z",
-      "id": "osm-roads-c92f08700212",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-c93ccff7fdbf",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-c964e7dbd792",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-c9bd980dafc5",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
     },
     {
       "checkedAt": "2026-11-04T04:55:50Z",
@@ -1718,29 +2097,9 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-cb0c5a820635",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
       "checkedAt": "2026-11-04T04:55:50Z",
       "id": "osm-roads-cc800efb02f4",
       "status": "cached"
-    },
-    {
-      "id": "osm-roads-cde04e7c802c",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-cea17c5f0470",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-ced309f49ae1",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
     },
     {
       "checkedAt": "2026-11-04T04:55:50Z",
@@ -1753,213 +2112,53 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-d28d945d8447",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-d2d687640cae",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-d2f7c4523a68",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:54:48Z",
-      "id": "osm-roads-d4721e988d72",
+      "checkedAt": "2026-11-04T04:57:50Z",
+      "id": "osm-roads-c92f08700212",
       "status": "cached"
     },
     {
-      "id": "osm-roads-d555f7d39828",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-d60a0a71c7ae",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-d694f612241f",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-d69892064593",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-d71c3fbbb537",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-d8a0fd8b2206",
+      "checkedAt": "2026-11-04T05:00:50Z",
+      "id": "osm-roads-b2c0c68883a7",
       "status": "cached"
     },
     {
-      "id": "osm-roads-d8efc9d8fc8d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-d94e18db666b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-db2a118b5b36",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-dc3b7eda1353",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-dd00c5cd85b5",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:53:47Z",
-      "id": "osm-roads-dd032998864e",
+      "checkedAt": "2026-11-04T05:03:51Z",
+      "id": "osm-roads-ab0336f3f687",
       "status": "cached"
     },
     {
-      "id": "osm-roads-ddda3fa6d0c0",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-de090dfcb2a8",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-dea3aad7c812",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-deba87e68361",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:18:05Z",
-      "id": "osm-roads-def2dc659089",
+      "checkedAt": "2026-11-04T05:07:57Z",
+      "id": "osm-roads-9b6f6fc2d949",
       "status": "cached"
     },
     {
-      "id": "osm-roads-dfd2d529d0d4",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:49:37Z",
-      "id": "osm-roads-e0da04fc5d01",
+      "checkedAt": "2026-11-04T05:07:57Z",
+      "id": "osm-roads-9cdc0874cd1f",
       "status": "cached"
     },
     {
-      "id": "osm-roads-e1630bd9671f",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-e17933e3d00b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-e2f4d6a0866e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:18:05Z",
-      "id": "osm-roads-e4a7868752e1",
+      "checkedAt": "2026-11-04T05:09:58Z",
+      "id": "osm-roads-938e52154a64",
       "status": "cached"
     },
     {
-      "checkedAt": "2026-11-04T04:49:37Z",
-      "id": "osm-roads-e5db865a35e7",
+      "checkedAt": "2026-11-04T05:11:51Z",
+      "id": "osm-roads-896b2a56a577",
       "status": "cached"
     },
     {
-      "checkedAt": "2026-11-04T04:51:46Z",
-      "id": "osm-roads-e7290a55dc49",
+      "checkedAt": "2026-11-04T05:11:51Z",
+      "id": "osm-roads-8a9aaa42c9ca",
       "status": "cached"
     },
     {
-      "id": "osm-roads-e75474f94ac1",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-e7c39156de5a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-e7f88a4c4dca",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:51:46Z",
-      "id": "osm-roads-e9d85df74ef1",
+      "checkedAt": "2026-11-04T05:11:51Z",
+      "id": "osm-roads-8c11981f848f",
       "status": "cached"
-    },
-    {
-      "id": "osm-roads-ea376773914b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:46:37Z",
-      "id": "osm-roads-eaa9728cde5a",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-eb3156fc1935",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-ebb509a3d1e8",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-ec9cd8558f41",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-ee1d20e035c9",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
     },
     {
       "checkedAt": "2026-11-04T05:17:04Z",
       "id": "osm-roads-ee1e072a0ed1",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-ee8138569ef6",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-f02f90885da8",
       "status": "cached"
     },
     {
@@ -1968,144 +2167,98 @@
       "status": "cached"
     },
     {
-      "id": "osm-roads-f16d7b340a4b",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-f20b4bbb71d8",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-f4ae953ac25d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-f5dd467ca300",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-f6f8e9704821",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-f846ab7a7d34",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-f862460c1d41",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-f8ab5293f8f5",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-fa594e368ce5",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-fac974798ca6",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "id": "osm-roads-fae8070ab2d3",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:50:42Z",
-      "id": "osm-roads-faec0e334946",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-fbe49bb04638",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:46:37Z",
-      "id": "osm-roads-fd98d67bfde2",
-      "status": "cached"
-    },
-    {
-      "id": "osm-roads-fe39964288b3",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T04:46:37Z",
-      "id": "osm-roads-ff9d92aadc98",
-      "status": "cached"
-    },
-    {
       "checkedAt": "2026-11-04T05:17:04Z",
       "id": "osm-roads-ffcedda93f69",
       "status": "cached"
     },
     {
-      "checkedAt": "2026-11-04T04:44:35Z",
-      "id": "osm-roads-ffed040d4c2a",
+      "checkedAt": "2026-11-04T05:18:05Z",
+      "id": "osm-roads-def2dc659089",
       "status": "cached"
     },
     {
-      "checkedAt": "2026-11-04T03:15:05Z",
-      "id": "osm-roads-73963b9a8a79",
+      "checkedAt": "2026-11-04T05:18:05Z",
+      "id": "osm-roads-e4a7868752e1",
       "status": "cached"
     },
     {
-      "attemptedAt": "2026-11-04T03:17:05Z",
-      "id": "osm-roads-003f4704b28a",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-0048f9e803de",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T05:43:32Z",
-      "id": "osm-roads-02da49a58928",
+      "checkedAt": "2026-11-04T05:24:04Z",
+      "id": "osm-roads-c238021253cd",
       "status": "cached"
     },
     {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-031f310485bc",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
+      "checkedAt": "2026-11-04T05:25:07Z",
+      "id": "osm-roads-bd00d437913c",
+      "status": "cached"
     },
     {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-0550c2b8c1a0",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
+      "checkedAt": "2026-11-04T05:27:05Z",
+      "id": "osm-roads-af58b4af499b",
+      "status": "cached"
     },
     {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-07c602a2823e",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
+      "checkedAt": "2026-11-04T05:28:09Z",
+      "id": "osm-roads-ae75b99e0234",
+      "status": "cached"
     },
     {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-08fb93db364d",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
+      "checkedAt": "2026-11-04T05:31:16Z",
+      "id": "osm-roads-a0a11f628e95",
+      "status": "cached"
     },
     {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-09cbd7731b03",
+      "checkedAt": "2026-11-04T05:34:19Z",
+      "id": "osm-roads-9475703d19b1",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:34:19Z",
+      "id": "osm-roads-9a8cdf6e754a",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:35:18Z",
+      "id": "osm-roads-8e97d6fd9b13",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:36:21Z",
+      "id": "osm-roads-832138688848",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:36:21Z",
+      "id": "osm-roads-84a02a0f8827",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:36:21Z",
+      "id": "osm-roads-87ff0984853d",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:37:21Z",
+      "id": "osm-roads-8132c759f0a2",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:37:21Z",
+      "id": "osm-roads-8227c90d116b",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:38:18Z",
+      "id": "osm-roads-65c63575cf13",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:38:18Z",
+      "id": "osm-roads-7e9a859e1b32",
+      "status": "cached"
+    },
+    {
+      "checkedAt": "2026-11-04T05:39:18Z",
+      "id": "osm-roads-64a23d2aa50c",
       "status": "cached"
     },
     {
@@ -2114,91 +2267,24 @@
       "status": "cached"
     },
     {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-0be2adeaee81",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-0d00f341b3f3",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-0d75481b5429",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-103e25461c35",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-104a47bcdb75",
+      "checkedAt": "2026-11-04T05:41:26Z",
+      "id": "osm-roads-4a07f017f78d",
       "status": "cached"
     },
     {
-      "checkedAt": "2026-11-02T21:21:26Z",
-      "id": "osm-roads-11a0014b2f8b",
+      "checkedAt": "2026-11-04T05:43:32Z",
+      "id": "osm-roads-02da49a58928",
       "status": "cached"
     },
     {
-      "attemptedAt": "2026-11-04T03:18:05Z",
-      "id": "osm-roads-1275d879e786",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:19:05Z",
-      "id": "osm-roads-048910866479",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:21:05Z",
-      "id": "osm-roads-08c3543fa4f9",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:24:18Z",
-      "id": "osm-roads-0e355aa41fb4",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:25:18Z",
-      "id": "osm-roads-1120c60977c5",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:26:19Z",
-      "id": "osm-roads-1262af5e2c95",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "attemptedAt": "2026-11-04T03:29:47Z",
-      "id": "osm-roads-13e574b42dd6",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
-    },
-    {
-      "checkedAt": "2026-11-04T03:29:26Z",
-      "id": "osm-roads-1415a9f6202e",
+      "checkedAt": "2026-11-04T05:44:32Z",
+      "id": "osm-roads-7428c415eaa9",
       "status": "cached"
     },
     {
-      "attemptedAt": "2026-11-04T03:29:47Z",
-      "id": "osm-roads-16404c05d1d6",
-      "reason": "Outside directional-camera acquisition pass",
-      "status": "not_requested"
+      "checkedAt": "2026-11-04T05:45:32Z",
+      "id": "osm-roads-961195f4aeb2",
+      "status": "cached"
     }
   ],
   "directionalCoverage": {

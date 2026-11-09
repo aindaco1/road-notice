@@ -4734,35 +4734,6 @@
       "evidence": "DC automated safety cameras: published coordinates, not independently surveyed. Source: https://asc.ddot.dc.gov/ Listed deployment point; equipment presence is not live-confirmed.",
       "geometry": [
         {
-          "latitude": 38.87309,
-          "longitude": -76.9693
-        }
-      ],
-      "id": "agency-dc-ate-0558",
-      "kind": "possibleSpeed",
-      "label": "2500 BLK PENNSYLVANIA AVE SE NW/B",
-      "locationKey": "2500 BLK PENNSYLVANIA AVE SE NW/B",
-      "positionPrecision": "agency-published-point",
-      "roadNames": [
-        "BLK PENNSYLVANIA AVE SE NW/B"
-      ],
-      "siteID": "agency-dc-ate-0558",
-      "sourceIDs": [
-        "agency/dc/ATE 0558"
-      ],
-      "speedLimitCandidate": {
-        "conditional": false,
-        "sourceID": "agency/dc/ATE 0558",
-        "suppressionApproved": false,
-        "unit": "mph",
-        "value": 25.0
-      },
-      "travelBearing": 315
-    },
-    {
-      "evidence": "DC automated safety cameras: published coordinates, not independently surveyed. Source: https://asc.ddot.dc.gov/ Listed deployment point; equipment presence is not live-confirmed.",
-      "geometry": [
-        {
           "latitude": 38.88225,
           "longitude": -76.95832
         }
@@ -5068,35 +5039,6 @@
         "value": 25.0
       },
       "travelBearing": 90
-    },
-    {
-      "evidence": "DC automated safety cameras: published coordinates, not independently surveyed. Source: https://asc.ddot.dc.gov/ Listed deployment point; equipment presence is not live-confirmed.",
-      "geometry": [
-        {
-          "latitude": 38.95519,
-          "longitude": -77.02783
-        }
-      ],
-      "id": "agency-dc-ate-0590",
-      "kind": "possibleSpeed",
-      "label": "5400 BLK GEORGIA AVE NW N/B",
-      "locationKey": "5400 BLK GEORGIA AVE NW N/B",
-      "positionPrecision": "agency-published-point",
-      "roadNames": [
-        "BLK GEORGIA AVE NW N/B"
-      ],
-      "siteID": "agency-dc-ate-0590",
-      "sourceIDs": [
-        "agency/dc/ATE 0590"
-      ],
-      "speedLimitCandidate": {
-        "conditional": false,
-        "sourceID": "agency/dc/ATE 0590",
-        "suppressionApproved": false,
-        "unit": "mph",
-        "value": 25.0
-      },
-      "travelBearing": 0
     },
     {
       "evidence": "DC automated safety cameras: published coordinates, not independently surveyed. Source: https://asc.ddot.dc.gov/",
@@ -7477,308 +7419,376 @@
         "value": 25.0
       },
       "travelBearing": 270
+    },
+    {
+      "evidence": "DC automated safety cameras: published coordinates, not independently surveyed. Source: https://asc.ddot.dc.gov/ Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 38.90848,
+          "longitude": -77.02179
+        }
+      ],
+      "id": "agency-dc-ate-0891",
+      "kind": "possibleSpeed",
+      "label": "1400 blk 7th St NW n/b",
+      "locationKey": "1400 blk 7th St NW n/b",
+      "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk 7th St NW n/b"
+      ],
+      "siteID": "agency-dc-ate-0891",
+      "sourceIDs": [
+        "agency/dc/ATE 0891"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/dc/ATE 0891",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      },
+      "travelBearing": 0
+    },
+    {
+      "evidence": "DC automated safety cameras: published coordinates, not independently surveyed. Source: https://asc.ddot.dc.gov/ Listed deployment point; equipment presence is not live-confirmed.",
+      "geometry": [
+        {
+          "latitude": 38.88771,
+          "longitude": -76.95467
+        }
+      ],
+      "id": "agency-dc-ate-0892",
+      "kind": "possibleSpeed",
+      "label": "3500 blk Minnesota Ave SE sw/b",
+      "locationKey": "3500 blk Minnesota Ave SE sw/b",
+      "positionPrecision": "agency-published-point",
+      "roadNames": [
+        "blk Minnesota Ave SE sw/b"
+      ],
+      "siteID": "agency-dc-ate-0892",
+      "sourceIDs": [
+        "agency/dc/ATE 0892"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/dc/ATE 0892",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      },
+      "travelBearing": 225
+    },
+    {
+      "evidence": "DC automated safety cameras: published coordinates, not independently surveyed. Source: https://asc.ddot.dc.gov/",
+      "geometry": [
+        {
+          "latitude": 38.84507,
+          "longitude": -76.99797
+        }
+      ],
+      "id": "agency-dc-ate-0895",
+      "kind": "redLight",
+      "label": "Malcolm X Ave e/b @ MLK Jr Ave SE",
+      "locationKey": "Malcolm X Ave e/b @ MLK Jr Ave SE",
+      "positionPrecision": "agency-published-point",
+      "siteID": "agency-dc-ate-0895",
+      "sourceIDs": [
+        "agency/dc/ATE 0895"
+      ],
+      "speedLimitCandidate": {
+        "conditional": false,
+        "sourceID": "agency/dc/ATE 0895",
+        "suppressionApproved": false,
+        "unit": "mph",
+        "value": 25.0
+      },
+      "travelBearing": 90
     }
   ],
-  "checkedAt": "2026-10-19T08:43:48Z",
+  "checkedAt": "2026-11-09T12:46:16Z",
   "excluded": [
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591559"
+      "sourceRecord": "665656"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591561"
+      "sourceRecord": "662287"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591553"
+      "sourceRecord": "665496"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591580"
+      "sourceRecord": "665501"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591581"
+      "sourceRecord": "665508"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591582"
+      "sourceRecord": "665509"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591584"
+      "sourceRecord": "665512"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665519"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665546"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665573"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665577"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665592"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665599"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665617"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665618"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665619"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665620"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665621"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591587"
+      "sourceRecord": "665624"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665627"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665628"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665629"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665632"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665634"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665636"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665683"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591588"
+      "sourceRecord": "665684"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591589"
+      "sourceRecord": "665685"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591591"
+      "sourceRecord": "665686"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665687"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665688"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665689"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591592"
+      "sourceRecord": "665691"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591597"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591598"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591599"
+      "sourceRecord": "665692"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591600"
+      "sourceRecord": "665697"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665698"
+    },
+    {
+      "reason": "Not speed/red-light enforcement",
+      "sourceRecord": "665699"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591601"
+      "sourceRecord": "665702"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591602"
+      "sourceRecord": "665703"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591603"
+      "sourceRecord": "665704"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591604"
+      "sourceRecord": "665705"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591605"
+      "sourceRecord": "665706"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591606"
+      "sourceRecord": "665707"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591607"
+      "sourceRecord": "665708"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591608"
+      "sourceRecord": "665709"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591609"
+      "sourceRecord": "665710"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591610"
+      "sourceRecord": "665711"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591611"
+      "sourceRecord": "665712"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591612"
+      "sourceRecord": "665713"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591613"
+      "sourceRecord": "665714"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591614"
+      "sourceRecord": "665715"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591615"
+      "sourceRecord": "665716"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591616"
+      "sourceRecord": "665717"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591617"
+      "sourceRecord": "665718"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591618"
+      "sourceRecord": "665719"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591619"
+      "sourceRecord": "665720"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "591620"
-    },
-    {
-      "reason": "Not operational",
-      "sourceRecord": "591621"
+      "sourceRecord": "665721"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591626"
+      "sourceRecord": "665726"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591634"
+      "sourceRecord": "665732"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591635"
+      "sourceRecord": "665734"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591636"
+      "sourceRecord": "665753"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591637"
+      "sourceRecord": "665754"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591648"
+      "sourceRecord": "665755"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591669"
+      "sourceRecord": "665757"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591694"
+      "sourceRecord": "665764"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591699"
+      "sourceRecord": "665772"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591706"
+      "sourceRecord": "665773"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591707"
+      "sourceRecord": "665774"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591708"
+      "sourceRecord": "665775"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591711"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591718"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591746"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591817"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591818"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591819"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591820"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591821"
-    },
-    {
-      "reason": "Not operational",
-      "sourceRecord": "591823"
-    },
-    {
-      "reason": "Not operational",
-      "sourceRecord": "591824"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591827"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591828"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591829"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591832"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591834"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591836"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591856"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591884"
-    },
-    {
-      "reason": "Not operational",
-      "sourceRecord": "591885"
-    },
-    {
-      "reason": "Not operational",
-      "sourceRecord": "591886"
-    },
-    {
-      "reason": "Not operational",
-      "sourceRecord": "591887"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591773"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591777"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591792"
-    },
-    {
-      "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "591799"
+      "sourceRecord": "665786"
     }
   ],
   "id": "dc",
-  "rowCount": 339,
+  "rowCount": 336,
   "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Safety_WebMercator/MapServer/43"
 }

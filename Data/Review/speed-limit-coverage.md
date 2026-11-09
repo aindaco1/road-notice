@@ -1,8 +1,8 @@
 # Speed-limit coverage
 
-Snapshot 2026-11-02-849ee6ac8b27-d0ef599a
+Snapshot 2026-11-09-ef8338590751-66e4df9c
 
-954 / 1791 speed-camera approaches have an approved posted limit or conservative suppression bound.
+954 / 1808 speed-camera approaches have an approved posted limit or conservative suppression bound.
 
 | Census metro | Speed approaches | With limit/bound |
 |---|---:|---:|
@@ -13,10 +13,10 @@ Snapshot 2026-11-02-849ee6ac8b27-d0ef599a
 | Dallas-Fort Worth-Arlington, TX | 91 | 65 |
 | Houston-Pasadena-The Woodlands, TX | 1 | 0 |
 | Atlanta-Sandy Springs-Roswell, GA | 28 | 16 |
-| Washington-Arlington-Alexandria, DC-VA-MD-WV | 420 | 327 |
+| Washington-Arlington-Alexandria, DC-VA-MD-WV | 422 | 327 |
 | Miami-Fort Lauderdale-West Palm Beach, FL | 12 | 3 |
-| Philadelphia-Camden-Wilmington, PA-NJ-DE-MD | 23 | 20 |
-| Phoenix-Mesa-Chandler, AZ | 36 | 17 |
+| Philadelphia-Camden-Wilmington, PA-NJ-DE-MD | 31 | 20 |
+| Phoenix-Mesa-Chandler, AZ | 43 | 17 |
 | Boston-Cambridge-Newton, MA-NH | 0 | 0 |
 | Riverside-San Bernardino-Ontario, CA | 2 | 0 |
 | San Francisco-Oakland-Fremont, CA | 70 | 68 |

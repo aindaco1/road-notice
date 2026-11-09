@@ -11,11 +11,11 @@
     "road-matched": 119
   },
   "candidateOnly": 332,
-  "coveragePercent": 53.3,
+  "coveragePercent": 52.8,
   "eligible": 954,
-  "generatedAt": "2026-11-04T08:00:34Z",
-  "speedCameras": 1791,
-  "totalCameras": 2728,
-  "unknown": 505,
-  "version": "2026-11-02-849ee6ac8b27-d0ef599a"
+  "generatedAt": "2026-11-09T16:58:48Z",
+  "speedCameras": 1808,
+  "totalCameras": 2746,
+  "unknown": 522,
+  "version": "2026-11-09-ef8338590751-66e4df9c"
 }

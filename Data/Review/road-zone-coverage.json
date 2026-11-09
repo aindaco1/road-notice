@@ -1,8 +1,8 @@
 {
   "approachPolicy": "15 seconds at sourced approach speed, 150–600 m; retain up to 650 m of available geometry",
-  "eligible": 701,
-  "generated": 701,
-  "generatedAt": "2026-11-04T08:00:34Z",
+  "eligible": 702,
+  "generated": 702,
+  "generatedAt": "2026-11-09T16:58:48Z",
   "records": [
     {
       "approachMeters": 650.0,
@@ -7352,25 +7352,25 @@
       "approachMeters": 650.0,
       "id": "agency-chicago-speed-chi254-270",
       "kind": "speed",
-      "label": "5050 W Fullerton Ave · WB",
+      "label": "5044 W Fullerton Ave · WB",
       "leadBasis": "Unknown speed: maximum lead on motorway/trunk; approximately 15 seconds at 45 mph elsewhere",
       "reason": null,
       "requiredApproachMeters": 325,
       "sourceCheckDue": false,
       "status": "eligible",
-      "vertices": 25
+      "vertices": 26
     },
     {
       "approachMeters": 650.0,
       "id": "agency-chicago-speed-chi254-90",
       "kind": "speed",
-      "label": "5050 W Fullerton Ave · EB",
+      "label": "5044 W Fullerton Ave · EB",
       "leadBasis": "Unknown speed: maximum lead on motorway/trunk; approximately 15 seconds at 45 mph elsewhere",
       "reason": null,
       "requiredApproachMeters": 325,
       "sourceCheckDue": false,
       "status": "eligible",
-      "vertices": 34
+      "vertices": 33
     },
     {
       "approachMeters": 650.0,
@@ -9545,6 +9545,42 @@
       "vertices": 0
     },
     {
+      "approachMeters": null,
+      "id": "agency-dc-ate-0891",
+      "kind": "possibleSpeed",
+      "label": "1400 blk 7th St NW n/b",
+      "leadBasis": null,
+      "reason": "No unambiguous connected approach geometry",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-dc-ate-0892",
+      "kind": "possibleSpeed",
+      "label": "3500 blk Minnesota Ave SE sw/b",
+      "leadBasis": null,
+      "reason": "No unambiguous connected approach geometry",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": 650.0,
+      "id": "agency-dc-ate-0895",
+      "kind": "redLight",
+      "label": "Malcolm X Ave e/b @ MLK Jr Ave SE",
+      "leadBasis": "15 seconds at the highest sourced camera/road limit, rounded up to 25 m",
+      "reason": null,
+      "requiredApproachMeters": 225,
+      "sourceCheckDue": false,
+      "status": "eligible",
+      "vertices": 13
+    },
+    {
       "approachMeters": 650.0,
       "id": "agency-hillsborough-intersections-bloomingdale-avenue-bell-shoals-road-nb",
       "kind": "redLight",
@@ -9678,6 +9714,18 @@
     },
     {
       "approachMeters": null,
+      "id": "agency-philadelphia-addresses-200-n-38th-street",
+      "kind": "possibleSpeed",
+      "label": "200 N 38th Street (Live Enforcement Begins 10-30-26) · approximate location",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
       "id": "agency-philadelphia-addresses-2200-s-broad-street",
       "kind": "possibleSpeed",
       "label": "2200 S. Broad Street · approximate location",
@@ -9714,6 +9762,18 @@
     },
     {
       "approachMeters": null,
+      "id": "agency-philadelphia-addresses-300-s-university-ave",
+      "kind": "possibleSpeed",
+      "label": "300 S University Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
       "id": "agency-philadelphia-addresses-3100-levick-street",
       "kind": "possibleSpeed",
       "label": "3100 Levick Street · approximate location",
@@ -9738,9 +9798,57 @@
     },
     {
       "approachMeters": null,
+      "id": "agency-philadelphia-addresses-400-n-34th-street",
+      "kind": "possibleSpeed",
+      "label": "400 N 34th Street (Live Enforcement Begins 10-30-26) · approximate location",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
       "id": "agency-philadelphia-addresses-4100-n-broad-street",
       "kind": "possibleSpeed",
       "label": "4100 N. Broad Street · approximate location",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-philadelphia-addresses-4200-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "4200 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-philadelphia-addresses-4300-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "4300 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-philadelphia-addresses-4900-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "4900 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
       "leadBasis": null,
       "reason": "Unknown monitored direction",
       "requiredApproachMeters": null,
@@ -9762,9 +9870,33 @@
     },
     {
       "approachMeters": null,
+      "id": "agency-philadelphia-addresses-5600-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "5600 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
       "id": "agency-philadelphia-addresses-5700-n-broad-street",
       "kind": "possibleSpeed",
       "label": "5700 N. Broad Street · approximate location",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-philadelphia-addresses-6000-baltimore-ave",
+      "kind": "possibleSpeed",
+      "label": "6000 Baltimore Ave (Live Enforcement Begins 10-30-26) · approximate location",
       "leadBasis": null,
       "reason": "Unknown monitored direction",
       "requiredApproachMeters": null,
@@ -9858,9 +9990,57 @@
     },
     {
       "approachMeters": null,
+      "id": "agency-phoenix-points-16th-st-broadway-road-to-i-17",
+      "kind": "possibleSpeed",
+      "label": "16th St: Broadway Road to I-17",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-phoenix-points-19th-ave-van-buren-st-to-i-10",
+      "kind": "possibleSpeed",
+      "label": "19th Ave: Van Buren St to I-10",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
       "id": "agency-phoenix-points-27th-avenue-colter-street-to-missouri-avenue",
       "kind": "possibleSpeed",
       "label": "27th Avenue: Colter Street to Missouri Avenue",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-phoenix-points-7th-st-indian-school-road-to-camelback-road",
+      "kind": "possibleSpeed",
+      "label": "7th St: Indian School Road to Camelback Road",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-phoenix-points-bell-rd-35th-ave-to-i-17",
+      "kind": "possibleSpeed",
+      "label": "Bell Rd: 35th Ave to I-17",
       "leadBasis": null,
       "reason": "Unknown monitored direction",
       "requiredApproachMeters": null,
@@ -9875,6 +10055,18 @@
       "label": "E/B, Thunderbird Rd: 35th Ave to I-17",
       "leadBasis": null,
       "reason": "Competing monitored-road paths",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-phoenix-points-greenway-pkwy-cave-creek-road-to-28th-st",
+      "kind": "possibleSpeed",
+      "label": "Greenway Pkwy: Cave Creek Road to 28th St",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
       "requiredApproachMeters": null,
       "sourceCheckDue": false,
       "status": "fallback",
@@ -9915,6 +10107,30 @@
       "sourceCheckDue": false,
       "status": "eligible",
       "vertices": 30
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-phoenix-points-shea-blvd-36th-st-to-40th-st",
+      "kind": "possibleSpeed",
+      "label": "Shea Blvd: 36th St to 40th St",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "agency-phoenix-points-thunderbird-rd-19th-ave-to-coral-gables",
+      "kind": "possibleSpeed",
+      "label": "Thunderbird Rd: 19th Ave to Coral Gables",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
     },
     {
       "approachMeters": 650.0,
@@ -32742,8 +32958,8 @@
     }
   ],
   "retained": 0,
-  "reviewed": 2728,
+  "reviewed": 2746,
   "scope": "All camera kinds and regions",
   "sourceChecksDue": 4,
-  "totalCameras": 2728
+  "totalCameras": 2746
 }

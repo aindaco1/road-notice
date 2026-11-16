@@ -1,6 +1,6 @@
 # Weekly camera maintenance
 
-Generated 2026-11-16T12:57:22Z
+Generated 2026-11-16T16:38:42Z
 
 47 registered sources checked; 2 evidence-based identity matches; 587 unresolved findings.
 
@@ -600,8 +600,8 @@ Full added/removed facts, nearby candidates, and evidence are in maintenance.jso
 
 ## Speed-limit coverage
 
-954 / 1808 speed-camera approaches can suppress (52.8%). Red-light and combined cameras are excluded from this denominator.
+1030 / 1899 speed-camera approaches can suppress (54.2%). Red-light and combined cameras are excluded from this denominator.
 
-Evidence: {'agency-posted': 207, 'conservative-lower-bound': 204, 'field-verified': 2, 'osm-posted': 422, 'road-matched': 119}. 332 candidate-only; 522 unknown.
+Evidence: {'agency-posted': 207, 'conservative-lower-bound': 234, 'field-verified': 2, 'osm-posted': 434, 'road-matched': 153}. 362 candidate-only; 507 unknown.
 
 Per-camera values, sources, timestamps, inferred lower bounds and missing-data reasons: speed-limit-coverage.json.

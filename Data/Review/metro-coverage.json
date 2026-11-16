@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T16:58:48Z",
+  "generatedAt": "2026-11-16T16:37:12Z",
   "metros": [
     {
       "agencyPoints": 0,
@@ -127,8 +127,8 @@
       "population2025": 20112448,
       "possibleAreas": 0,
       "rank": 1,
-      "speedCameraApproaches": 88,
-      "warningRecords": 99,
+      "speedCameraApproaches": 89,
+      "warningRecords": 100,
       "withSuppressionLimit": 40
     },
     {
@@ -148,9 +148,9 @@
       "population2025": 12844441,
       "possibleAreas": 0,
       "rank": 2,
-      "speedCameraApproaches": 11,
-      "warningRecords": 35,
-      "withSuppressionLimit": 4
+      "speedCameraApproaches": 66,
+      "warningRecords": 90,
+      "withSuppressionLimit": 57
     },
     {
       "agencyPoints": 566,
@@ -270,9 +270,9 @@
       "population2025": 8477157,
       "possibleAreas": 0,
       "rank": 4,
-      "speedCameraApproaches": 91,
-      "warningRecords": 91,
-      "withSuppressionLimit": 65
+      "speedCameraApproaches": 95,
+      "warningRecords": 95,
+      "withSuppressionLimit": 68
     },
     {
       "agencyPoints": 0,
@@ -559,7 +559,7 @@
       "rank": 7,
       "speedCameraApproaches": 422,
       "warningRecords": 519,
-      "withSuppressionLimit": 327
+      "withSuppressionLimit": 321
     },
     {
       "agencyPoints": 0,
@@ -639,9 +639,9 @@
       "population2025": 6329118,
       "possibleAreas": 0,
       "rank": 9,
-      "speedCameraApproaches": 31,
-      "warningRecords": 36,
-      "withSuppressionLimit": 20
+      "speedCameraApproaches": 32,
+      "warningRecords": 37,
+      "withSuppressionLimit": 29
     },
     {
       "agencyPoints": 16,
@@ -662,7 +662,7 @@
       "rank": 10,
       "speedCameraApproaches": 43,
       "warningRecords": 43,
-      "withSuppressionLimit": 17
+      "withSuppressionLimit": 25
     },
     {
       "agencyPoints": 0,
@@ -819,7 +819,7 @@
       "rank": 15,
       "speedCameraApproaches": 148,
       "warningRecords": 200,
-      "withSuppressionLimit": 113
+      "withSuppressionLimit": 112
     },
     {
       "agencyPoints": 0,
@@ -938,7 +938,7 @@
       "rank": 18,
       "speedCameraApproaches": 7,
       "warningRecords": 15,
-      "withSuppressionLimit": 7
+      "withSuppressionLimit": 0
     },
     {
       "agencyPoints": 0,

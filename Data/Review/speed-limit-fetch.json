@@ -6,6 +6,7 @@
     "osm-roads-08c3543fa4f9",
     "osm-roads-09cbd7731b03",
     "osm-roads-09cf34c7ca40",
+    "osm-roads-0b8dbc615e3c",
     "osm-roads-0e355aa41fb4",
     "osm-roads-104a47bcdb75",
     "osm-roads-1120c60977c5",
@@ -22,11 +23,15 @@
     "osm-roads-1c44d25700f4",
     "osm-roads-1c4bd9b63904",
     "osm-roads-2051fa1c48a1",
+    "osm-roads-206434df4f9a",
+    "osm-roads-21e897e94d9e",
     "osm-roads-2311f118c9ff",
     "osm-roads-2334b8bb16e1",
     "osm-roads-2381954ba9cb",
     "osm-roads-239baefdbd91",
     "osm-roads-23c61071153d",
+    "osm-roads-245bb57964fe",
+    "osm-roads-2649c5e7adec",
     "osm-roads-2666c7c0abb0",
     "osm-roads-26bab0082c26",
     "osm-roads-26c75e21932a",
@@ -154,446 +159,420 @@
     "osm-roads-ffcedda93f69",
     "osm-roads-ffed040d4c2a"
   ],
-  "checkedAt": "2026-11-09T12:48:09Z",
+  "checkedAt": "2026-11-16T12:37:02Z",
   "checks": [
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:48:10Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:37:04Z",
       "id": "abq-camera-limits",
       "records": 21,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:48:11Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "error": "The read operation timed out",
       "id": "seattle-school-policy",
-      "records": 0,
-      "status": "downloaded"
+      "lastGoodAt": "2026-11-09T12:48:11Z",
+      "status": "retained"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
       "error": "HTTP Error 403: Forbidden",
       "id": "chicago-school-park-policy",
       "lastGoodAt": "2026-09-15T05:50:03Z",
       "status": "retained"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:48:12Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:37:55Z",
       "id": "philadelphia-report-limits",
       "records": 15,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:48:13Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:37:55Z",
       "id": "philadelphia-route13-limits",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:48:14Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:37:56Z",
       "id": "tacoma-school-policy",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:48:21Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:00Z",
       "id": "nmdot-roads",
       "records": 995,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:48:29Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:05Z",
       "id": "nmdot-names",
       "records": 1003,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:48:33Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:07Z",
       "id": "seattle-roads--2449-951",
       "records": 358,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:48:51Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:13Z",
       "id": "seattle-roads--2448-950",
       "records": 1633,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:49:06Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:18Z",
       "id": "seattle-roads--2448-951",
       "records": 1495,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:49:38Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:25Z",
       "id": "seattle-roads--2448-953",
       "records": 3304,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:49:48Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:27Z",
       "id": "seattle-roads--2448-954",
       "records": 929,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:50:22Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:33Z",
       "id": "seattle-roads--2447-951",
       "records": 2392,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:50:35Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:40Z",
       "id": "seattle-roads--2447-952",
       "records": 3553,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:50:48Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:47Z",
       "id": "seattle-roads--2447-953",
       "records": 3287,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:50:59Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:51Z",
       "id": "seattle-roads--2447-954",
       "records": 1502,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:50:59Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:38:54Z",
       "id": "seattle-roads--2446-949",
       "records": 74,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:51:12Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:05Z",
       "id": "seattle-roads--2446-950",
-      "records": 1708,
+      "records": 1709,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:51:27Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:16Z",
       "id": "seattle-roads--2446-951",
       "records": 1855,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:51:36Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:21Z",
       "id": "seattle-roads--2446-953",
       "records": 1597,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:51:42Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:24Z",
       "id": "seattle-roads--2446-954",
       "records": 682,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:51:42Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:24Z",
       "id": "seattle-roads--2445-954",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:32Z",
       "id": "nyc-roads--1485-810",
-      "lastGoodAt": "2026-10-19T08:45:13Z",
-      "status": "retained"
+      "records": 2004,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:36Z",
       "id": "nyc-roads--1484-810",
-      "lastGoodAt": "2026-10-19T08:45:19Z",
-      "status": "retained"
+      "records": 1963,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:42Z",
       "id": "nyc-roads--1484-811",
-      "lastGoodAt": "2026-10-19T08:45:26Z",
-      "status": "retained"
+      "records": 2044,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:52:52Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:45Z",
       "id": "nyc-roads--1484-812",
       "records": 1442,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:52:56Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:46Z",
       "id": "nyc-roads--1484-819",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:39:52Z",
       "id": "nyc-roads--1483-811",
-      "lastGoodAt": "2026-10-19T08:45:35Z",
-      "status": "retained"
+      "records": 2676,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:40:00Z",
       "id": "nyc-roads--1483-812",
-      "lastGoodAt": "2026-10-19T08:45:41Z",
-      "status": "retained"
+      "records": 3449,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:53:46Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:40:04Z",
       "id": "nyc-roads--1482-811",
       "records": 1598,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:40:11Z",
       "id": "nyc-roads--1481-814",
-      "lastGoodAt": "2026-10-19T08:45:55Z",
-      "status": "retained"
+      "records": 2418,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:40:20Z",
       "id": "nyc-roads--1480-811",
-      "lastGoodAt": "2026-10-19T08:46:04Z",
-      "status": "retained"
+      "records": 2323,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:40:36Z",
       "id": "nyc-roads--1480-813",
-      "lastGoodAt": "2026-10-19T08:46:12Z",
-      "status": "retained"
+      "records": 4405,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:41:00Z",
       "id": "nyc-roads--1480-814",
-      "lastGoodAt": "2026-10-19T08:46:21Z",
-      "status": "retained"
+      "records": 5703,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:41:11Z",
       "id": "nyc-roads--1479-812",
-      "lastGoodAt": "2026-10-19T08:46:27Z",
-      "status": "retained"
+      "records": 3716,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:41:32Z",
       "id": "nyc-roads--1479-814",
-      "lastGoodAt": "2026-10-19T08:46:35Z",
-      "status": "retained"
+      "records": 4877,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:41:48Z",
       "id": "nyc-roads--1479-815",
-      "lastGoodAt": "2026-10-19T08:46:41Z",
-      "status": "retained"
+      "records": 4259,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:41:58Z",
       "id": "nyc-roads--1479-817",
-      "lastGoodAt": "2026-10-19T08:46:46Z",
-      "status": "retained"
+      "records": 2789,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:56:02Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:42:08Z",
       "id": "nyc-roads--1479-819",
       "records": 0,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:42:46Z",
       "id": "nyc-roads--1478-813",
-      "lastGoodAt": "2026-10-19T08:46:52Z",
-      "status": "retained"
+      "records": 4067,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:43:09Z",
       "id": "nyc-roads--1478-814",
-      "lastGoodAt": "2026-10-19T08:46:59Z",
-      "status": "retained"
+      "records": 5292,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:43:29Z",
       "id": "nyc-roads--1478-817",
-      "lastGoodAt": "2026-10-19T08:47:06Z",
-      "status": "retained"
+      "records": 4055,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:43:45Z",
       "id": "nyc-roads--1477-813",
-      "lastGoodAt": "2026-10-19T08:47:11Z",
-      "status": "retained"
+      "records": 3925,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:44:05Z",
       "id": "nyc-roads--1477-814",
-      "lastGoodAt": "2026-10-19T08:47:18Z",
-      "status": "retained"
+      "records": 5127,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:44:16Z",
       "id": "nyc-roads--1477-816",
-      "lastGoodAt": "2026-10-19T08:47:22Z",
-      "status": "retained"
+      "records": 2606,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:44:43Z",
       "id": "nyc-roads--1476-813",
-      "lastGoodAt": "2026-10-19T08:47:28Z",
-      "status": "retained"
+      "records": 4114,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:44:55Z",
       "id": "nyc-roads--1476-814",
-      "lastGoodAt": "2026-10-19T08:47:38Z",
-      "status": "retained"
+      "records": 4669,
+      "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:45:09Z",
       "id": "nyc-roads--1475-814",
-      "lastGoodAt": "2026-10-19T08:47:42Z",
-      "status": "retained"
-    },
-    {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:57:36Z",
-      "id": "osm-roads-16c055434f3d",
-      "records": 763,
+      "records": 3221,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:59:36Z",
-      "id": "osm-roads-1753fde288e4",
-      "records": 72,
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:43:34Z",
+      "id": "osm-roads-0b8dbc615e3c",
+      "records": 1532,
       "status": "downloaded"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "checkedAt": "2026-11-09T12:59:36Z",
-      "id": "osm-roads-17d9e99cc84a",
-      "records": 105,
-      "status": "downloaded"
-    },
-    {
-      "attemptedAt": "2026-11-09T12:48:09Z",
+      "attemptedAt": "2026-11-16T12:37:02Z",
       "error": "HTTP Error 504: Gateway Time-out",
-      "id": "osm-roads-19e3a478c864",
+      "id": "osm-roads-11b42ce6509d",
       "lastGoodAt": null,
       "status": "unavailable"
     },
     {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 504: Gateway Time-out",
-      "id": "osm-roads-1a341807bcb1",
-      "lastGoodAt": null,
-      "status": "unavailable"
-    },
-    {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 504: Gateway Time-out",
-      "id": "osm-roads-1ae1e5ade814",
-      "lastGoodAt": null,
-      "status": "unavailable"
-    },
-    {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "HTTP Error 504: Gateway Time-out",
-      "id": "osm-roads-1fe63d66048c",
-      "lastGoodAt": null,
-      "status": "unavailable"
-    },
-    {
-      "attemptedAt": "2026-11-09T12:48:09Z",
-      "error": "Run acquisition time budget reached",
-      "id": "osm-roads-202188d500ee",
-      "lastGoodAt": null,
-      "status": "unavailable"
-    },
-    {
-      "error": "Run acquisition time budget reached",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:46:34Z",
       "id": "osm-roads-206434df4f9a",
-      "status": "deferred"
+      "records": 154,
+      "status": "downloaded"
     },
     {
-      "error": "Run acquisition time budget reached",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "id": "osm-roads-206d024e4b15",
-      "status": "deferred"
+      "lastGoodAt": null,
+      "status": "unavailable"
     },
     {
-      "error": "Run acquisition time budget reached",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "id": "osm-roads-212c51d39fdc",
-      "status": "deferred"
+      "lastGoodAt": null,
+      "status": "unavailable"
     },
     {
-      "error": "Run acquisition time budget reached",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:46:34Z",
       "id": "osm-roads-21e897e94d9e",
-      "status": "deferred"
+      "records": 274,
+      "status": "downloaded"
     },
     {
-      "error": "Run acquisition time budget reached",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:48:35Z",
       "id": "osm-roads-245bb57964fe",
-      "status": "deferred"
+      "records": 82,
+      "status": "downloaded"
     },
     {
-      "error": "Run acquisition time budget reached",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "id": "osm-roads-25e163b63a4f",
-      "status": "deferred"
+      "lastGoodAt": null,
+      "status": "unavailable"
     },
     {
-      "error": "Run acquisition time budget reached",
+      "attemptedAt": "2026-11-16T12:37:02Z",
+      "checkedAt": "2026-11-16T12:49:36Z",
       "id": "osm-roads-2649c5e7adec",
-      "status": "deferred"
+      "records": 95,
+      "status": "downloaded"
     },
     {
+      "attemptedAt": "2026-11-16T12:37:02Z",
       "error": "Run acquisition time budget reached",
       "id": "osm-roads-269474ddf5a5",
-      "status": "deferred"
+      "lastGoodAt": null,
+      "status": "unavailable"
     },
     {
       "error": "Run acquisition time budget reached",
@@ -687,6 +666,11 @@
     },
     {
       "error": "Run acquisition time budget reached",
+      "id": "osm-roads-3aaac3ccdecd",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-3b987989b91b",
       "status": "deferred"
     },
@@ -737,6 +721,11 @@
     },
     {
       "error": "Run acquisition time budget reached",
+      "id": "osm-roads-420593e74521",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-429f769d2902",
       "status": "deferred"
     },
@@ -763,6 +752,11 @@
     {
       "error": "Run acquisition time budget reached",
       "id": "osm-roads-4a5e1d4e108a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-4ae431170d82",
       "status": "deferred"
     },
     {
@@ -802,6 +796,11 @@
     },
     {
       "error": "Run acquisition time budget reached",
+      "id": "osm-roads-548c2de1cc42",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-56ad14c17f29",
       "status": "deferred"
     },
@@ -813,6 +812,11 @@
     {
       "error": "Run acquisition time budget reached",
       "id": "osm-roads-5c03c4be36da",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-5c67e9c4a50c",
       "status": "deferred"
     },
     {
@@ -877,7 +881,22 @@
     },
     {
       "error": "Run acquisition time budget reached",
+      "id": "osm-roads-66d4d28c1ac5",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-682268bbf836",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-6b66948f1476",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-6bac910fcc8b",
       "status": "deferred"
     },
     {
@@ -943,6 +962,11 @@
     {
       "error": "Run acquisition time budget reached",
       "id": "osm-roads-785822a667cb",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-790322cb2d26",
       "status": "deferred"
     },
     {
@@ -1192,11 +1216,6 @@
     },
     {
       "error": "Run acquisition time budget reached",
-      "id": "osm-roads-aa3ef7c8581e",
-      "status": "deferred"
-    },
-    {
-      "error": "Run acquisition time budget reached",
       "id": "osm-roads-ac21440ffc08",
       "status": "deferred"
     },
@@ -1222,12 +1241,22 @@
     },
     {
       "error": "Run acquisition time budget reached",
+      "id": "osm-roads-af2e4fa2ab2a",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-af33a38c4981",
       "status": "deferred"
     },
     {
       "error": "Run acquisition time budget reached",
       "id": "osm-roads-b07caeed3837",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-b0adf5ba6147",
       "status": "deferred"
     },
     {
@@ -1377,6 +1406,11 @@
     },
     {
       "error": "Run acquisition time budget reached",
+      "id": "osm-roads-d479ebb9bbfc",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-d555f7d39828",
       "status": "deferred"
     },
@@ -1422,6 +1456,11 @@
     },
     {
       "error": "Run acquisition time budget reached",
+      "id": "osm-roads-dc70c12e85fc",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-dd00c5cd85b5",
       "status": "deferred"
     },
@@ -1463,6 +1502,11 @@
     {
       "error": "Run acquisition time budget reached",
       "id": "osm-roads-e2f4d6a0866e",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-e5ad2438c3b1",
       "status": "deferred"
     },
     {
@@ -1518,6 +1562,11 @@
     {
       "error": "Run acquisition time budget reached",
       "id": "osm-roads-f20b4bbb71d8",
+      "status": "deferred"
+    },
+    {
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-f3fe5b6c852a",
       "status": "deferred"
     },
     {
@@ -1596,18 +1645,6 @@
     {
       "attemptedAt": "2026-11-02T21:21:26Z",
       "error": "Run acquisition time budget reached",
-      "id": "osm-roads-4ee3c34d1a3c",
-      "status": "deferred"
-    },
-    {
-      "attemptedAt": "2026-11-02T21:21:26Z",
-      "error": "Run acquisition time budget reached",
-      "id": "osm-roads-58937cc07a9b",
-      "status": "deferred"
-    },
-    {
-      "attemptedAt": "2026-11-02T21:21:26Z",
-      "error": "Run acquisition time budget reached",
       "id": "osm-roads-6ef57a2ed3b7",
       "status": "deferred"
     },
@@ -1627,12 +1664,6 @@
       "attemptedAt": "2026-11-02T21:21:26Z",
       "error": "Run acquisition time budget reached",
       "id": "osm-roads-861bf02b0227",
-      "status": "deferred"
-    },
-    {
-      "attemptedAt": "2026-11-02T21:21:26Z",
-      "error": "Run acquisition time budget reached",
-      "id": "osm-roads-91cda25b1e8c",
       "status": "deferred"
     },
     {
@@ -1674,12 +1705,6 @@
     {
       "attemptedAt": "2026-11-02T21:21:26Z",
       "error": "Run acquisition time budget reached",
-      "id": "osm-roads-aaf12dfd6712",
-      "status": "deferred"
-    },
-    {
-      "attemptedAt": "2026-11-02T21:21:26Z",
-      "error": "Run acquisition time budget reached",
       "id": "osm-roads-b14b73522f20",
       "status": "deferred"
     },
@@ -1704,18 +1729,6 @@
     {
       "attemptedAt": "2026-11-02T21:21:26Z",
       "error": "Run acquisition time budget reached",
-      "id": "osm-roads-c2710232f1a1",
-      "status": "deferred"
-    },
-    {
-      "attemptedAt": "2026-11-02T21:21:26Z",
-      "error": "Run acquisition time budget reached",
-      "id": "osm-roads-c2fd664c97c5",
-      "status": "deferred"
-    },
-    {
-      "attemptedAt": "2026-11-02T21:21:26Z",
-      "error": "Run acquisition time budget reached",
       "id": "osm-roads-c3946e9a9501",
       "status": "deferred"
     },
@@ -1732,14 +1745,16 @@
       "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T03:15:05Z",
+      "attemptedAt": "2026-11-04T03:15:05Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-73963b9a8a79",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T03:17:05Z",
+      "attemptedAt": "2026-11-04T03:17:05Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-003f4704b28a",
-      "status": "cached"
+      "status": "deferred"
     },
     {
       "attemptedAt": "2026-11-04T03:18:05Z",
@@ -1802,495 +1817,580 @@
       "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T03:19:05Z",
+      "attemptedAt": "2026-11-04T03:19:05Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-048910866479",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T03:21:05Z",
+      "attemptedAt": "2026-11-04T03:21:05Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-08c3543fa4f9",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T03:24:18Z",
+      "attemptedAt": "2026-11-04T03:24:18Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-0e355aa41fb4",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T03:25:18Z",
+      "attemptedAt": "2026-11-04T03:25:18Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-1120c60977c5",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T03:26:19Z",
+      "attemptedAt": "2026-11-04T03:26:19Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-1262af5e2c95",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T03:29:26Z",
-      "id": "osm-roads-1415a9f6202e",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T03:28:22Z",
+      "attemptedAt": "2026-11-04T03:28:22Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-13e574b42dd6",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T03:30:21Z",
+      "attemptedAt": "2026-11-04T03:29:26Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-1415a9f6202e",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-04T03:30:21Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-16404c05d1d6",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:06:07Z",
+      "attemptedAt": "2026-11-04T04:06:07Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-169a38474fe5",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:07:09Z",
-      "id": "osm-roads-1c396d9f0c2f",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T04:07:09Z",
+      "attemptedAt": "2026-11-04T04:07:09Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-1c44d25700f4",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:08:09Z",
-      "id": "osm-roads-1c4bd9b63904",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T04:09:09Z",
+      "attemptedAt": "2026-11-04T04:09:09Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-2051fa1c48a1",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:10:06Z",
+      "attemptedAt": "2026-11-04T04:10:06Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-2311f118c9ff",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:11:07Z",
+      "attemptedAt": "2026-11-04T04:11:07Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-2334b8bb16e1",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:12:09Z",
+      "attemptedAt": "2026-11-04T04:12:09Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-23c61071153d",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:13:05Z",
+      "attemptedAt": "2026-11-04T04:13:05Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-2666c7c0abb0",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:14:07Z",
+      "attemptedAt": "2026-11-04T04:14:07Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-26bab0082c26",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:14:07Z",
+      "attemptedAt": "2026-11-04T04:14:07Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-26cbf5e8fc7c",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:15:09Z",
+      "attemptedAt": "2026-11-04T04:15:09Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-2c70d6aa5758",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:16:15Z",
+      "attemptedAt": "2026-11-04T04:16:15Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-322f6ab07d5a",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:17:13Z",
-      "id": "osm-roads-2381954ba9cb",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T04:18:19Z",
+      "attemptedAt": "2026-11-04T04:18:19Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-2e7e109f462f",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:19:18Z",
+      "attemptedAt": "2026-11-04T04:19:18Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-314dbc1a3c97",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:19:18Z",
+      "attemptedAt": "2026-11-04T04:19:18Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-325d25e140c8",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:20:21Z",
-      "id": "osm-roads-331c951d3c1d",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T04:25:20Z",
+      "attemptedAt": "2026-11-04T04:25:20Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-368901366f23",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:26:20Z",
-      "id": "osm-roads-3794ccdb4116",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T04:26:20Z",
+      "attemptedAt": "2026-11-04T04:26:20Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-3c9fb12fad05",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:27:19Z",
+      "attemptedAt": "2026-11-04T04:27:19Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-3fe0b7c46e3c",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:28:21Z",
+      "attemptedAt": "2026-11-04T04:28:21Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-35aac3fec583",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:28:21Z",
+      "attemptedAt": "2026-11-04T04:28:21Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-4030d61a4c3a",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:29:20Z",
+      "attemptedAt": "2026-11-04T04:29:20Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-40998e0b320a",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:29:20Z",
+      "attemptedAt": "2026-11-04T04:29:20Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-40c53df01d52",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:30:21Z",
+      "attemptedAt": "2026-11-04T04:30:21Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-42840f7baf73",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:38:36Z",
+      "attemptedAt": "2026-11-04T04:38:36Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-5228032b0fc9",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:38:36Z",
-      "id": "osm-roads-52c5cd4a93de",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T04:38:36Z",
+      "attemptedAt": "2026-11-04T04:38:36Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-587e40d64952",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:40:33Z",
-      "id": "osm-roads-5c5941fe227d",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T04:41:33Z",
+      "attemptedAt": "2026-11-04T04:41:33Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-45e44279d76a",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:42:35Z",
+      "attemptedAt": "2026-11-04T04:42:35Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-4b7ff8401ff3",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:44:35Z",
+      "attemptedAt": "2026-11-04T04:44:35Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-515264097ed2",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:44:35Z",
+      "attemptedAt": "2026-11-04T04:44:35Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-579d9deb757a",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:44:35Z",
+      "attemptedAt": "2026-11-04T04:44:35Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-ffed040d4c2a",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:46:37Z",
+      "attemptedAt": "2026-11-04T04:46:37Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-5d6c26ebf203",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:46:37Z",
+      "attemptedAt": "2026-11-04T04:46:37Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-6173cfef4b3f",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:46:37Z",
+      "attemptedAt": "2026-11-04T04:46:37Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-628a02d75a08",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:46:37Z",
+      "attemptedAt": "2026-11-04T04:46:37Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-eaa9728cde5a",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:46:37Z",
+      "attemptedAt": "2026-11-04T04:46:37Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-fd98d67bfde2",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:46:37Z",
+      "attemptedAt": "2026-11-04T04:46:37Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-ff9d92aadc98",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:49:37Z",
+      "attemptedAt": "2026-11-04T04:49:37Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-6c11457c1ff5",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:49:37Z",
+      "attemptedAt": "2026-11-04T04:49:37Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-e0da04fc5d01",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:49:37Z",
+      "attemptedAt": "2026-11-04T04:49:37Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-e5db865a35e7",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:50:42Z",
+      "attemptedAt": "2026-11-04T04:50:42Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-faec0e334946",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:51:46Z",
+      "attemptedAt": "2026-11-04T04:51:46Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-e7290a55dc49",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:51:46Z",
+      "attemptedAt": "2026-11-04T04:51:46Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-e9d85df74ef1",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:53:47Z",
+      "attemptedAt": "2026-11-04T04:53:47Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-dd032998864e",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:54:48Z",
+      "attemptedAt": "2026-11-04T04:54:48Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-d4721e988d72",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:55:50Z",
+      "attemptedAt": "2026-11-04T04:55:50Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-ca51be3ea3f2",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:55:50Z",
+      "attemptedAt": "2026-11-04T04:55:50Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-cc800efb02f4",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:55:50Z",
-      "id": "osm-roads-d04352c2b406",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T04:55:50Z",
+      "attemptedAt": "2026-11-04T04:55:50Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-d1331346cd12",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T04:57:50Z",
+      "attemptedAt": "2026-11-04T04:57:50Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-c92f08700212",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:00:50Z",
+      "attemptedAt": "2026-11-04T05:00:50Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-b2c0c68883a7",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:03:51Z",
+      "attemptedAt": "2026-11-04T05:03:51Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-ab0336f3f687",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:07:57Z",
+      "attemptedAt": "2026-11-04T05:07:57Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-9b6f6fc2d949",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:07:57Z",
+      "attemptedAt": "2026-11-04T05:07:57Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-9cdc0874cd1f",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:09:58Z",
+      "attemptedAt": "2026-11-04T05:09:58Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-938e52154a64",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:11:51Z",
+      "attemptedAt": "2026-11-04T05:11:51Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-896b2a56a577",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:11:51Z",
+      "attemptedAt": "2026-11-04T05:11:51Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-8a9aaa42c9ca",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:11:51Z",
+      "attemptedAt": "2026-11-04T05:11:51Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-8c11981f848f",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:17:04Z",
+      "attemptedAt": "2026-11-04T05:17:04Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-ee1e072a0ed1",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:17:04Z",
+      "attemptedAt": "2026-11-04T05:17:04Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-f03014e18732",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:17:04Z",
+      "attemptedAt": "2026-11-04T05:17:04Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-ffcedda93f69",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:18:05Z",
+      "attemptedAt": "2026-11-04T05:18:05Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-def2dc659089",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:18:05Z",
+      "attemptedAt": "2026-11-04T05:18:05Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-e4a7868752e1",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:24:04Z",
+      "attemptedAt": "2026-11-04T05:24:04Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-c238021253cd",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:25:07Z",
+      "attemptedAt": "2026-11-04T05:25:07Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-bd00d437913c",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:27:05Z",
+      "attemptedAt": "2026-11-04T05:27:05Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-af58b4af499b",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:28:09Z",
+      "attemptedAt": "2026-11-04T05:28:09Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-ae75b99e0234",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:31:16Z",
+      "attemptedAt": "2026-11-04T05:31:16Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-a0a11f628e95",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:34:19Z",
+      "attemptedAt": "2026-11-04T05:34:19Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-9475703d19b1",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:34:19Z",
-      "id": "osm-roads-9a8cdf6e754a",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:35:18Z",
+      "attemptedAt": "2026-11-04T05:35:18Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-8e97d6fd9b13",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:36:21Z",
+      "attemptedAt": "2026-11-04T05:36:21Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-832138688848",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:36:21Z",
+      "attemptedAt": "2026-11-04T05:36:21Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-84a02a0f8827",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:36:21Z",
+      "attemptedAt": "2026-11-04T05:36:21Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-87ff0984853d",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:37:21Z",
+      "attemptedAt": "2026-11-04T05:37:21Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-8132c759f0a2",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:37:21Z",
+      "attemptedAt": "2026-11-04T05:37:21Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-8227c90d116b",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:38:18Z",
+      "attemptedAt": "2026-11-04T05:38:18Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-65c63575cf13",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:38:18Z",
+      "attemptedAt": "2026-11-04T05:38:18Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-7e9a859e1b32",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:39:18Z",
-      "id": "osm-roads-64a23d2aa50c",
-      "status": "cached"
-    },
-    {
-      "checkedAt": "2026-11-04T05:41:26Z",
+      "attemptedAt": "2026-11-04T05:41:26Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-09cf34c7ca40",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:41:26Z",
+      "attemptedAt": "2026-11-04T05:41:26Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-4a07f017f78d",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:43:32Z",
+      "attemptedAt": "2026-11-04T05:43:32Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-02da49a58928",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:44:32Z",
+      "attemptedAt": "2026-11-04T05:44:32Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-7428c415eaa9",
-      "status": "cached"
+      "status": "deferred"
     },
     {
-      "checkedAt": "2026-11-04T05:45:32Z",
+      "attemptedAt": "2026-11-04T05:45:32Z",
+      "error": "Run acquisition time budget reached",
       "id": "osm-roads-961195f4aeb2",
-      "status": "cached"
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-16c055434f3d",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-1753fde288e4",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-17d9e99cc84a",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-19e3a478c864",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-1a341807bcb1",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-1ae1e5ade814",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-1fe63d66048c",
+      "status": "deferred"
+    },
+    {
+      "attemptedAt": "2026-11-09T12:48:09Z",
+      "error": "Run acquisition time budget reached",
+      "id": "osm-roads-202188d500ee",
+      "status": "deferred"
     }
   ],
   "directionalCoverage": {
-    "availableBatches": 117,
-    "candidates": 1071,
-    "complete": 1071,
+    "availableBatches": 102,
+    "candidates": 1074,
+    "complete": 871,
     "records": [
       {
         "complete": true,
@@ -2722,27 +2822,33 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-arlington-acsp032",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-3aaac3ccdecd"
+        ],
         "shards": [
-          "osm-roads-58937cc07a9b"
+          "osm-roads-3aaac3ccdecd"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-arlington-acsp033",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-3aaac3ccdecd"
+        ],
         "shards": [
-          "osm-roads-58937cc07a9b"
+          "osm-roads-3aaac3ccdecd"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-arlington-acsp034",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-3aaac3ccdecd"
+        ],
         "shards": [
-          "osm-roads-58937cc07a9b"
+          "osm-roads-3aaac3ccdecd"
         ]
       },
       {
@@ -3242,11 +3348,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-2379-n-laramie-ave-0",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -3338,11 +3446,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-2410-n-central-ave-180",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -3466,11 +3576,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-2806-n-central-ave-180",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -3562,11 +3674,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-3133-n-harlem-ave-0",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -3642,11 +3756,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-3206-n-central-ave-180",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -4226,11 +4342,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-5152-w-fullerton-ave-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -4346,27 +4464,33 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-5550-w-belmont-ave-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-5550-w-fullerton-ave-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-5564-w-diversey-ave-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -4410,11 +4534,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-5948-w-diversey-ave-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -4434,11 +4560,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-6003-w-diversey-ave-90",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -4546,11 +4674,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-6384-w-fullerton-ave-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -4562,11 +4692,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-6401-w-fullerton-ave-90",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -4674,11 +4806,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-red-7154-w-belmont-ave-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -5306,35 +5440,43 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi039-90",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi040-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi041-90",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi042-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -5794,19 +5936,23 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi105-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi105-90",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -7210,35 +7356,43 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi254-270",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi254-90",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi255-0",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-chicago-speed-chi255-180",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -7314,67 +7468,83 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0008",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0037",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-3aaac3ccdecd"
+        ],
         "shards": [
-          "osm-roads-58937cc07a9b"
+          "osm-roads-3aaac3ccdecd"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0038",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0042",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0044",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0045",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0054",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0057",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
@@ -7382,39 +7552,47 @@
         "id": "agency-dc-ate-0064",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0079",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0083",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-dc70c12e85fc"
+        ],
         "shards": [
-          "osm-roads-5c5941fe227d"
+          "osm-roads-dc70c12e85fc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0100",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0106",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
@@ -7422,47 +7600,57 @@
         "id": "agency-dc-ate-0113",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0127",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0129",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0137",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0138",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0140",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
@@ -7470,15 +7658,17 @@
         "id": "agency-dc-ate-0141",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0144",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
@@ -7486,7 +7676,7 @@
         "id": "agency-dc-ate-0147",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
@@ -7494,47 +7684,57 @@
         "id": "agency-dc-ate-0148",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0150",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0155",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0160",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0162",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0166",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
@@ -7542,95 +7742,117 @@
         "id": "agency-dc-ate-0170",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0171",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0173",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0183",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0199",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0200",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0204",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0206",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0207",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0209",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0211",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0212",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
@@ -7638,335 +7860,417 @@
         "id": "agency-dc-ate-0218",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0222",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0238",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0240",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0241",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0247",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0248",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0253",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0264",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0278",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0285",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0290",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0291",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0300",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0308",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0309",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0313",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-dc70c12e85fc"
+        ],
         "shards": [
-          "osm-roads-5c5941fe227d"
+          "osm-roads-dc70c12e85fc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0317",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0320",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0326",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0327",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0330",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0333",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-dc70c12e85fc"
+        ],
         "shards": [
-          "osm-roads-5c5941fe227d"
+          "osm-roads-dc70c12e85fc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0335",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-dc70c12e85fc"
+        ],
         "shards": [
-          "osm-roads-5c5941fe227d"
+          "osm-roads-dc70c12e85fc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0337",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0338",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0340",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0341",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0345",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0352",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0356",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0364",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0365",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0369",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0381",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0383",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0403",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0413",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0416",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0462",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0485",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0490",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
@@ -7978,179 +8282,223 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0516",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0522",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0523",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0524",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0525",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-dc70c12e85fc"
+        ],
         "shards": [
-          "osm-roads-5c5941fe227d"
+          "osm-roads-dc70c12e85fc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0527",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0528",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0530",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0531",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0532",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0536",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0538",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0539",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0545",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0551",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0552",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0553",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0554",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0555",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0556",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0558",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0559",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
@@ -8158,191 +8506,237 @@
         "id": "agency-dc-ate-0560",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0576",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0578",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0579",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0580",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-3aaac3ccdecd"
+        ],
         "shards": [
-          "osm-roads-58937cc07a9b"
+          "osm-roads-3aaac3ccdecd"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0581",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-3aaac3ccdecd"
+        ],
         "shards": [
-          "osm-roads-58937cc07a9b"
+          "osm-roads-3aaac3ccdecd"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0584",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0585",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-3aaac3ccdecd"
+        ],
         "shards": [
-          "osm-roads-58937cc07a9b"
+          "osm-roads-3aaac3ccdecd"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0586",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0590",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0592",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0597",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0598",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0600",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0601",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0602",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0605",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0609",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0700",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0701",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0704",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0705",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0706",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0707",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
@@ -8354,67 +8748,83 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0784",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0785",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-420593e74521"
+        ],
         "shards": [
-          "osm-roads-1c4bd9b63904"
+          "osm-roads-420593e74521"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0804",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0805",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0808",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0809",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0814",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0819",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
@@ -8422,71 +8832,87 @@
         "id": "agency-dc-ate-0820",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0823",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-dc70c12e85fc"
+        ],
         "shards": [
-          "osm-roads-5c5941fe227d"
+          "osm-roads-dc70c12e85fc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0824",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-dc70c12e85fc"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-dc70c12e85fc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0827",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0828",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0831",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0832",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0833",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0834",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
@@ -8498,107 +8924,133 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0837",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-682268bbf836"
+        ],
         "shards": [
-          "osm-roads-aaf12dfd6712"
+          "osm-roads-682268bbf836"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0838",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0839",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0840",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0841",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0842",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0843",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
         "shards": [
-          "osm-roads-d04352c2b406"
+          "osm-roads-4ae431170d82"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0844",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0848",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0849",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-5c67e9c4a50c"
+        ],
         "shards": [
-          "osm-roads-91cda25b1e8c"
+          "osm-roads-5c67e9c4a50c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0850",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0851",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0853",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
@@ -8606,71 +9058,115 @@
         "id": "agency-dc-ate-0854",
         "pendingShards": [],
         "shards": [
-          "osm-roads-331c951d3c1d"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0863",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-790322cb2d26"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0865",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0869",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-2381954ba9cb"
+          "osm-roads-e5ad2438c3b1"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0870",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-b0adf5ba6147"
+        ],
         "shards": [
-          "osm-roads-4ee3c34d1a3c"
+          "osm-roads-b0adf5ba6147"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0874",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-548c2de1cc42"
+        ],
         "shards": [
-          "osm-roads-c2fd664c97c5"
+          "osm-roads-548c2de1cc42"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0883",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-af2e4fa2ab2a"
+        ],
         "shards": [
-          "osm-roads-c2710232f1a1"
+          "osm-roads-af2e4fa2ab2a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-dc-ate-0887",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-e5ad2438c3b1"
+        ],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-e5ad2438c3b1"
+        ]
+      },
+      {
+        "complete": false,
+        "id": "agency-dc-ate-0888",
+        "pendingShards": [
+          "osm-roads-790322cb2d26"
+        ],
+        "shards": [
+          "osm-roads-790322cb2d26"
+        ]
+      },
+      {
+        "complete": false,
+        "id": "agency-dc-ate-0891",
+        "pendingShards": [
+          "osm-roads-3aaac3ccdecd"
+        ],
+        "shards": [
+          "osm-roads-3aaac3ccdecd"
+        ]
+      },
+      {
+        "complete": false,
+        "id": "agency-dc-ate-0892",
+        "pendingShards": [
+          "osm-roads-4ae431170d82"
+        ],
+        "shards": [
+          "osm-roads-4ae431170d82"
         ]
       },
       {
         "complete": true,
-        "id": "agency-dc-ate-0888",
+        "id": "agency-dc-ate-0895",
         "pendingShards": [],
         "shards": [
-          "osm-roads-9a8cdf6e754a"
+          "osm-roads-0b8dbc615e3c"
         ]
       },
       {
@@ -8730,67 +9226,83 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-phoenix-points-e-b-thunderbird-rd-35th-ave-to-i-17",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-6bac910fcc8b"
+        ],
         "shards": [
-          "osm-roads-3794ccdb4116"
+          "osm-roads-6bac910fcc8b"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-phoenix-points-n-b-32nd-st-greenway-pkwy-to-bell-rd",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-6bac910fcc8b"
+        ],
         "shards": [
-          "osm-roads-3794ccdb4116"
+          "osm-roads-6bac910fcc8b"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-phoenix-points-n-b-51st-ave-van-buren-st-to-i-10",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-d479ebb9bbfc"
+        ],
         "shards": [
-          "osm-roads-1c396d9f0c2f"
+          "osm-roads-d479ebb9bbfc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-phoenix-points-n-b-7th-st-thomas-rd-to-indian-school-rd",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-d479ebb9bbfc"
+        ],
         "shards": [
-          "osm-roads-1c396d9f0c2f"
+          "osm-roads-d479ebb9bbfc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-phoenix-points-w-b-baseline-rd-16th-st-to-24th-st",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-d479ebb9bbfc"
+        ],
         "shards": [
-          "osm-roads-1c396d9f0c2f"
+          "osm-roads-d479ebb9bbfc"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-phoenix-points-w-b-bell-rd-i-17-to-19th-ave",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-6bac910fcc8b"
+        ],
         "shards": [
-          "osm-roads-3794ccdb4116"
+          "osm-roads-6bac910fcc8b"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-phoenix-points-w-b-northern-avenue-16th-street-to-18th-street",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-6bac910fcc8b"
+        ],
         "shards": [
-          "osm-roads-3794ccdb4116"
+          "osm-roads-6bac910fcc8b"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "agency-phoenix-points-w-b-thunderbird-rd-i-17-to-19th-ave",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-6bac910fcc8b"
+        ],
         "shards": [
-          "osm-roads-3794ccdb4116"
+          "osm-roads-6bac910fcc8b"
         ]
       },
       {
@@ -9286,11 +9798,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "osm-node-11112331703",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-682268bbf836"
+        ],
         "shards": [
-          "osm-roads-aaf12dfd6712"
+          "osm-roads-682268bbf836"
         ]
       },
       {
@@ -9638,43 +10152,53 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "osm-node-12054165000",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-682268bbf836"
+        ],
         "shards": [
-          "osm-roads-aaf12dfd6712"
+          "osm-roads-682268bbf836"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "osm-node-12067253043",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "osm-node-12067253046",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "osm-node-12067304582",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-682268bbf836"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-682268bbf836"
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "osm-node-12067305537",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-f3fe5b6c852a"
+        ],
         "shards": [
-          "osm-roads-64a23d2aa50c"
+          "osm-roads-f3fe5b6c852a"
         ]
       },
       {
@@ -10326,11 +10850,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "osm-node-4063880152",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-682268bbf836"
+        ],
         "shards": [
-          "osm-roads-aaf12dfd6712"
+          "osm-roads-682268bbf836"
         ]
       },
       {
@@ -10406,11 +10932,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "osm-node-5076522476",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -10566,11 +11094,13 @@
         ]
       },
       {
-        "complete": true,
+        "complete": false,
         "id": "osm-node-8023991516",
-        "pendingShards": [],
+        "pendingShards": [
+          "osm-roads-66d4d28c1ac5"
+        ],
         "shards": [
-          "osm-roads-52c5cd4a93de"
+          "osm-roads-66d4d28c1ac5"
         ]
       },
       {
@@ -10942,14 +11472,14 @@
     "osm-roads-56ad14c17f29",
     "osm-roads-40998e0b320a",
     "osm-roads-d2f7c4523a68",
-    "osm-roads-1c396d9f0c2f",
+    "osm-roads-d479ebb9bbfc",
     "osm-roads-8d336e67c8fa",
     "osm-roads-51a78a5bd71b",
     "osm-roads-3d6a06497eaf",
     "osm-roads-031f310485bc",
     "osm-roads-8c87e615f032",
     "osm-roads-2a1eb08c5ea3",
-    "osm-roads-3794ccdb4116",
+    "osm-roads-6bac910fcc8b",
     "osm-roads-0048f9e803de",
     "osm-roads-202188d500ee",
     "osm-roads-c9bd980dafc5",
@@ -11047,19 +11577,19 @@
     "osm-roads-2c70d6aa5758",
     "osm-roads-ffed040d4c2a",
     "osm-roads-1415a9f6202e",
-    "osm-roads-58937cc07a9b",
-    "osm-roads-c2710232f1a1",
-    "osm-roads-4ee3c34d1a3c",
-    "osm-roads-c2fd664c97c5",
-    "osm-roads-64a23d2aa50c",
-    "osm-roads-aaf12dfd6712",
-    "osm-roads-331c951d3c1d",
-    "osm-roads-1c4bd9b63904",
-    "osm-roads-d04352c2b406",
-    "osm-roads-9a8cdf6e754a",
-    "osm-roads-2381954ba9cb",
-    "osm-roads-91cda25b1e8c",
-    "osm-roads-5c5941fe227d",
+    "osm-roads-3aaac3ccdecd",
+    "osm-roads-af2e4fa2ab2a",
+    "osm-roads-b0adf5ba6147",
+    "osm-roads-548c2de1cc42",
+    "osm-roads-f3fe5b6c852a",
+    "osm-roads-682268bbf836",
+    "osm-roads-0b8dbc615e3c",
+    "osm-roads-420593e74521",
+    "osm-roads-4ae431170d82",
+    "osm-roads-790322cb2d26",
+    "osm-roads-e5ad2438c3b1",
+    "osm-roads-5c67e9c4a50c",
+    "osm-roads-dc70c12e85fc",
     "osm-roads-9475703d19b1",
     "osm-roads-07c602a2823e",
     "osm-roads-745f7e7024dd",
@@ -11099,7 +11629,7 @@
     "osm-roads-25e163b63a4f",
     "osm-roads-5ca0ce3d5568",
     "osm-roads-e17933e3d00b",
-    "osm-roads-aa3ef7c8581e",
+    "osm-roads-11b42ce6509d",
     "osm-roads-388cedb81866",
     "osm-roads-27f4b2564f5a",
     "osm-roads-6c73870df855",
@@ -11153,7 +11683,7 @@
     "osm-roads-9b54a8b6dc73",
     "osm-roads-f4ae953ac25d",
     "osm-roads-6c11457c1ff5",
-    "osm-roads-52c5cd4a93de",
+    "osm-roads-66d4d28c1ac5",
     "osm-roads-35aac3fec583",
     "osm-roads-861bf02b0227",
     "osm-roads-2334b8bb16e1",

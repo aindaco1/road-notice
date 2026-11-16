@@ -1,13 +1,14 @@
 # Weekly camera maintenance
 
-Generated 2026-11-09T17:00:09Z
+Generated 2026-11-16T12:57:22Z
 
-47 registered sources checked; 2 evidence-based identity matches; 509 unresolved findings.
+47 registered sources checked; 2 evidence-based identity matches; 587 unresolved findings.
 
 New unambiguous agency records and validated coordinate estimates are staged automatically. Ambiguous identities, source removals, changed page layouts, and failed checks retain previous coverage and remain in this queue until reviewed.
 
 | Source or record | Finding |
 |---|---|
+| road-acquisition | 871 / 1074 directional cameras have complete road-query coverage; see speed-limit-fetch.json |
 | road-zones | 4 road zones need source rechecks; validated geometry remains active |
 | overture | 34 regions unavailable, retained or deferred; see regional results |
 | abq-documents | Source page changed |
@@ -25,7 +26,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | hillsborough | Source page changed |
 | iihs-speed | Source page changed |
 | iihs-red | Source page changed |
-| mesa | Source page changed |
+| scottsdale | Source page changed |
 | prince-georges-red | HTTP Error 403: Forbidden |
 | snellville | Source page changed |
 | wheat-ridge | HTTP Error 403: Forbidden |
@@ -248,42 +249,14 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-nb | Nearby accepted record; identity/approach review required |
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-eb | Nearby accepted record; identity/approach review required |
 | agency-hillsborough-intersections-fletcher-avenue-bruce-b-downs-boulevard-wb | Nearby accepted record; identity/approach review required |
+| osm-node-14310967264 | New OSM record overlaps accepted agency data; review identity |
 | osm-node-13261832160 | New OSM record overlaps accepted agency data; review identity |
+| seattle-school-policy | The read operation timed out |
 | chicago-school-park-policy | HTTP Error 403: Forbidden |
-| nyc-roads--1485-810 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1484-810 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1484-811 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1483-811 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1483-812 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1481-814 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1480-811 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1480-813 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1480-814 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1479-812 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1479-814 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1479-815 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1479-817 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1478-813 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1478-814 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1478-817 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1477-813 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1477-814 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1477-816 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1476-813 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1476-814 | HTTP Error 503: Service Unavailable |
-| nyc-roads--1475-814 | HTTP Error 503: Service Unavailable |
-| osm-roads-19e3a478c864 | HTTP Error 504: Gateway Time-out |
-| osm-roads-1a341807bcb1 | HTTP Error 504: Gateway Time-out |
-| osm-roads-1ae1e5ade814 | HTTP Error 504: Gateway Time-out |
-| osm-roads-1fe63d66048c | HTTP Error 504: Gateway Time-out |
-| osm-roads-202188d500ee | Run acquisition time budget reached |
-| osm-roads-206434df4f9a | Run acquisition time budget reached |
-| osm-roads-206d024e4b15 | Run acquisition time budget reached |
-| osm-roads-212c51d39fdc | Run acquisition time budget reached |
-| osm-roads-21e897e94d9e | Run acquisition time budget reached |
-| osm-roads-245bb57964fe | Run acquisition time budget reached |
-| osm-roads-25e163b63a4f | Run acquisition time budget reached |
-| osm-roads-2649c5e7adec | Run acquisition time budget reached |
+| osm-roads-11b42ce6509d | HTTP Error 504: Gateway Time-out |
+| osm-roads-206d024e4b15 | HTTP Error 504: Gateway Time-out |
+| osm-roads-212c51d39fdc | HTTP Error 504: Gateway Time-out |
+| osm-roads-25e163b63a4f | HTTP Error 504: Gateway Time-out |
 | osm-roads-269474ddf5a5 | Run acquisition time budget reached |
 | osm-roads-26995a028745 | Run acquisition time budget reached |
 | osm-roads-2732090bbe3b | Run acquisition time budget reached |
@@ -303,6 +276,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-39913a3ce3c6 | Run acquisition time budget reached |
 | osm-roads-39fc835ef7e6 | Run acquisition time budget reached |
 | osm-roads-3a74659006b3 | Run acquisition time budget reached |
+| osm-roads-3aaac3ccdecd | Run acquisition time budget reached |
 | osm-roads-3b987989b91b | Run acquisition time budget reached |
 | osm-roads-3d51ae8164fe | Run acquisition time budget reached |
 | osm-roads-3d6a06497eaf | Run acquisition time budget reached |
@@ -313,12 +287,14 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-40e3464261c5 | Run acquisition time budget reached |
 | osm-roads-40f000f6cde3 | Run acquisition time budget reached |
 | osm-roads-41985ce16a92 | Run acquisition time budget reached |
+| osm-roads-420593e74521 | Run acquisition time budget reached |
 | osm-roads-429f769d2902 | Run acquisition time budget reached |
 | osm-roads-4309daef80ca | Run acquisition time budget reached |
 | osm-roads-464637396b1d | Run acquisition time budget reached |
 | osm-roads-46857f912293 | Run acquisition time budget reached |
 | osm-roads-47bb17d5e86d | Run acquisition time budget reached |
 | osm-roads-4a5e1d4e108a | Run acquisition time budget reached |
+| osm-roads-4ae431170d82 | Run acquisition time budget reached |
 | osm-roads-4d46da63c186 | Run acquisition time budget reached |
 | osm-roads-4f4738e24489 | Run acquisition time budget reached |
 | osm-roads-51a78a5bd71b | Run acquisition time budget reached |
@@ -326,9 +302,11 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-52809d7de876 | Run acquisition time budget reached |
 | osm-roads-5325e684f01e | Run acquisition time budget reached |
 | osm-roads-539d159e3aed | Run acquisition time budget reached |
+| osm-roads-548c2de1cc42 | Run acquisition time budget reached |
 | osm-roads-56ad14c17f29 | Run acquisition time budget reached |
 | osm-roads-57947f583800 | Run acquisition time budget reached |
 | osm-roads-5c03c4be36da | Run acquisition time budget reached |
+| osm-roads-5c67e9c4a50c | Run acquisition time budget reached |
 | osm-roads-5ca0ce3d5568 | Run acquisition time budget reached |
 | osm-roads-5dcfeac647c9 | Run acquisition time budget reached |
 | osm-roads-5e432e691cc8 | Run acquisition time budget reached |
@@ -341,7 +319,10 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-666f4dbb0b25 | Run acquisition time budget reached |
 | osm-roads-668175f7f116 | Run acquisition time budget reached |
 | osm-roads-668b509cb457 | Run acquisition time budget reached |
+| osm-roads-66d4d28c1ac5 | Run acquisition time budget reached |
+| osm-roads-682268bbf836 | Run acquisition time budget reached |
 | osm-roads-6b66948f1476 | Run acquisition time budget reached |
+| osm-roads-6bac910fcc8b | Run acquisition time budget reached |
 | osm-roads-6c73870df855 | Run acquisition time budget reached |
 | osm-roads-6e4dfd610118 | Run acquisition time budget reached |
 | osm-roads-6ebe5cdfe40e | Run acquisition time budget reached |
@@ -355,6 +336,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-77285883518f | Run acquisition time budget reached |
 | osm-roads-77825ef701b9 | Run acquisition time budget reached |
 | osm-roads-785822a667cb | Run acquisition time budget reached |
+| osm-roads-790322cb2d26 | Run acquisition time budget reached |
 | osm-roads-79befaf81809 | Run acquisition time budget reached |
 | osm-roads-7b4fa967ceb9 | Run acquisition time budget reached |
 | osm-roads-7e45d006f266 | Run acquisition time budget reached |
@@ -404,14 +386,15 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-a8d436e56ba2 | Run acquisition time budget reached |
 | osm-roads-a97081bafd01 | Run acquisition time budget reached |
 | osm-roads-a9fa1de03bf2 | Run acquisition time budget reached |
-| osm-roads-aa3ef7c8581e | Run acquisition time budget reached |
 | osm-roads-ac21440ffc08 | Run acquisition time budget reached |
 | osm-roads-ac415617449a | Run acquisition time budget reached |
 | osm-roads-ac48562eb73d | Run acquisition time budget reached |
 | osm-roads-ade1fdca9cac | Run acquisition time budget reached |
 | osm-roads-ae6e3efdd484 | Run acquisition time budget reached |
+| osm-roads-af2e4fa2ab2a | Run acquisition time budget reached |
 | osm-roads-af33a38c4981 | Run acquisition time budget reached |
 | osm-roads-b07caeed3837 | Run acquisition time budget reached |
+| osm-roads-b0adf5ba6147 | Run acquisition time budget reached |
 | osm-roads-b0c1efa63494 | Run acquisition time budget reached |
 | osm-roads-b3af58771197 | Run acquisition time budget reached |
 | osm-roads-b53a658616f2 | Run acquisition time budget reached |
@@ -441,6 +424,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-d28d945d8447 | Run acquisition time budget reached |
 | osm-roads-d2d687640cae | Run acquisition time budget reached |
 | osm-roads-d2f7c4523a68 | Run acquisition time budget reached |
+| osm-roads-d479ebb9bbfc | Run acquisition time budget reached |
 | osm-roads-d555f7d39828 | Run acquisition time budget reached |
 | osm-roads-d60a0a71c7ae | Run acquisition time budget reached |
 | osm-roads-d694f612241f | Run acquisition time budget reached |
@@ -450,6 +434,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-d94e18db666b | Run acquisition time budget reached |
 | osm-roads-db2a118b5b36 | Run acquisition time budget reached |
 | osm-roads-dc3b7eda1353 | Run acquisition time budget reached |
+| osm-roads-dc70c12e85fc | Run acquisition time budget reached |
 | osm-roads-dd00c5cd85b5 | Run acquisition time budget reached |
 | osm-roads-ddda3fa6d0c0 | Run acquisition time budget reached |
 | osm-roads-de090dfcb2a8 | Run acquisition time budget reached |
@@ -459,6 +444,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-e1630bd9671f | Run acquisition time budget reached |
 | osm-roads-e17933e3d00b | Run acquisition time budget reached |
 | osm-roads-e2f4d6a0866e | Run acquisition time budget reached |
+| osm-roads-e5ad2438c3b1 | Run acquisition time budget reached |
 | osm-roads-e75474f94ac1 | Run acquisition time budget reached |
 | osm-roads-e7c39156de5a | Run acquisition time budget reached |
 | osm-roads-e7f88a4c4dca | Run acquisition time budget reached |
@@ -470,6 +456,7 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-ee8138569ef6 | Run acquisition time budget reached |
 | osm-roads-f16d7b340a4b | Run acquisition time budget reached |
 | osm-roads-f20b4bbb71d8 | Run acquisition time budget reached |
+| osm-roads-f3fe5b6c852a | Run acquisition time budget reached |
 | osm-roads-f4ae953ac25d | Run acquisition time budget reached |
 | osm-roads-f5dd467ca300 | Run acquisition time budget reached |
 | osm-roads-f6f8e9704821 | Run acquisition time budget reached |
@@ -484,29 +471,25 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-09cbd7731b03 | Run acquisition time budget reached |
 | osm-roads-104a47bcdb75 | Run acquisition time budget reached |
 | osm-roads-11a0014b2f8b | Run acquisition time budget reached |
-| osm-roads-4ee3c34d1a3c | Run acquisition time budget reached |
-| osm-roads-58937cc07a9b | Run acquisition time budget reached |
 | osm-roads-6ef57a2ed3b7 | Run acquisition time budget reached |
 | osm-roads-7e352e52a4d6 | Run acquisition time budget reached |
 | osm-roads-83f985a5f81a | Run acquisition time budget reached |
 | osm-roads-861bf02b0227 | Run acquisition time budget reached |
-| osm-roads-91cda25b1e8c | Run acquisition time budget reached |
 | osm-roads-92ecab4328bf | Run acquisition time budget reached |
 | osm-roads-9f146c59a4ac | Run acquisition time budget reached |
 | osm-roads-a4f74d69ae64 | Run acquisition time budget reached |
 | osm-roads-a61a8345e672 | Run acquisition time budget reached |
 | osm-roads-a7e2417beddc | Run acquisition time budget reached |
 | osm-roads-a954c7bdb405 | Run acquisition time budget reached |
-| osm-roads-aaf12dfd6712 | Run acquisition time budget reached |
 | osm-roads-b14b73522f20 | Run acquisition time budget reached |
 | osm-roads-b24d287ab25d | Run acquisition time budget reached |
 | osm-roads-bae37542e4a1 | Run acquisition time budget reached |
 | osm-roads-c19c0ca47a04 | Run acquisition time budget reached |
-| osm-roads-c2710232f1a1 | Run acquisition time budget reached |
-| osm-roads-c2fd664c97c5 | Run acquisition time budget reached |
 | osm-roads-c3946e9a9501 | Run acquisition time budget reached |
 | osm-roads-d8a0fd8b2206 | Run acquisition time budget reached |
 | osm-roads-f02f90885da8 | Run acquisition time budget reached |
+| osm-roads-73963b9a8a79 | Run acquisition time budget reached |
+| osm-roads-003f4704b28a | Run acquisition time budget reached |
 | osm-roads-0048f9e803de | Run acquisition time budget reached |
 | osm-roads-031f310485bc | Run acquisition time budget reached |
 | osm-roads-0550c2b8c1a0 | Run acquisition time budget reached |
@@ -517,6 +500,101 @@ New unambiguous agency records and validated coordinate estimates are staged aut
 | osm-roads-0d75481b5429 | Run acquisition time budget reached |
 | osm-roads-103e25461c35 | Run acquisition time budget reached |
 | osm-roads-1275d879e786 | Run acquisition time budget reached |
+| osm-roads-048910866479 | Run acquisition time budget reached |
+| osm-roads-08c3543fa4f9 | Run acquisition time budget reached |
+| osm-roads-0e355aa41fb4 | Run acquisition time budget reached |
+| osm-roads-1120c60977c5 | Run acquisition time budget reached |
+| osm-roads-1262af5e2c95 | Run acquisition time budget reached |
+| osm-roads-13e574b42dd6 | Run acquisition time budget reached |
+| osm-roads-1415a9f6202e | Run acquisition time budget reached |
+| osm-roads-16404c05d1d6 | Run acquisition time budget reached |
+| osm-roads-169a38474fe5 | Run acquisition time budget reached |
+| osm-roads-1c44d25700f4 | Run acquisition time budget reached |
+| osm-roads-2051fa1c48a1 | Run acquisition time budget reached |
+| osm-roads-2311f118c9ff | Run acquisition time budget reached |
+| osm-roads-2334b8bb16e1 | Run acquisition time budget reached |
+| osm-roads-23c61071153d | Run acquisition time budget reached |
+| osm-roads-2666c7c0abb0 | Run acquisition time budget reached |
+| osm-roads-26bab0082c26 | Run acquisition time budget reached |
+| osm-roads-26cbf5e8fc7c | Run acquisition time budget reached |
+| osm-roads-2c70d6aa5758 | Run acquisition time budget reached |
+| osm-roads-322f6ab07d5a | Run acquisition time budget reached |
+| osm-roads-2e7e109f462f | Run acquisition time budget reached |
+| osm-roads-314dbc1a3c97 | Run acquisition time budget reached |
+| osm-roads-325d25e140c8 | Run acquisition time budget reached |
+| osm-roads-368901366f23 | Run acquisition time budget reached |
+| osm-roads-3c9fb12fad05 | Run acquisition time budget reached |
+| osm-roads-3fe0b7c46e3c | Run acquisition time budget reached |
+| osm-roads-35aac3fec583 | Run acquisition time budget reached |
+| osm-roads-4030d61a4c3a | Run acquisition time budget reached |
+| osm-roads-40998e0b320a | Run acquisition time budget reached |
+| osm-roads-40c53df01d52 | Run acquisition time budget reached |
+| osm-roads-42840f7baf73 | Run acquisition time budget reached |
+| osm-roads-5228032b0fc9 | Run acquisition time budget reached |
+| osm-roads-587e40d64952 | Run acquisition time budget reached |
+| osm-roads-45e44279d76a | Run acquisition time budget reached |
+| osm-roads-4b7ff8401ff3 | Run acquisition time budget reached |
+| osm-roads-515264097ed2 | Run acquisition time budget reached |
+| osm-roads-579d9deb757a | Run acquisition time budget reached |
+| osm-roads-ffed040d4c2a | Run acquisition time budget reached |
+| osm-roads-5d6c26ebf203 | Run acquisition time budget reached |
+| osm-roads-6173cfef4b3f | Run acquisition time budget reached |
+| osm-roads-628a02d75a08 | Run acquisition time budget reached |
+| osm-roads-eaa9728cde5a | Run acquisition time budget reached |
+| osm-roads-fd98d67bfde2 | Run acquisition time budget reached |
+| osm-roads-ff9d92aadc98 | Run acquisition time budget reached |
+| osm-roads-6c11457c1ff5 | Run acquisition time budget reached |
+| osm-roads-e0da04fc5d01 | Run acquisition time budget reached |
+| osm-roads-e5db865a35e7 | Run acquisition time budget reached |
+| osm-roads-faec0e334946 | Run acquisition time budget reached |
+| osm-roads-e7290a55dc49 | Run acquisition time budget reached |
+| osm-roads-e9d85df74ef1 | Run acquisition time budget reached |
+| osm-roads-dd032998864e | Run acquisition time budget reached |
+| osm-roads-d4721e988d72 | Run acquisition time budget reached |
+| osm-roads-ca51be3ea3f2 | Run acquisition time budget reached |
+| osm-roads-cc800efb02f4 | Run acquisition time budget reached |
+| osm-roads-d1331346cd12 | Run acquisition time budget reached |
+| osm-roads-c92f08700212 | Run acquisition time budget reached |
+| osm-roads-b2c0c68883a7 | Run acquisition time budget reached |
+| osm-roads-ab0336f3f687 | Run acquisition time budget reached |
+| osm-roads-9b6f6fc2d949 | Run acquisition time budget reached |
+| osm-roads-9cdc0874cd1f | Run acquisition time budget reached |
+| osm-roads-938e52154a64 | Run acquisition time budget reached |
+| osm-roads-896b2a56a577 | Run acquisition time budget reached |
+| osm-roads-8a9aaa42c9ca | Run acquisition time budget reached |
+| osm-roads-8c11981f848f | Run acquisition time budget reached |
+| osm-roads-ee1e072a0ed1 | Run acquisition time budget reached |
+| osm-roads-f03014e18732 | Run acquisition time budget reached |
+| osm-roads-ffcedda93f69 | Run acquisition time budget reached |
+| osm-roads-def2dc659089 | Run acquisition time budget reached |
+| osm-roads-e4a7868752e1 | Run acquisition time budget reached |
+| osm-roads-c238021253cd | Run acquisition time budget reached |
+| osm-roads-bd00d437913c | Run acquisition time budget reached |
+| osm-roads-af58b4af499b | Run acquisition time budget reached |
+| osm-roads-ae75b99e0234 | Run acquisition time budget reached |
+| osm-roads-a0a11f628e95 | Run acquisition time budget reached |
+| osm-roads-9475703d19b1 | Run acquisition time budget reached |
+| osm-roads-8e97d6fd9b13 | Run acquisition time budget reached |
+| osm-roads-832138688848 | Run acquisition time budget reached |
+| osm-roads-84a02a0f8827 | Run acquisition time budget reached |
+| osm-roads-87ff0984853d | Run acquisition time budget reached |
+| osm-roads-8132c759f0a2 | Run acquisition time budget reached |
+| osm-roads-8227c90d116b | Run acquisition time budget reached |
+| osm-roads-65c63575cf13 | Run acquisition time budget reached |
+| osm-roads-7e9a859e1b32 | Run acquisition time budget reached |
+| osm-roads-09cf34c7ca40 | Run acquisition time budget reached |
+| osm-roads-4a07f017f78d | Run acquisition time budget reached |
+| osm-roads-02da49a58928 | Run acquisition time budget reached |
+| osm-roads-7428c415eaa9 | Run acquisition time budget reached |
+| osm-roads-961195f4aeb2 | Run acquisition time budget reached |
+| osm-roads-16c055434f3d | Run acquisition time budget reached |
+| osm-roads-1753fde288e4 | Run acquisition time budget reached |
+| osm-roads-17d9e99cc84a | Run acquisition time budget reached |
+| osm-roads-19e3a478c864 | Run acquisition time budget reached |
+| osm-roads-1a341807bcb1 | Run acquisition time budget reached |
+| osm-roads-1ae1e5ade814 | Run acquisition time budget reached |
+| osm-roads-1fe63d66048c | Run acquisition time budget reached |
+| osm-roads-202188d500ee | Run acquisition time budget reached |
 
 Full added/removed facts, nearby candidates, and evidence are in maintenance.json and the source-specific reports.
 

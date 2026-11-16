@@ -1,6 +1,10 @@
 {
-  "generatedAt": "2026-11-09T17:00:09Z",
+  "generatedAt": "2026-11-16T12:57:22Z",
   "items": [
+    {
+      "reason": "871 / 1074 directional cameras have complete road-query coverage; see speed-limit-fetch.json",
+      "source": "road-acquisition"
+    },
     {
       "reason": "4 road zones need source rechecks; validated geometry remains active",
       "source": "road-zones"
@@ -135,8 +139,8 @@
       "lastGoodAt": null,
       "reason": "Source page changed",
       "removed": [],
-      "source": "mesa",
-      "url": "https://www.mesaaz.gov/Public-Safety/Mesa-Police/About-Mesa-Police/Photo-Safety-Program"
+      "source": "scottsdale",
+      "url": "https://www.scottsdaleaz.gov/police/police-units/photo-enforcement"
     },
     {
       "added": [],
@@ -2620,6 +2624,13 @@
       "reason": "Nearby accepted record; identity/approach review required"
     },
     {
+      "id": "osm-node-14310967264",
+      "nearby": [
+        "agency-phoenix-points-shea-blvd-36th-st-to-40th-st"
+      ],
+      "reason": "New OSM record overlaps accepted agency data; review identity"
+    },
+    {
       "id": "osm-node-13261832160",
       "nearby": [
         "agency-chicago-speed-chi219-0",
@@ -2628,179 +2639,34 @@
       "reason": "New OSM record overlaps accepted agency data; review identity"
     },
     {
+      "lastGoodAt": "2026-11-09T12:48:11Z",
+      "reason": "The read operation timed out",
+      "source": "seattle-school-policy"
+    },
+    {
       "lastGoodAt": "2026-09-15T05:50:03Z",
       "reason": "HTTP Error 403: Forbidden",
       "source": "chicago-school-park-policy"
     },
     {
-      "lastGoodAt": "2026-10-19T08:45:13Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1485-810"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:45:19Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1484-810"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:45:26Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1484-811"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:45:35Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1483-811"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:45:41Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1483-812"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:45:55Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1481-814"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:46:04Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1480-811"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:46:12Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1480-813"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:46:21Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1480-814"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:46:27Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1479-812"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:46:35Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1479-814"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:46:41Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1479-815"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:46:46Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1479-817"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:46:52Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1478-813"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:46:59Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1478-814"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:47:06Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1478-817"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:47:11Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1477-813"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:47:18Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1477-814"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:47:22Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1477-816"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:47:28Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1476-813"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:47:38Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1476-814"
-    },
-    {
-      "lastGoodAt": "2026-10-19T08:47:42Z",
-      "reason": "HTTP Error 503: Service Unavailable",
-      "source": "nyc-roads--1475-814"
+      "lastGoodAt": null,
+      "reason": "HTTP Error 504: Gateway Time-out",
+      "source": "osm-roads-11b42ce6509d"
     },
     {
       "lastGoodAt": null,
       "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-19e3a478c864"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-1a341807bcb1"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-1ae1e5ade814"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "HTTP Error 504: Gateway Time-out",
-      "source": "osm-roads-1fe63d66048c"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-202188d500ee"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-206434df4f9a"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-206d024e4b15"
     },
     {
       "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
+      "reason": "HTTP Error 504: Gateway Time-out",
       "source": "osm-roads-212c51d39fdc"
     },
     {
       "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-21e897e94d9e"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-245bb57964fe"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
+      "reason": "HTTP Error 504: Gateway Time-out",
       "source": "osm-roads-25e163b63a4f"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-2649c5e7adec"
     },
     {
       "lastGoodAt": null,
@@ -2900,6 +2766,11 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-3aaac3ccdecd"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-3b987989b91b"
     },
     {
@@ -2950,6 +2821,11 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-420593e74521"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-429f769d2902"
     },
     {
@@ -2976,6 +2852,11 @@
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
       "source": "osm-roads-4a5e1d4e108a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-4ae431170d82"
     },
     {
       "lastGoodAt": null,
@@ -3015,6 +2896,11 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-548c2de1cc42"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-56ad14c17f29"
     },
     {
@@ -3026,6 +2912,11 @@
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
       "source": "osm-roads-5c03c4be36da"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-5c67e9c4a50c"
     },
     {
       "lastGoodAt": null,
@@ -3090,7 +2981,22 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-66d4d28c1ac5"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-682268bbf836"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-6b66948f1476"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-6bac910fcc8b"
     },
     {
       "lastGoodAt": null,
@@ -3156,6 +3062,11 @@
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
       "source": "osm-roads-785822a667cb"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-790322cb2d26"
     },
     {
       "lastGoodAt": null,
@@ -3405,11 +3316,6 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-aa3ef7c8581e"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-ac21440ffc08"
     },
     {
@@ -3435,12 +3341,22 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-af2e4fa2ab2a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-af33a38c4981"
     },
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
       "source": "osm-roads-b07caeed3837"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-b0adf5ba6147"
     },
     {
       "lastGoodAt": null,
@@ -3590,6 +3506,11 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-d479ebb9bbfc"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-d555f7d39828"
     },
     {
@@ -3635,6 +3556,11 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-dc70c12e85fc"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-dd00c5cd85b5"
     },
     {
@@ -3676,6 +3602,11 @@
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
       "source": "osm-roads-e2f4d6a0866e"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-e5ad2438c3b1"
     },
     {
       "lastGoodAt": null,
@@ -3731,6 +3662,11 @@
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
       "source": "osm-roads-f20b4bbb71d8"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-f3fe5b6c852a"
     },
     {
       "lastGoodAt": null,
@@ -3805,16 +3741,6 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-4ee3c34d1a3c"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-58937cc07a9b"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-6ef57a2ed3b7"
     },
     {
@@ -3831,11 +3757,6 @@
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
       "source": "osm-roads-861bf02b0227"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-91cda25b1e8c"
     },
     {
       "lastGoodAt": null,
@@ -3870,11 +3791,6 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-aaf12dfd6712"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-b14b73522f20"
     },
     {
@@ -3895,16 +3811,6 @@
     {
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-c2710232f1a1"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
-      "source": "osm-roads-c2fd664c97c5"
-    },
-    {
-      "lastGoodAt": null,
-      "reason": "Run acquisition time budget reached",
       "source": "osm-roads-c3946e9a9501"
     },
     {
@@ -3916,6 +3822,16 @@
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
       "source": "osm-roads-f02f90885da8"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-73963b9a8a79"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-003f4704b28a"
     },
     {
       "lastGoodAt": null,
@@ -3966,7 +3882,482 @@
       "lastGoodAt": null,
       "reason": "Run acquisition time budget reached",
       "source": "osm-roads-1275d879e786"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-048910866479"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-08c3543fa4f9"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-0e355aa41fb4"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-1120c60977c5"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-1262af5e2c95"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-13e574b42dd6"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-1415a9f6202e"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-16404c05d1d6"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-169a38474fe5"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-1c44d25700f4"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-2051fa1c48a1"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-2311f118c9ff"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-2334b8bb16e1"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-23c61071153d"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-2666c7c0abb0"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-26bab0082c26"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-26cbf5e8fc7c"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-2c70d6aa5758"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-322f6ab07d5a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-2e7e109f462f"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-314dbc1a3c97"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-325d25e140c8"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-368901366f23"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-3c9fb12fad05"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-3fe0b7c46e3c"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-35aac3fec583"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-4030d61a4c3a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-40998e0b320a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-40c53df01d52"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-42840f7baf73"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-5228032b0fc9"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-587e40d64952"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-45e44279d76a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-4b7ff8401ff3"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-515264097ed2"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-579d9deb757a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-ffed040d4c2a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-5d6c26ebf203"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-6173cfef4b3f"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-628a02d75a08"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-eaa9728cde5a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-fd98d67bfde2"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-ff9d92aadc98"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-6c11457c1ff5"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-e0da04fc5d01"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-e5db865a35e7"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-faec0e334946"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-e7290a55dc49"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-e9d85df74ef1"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-dd032998864e"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-d4721e988d72"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-ca51be3ea3f2"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-cc800efb02f4"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-d1331346cd12"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-c92f08700212"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-b2c0c68883a7"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-ab0336f3f687"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-9b6f6fc2d949"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-9cdc0874cd1f"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-938e52154a64"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-896b2a56a577"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-8a9aaa42c9ca"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-8c11981f848f"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-ee1e072a0ed1"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-f03014e18732"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-ffcedda93f69"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-def2dc659089"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-e4a7868752e1"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-c238021253cd"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-bd00d437913c"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-af58b4af499b"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-ae75b99e0234"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-a0a11f628e95"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-9475703d19b1"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-8e97d6fd9b13"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-832138688848"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-84a02a0f8827"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-87ff0984853d"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-8132c759f0a2"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-8227c90d116b"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-65c63575cf13"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-7e9a859e1b32"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-09cf34c7ca40"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-4a07f017f78d"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-02da49a58928"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-7428c415eaa9"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-961195f4aeb2"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-16c055434f3d"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-1753fde288e4"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-17d9e99cc84a"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-19e3a478c864"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-1a341807bcb1"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-1ae1e5ade814"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-1fe63d66048c"
+    },
+    {
+      "lastGoodAt": null,
+      "reason": "Run acquisition time budget reached",
+      "source": "osm-roads-202188d500ee"
     }
   ],
-  "reviewCount": 509
+  "reviewCount": 587
 }

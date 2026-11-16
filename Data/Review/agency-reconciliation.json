@@ -12,7 +12,7 @@
       "targetID": "osm-node-13726188373"
     }
   ],
-  "checkedAt": "2026-11-09T16:58:48Z",
+  "checkedAt": "2026-11-16T12:57:16Z",
   "review": [
     {
       "id": "agency-chicago-speed-chi003-270",
@@ -2454,6 +2454,13 @@
         }
       ],
       "reason": "Nearby accepted record; identity/approach review required"
+    },
+    {
+      "id": "osm-node-14310967264",
+      "nearby": [
+        "agency-phoenix-points-shea-blvd-36th-st-to-40th-st"
+      ],
+      "reason": "New OSM record overlaps accepted agency data; review identity"
     },
     {
       "id": "osm-node-13261832160",

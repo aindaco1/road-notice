@@ -36571,9 +36571,9 @@
         "sourceID": "agency/arlington/ACSP015",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": true,
@@ -37068,9 +37068,9 @@
         "sourceID": "agency/arlington/ACSP019",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": true,
@@ -40298,9 +40298,9 @@
         "sourceID": "agency/arlington/ACSP028",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": true,
@@ -41835,9 +41835,9 @@
         "sourceID": "agency/arlington/ACSP030",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": true,
@@ -49451,9 +49451,9 @@
         "sourceID": "agency/arlington/ACSP041",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": true,
@@ -396656,9 +396656,9 @@
         "sourceID": "agency/dc/ATE 0008",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -396701,9 +396701,9 @@
         "sourceID": "agency/dc/ATE 0037",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -396746,9 +396746,9 @@
         "sourceID": "agency/dc/ATE 0038",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -396791,9 +396791,9 @@
         "sourceID": "agency/dc/ATE 0042",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -396836,9 +396836,9 @@
         "sourceID": "agency/dc/ATE 0044",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -396881,9 +396881,9 @@
         "sourceID": "agency/dc/ATE 0045",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -396926,9 +396926,9 @@
         "sourceID": "agency/dc/ATE 0054",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -396971,9 +396971,9 @@
         "sourceID": "agency/dc/ATE 0057",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397016,9 +397016,9 @@
         "sourceID": "agency/dc/ATE 0064",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397061,9 +397061,9 @@
         "sourceID": "agency/dc/ATE 0079",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397136,9 +397136,9 @@
         "sourceID": "agency/dc/ATE 0100",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397181,9 +397181,9 @@
         "sourceID": "agency/dc/ATE 0106",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397226,9 +397226,9 @@
         "sourceID": "agency/dc/ATE 0113",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397271,9 +397271,9 @@
         "sourceID": "agency/dc/ATE 0127",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397316,9 +397316,9 @@
         "sourceID": "agency/dc/ATE 0129",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397361,9 +397361,9 @@
         "sourceID": "agency/dc/ATE 0137",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397406,9 +397406,9 @@
         "sourceID": "agency/dc/ATE 0138",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397451,9 +397451,9 @@
         "sourceID": "agency/dc/ATE 0140",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397496,9 +397496,9 @@
         "sourceID": "agency/dc/ATE 0141",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397541,9 +397541,9 @@
         "sourceID": "agency/dc/ATE 0144",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397586,9 +397586,9 @@
         "sourceID": "agency/dc/ATE 0147",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397631,9 +397631,9 @@
         "sourceID": "agency/dc/ATE 0148",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397676,9 +397676,9 @@
         "sourceID": "agency/dc/ATE 0150",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397721,9 +397721,9 @@
         "sourceID": "agency/dc/ATE 0155",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397766,9 +397766,9 @@
         "sourceID": "agency/dc/ATE 0160",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397811,9 +397811,9 @@
         "sourceID": "agency/dc/ATE 0162",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397856,9 +397856,9 @@
         "sourceID": "agency/dc/ATE 0166",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397901,9 +397901,9 @@
         "sourceID": "agency/dc/ATE 0170",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397946,9 +397946,9 @@
         "sourceID": "agency/dc/ATE 0171",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -397991,9 +397991,9 @@
         "sourceID": "agency/dc/ATE 0173",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398036,9 +398036,9 @@
         "sourceID": "agency/dc/ATE 0183",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398081,9 +398081,9 @@
         "sourceID": "agency/dc/ATE 0199",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 40.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398126,9 +398126,9 @@
         "sourceID": "agency/dc/ATE 0200",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398171,9 +398171,9 @@
         "sourceID": "agency/dc/ATE 0204",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398216,9 +398216,9 @@
         "sourceID": "agency/dc/ATE 0206",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398261,9 +398261,9 @@
         "sourceID": "agency/dc/ATE 0207",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398306,9 +398306,9 @@
         "sourceID": "agency/dc/ATE 0209",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398351,9 +398351,9 @@
         "sourceID": "agency/dc/ATE 0211",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398396,9 +398396,9 @@
         "sourceID": "agency/dc/ATE 0212",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 45.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398441,9 +398441,9 @@
         "sourceID": "agency/dc/ATE 0218",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398486,9 +398486,9 @@
         "sourceID": "agency/dc/ATE 0222",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398531,9 +398531,9 @@
         "sourceID": "agency/dc/ATE 0238",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398576,9 +398576,9 @@
         "sourceID": "agency/dc/ATE 0240",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398621,9 +398621,9 @@
         "sourceID": "agency/dc/ATE 0241",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398666,9 +398666,9 @@
         "sourceID": "agency/dc/ATE 0247",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398711,9 +398711,9 @@
         "sourceID": "agency/dc/ATE 0248",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398756,9 +398756,9 @@
         "sourceID": "agency/dc/ATE 0253",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398801,9 +398801,9 @@
         "sourceID": "agency/dc/ATE 0264",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398846,9 +398846,9 @@
         "sourceID": "agency/dc/ATE 0278",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398891,9 +398891,9 @@
         "sourceID": "agency/dc/ATE 0285",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398936,9 +398936,9 @@
         "sourceID": "agency/dc/ATE 0290",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -398981,9 +398981,9 @@
         "sourceID": "agency/dc/ATE 0291",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399026,9 +399026,9 @@
         "sourceID": "agency/dc/ATE 0300",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399071,9 +399071,9 @@
         "sourceID": "agency/dc/ATE 0308",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399116,9 +399116,9 @@
         "sourceID": "agency/dc/ATE 0309",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399161,9 +399161,9 @@
         "sourceID": "agency/dc/ATE 0313",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399206,9 +399206,9 @@
         "sourceID": "agency/dc/ATE 0317",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399251,9 +399251,9 @@
         "sourceID": "agency/dc/ATE 0320",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399296,9 +399296,9 @@
         "sourceID": "agency/dc/ATE 0326",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399341,9 +399341,9 @@
         "sourceID": "agency/dc/ATE 0327",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399386,9 +399386,9 @@
         "sourceID": "agency/dc/ATE 0330",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399431,9 +399431,9 @@
         "sourceID": "agency/dc/ATE 0333",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399476,9 +399476,9 @@
         "sourceID": "agency/dc/ATE 0335",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399521,9 +399521,9 @@
         "sourceID": "agency/dc/ATE 0337",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399566,9 +399566,9 @@
         "sourceID": "agency/dc/ATE 0338",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399611,9 +399611,9 @@
         "sourceID": "agency/dc/ATE 0340",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399656,9 +399656,9 @@
         "sourceID": "agency/dc/ATE 0341",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399701,9 +399701,9 @@
         "sourceID": "agency/dc/ATE 0345",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399746,9 +399746,9 @@
         "sourceID": "agency/dc/ATE 0352",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399791,9 +399791,9 @@
         "sourceID": "agency/dc/ATE 0356",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399836,9 +399836,9 @@
         "sourceID": "agency/dc/ATE 0364",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399881,9 +399881,9 @@
         "sourceID": "agency/dc/ATE 0365",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399926,9 +399926,9 @@
         "sourceID": "agency/dc/ATE 0369",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -399971,9 +399971,9 @@
         "sourceID": "agency/dc/ATE 0381",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -400016,9 +400016,9 @@
         "sourceID": "agency/dc/ATE 0383",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -401256,9 +401256,9 @@
         "sourceID": "agency/dc/ATE 0413",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 50.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -401298,9 +401298,9 @@
         "sourceID": "agency/dc/ATE 0416",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 50.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -401340,9 +401340,9 @@
         "sourceID": "agency/dc/ATE 0462",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -402543,9 +402543,9 @@
         "sourceID": "agency/dc/ATE 0492",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 40.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -402585,9 +402585,9 @@
         "sourceID": "agency/dc/ATE 0516",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -402660,9 +402660,9 @@
         "sourceID": "agency/dc/ATE 0523",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -402705,9 +402705,9 @@
         "sourceID": "agency/dc/ATE 0524",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -402750,9 +402750,9 @@
         "sourceID": "agency/dc/ATE 0525",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -402795,9 +402795,9 @@
         "sourceID": "agency/dc/ATE 0527",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -402840,9 +402840,9 @@
         "sourceID": "agency/dc/ATE 0528",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -402885,9 +402885,9 @@
         "sourceID": "agency/dc/ATE 0530",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -402960,9 +402960,9 @@
         "sourceID": "agency/dc/ATE 0532",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403005,9 +403005,9 @@
         "sourceID": "agency/dc/ATE 0536",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403050,9 +403050,9 @@
         "sourceID": "agency/dc/ATE 0538",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403095,9 +403095,9 @@
         "sourceID": "agency/dc/ATE 0539",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403140,9 +403140,9 @@
         "sourceID": "agency/dc/ATE 0545",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403185,9 +403185,9 @@
         "sourceID": "agency/dc/ATE 0551",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403230,9 +403230,9 @@
         "sourceID": "agency/dc/ATE 0552",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403275,9 +403275,9 @@
         "sourceID": "agency/dc/ATE 0553",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403320,9 +403320,9 @@
         "sourceID": "agency/dc/ATE 0554",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403392,9 +403392,9 @@
         "sourceID": "agency/dc/ATE 0556",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403467,9 +403467,9 @@
         "sourceID": "agency/dc/ATE 0559",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403512,9 +403512,9 @@
         "sourceID": "agency/dc/ATE 0560",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403557,9 +403557,9 @@
         "sourceID": "agency/dc/ATE 0576",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403602,9 +403602,9 @@
         "sourceID": "agency/dc/ATE 0578",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403647,9 +403647,9 @@
         "sourceID": "agency/dc/ATE 0579",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -403752,9 +403752,9 @@
         "sourceID": "agency/dc/ATE 0584",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -414261,9 +414261,9 @@
         "sourceID": "agency/dc/ATE 0704",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -414306,9 +414306,9 @@
         "sourceID": "agency/dc/ATE 0705",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -414351,9 +414351,9 @@
         "sourceID": "agency/dc/ATE 0706",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -414396,9 +414396,9 @@
         "sourceID": "agency/dc/ATE 0707",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -417499,9 +417499,9 @@
         "sourceID": "agency/dc/ATE 0785",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -418001,9 +418001,9 @@
         "sourceID": "agency/dc/ATE 0808",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -418046,9 +418046,9 @@
         "sourceID": "agency/dc/ATE 0809",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419535,9 +419535,9 @@
         "sourceID": "agency/dc/ATE 0823",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419580,9 +419580,9 @@
         "sourceID": "agency/dc/ATE 0824",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419625,9 +419625,9 @@
         "sourceID": "agency/dc/ATE 0827",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419670,9 +419670,9 @@
         "sourceID": "agency/dc/ATE 0828",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419715,9 +419715,9 @@
         "sourceID": "agency/dc/ATE 0831",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419760,9 +419760,9 @@
         "sourceID": "agency/dc/ATE 0832",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419805,9 +419805,9 @@
         "sourceID": "agency/dc/ATE 0833",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419850,9 +419850,9 @@
         "sourceID": "agency/dc/ATE 0834",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419895,9 +419895,9 @@
         "sourceID": "agency/dc/ATE 0835",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419940,9 +419940,9 @@
         "sourceID": "agency/dc/ATE 0837",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -419985,9 +419985,9 @@
         "sourceID": "agency/dc/ATE 0838",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420030,9 +420030,9 @@
         "sourceID": "agency/dc/ATE 0839",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420075,9 +420075,9 @@
         "sourceID": "agency/dc/ATE 0840",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420120,9 +420120,9 @@
         "sourceID": "agency/dc/ATE 0841",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420165,9 +420165,9 @@
         "sourceID": "agency/dc/ATE 0842",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420210,9 +420210,9 @@
         "sourceID": "agency/dc/ATE 0843",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420255,9 +420255,9 @@
         "sourceID": "agency/dc/ATE 0844",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420300,9 +420300,9 @@
         "sourceID": "agency/dc/ATE 0848",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420345,9 +420345,9 @@
         "sourceID": "agency/dc/ATE 0849",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420390,9 +420390,9 @@
         "sourceID": "agency/dc/ATE 0850",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420435,9 +420435,9 @@
         "sourceID": "agency/dc/ATE 0851",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420480,9 +420480,9 @@
         "sourceID": "agency/dc/ATE 0853",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420525,9 +420525,9 @@
         "sourceID": "agency/dc/ATE 0854",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420570,9 +420570,9 @@
         "sourceID": "agency/dc/ATE 0863",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420615,9 +420615,9 @@
         "sourceID": "agency/dc/ATE 0865",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420660,9 +420660,9 @@
         "sourceID": "agency/dc/ATE 0869",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420705,9 +420705,9 @@
         "sourceID": "agency/dc/ATE 0870",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420750,9 +420750,9 @@
         "sourceID": "agency/dc/ATE 0874",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420795,9 +420795,9 @@
         "sourceID": "agency/dc/ATE 0883",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420840,9 +420840,9 @@
         "sourceID": "agency/dc/ATE 0887",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420885,9 +420885,9 @@
         "sourceID": "agency/dc/ATE 0888",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420930,9 +420930,9 @@
         "sourceID": "agency/dc/ATE 0891",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -420975,9 +420975,9 @@
         "sourceID": "agency/dc/ATE 0892",
         "sourceURL": "https://asc.ddot.dc.gov/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -426495,9 +426495,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-100-n-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-100-n-broad-street"
@@ -426535,9 +426535,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-100-s-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-100-s-broad-street"
@@ -426575,9 +426575,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-1200-s-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-1200-s-broad-street"
@@ -426615,9 +426615,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-1700-n-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-1700-n-broad-street"
@@ -426655,9 +426655,9 @@
         "sourceID": "overture/22e97fcc-6142-4c54-be56-14662df92322",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/22e97fcc-6142-4c54-be56-14662df92322",
@@ -426699,9 +426699,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-2200-s-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-2200-s-broad-street"
@@ -426739,9 +426739,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-2500-n-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-2500-n-broad-street"
@@ -426779,9 +426779,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-2800-s-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-2800-s-broad-street"
@@ -426819,9 +426819,9 @@
         "sourceID": "overture/77b58b1a-c293-46b2-8818-5bd8fcdab219",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/77b58b1a-c293-46b2-8818-5bd8fcdab219",
@@ -426860,9 +426860,9 @@
         "sourceID": "philadelphia-route13/agency-philadelphia-addresses-3100-levick-street",
         "sourceURL": "https://philapark.org/2026/04/60-day-warning-period-for-automated-speed-enforcement-cameras-on-stretch-of-route-13-in-northeast-philadelphia-will-begin-monday-april-13th/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-route13/agency-philadelphia-addresses-3100-levick-street"
@@ -426900,9 +426900,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-3300-n-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-3300-n-broad-street"
@@ -426940,9 +426940,9 @@
         "sourceID": "overture/47c7df03-e40f-4444-8bca-9a2dfac9b665",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/47c7df03-e40f-4444-8bca-9a2dfac9b665",
@@ -426981,9 +426981,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-4100-n-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-4100-n-broad-street"
@@ -427021,9 +427021,9 @@
         "sourceID": "overture/1518f8c8-b291-4a5c-948f-78679dfb121a",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/1518f8c8-b291-4a5c-948f-78679dfb121a",
@@ -427062,9 +427062,9 @@
         "sourceID": "overture/1518f8c8-b291-4a5c-948f-78679dfb121a",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/1518f8c8-b291-4a5c-948f-78679dfb121a",
@@ -427103,9 +427103,9 @@
         "sourceID": "overture/097d23f1-4269-46e7-9530-af4dbcd1489e",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/097d23f1-4269-46e7-9530-af4dbcd1489e",
@@ -427144,9 +427144,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-4900-n-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-4900-n-broad-street"
@@ -427184,9 +427184,9 @@
         "sourceID": "overture/0ba25823-cc84-4697-afde-01018ce1d5f9",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/0ba25823-cc84-4697-afde-01018ce1d5f9",
@@ -427225,9 +427225,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-5700-n-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-5700-n-broad-street"
@@ -427265,9 +427265,9 @@
         "sourceID": "overture/57acd72b-7a29-4d00-b443-0d4e89182fd5",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/57acd72b-7a29-4d00-b443-0d4e89182fd5",
@@ -427306,9 +427306,9 @@
         "sourceID": "philadelphia-route13/agency-philadelphia-addresses-6400-frankford-avenue",
         "sourceURL": "https://philapark.org/2026/04/60-day-warning-period-for-automated-speed-enforcement-cameras-on-stretch-of-route-13-in-northeast-philadelphia-will-begin-monday-april-13th/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-route13/agency-philadelphia-addresses-6400-frankford-avenue"
@@ -427346,9 +427346,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-6500-n-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-6500-n-broad-street"
@@ -427386,9 +427386,9 @@
         "sourceID": "philadelphia-route13/agency-philadelphia-addresses-7000-frankford-avenue",
         "sourceURL": "https://philapark.org/2026/04/60-day-warning-period-for-automated-speed-enforcement-cameras-on-stretch-of-route-13-in-northeast-philadelphia-will-begin-monday-april-13th/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-route13/agency-philadelphia-addresses-7000-frankford-avenue"
@@ -427426,9 +427426,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-7000-old-york-road",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-7000-old-york-road"
@@ -427466,9 +427466,9 @@
         "sourceID": "philadelphia-report/agency-philadelphia-addresses-800-n-broad-street",
         "sourceURL": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-report/agency-philadelphia-addresses-800-n-broad-street"
@@ -427506,9 +427506,9 @@
         "sourceID": "philadelphia-route13/agency-philadelphia-addresses-8300-frankford-avenue",
         "sourceURL": "https://philapark.org/2026/04/60-day-warning-period-for-automated-speed-enforcement-cameras-on-stretch-of-route-13-in-northeast-philadelphia-will-begin-monday-april-13th/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-route13/agency-philadelphia-addresses-8300-frankford-avenue"
@@ -427546,9 +427546,9 @@
         "sourceID": "philadelphia-route13/agency-philadelphia-addresses-9900-frankford-avenue",
         "sourceURL": "https://philapark.org/2026/04/60-day-warning-period-for-automated-speed-enforcement-cameras-on-stretch-of-route-13-in-northeast-philadelphia-will-begin-monday-april-13th/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "philadelphia-route13/agency-philadelphia-addresses-9900-frankford-avenue"
@@ -427580,9 +427580,9 @@
         "sourceID": "overture/0d72a960-4ddf-41b1-889f-1c1e92bf91cf",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 40.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/0d72a960-4ddf-41b1-889f-1c1e92bf91cf",
@@ -427615,9 +427615,9 @@
         "sourceID": "overture/ff489bda-d44b-4c64-82f5-0ab3bdf1f8f2",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/ff489bda-d44b-4c64-82f5-0ab3bdf1f8f2"
@@ -427668,9 +427668,9 @@
         "sourceID": "overture/34c9b2c9-6a84-439d-88e4-c1ed21632810",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/34c9b2c9-6a84-439d-88e4-c1ed21632810"
@@ -427702,9 +427702,9 @@
         "sourceID": "overture/d516ab98-7c76-4b0b-82c3-442b5352e5e9",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 45.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/d516ab98-7c76-4b0b-82c3-442b5352e5e9",
@@ -427774,9 +427774,9 @@
         "sourceID": "overture/342d569d-4cd1-4ba3-871d-e9bb7646cb56",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 45.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/342d569d-4cd1-4ba3-871d-e9bb7646cb56",
@@ -429163,9 +429163,9 @@
         "sourceID": "overture/1c8ef01b-9326-403a-ac42-671dd3db8a02",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 40.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/1c8ef01b-9326-403a-ac42-671dd3db8a02",
@@ -429199,9 +429199,9 @@
         "sourceID": "overture/24a6505c-ae80-4dd0-9caa-ced173845f19",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-23T14:36:12Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:52:52Z"
+        "verifiedAt": "2026-11-23T14:36:12Z"
       },
       "speedLimitEvidenceIDs": [
         "overture/24a6505c-ae80-4dd0-9caa-ced173845f19",
@@ -432488,7 +432488,7 @@
       },
       "speedLimitEvidenceIDs": [
         "osm/way/428249224",
-        "seattle-roads/11961890/0",
+        "seattle-roads/12081335/0",
         "seattle-school/agency-seattle-se45"
       ],
       "travelBearing": 0
@@ -433646,8 +433646,8 @@
         "osm/way/428249219",
         "osm/way/428249220",
         "osm/way/428249225",
-        "seattle-roads/11976498/0",
-        "seattle-roads/11978746/0",
+        "seattle-roads/12095938/0",
+        "seattle-roads/12098180/0",
         "seattle-school/agency-seattle-se46"
       ],
       "travelBearing": 180
@@ -434201,8 +434201,8 @@
         "osm/way/428092069",
         "osm/way/428092070",
         "osm/way/428092072",
-        "seattle-roads/11962156/0",
-        "seattle-roads/11962157/0",
+        "seattle-roads/12081602/0",
+        "seattle-roads/12081603/0",
         "seattle-school/agency-seattle-se47"
       ],
       "travelBearing": 0
@@ -434599,8 +434599,8 @@
       },
       "speedLimitEvidenceIDs": [
         "osm/way/259097443",
-        "seattle-roads/11962158/0",
-        "seattle-roads/11962159/0",
+        "seattle-roads/12081604/0",
+        "seattle-roads/12081605/0",
         "seattle-school/agency-seattle-se48"
       ],
       "travelBearing": 180
@@ -434631,12 +434631,12 @@
         "sourceID": "seattle-school/agency-seattle-se49",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
-        "seattle-roads/11971639/0",
+        "seattle-roads/12091096/0",
         "seattle-school/agency-seattle-se49"
       ],
       "travelBearing": 0
@@ -434667,15 +434667,15 @@
         "sourceID": "seattle-school/agency-seattle-se50",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
-        "seattle-roads/11962716/0",
-        "seattle-roads/11962717/0",
-        "seattle-roads/11962718/0",
-        "seattle-roads/11972691/0",
+        "seattle-roads/12082162/0",
+        "seattle-roads/12082163/0",
+        "seattle-roads/12082164/0",
+        "seattle-roads/12092149/0",
         "seattle-school/agency-seattle-se50"
       ],
       "travelBearing": 180
@@ -435343,9 +435343,9 @@
       "speedLimitEvidenceIDs": [
         "osm/way/1212390477",
         "osm/way/6477103",
-        "seattle-roads/11970818/0",
-        "seattle-roads/11970819/0",
-        "seattle-roads/11970820/0",
+        "seattle-roads/12090272/0",
+        "seattle-roads/12090273/0",
+        "seattle-roads/12090274/0",
         "seattle-school/agency-seattle-se51"
       ],
       "travelBearing": 90
@@ -436370,8 +436370,8 @@
       "speedLimitEvidenceIDs": [
         "osm/way/1215648790",
         "osm/way/68522659",
-        "seattle-roads/11970816/0",
-        "seattle-roads/11970817/0",
+        "seattle-roads/12090270/0",
+        "seattle-roads/12090271/0",
         "seattle-school/agency-seattle-se52"
       ],
       "travelBearing": 270
@@ -436878,8 +436878,8 @@
       "speedLimitEvidenceIDs": [
         "osm/way/1221728711",
         "osm/way/174556546",
-        "seattle-roads/11972522/0",
-        "seattle-roads/11972940/0",
+        "seattle-roads/12091980/0",
+        "seattle-roads/12092399/0",
         "seattle-school/agency-seattle-se57"
       ],
       "travelBearing": 90
@@ -437466,7 +437466,7 @@
       },
       "speedLimitEvidenceIDs": [
         "osm/way/1221728711",
-        "seattle-roads/11969563/0",
+        "seattle-roads/12089015/0",
         "seattle-school/agency-seattle-se58"
       ],
       "travelBearing": 270
@@ -438205,7 +438205,7 @@
       },
       "speedLimitEvidenceIDs": [
         "osm/way/428091108",
-        "seattle-roads/11967086/0",
+        "seattle-roads/12086533/0",
         "seattle-school/agency-seattle-se60"
       ],
       "travelBearing": 90
@@ -438869,8 +438869,8 @@
       "speedLimitEvidenceIDs": [
         "osm/way/428091104",
         "osm/way/428091109",
-        "seattle-roads/11967088/0",
-        "seattle-roads/11975316/0",
+        "seattle-roads/12086535/0",
+        "seattle-roads/12094771/0",
         "seattle-school/agency-seattle-se61"
       ],
       "travelBearing": 270
@@ -439304,7 +439304,7 @@
       },
       "speedLimitEvidenceIDs": [
         "osm/way/537678338",
-        "seattle-roads/11961575/0",
+        "seattle-roads/12081021/0",
         "seattle-school/agency-seattle-se62"
       ],
       "travelBearing": 0
@@ -439898,7 +439898,7 @@
       "speedLimitEvidenceIDs": [
         "osm/way/427905039",
         "osm/way/427905040",
-        "seattle-roads/11961573/0",
+        "seattle-roads/12081019/0",
         "seattle-school/agency-seattle-se63"
       ],
       "travelBearing": 180
@@ -441028,8 +441028,8 @@
       "speedLimitEvidenceIDs": [
         "osm/way/397579242",
         "osm/way/804788513",
-        "seattle-roads/11956932/0",
-        "seattle-roads/11956933/0",
+        "seattle-roads/12076377/0",
+        "seattle-roads/12076378/0",
         "seattle-school/agency-seattle-se64"
       ],
       "travelBearing": 0
@@ -441598,8 +441598,8 @@
       },
       "speedLimitEvidenceIDs": [
         "osm/way/149669465",
-        "seattle-roads/11956934/0",
-        "seattle-roads/11956935/0",
+        "seattle-roads/12076379/0",
+        "seattle-roads/12076380/0",
         "seattle-school/agency-seattle-se65"
       ],
       "travelBearing": 180
@@ -442511,9 +442511,9 @@
         "sourceID": "seattle-school/agency-seattle-se70",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-se70"
@@ -443949,7 +443949,7 @@
         "osm/way/1059789997",
         "osm/way/1059789998",
         "osm/way/428233435",
-        "seattle-roads/11961102/0",
+        "seattle-roads/12080548/0",
         "seattle-school/agency-seattle-se71"
       ],
       "travelBearing": 180
@@ -443980,9 +443980,9 @@
         "sourceID": "seattle-school/agency-seattle-se73",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-se73"
@@ -444015,9 +444015,9 @@
         "sourceID": "seattle-school/agency-seattle-se74",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-se74"
@@ -444668,8 +444668,8 @@
         "osm/way/1455875254",
         "osm/way/428014782",
         "osm/way/6476943",
-        "seattle-roads/11955916/0",
-        "seattle-roads/11975679/0",
+        "seattle-roads/12075361/0",
+        "seattle-roads/12095129/0",
         "seattle-school/agency-seattle-se75"
       ],
       "travelBearing": 180
@@ -445137,7 +445137,7 @@
       },
       "speedLimitEvidenceIDs": [
         "osm/way/1066269202",
-        "seattle-roads/11958351/0",
+        "seattle-roads/12077796/0",
         "seattle-school/agency-seattle-se79"
       ],
       "travelBearing": 0
@@ -445650,8 +445650,8 @@
       "speedLimitEvidenceIDs": [
         "osm/way/1066272574",
         "osm/way/332496923",
-        "seattle-roads/11958349/0",
-        "seattle-roads/11958350/0",
+        "seattle-roads/12077794/0",
+        "seattle-roads/12077795/0",
         "seattle-school/agency-seattle-se80"
       ],
       "travelBearing": 180
@@ -446555,7 +446555,7 @@
       "speedLimitEvidenceIDs": [
         "osm/way/428002611",
         "osm/way/6450068",
-        "seattle-roads/11961880/0",
+        "seattle-roads/12081325/0",
         "seattle-school/agency-seattle-se81"
       ],
       "travelBearing": 0
@@ -447016,7 +447016,7 @@
       "speedLimitEvidenceIDs": [
         "osm/way/371447802",
         "osm/way/428251563",
-        "seattle-roads/11961879/0",
+        "seattle-roads/12081324/0",
         "seattle-school/agency-seattle-se82"
       ],
       "travelBearing": 180
@@ -447586,8 +447586,8 @@
       },
       "speedLimitEvidenceIDs": [
         "osm/way/6516509",
-        "seattle-roads/11956782/0",
-        "seattle-roads/11956783/0",
+        "seattle-roads/12076227/0",
+        "seattle-roads/12076228/0",
         "seattle-school/agency-seattle-se83"
       ],
       "travelBearing": 0
@@ -447618,9 +447618,9 @@
         "sourceID": "seattle-school/agency-seattle-se84",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-se84"
@@ -447653,9 +447653,9 @@
         "sourceID": "seattle-school/agency-seattle-se85",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-se85"
@@ -447688,9 +447688,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf086",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf086"
@@ -447722,9 +447722,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf087",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf087"
@@ -447756,9 +447756,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf088",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf088"
@@ -447790,9 +447790,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf089",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf089"
@@ -447824,9 +447824,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf090",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf090"
@@ -447858,9 +447858,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf091",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf091"
@@ -447892,9 +447892,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf092",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf092"
@@ -447926,9 +447926,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf093",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf093"
@@ -447960,9 +447960,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf094",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf094"
@@ -447994,9 +447994,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf095",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf095"
@@ -448028,9 +448028,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf096",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf096"
@@ -448062,9 +448062,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf097",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf097"
@@ -448096,9 +448096,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf098",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf098"
@@ -448130,9 +448130,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf099",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf099"
@@ -448164,9 +448164,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf102",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf102"
@@ -448198,9 +448198,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf103",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf103"
@@ -448232,9 +448232,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf104",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf104"
@@ -448266,9 +448266,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf105",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf105"
@@ -448300,9 +448300,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf106",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf106"
@@ -448334,9 +448334,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf107",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf107"
@@ -448368,9 +448368,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf108",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf108"
@@ -448402,9 +448402,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf109",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf109"
@@ -448436,9 +448436,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf110",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf110"
@@ -448470,9 +448470,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf111",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf111"
@@ -448504,9 +448504,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf112",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf112"
@@ -448538,9 +448538,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf113",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf113"
@@ -448572,9 +448572,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf114",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf114"
@@ -448606,9 +448606,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf115",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf115"
@@ -448640,9 +448640,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf117",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf117"
@@ -448674,9 +448674,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf118",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf118"
@@ -448708,9 +448708,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf119",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf119"
@@ -448742,9 +448742,9 @@
         "sourceID": "seattle-school/agency-seattle-seaf121",
         "sourceURL": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
         "unit": "mph",
-        "validUntil": "2026-12-09T12:48:11Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-09T12:48:11Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "seattle-school/agency-seattle-seaf121"
@@ -448776,9 +448776,9 @@
         "sourceID": "agency/sf/1",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -448817,9 +448817,9 @@
         "sourceID": "agency/sf/10",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -448858,9 +448858,9 @@
         "sourceID": "agency/sf/11",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -448899,9 +448899,9 @@
         "sourceID": "agency/sf/12",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -448940,9 +448940,9 @@
         "sourceID": "agency/sf/14",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -448981,9 +448981,9 @@
         "sourceID": "agency/sf/15",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449022,9 +449022,9 @@
         "sourceID": "agency/sf/16",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449063,9 +449063,9 @@
         "sourceID": "agency/sf/17",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449104,9 +449104,9 @@
         "sourceID": "agency/sf/18",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449146,9 +449146,9 @@
         "sourceID": "agency/sf/2",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449187,9 +449187,9 @@
         "sourceID": "agency/sf/20",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449228,9 +449228,9 @@
         "sourceID": "agency/sf/21",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449269,9 +449269,9 @@
         "sourceID": "agency/sf/22",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449310,9 +449310,9 @@
         "sourceID": "agency/sf/23",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449351,9 +449351,9 @@
         "sourceID": "agency/sf/24",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449392,9 +449392,9 @@
         "sourceID": "agency/sf/25",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449434,9 +449434,9 @@
         "sourceID": "agency/sf/26",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449476,9 +449476,9 @@
         "sourceID": "agency/sf/27",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449517,9 +449517,9 @@
         "sourceID": "agency/sf/28",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449558,9 +449558,9 @@
         "sourceID": "agency/sf/29",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449599,9 +449599,9 @@
         "sourceID": "agency/sf/3",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449640,9 +449640,9 @@
         "sourceID": "agency/sf/30",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449681,9 +449681,9 @@
         "sourceID": "agency/sf/31",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449722,9 +449722,9 @@
         "sourceID": "agency/sf/32",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449763,9 +449763,9 @@
         "sourceID": "agency/sf/33",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449804,9 +449804,9 @@
         "sourceID": "agency/sf/4",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449845,9 +449845,9 @@
         "sourceID": "agency/sf/5",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 30.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449886,9 +449886,9 @@
         "sourceID": "agency/sf/6",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449927,9 +449927,9 @@
         "sourceID": "agency/sf/7",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -449968,9 +449968,9 @@
         "sourceID": "agency/sf/8",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 25.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -450009,9 +450009,9 @@
         "sourceID": "agency/sf/9",
         "sourceURL": "https://www.sfmta.com/projects/speed-safety-cameras",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -450053,9 +450053,9 @@
         "sourceID": "agency/tacoma/WATCFS01",
         "sourceURL": "https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 35.0,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitCandidate": {
         "conditional": false,
@@ -454704,9 +454704,9 @@
         "sourceID": "tacoma-school/agency-tacoma-watcsz03",
         "sourceURL": "https://tacoma.gov/government/departments/public-works/transportation/neighborhood-programs/safe-routes-to-school/engineering/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "tacoma-school/agency-tacoma-watcsz03"
@@ -454742,9 +454742,9 @@
         "sourceID": "tacoma-school/agency-tacoma-watcsz04",
         "sourceURL": "https://tacoma.gov/government/departments/public-works/transportation/neighborhood-programs/safe-routes-to-school/engineering/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "tacoma-school/agency-tacoma-watcsz04"
@@ -454780,9 +454780,9 @@
         "sourceID": "tacoma-school/agency-tacoma-watcsz05",
         "sourceURL": "https://tacoma.gov/government/departments/public-works/transportation/neighborhood-programs/safe-routes-to-school/engineering/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "tacoma-school/agency-tacoma-watcsz05"
@@ -454818,9 +454818,9 @@
         "sourceID": "tacoma-school/agency-tacoma-watcsz06",
         "sourceURL": "https://tacoma.gov/government/departments/public-works/transportation/neighborhood-programs/safe-routes-to-school/engineering/",
         "unit": "mph",
-        "validUntil": "2026-12-16T12:36:48Z",
+        "validUntil": "2026-12-23T14:20:13Z",
         "value": 20,
-        "verifiedAt": "2026-11-16T12:36:48Z"
+        "verifiedAt": "2026-11-23T14:20:13Z"
       },
       "speedLimitEvidenceIDs": [
         "tacoma-school/agency-tacoma-watcsz06"
@@ -462998,6 +462998,25 @@
       "siteID": "osm-node-10740203645",
       "sourceIDs": [
         "osm/node/10740203645"
+      ],
+      "speedLimit": {
+        "basis": "conservative-lower-bound",
+        "conditional": false,
+        "confidence": "inferred",
+        "semantics": "conservative-suppression-bound",
+        "sourceID": "osm/way/539943943",
+        "sourceURL": "https://www.openstreetmap.org/way/539943943",
+        "unit": "mph",
+        "validUntil": "2026-12-23T14:34:34Z",
+        "value": 35.0,
+        "verifiedAt": "2026-11-23T14:34:34Z"
+      },
+      "speedLimitEvidenceIDs": [
+        "osm/way/539943943",
+        "osm/way/539943944",
+        "osm/way/539943945",
+        "osm/way/539943947",
+        "osm/way/539943948"
       ]
     },
     {
@@ -468184,8 +468203,8 @@
       "speedLimitEvidenceIDs": [
         "osm/way/1264647066",
         "osm/way/192004875",
-        "seattle-roads/11955135/0",
-        "seattle-roads/11974766/0"
+        "seattle-roads/12074580/0",
+        "seattle-roads/12094221/0"
       ]
     },
     {
@@ -495294,8 +495313,8 @@
       "speedLimitEvidenceIDs": [
         "osm/way/1272366676",
         "osm/way/1272366677",
-        "seattle-roads/11959715/0",
-        "seattle-roads/11976709/0",
+        "seattle-roads/12079161/0",
+        "seattle-roads/12096149/0",
         "seattle-school/agency-seattle-se43"
       ],
       "travelBearing": 0
@@ -496040,7 +496059,7 @@
       "speedLimitEvidenceIDs": [
         "osm/way/1292554608",
         "osm/way/532193384",
-        "seattle-roads/11975830/0",
+        "seattle-roads/12095274/0",
         "seattle-school/agency-seattle-se44"
       ],
       "travelBearing": 180
@@ -515088,8 +515107,8 @@
       "evidence": "OpenStreetMap mapped device; not independently field-verified. Camera-facing direction is not treated as vehicle direction.",
       "geometry": [
         {
-          "latitude": 47.7517187,
-          "longitude": -122.6453582
+          "latitude": 47.7516392,
+          "longitude": -122.645111
         }
       ],
       "id": "osm-node-13368691601",
@@ -523346,9 +523365,9 @@
         "sourceID": "osm/node/14236737220",
         "sourceURL": "https://www.openstreetmap.org/node/14236737220",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-16T12:35:21Z",
         "value": 55.0,
-        "verifiedAt": "2026-11-09T13:03:48Z"
+        "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
         "osm/node/14236737220",
@@ -523489,9 +523508,9 @@
         "sourceID": "overture/14d431e5-d936-4f0a-b684-1fb90fe2fa45",
         "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-16T12:35:21Z",
         "value": 45.0,
-        "verifiedAt": "2026-11-09T13:03:48Z"
+        "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
         "osm/node/14253944643",
@@ -523555,9 +523574,9 @@
         "sourceID": "osm/node/14256729590",
         "sourceURL": "https://www.openstreetmap.org/node/14256729590",
         "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
+        "validUntil": "2026-12-16T12:35:21Z",
         "value": 55.0,
-        "verifiedAt": "2026-11-09T13:03:48Z"
+        "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
         "osm/node/14256729590",
@@ -523843,7 +523862,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14305115896"
+        "osm/node/14305115896",
+        "overture/45392125-bd11-495c-8b8a-0ed947d3213f",
+        "overture/ecc69955-0deb-46c1-a63b-304ee76ce9fb"
       ]
     },
     {
@@ -523874,7 +523895,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14305115899"
+        "osm/node/14305115899",
+        "overture/a50be935-f42e-43ea-954f-425508182b60"
       ]
     },
     {
@@ -523905,7 +523927,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14305140998"
+        "osm/node/14305140998",
+        "overture/31e25d14-052c-4283-bd8e-963289c51213",
+        "overture/9bf9f1cd-c22e-43be-9e0b-2a0e749b3692"
       ]
     },
     {
@@ -523936,7 +523960,11 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14305140999"
+        "osm/node/14305140999",
+        "overture/1fe57656-d842-40eb-aafd-2bdab29c0744",
+        "overture/31e25d14-052c-4283-bd8e-963289c51213",
+        "overture/618a041e-f3c7-4a94-8aab-3c846102eee1",
+        "overture/9bf9f1cd-c22e-43be-9e0b-2a0e749b3692"
       ]
     },
     {
@@ -523967,7 +523995,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14307277420"
+        "osm/node/14307277420",
+        "overture/0912f7c4-43ef-4d3b-892f-2886dda01707",
+        "overture/c3322813-fe62-4541-a0f1-ccfe53812a04"
       ]
     },
     {
@@ -523998,7 +524028,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14307277421"
+        "osm/node/14307277421",
+        "overture/0912f7c4-43ef-4d3b-892f-2886dda01707",
+        "overture/c3322813-fe62-4541-a0f1-ccfe53812a04"
       ]
     },
     {
@@ -524091,7 +524123,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14307328216"
+        "osm/node/14307328216",
+        "overture/e1641d07-0280-4d8f-99a4-44c5169e48ab"
       ]
     },
     {
@@ -524184,7 +524217,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14307770257"
+        "osm/node/14307770257",
+        "overture/6d7a29c8-9b7c-4050-acec-d56eb7ba4084",
+        "overture/e008f870-3e6b-46e5-9332-fcb23b3e2000"
       ]
     },
     {
@@ -524215,7 +524250,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14307770258"
+        "osm/node/14307770258",
+        "overture/6d7a29c8-9b7c-4050-acec-d56eb7ba4084",
+        "overture/e008f870-3e6b-46e5-9332-fcb23b3e2000"
       ]
     },
     {
@@ -524246,7 +524283,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14307774795"
+        "osm/node/14307774795",
+        "overture/3c7adf31-853c-4c3e-a3ec-e2dee3f7d14a"
       ]
     },
     {
@@ -524339,7 +524377,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14307783562"
+        "osm/node/14307783562",
+        "overture/5bd7416e-8462-4384-ad12-c3ae39ef35bf",
+        "overture/bc40f354-8181-41d6-8f2d-361604019d5a"
       ]
     },
     {
@@ -524370,7 +524410,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14307809201"
+        "osm/node/14307809201",
+        "overture/0974c277-03ff-48e5-ac42-6c27a6cadbc5",
+        "overture/c6790880-2f60-4917-bbad-b68f29bf7f3f"
       ]
     },
     {
@@ -524463,7 +524505,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14307810827"
+        "osm/node/14307810827",
+        "overture/b188e1aa-7482-4ae2-9612-76fcbe5d580d",
+        "overture/f94ce4e9-0bff-496d-b341-03b8454bb4d3"
       ]
     },
     {
@@ -524666,21 +524710,6 @@
       "siteID": "osm-node-14320479089",
       "sourceIDs": [
         "osm/node/14320479089"
-      ],
-      "speedLimit": {
-        "basis": "osm-posted",
-        "conditional": false,
-        "confidence": "community",
-        "semantics": "posted-limit",
-        "sourceID": "osm/node/14320479089",
-        "sourceURL": "https://www.openstreetmap.org/node/14320479089",
-        "unit": "mph",
-        "validUntil": "2026-12-16T12:35:21Z",
-        "value": 20.0,
-        "verifiedAt": "2026-11-16T12:35:21Z"
-      },
-      "speedLimitEvidenceIDs": [
-        "osm/node/14320479089"
       ]
     },
     {
@@ -524759,21 +524788,6 @@
       "siteID": "osm-node-14324159478",
       "sourceIDs": [
         "osm/node/14324159478"
-      ],
-      "speedLimit": {
-        "basis": "osm-posted",
-        "conditional": false,
-        "confidence": "community",
-        "semantics": "posted-limit",
-        "sourceID": "osm/node/14324159478",
-        "sourceURL": "https://www.openstreetmap.org/node/14324159478",
-        "unit": "mph",
-        "validUntil": "2026-12-16T12:35:21Z",
-        "value": 35.0,
-        "verifiedAt": "2026-11-16T12:35:21Z"
-      },
-      "speedLimitEvidenceIDs": [
-        "osm/node/14324159478"
       ]
     },
     {
@@ -524789,21 +524803,6 @@
       "label": "Mapped camera",
       "siteID": "osm-node-14324159479",
       "sourceIDs": [
-        "osm/node/14324159479"
-      ],
-      "speedLimit": {
-        "basis": "osm-posted",
-        "conditional": false,
-        "confidence": "community",
-        "semantics": "posted-limit",
-        "sourceID": "osm/node/14324159479",
-        "sourceURL": "https://www.openstreetmap.org/node/14324159479",
-        "unit": "mph",
-        "validUntil": "2026-12-16T12:35:21Z",
-        "value": 35.0,
-        "verifiedAt": "2026-11-16T12:35:21Z"
-      },
-      "speedLimitEvidenceIDs": [
         "osm/node/14324159479"
       ]
     },
@@ -524959,7 +524958,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324159484"
+        "osm/node/14324159484",
+        "overture/ca0af53d-fd98-46b2-817a-2b14a1a80b90"
       ]
     },
     {
@@ -525021,7 +525021,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324159486"
+        "osm/node/14324159486",
+        "overture/e237b765-17ba-4bf5-8881-0f72ea675096"
       ]
     },
     {
@@ -525176,7 +525177,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324159491"
+        "osm/node/14324159491",
+        "overture/33bf996c-63ca-4806-9efb-71ae93a21b12"
       ]
     },
     {
@@ -525393,7 +525395,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324159498"
+        "osm/node/14324159498",
+        "overture/9ad9fd28-e791-4d4e-b5d4-76cfb1860c87"
       ]
     },
     {
@@ -525424,7 +525427,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324159499"
+        "osm/node/14324159499",
+        "overture/9ad9fd28-e791-4d4e-b5d4-76cfb1860c87"
       ]
     },
     {
@@ -525517,7 +525521,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168202"
+        "osm/node/14324168202",
+        "overture/45b909d0-88dd-4ad2-89bc-79b1ff05ef78"
       ]
     },
     {
@@ -525548,7 +525553,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168203"
+        "osm/node/14324168203",
+        "overture/a8cd4ac8-db67-4605-9e5e-33e709b90072"
       ]
     },
     {
@@ -525641,7 +525647,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168206"
+        "osm/node/14324168206",
+        "overture/55cf2db9-48c3-4672-a0d3-60a0ea7c3700",
+        "overture/567e380f-e3d5-40e0-82f4-abb8cb8d4261"
       ]
     },
     {
@@ -525672,7 +525680,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168207"
+        "osm/node/14324168207",
+        "overture/402ab9df-a6dc-432c-ba12-cf38ad47cd84"
       ]
     },
     {
@@ -525688,21 +525697,6 @@
       "label": "Mapped camera",
       "siteID": "osm-node-14324168208",
       "sourceIDs": [
-        "osm/node/14324168208"
-      ],
-      "speedLimit": {
-        "basis": "osm-posted",
-        "conditional": false,
-        "confidence": "community",
-        "semantics": "posted-limit",
-        "sourceID": "osm/node/14324168208",
-        "sourceURL": "https://www.openstreetmap.org/node/14324168208",
-        "unit": "mph",
-        "validUntil": "2026-12-16T12:35:21Z",
-        "value": 35.0,
-        "verifiedAt": "2026-11-16T12:35:21Z"
-      },
-      "speedLimitEvidenceIDs": [
         "osm/node/14324168208"
       ]
     },
@@ -525734,7 +525728,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168209"
+        "osm/node/14324168209",
+        "overture/2808be49-8e24-4e5d-a021-008c28fee926",
+        "overture/5a57adba-113e-4635-8dde-8cd362bf8090"
       ]
     },
     {
@@ -525875,21 +525871,6 @@
       "siteID": "osm-node-14324168214",
       "sourceIDs": [
         "osm/node/14324168214"
-      ],
-      "speedLimit": {
-        "basis": "osm-posted",
-        "conditional": false,
-        "confidence": "community",
-        "semantics": "posted-limit",
-        "sourceID": "osm/node/14324168214",
-        "sourceURL": "https://www.openstreetmap.org/node/14324168214",
-        "unit": "mph",
-        "validUntil": "2026-12-16T12:35:21Z",
-        "value": 35.0,
-        "verifiedAt": "2026-11-16T12:35:21Z"
-      },
-      "speedLimitEvidenceIDs": [
-        "osm/node/14324168214"
       ]
     },
     {
@@ -525920,7 +525901,10 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168215"
+        "osm/node/14324168215",
+        "overture/48cc8398-0ce2-4bde-8027-3c53b4d27712",
+        "overture/b66fb3e5-a0a7-4677-b6ee-a32814644426",
+        "overture/cea8e791-23a7-47b7-b3ba-4fc0ca80fdb5"
       ]
     },
     {
@@ -525951,7 +525935,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168216"
+        "osm/node/14324168216",
+        "overture/48cc8398-0ce2-4bde-8027-3c53b4d27712",
+        "overture/b66fb3e5-a0a7-4677-b6ee-a32814644426"
       ]
     },
     {
@@ -525982,7 +525968,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168217"
+        "osm/node/14324168217",
+        "overture/8c2877bb-6306-496c-9b5a-5c82abcc9302"
       ]
     },
     {
@@ -526013,7 +526000,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168218"
+        "osm/node/14324168218",
+        "overture/8c2877bb-6306-496c-9b5a-5c82abcc9302"
       ]
     },
     {
@@ -526044,7 +526032,9 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168219"
+        "osm/node/14324168219",
+        "overture/1ea42ace-cf66-4e69-aad2-d5b22f28eca6",
+        "overture/7a946cdb-040c-4b57-a1d7-945b44c328a5"
       ]
     },
     {
@@ -526168,7 +526158,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168223"
+        "osm/node/14324168223",
+        "overture/4f0052b5-4412-4089-87f8-ec8e1b16cd07"
       ]
     },
     {
@@ -526199,7 +526190,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168224"
+        "osm/node/14324168224",
+        "overture/4f0052b5-4412-4089-87f8-ec8e1b16cd07"
       ]
     },
     {
@@ -526261,7 +526253,8 @@
         "verifiedAt": "2026-11-16T12:35:21Z"
       },
       "speedLimitEvidenceIDs": [
-        "osm/node/14324168226"
+        "osm/node/14324168226",
+        "overture/0ff11628-c7e2-4d8e-92b9-37f844968d57"
       ]
     },
     {
@@ -526325,23 +526318,6 @@
       "siteID": "osm-node-14336872547",
       "sourceIDs": [
         "osm/node/14336872547"
-      ],
-      "speedLimit": {
-        "basis": "conservative-lower-bound",
-        "conditional": false,
-        "confidence": "inferred",
-        "semantics": "conservative-suppression-bound",
-        "sourceID": "overture/1474693b-84c7-45fe-9681-663da54c13dc",
-        "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
-        "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
-        "value": 40.0,
-        "verifiedAt": "2026-11-09T13:03:48Z"
-      },
-      "speedLimitEvidenceIDs": [
-        "overture/1474693b-84c7-45fe-9681-663da54c13dc",
-        "overture/7ed5d559-61e7-48fe-a630-3603480bc392",
-        "overture/b861c3a2-70be-4cee-a26b-4bec7b39bb5a"
       ]
     },
     {
@@ -526358,23 +526334,6 @@
       "siteID": "osm-node-14336872548",
       "sourceIDs": [
         "osm/node/14336872548"
-      ],
-      "speedLimit": {
-        "basis": "conservative-lower-bound",
-        "conditional": false,
-        "confidence": "inferred",
-        "semantics": "conservative-suppression-bound",
-        "sourceID": "overture/1474693b-84c7-45fe-9681-663da54c13dc",
-        "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
-        "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
-        "value": 40.0,
-        "verifiedAt": "2026-11-09T13:03:48Z"
-      },
-      "speedLimitEvidenceIDs": [
-        "overture/1474693b-84c7-45fe-9681-663da54c13dc",
-        "overture/7ed5d559-61e7-48fe-a630-3603480bc392",
-        "overture/b861c3a2-70be-4cee-a26b-4bec7b39bb5a"
       ]
     },
     {
@@ -526391,23 +526350,6 @@
       "siteID": "osm-node-14336872549",
       "sourceIDs": [
         "osm/node/14336872549"
-      ],
-      "speedLimit": {
-        "basis": "conservative-lower-bound",
-        "conditional": false,
-        "confidence": "inferred",
-        "semantics": "conservative-suppression-bound",
-        "sourceID": "overture/1474693b-84c7-45fe-9681-663da54c13dc",
-        "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
-        "unit": "mph",
-        "validUntil": "2026-12-05T00:00:00Z",
-        "value": 40.0,
-        "verifiedAt": "2026-11-09T13:03:48Z"
-      },
-      "speedLimitEvidenceIDs": [
-        "overture/1474693b-84c7-45fe-9681-663da54c13dc",
-        "overture/7ed5d559-61e7-48fe-a630-3603480bc392",
-        "overture/b861c3a2-70be-4cee-a26b-4bec7b39bb5a"
       ]
     },
     {
@@ -526502,6 +526444,22 @@
       "siteID": "osm-node-14378977413",
       "sourceIDs": [
         "osm/node/14378977413"
+      ],
+      "speedLimit": {
+        "basis": "conservative-lower-bound",
+        "conditional": false,
+        "confidence": "inferred",
+        "semantics": "conservative-suppression-bound",
+        "sourceID": "overture/0c0e3aae-8408-478f-ba62-0362958692cd",
+        "sourceURL": "https://docs.overturemaps.org/guides/transportation/roads/",
+        "unit": "mph",
+        "validUntil": "2026-12-23T14:36:12Z",
+        "value": 40.0,
+        "verifiedAt": "2026-11-23T14:36:12Z"
+      },
+      "speedLimitEvidenceIDs": [
+        "overture/0c0e3aae-8408-478f-ba62-0362958692cd",
+        "overture/689e0715-3ce8-4891-8bd3-411a7f74b26a"
       ]
     },
     {
@@ -526888,6 +526846,22 @@
       "siteID": "osm-node-176110439",
       "sourceIDs": [
         "osm/node/176110439"
+      ]
+    },
+    {
+      "evidence": "OpenStreetMap mapped device; not independently field-verified. Camera-facing direction is not treated as vehicle direction.",
+      "geometry": [
+        {
+          "latitude": 39.6532131,
+          "longitude": -105.0140092
+        }
+      ],
+      "id": "osm-node-176146341",
+      "kind": "redLight",
+      "label": "Mapped camera",
+      "siteID": "osm-node-176146341",
+      "sourceIDs": [
+        "osm/node/176146341"
       ]
     },
     {
@@ -529882,6 +529856,22 @@
       "siteID": "osm-node-2876764505",
       "sourceIDs": [
         "osm/node/2876764505"
+      ]
+    },
+    {
+      "evidence": "OpenStreetMap mapped device; not independently field-verified. Camera-facing direction is not treated as vehicle direction.",
+      "geometry": [
+        {
+          "latitude": 39.6530508,
+          "longitude": -105.0139782
+        }
+      ],
+      "id": "osm-node-2884785099",
+      "kind": "redLight",
+      "label": "Mapped camera",
+      "siteID": "osm-node-2884785099",
+      "sourceIDs": [
+        "osm/node/2884785099"
       ]
     },
     {
@@ -533110,6 +533100,22 @@
       "siteID": "osm-node-439422827",
       "sourceIDs": [
         "osm/node/439422827"
+      ]
+    },
+    {
+      "evidence": "OpenStreetMap mapped device; not independently field-verified. Camera-facing direction is not treated as vehicle direction.",
+      "geometry": [
+        {
+          "latitude": 39.6530777,
+          "longitude": -105.0138644
+        }
+      ],
+      "id": "osm-node-443520187",
+      "kind": "redLight",
+      "label": "Mapped camera",
+      "siteID": "osm-node-443520187",
+      "sourceIDs": [
+        "osm/node/443520187"
       ]
     },
     {
@@ -543792,6 +543798,21 @@
       "siteID": "osm-node-9694571272",
       "sourceIDs": [
         "osm/node/9694571272"
+      ],
+      "speedLimit": {
+        "basis": "road-matched",
+        "conditional": false,
+        "confidence": "inferred",
+        "semantics": "posted-limit",
+        "sourceID": "osm/way/572473513",
+        "sourceURL": "https://www.openstreetmap.org/way/572473513",
+        "unit": "mph",
+        "validUntil": "2026-12-23T14:34:34Z",
+        "value": 35.0,
+        "verifiedAt": "2026-11-23T14:34:34Z"
+      },
+      "speedLimitEvidenceIDs": [
+        "osm/way/572473513"
       ]
     },
     {
@@ -550064,7 +550085,7 @@
     }
   ],
   "coverage": "U.S. community data plus reviewed Albuquerque and agency supplements in Census metros. Coverage is incomplete; see Sources.",
-  "generatedAt": "2026-11-16T16:37:12Z",
+  "generatedAt": "2026-11-23T18:52:11Z",
   "schemaVersion": 1,
   "sources": [
     {
@@ -550072,7 +550093,7 @@
       "id": "osm",
       "license": "ODbL-1.0",
       "name": "OpenStreetMap contributors",
-      "status": "Community coverage; incomplete. Source timestamps: 2026-11-16T12:35:21Z, 2026-10-12T10:32:46Z, 2026-10-19T08:42:01Z",
+      "status": "Community coverage; incomplete. Source timestamps: 2026-11-16T12:35:21Z, 2026-10-12T10:32:46Z, 2026-11-23T14:18:17Z",
       "url": "https://www.openstreetmap.org/copyright"
     },
     {
@@ -550100,7 +550121,7 @@
       "url": "https://rrnm.gov/1584/STOP-Safe-Traffic-Operations-Program"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "chicago-speed",
       "license": "Public agency location facts; see linked source terms. Combined database ODbL-1.0.",
       "name": "Chicago speed cameras",
@@ -550108,7 +550129,7 @@
       "url": "https://data.cityofchicago.org/d/4i42-qv3h"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "chicago-red",
       "license": "Public agency location facts; see linked source terms. Combined database ODbL-1.0.",
       "name": "Chicago red-light cameras",
@@ -550116,7 +550137,7 @@
       "url": "https://data.cityofchicago.org/d/thvf-6diy"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "dc",
       "license": "Public agency location facts; see linked source terms. Combined database ODbL-1.0.",
       "name": "DC automated safety cameras",
@@ -550124,7 +550145,7 @@
       "url": "https://asc.ddot.dc.gov/"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "seattle",
       "license": "Public agency location facts; see linked source terms. Combined database ODbL-1.0.",
       "name": "Seattle active safety cameras",
@@ -550132,7 +550153,7 @@
       "url": "https://catalog.data.gov/dataset/automatic-traffic-safety-cameras-atsc-active"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "arlington",
       "license": "Public agency location facts; see linked source terms. Combined database ODbL-1.0.",
       "name": "Arlington photo speed cameras",
@@ -550140,7 +550161,7 @@
       "url": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "tacoma",
       "license": "Public agency location facts; see linked source terms. Combined database ODbL-1.0.",
       "name": "Tacoma automated enforcement",
@@ -550148,7 +550169,7 @@
       "url": "https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "sf",
       "license": "Public agency location facts; see linked source terms. Combined database ODbL-1.0.",
       "name": "San Francisco speed cameras",
@@ -550156,7 +550177,7 @@
       "url": "https://www.sfmta.com/projects/speed-safety-cameras"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "phoenix-points",
       "license": "Agency location facts from the map linked by Phoenix; map tiles and imagery excluded. Combined database ODbL-1.0.",
       "name": "Phoenix published photo safety deployment points",
@@ -550164,7 +550185,7 @@
       "url": "https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "philadelphia-addresses",
       "license": "Public agency location facts with Census/OSM estimates. Combined database ODbL-1.0.",
       "name": "Philadelphia PPA current camera locations",
@@ -550172,7 +550193,7 @@
       "url": "https://philapark.org/speed-cameras/"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "hillsborough-intersections",
       "license": "Public agency location facts with Census/OSM estimates. Combined database ODbL-1.0.",
       "name": "Hillsborough County red-light intersections",
@@ -550180,7 +550201,7 @@
       "url": "https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "https://asc.ddot.dc.gov/",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550188,7 +550209,7 @@
       "url": "https://asc.ddot.dc.gov/"
     },
     {
-      "checkedAt": "2026-11-16T12:39:36Z",
+      "checkedAt": "2026-11-23T14:22:30Z",
       "id": "https://data.cityofnewyork.us/resource/inkn-q76z.json",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550196,7 +550217,7 @@
       "url": "https://data.cityofnewyork.us/resource/inkn-q76z.json"
     },
     {
-      "checkedAt": "2026-11-09T13:03:48Z",
+      "checkedAt": "2026-11-23T14:36:12Z",
       "id": "https://docs.overturemaps.org/guides/transportation/roads/",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550204,7 +550225,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/roads/"
     },
     {
-      "checkedAt": "2026-11-16T12:38:00Z",
+      "checkedAt": "2026-11-23T14:20:43Z",
       "id": "https://gis.dot.nm.gov/epermit/rest/services/EGIS/EgisViewer/MapServer/33",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550220,7 +550241,7 @@
       "url": "https://github.com/aindaco1/road-notice/blob/main/docs/COORS-FIELD-VERIFICATION.md"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "https://philapark.org/2026/04/60-day-warning-period-for-automated-speed-enforcement-cameras-on-stretch-of-route-13-in-northeast-philadelphia-will-begin-monday-april-13th/",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550228,7 +550249,7 @@
       "url": "https://philapark.org/2026/04/60-day-warning-period-for-automated-speed-enforcement-cameras-on-stretch-of-route-13-in-northeast-philadelphia-will-begin-monday-april-13th/"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550236,7 +550257,7 @@
       "url": "https://philapark.org/wp-content/uploads/2026-Speed-Camera-Enforcement-Program-State-Report.pdf"
     },
     {
-      "checkedAt": "2026-11-09T12:48:11Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550244,7 +550265,7 @@
       "url": "https://seattle.gov/police/community-policing/community-programs/red-light-cameras/school-zone-enforcement"
     },
     {
-      "checkedAt": "2026-11-16T12:38:13Z",
+      "checkedAt": "2026-11-23T14:20:57Z",
       "id": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Seattle_Streets_1/FeatureServer/0",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550252,7 +550273,7 @@
       "url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Seattle_Streets_1/FeatureServer/0"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "https://tacoma.gov/government/departments/public-works/transportation/neighborhood-programs/safe-routes-to-school/engineering/",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550260,7 +550281,7 @@
       "url": "https://tacoma.gov/government/departments/public-works/transportation/neighborhood-programs/safe-routes-to-school/engineering/"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550268,7 +550289,7 @@
       "url": "https://www.arcgis.com/home/item.html?id=eb99da63af414381852644a4a29fc224"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -550276,7 +550297,7 @@
       "url": "https://www.arcgis.com/home/item.html?id=ed8eb6a8c87643faa3ea1c6864301c05"
     },
     {
-      "checkedAt": "2026-11-16T12:37:04Z",
+      "checkedAt": "2026-11-23T14:20:31Z",
       "id": "https://www.cabq.gov/automated-speed-enforcement/camera-data",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -553541,14 +553562,6 @@
     },
     {
       "checkedAt": "2026-11-16T12:35:21Z",
-      "id": "https://www.openstreetmap.org/node/14320479089",
-      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
-      "name": "Speed-limit evidence",
-      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
-      "url": "https://www.openstreetmap.org/node/14320479089"
-    },
-    {
-      "checkedAt": "2026-11-16T12:35:21Z",
       "id": "https://www.openstreetmap.org/node/14324159476",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -553562,22 +553575,6 @@
       "name": "Speed-limit evidence",
       "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
       "url": "https://www.openstreetmap.org/node/14324159477"
-    },
-    {
-      "checkedAt": "2026-11-16T12:35:21Z",
-      "id": "https://www.openstreetmap.org/node/14324159478",
-      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
-      "name": "Speed-limit evidence",
-      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
-      "url": "https://www.openstreetmap.org/node/14324159478"
-    },
-    {
-      "checkedAt": "2026-11-16T12:35:21Z",
-      "id": "https://www.openstreetmap.org/node/14324159479",
-      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
-      "name": "Speed-limit evidence",
-      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
-      "url": "https://www.openstreetmap.org/node/14324159479"
     },
     {
       "checkedAt": "2026-11-16T12:35:21Z",
@@ -553805,14 +553802,6 @@
     },
     {
       "checkedAt": "2026-11-16T12:35:21Z",
-      "id": "https://www.openstreetmap.org/node/14324168208",
-      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
-      "name": "Speed-limit evidence",
-      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
-      "url": "https://www.openstreetmap.org/node/14324168208"
-    },
-    {
-      "checkedAt": "2026-11-16T12:35:21Z",
       "id": "https://www.openstreetmap.org/node/14324168209",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -553850,14 +553839,6 @@
       "name": "Speed-limit evidence",
       "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
       "url": "https://www.openstreetmap.org/node/14324168213"
-    },
-    {
-      "checkedAt": "2026-11-16T12:35:21Z",
-      "id": "https://www.openstreetmap.org/node/14324168214",
-      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
-      "name": "Speed-limit evidence",
-      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
-      "url": "https://www.openstreetmap.org/node/14324168214"
     },
     {
       "checkedAt": "2026-11-16T12:35:21Z",
@@ -557660,6 +557641,46 @@
       "url": "https://www.openstreetmap.org/way/537678338"
     },
     {
+      "checkedAt": "2026-11-23T14:34:34Z",
+      "id": "https://www.openstreetmap.org/way/539943943",
+      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
+      "name": "Speed-limit evidence",
+      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
+      "url": "https://www.openstreetmap.org/way/539943943"
+    },
+    {
+      "checkedAt": "2026-11-23T14:34:34Z",
+      "id": "https://www.openstreetmap.org/way/539943944",
+      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
+      "name": "Speed-limit evidence",
+      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
+      "url": "https://www.openstreetmap.org/way/539943944"
+    },
+    {
+      "checkedAt": "2026-11-23T14:34:34Z",
+      "id": "https://www.openstreetmap.org/way/539943945",
+      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
+      "name": "Speed-limit evidence",
+      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
+      "url": "https://www.openstreetmap.org/way/539943945"
+    },
+    {
+      "checkedAt": "2026-11-23T14:34:34Z",
+      "id": "https://www.openstreetmap.org/way/539943947",
+      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
+      "name": "Speed-limit evidence",
+      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
+      "url": "https://www.openstreetmap.org/way/539943947"
+    },
+    {
+      "checkedAt": "2026-11-23T14:34:34Z",
+      "id": "https://www.openstreetmap.org/way/539943948",
+      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
+      "name": "Speed-limit evidence",
+      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
+      "url": "https://www.openstreetmap.org/way/539943948"
+    },
+    {
       "checkedAt": "2026-11-04T05:07:57Z",
       "id": "https://www.openstreetmap.org/way/542173869",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
@@ -557762,6 +557783,14 @@
       "name": "Speed-limit evidence",
       "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
       "url": "https://www.openstreetmap.org/way/554910711"
+    },
+    {
+      "checkedAt": "2026-11-23T14:34:34Z",
+      "id": "https://www.openstreetmap.org/way/572473513",
+      "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
+      "name": "Speed-limit evidence",
+      "status": "Posted limit or conservative lower bound; see speed-limit coverage report.",
+      "url": "https://www.openstreetmap.org/way/572473513"
     },
     {
       "checkedAt": "2026-11-02T21:21:26Z",
@@ -558908,7 +558937,7 @@
       "url": "https://www.openstreetmap.org/way/997056729"
     },
     {
-      "checkedAt": "2026-11-16T12:36:48Z",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "id": "https://www.sfmta.com/projects/speed-safety-cameras",
       "license": "OSM/derived roads: ODbL-1.0; agency posted-limit facts: attribution at source URL.",
       "name": "Speed-limit evidence",
@@ -558916,5 +558945,5 @@
       "url": "https://www.sfmta.com/projects/speed-safety-cameras"
     }
   ],
-  "version": "2026-11-16-2621d7941c94-c0707f31"
+  "version": "2026-11-23-54e683f3d30f-91847162"
 }

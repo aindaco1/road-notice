@@ -5,17 +5,17 @@
   },
   "byBasis": {
     "agency-posted": 207,
-    "conservative-lower-bound": 234,
+    "conservative-lower-bound": 233,
     "field-verified": 2,
-    "osm-posted": 434,
-    "road-matched": 153
+    "osm-posted": 429,
+    "road-matched": 154
   },
-  "candidateOnly": 362,
-  "coveragePercent": 54.2,
-  "eligible": 1030,
-  "generatedAt": "2026-11-16T16:37:12Z",
+  "candidateOnly": 367,
+  "coveragePercent": 54.0,
+  "eligible": 1025,
+  "generatedAt": "2026-11-23T18:52:11Z",
   "speedCameras": 1899,
-  "totalCameras": 2837,
+  "totalCameras": 2840,
   "unknown": 507,
-  "version": "2026-11-16-2621d7941c94-c0707f31"
+  "version": "2026-11-23-54e683f3d30f-91847162"
 }

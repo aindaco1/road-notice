@@ -2,7 +2,7 @@
   "approachPolicy": "15 seconds at sourced approach speed, 150–600 m; retain up to 650 m of available geometry",
   "eligible": 702,
   "generated": 702,
-  "generatedAt": "2026-11-16T16:37:12Z",
+  "generatedAt": "2026-11-23T18:52:11Z",
   "records": [
     {
       "approachMeters": 650.0,
@@ -25758,6 +25758,18 @@
     },
     {
       "approachMeters": null,
+      "id": "osm-node-176146341",
+      "kind": "redLight",
+      "label": "Mapped camera",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
       "id": "osm-node-176190348",
       "kind": "redLight",
       "label": "Mapped camera",
@@ -27582,6 +27594,18 @@
     },
     {
       "approachMeters": null,
+      "id": "osm-node-2884785099",
+      "kind": "redLight",
+      "label": "Mapped camera",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
       "id": "osm-node-2913809770",
       "kind": "speed",
       "label": "Mapped camera",
@@ -28519,6 +28543,18 @@
     {
       "approachMeters": null,
       "id": "osm-node-439422827",
+      "kind": "redLight",
+      "label": "Mapped camera",
+      "leadBasis": null,
+      "reason": "Unknown monitored direction",
+      "requiredApproachMeters": null,
+      "sourceCheckDue": false,
+      "status": "fallback",
+      "vertices": 0
+    },
+    {
+      "approachMeters": null,
+      "id": "osm-node-443520187",
       "kind": "redLight",
       "label": "Mapped camera",
       "leadBasis": null,
@@ -34050,8 +34086,8 @@
     }
   ],
   "retained": 0,
-  "reviewed": 2837,
+  "reviewed": 2840,
   "scope": "All camera kinds and regions",
   "sourceChecksDue": 4,
-  "totalCameras": 2837
+  "totalCameras": 2840
 }

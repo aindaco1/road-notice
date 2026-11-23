@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T16:37:12Z",
+  "generatedAt": "2026-11-23T18:52:11Z",
   "metros": [
     {
       "agencyPoints": 0,
@@ -150,7 +150,7 @@
       "rank": 2,
       "speedCameraApproaches": 66,
       "warningRecords": 90,
-      "withSuppressionLimit": 57
+      "withSuppressionLimit": 54
     },
     {
       "agencyPoints": 566,
@@ -272,7 +272,7 @@
       "rank": 4,
       "speedCameraApproaches": 95,
       "warningRecords": 95,
-      "withSuppressionLimit": 68
+      "withSuppressionLimit": 65
     },
     {
       "agencyPoints": 0,
@@ -990,7 +990,7 @@
       "possibleAreas": 0,
       "rank": 19,
       "speedCameraApproaches": 2,
-      "warningRecords": 22,
+      "warningRecords": 25,
       "withSuppressionLimit": 2
     },
     {

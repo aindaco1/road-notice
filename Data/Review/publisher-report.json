@@ -1,15 +1,15 @@
 {
   "counts": {
     "possibleSpeed": 203,
-    "redLight": 743,
+    "redLight": 746,
     "speed": 1696,
     "speedAndRedLight": 195
   },
   "fetches": [
     {
-      "checkedAt": "2026-11-16T12:36:46Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "source": "speed",
-      "status": "downloaded"
+      "status": "retained"
     },
     {
       "error": "HTTP Error 504: Gateway Time-out",
@@ -17,13 +17,13 @@
       "status": "retained"
     },
     {
-      "error": "HTTP Error 504: Gateway Time-out",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "source": "aliases",
-      "status": "retained"
+      "status": "downloaded"
     }
   ],
-  "generatedAt": "2026-11-16T16:37:12Z",
-  "records": 2837,
+  "generatedAt": "2026-11-23T18:52:11Z",
+  "records": 2840,
   "review": [
     {
       "id": "osm-relation-545916",
@@ -2948,6 +2948,11 @@
       "reason": "Missing from complete fetch; retained pending review"
     },
     {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-191002016",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
       "consecutiveAbsences": 1,
       "id": "osm-node-2876763209",
       "reason": "Missing from complete fetch; retained pending review"
@@ -2955,6 +2960,11 @@
     {
       "consecutiveAbsences": 1,
       "id": "osm-node-4134798728",
+      "reason": "Missing from complete fetch; retained pending review"
+    },
+    {
+      "consecutiveAbsences": 0,
+      "id": "osm-node-439422827",
       "reason": "Missing from complete fetch; retained pending review"
     },
     {
@@ -7013,6 +7023,11 @@
       "reason": "Nearby records; no automatic proximity merge"
     },
     {
+      "id": "osm-node-2884785099",
+      "near": "osm-node-176146341",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
       "id": "osm-node-2913809771",
       "near": "osm-node-2913809770",
       "reason": "Nearby records; no automatic proximity merge"
@@ -7380,6 +7395,16 @@
     {
       "id": "osm-node-428694259",
       "near": "osm-node-13025363821",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-443520187",
+      "near": "osm-node-176146341",
+      "reason": "Nearby records; no automatic proximity merge"
+    },
+    {
+      "id": "osm-node-443520187",
+      "near": "osm-node-2884785099",
       "reason": "Nearby records; no automatic proximity merge"
     },
     {

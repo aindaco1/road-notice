@@ -1,16 +1,16 @@
 # Speed-limit coverage
 
-Snapshot 2026-11-16-2621d7941c94-c0707f31
+Snapshot 2026-11-23-54e683f3d30f-91847162
 
-1030 / 1899 speed-camera approaches have an approved posted limit or conservative suppression bound.
+1025 / 1899 speed-camera approaches have an approved posted limit or conservative suppression bound.
 
 | Census metro | Speed approaches | With limit/bound |
 |---|---:|---:|
 | Albuquerque, NM | 72 | 63 |
 | New York-Newark-Jersey City, NY-NJ | 89 | 40 |
-| Los Angeles-Long Beach-Anaheim, CA | 66 | 57 |
+| Los Angeles-Long Beach-Anaheim, CA | 66 | 54 |
 | Chicago-Naperville-Elgin, IL-IN | 315 | 13 |
-| Dallas-Fort Worth-Arlington, TX | 95 | 68 |
+| Dallas-Fort Worth-Arlington, TX | 95 | 65 |
 | Houston-Pasadena-The Woodlands, TX | 1 | 0 |
 | Atlanta-Sandy Springs-Roswell, GA | 28 | 16 |
 | Washington-Arlington-Alexandria, DC-VA-MD-WV | 422 | 321 |

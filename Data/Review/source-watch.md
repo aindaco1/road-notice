@@ -1,6 +1,6 @@
 # Source checks
 
-Checked: 2026-11-16T12:36:48Z
+Checked: 2026-11-23T14:20:13Z
 
 | Source | Status | Records | Review |
 |---|---|---:|---|
@@ -23,7 +23,7 @@ Checked: 2026-11-16T12:36:48Z
 | [Texas current photo enforcement reports and exceptions](https://www.txdot.gov/safety/traffic-signs-signals/red-light-cameras/annual-reports.html) | changed | 0 | Required |
 | [Gwinnett school camera locations](https://www.gwinnettcounty.com/government/departments/police/school-zone-safety) | ok | 0 | — |
 | [Miami-Dade school camera locations](https://www.miamidade.gov/global/transportation/public-works/redspeed-initiative.page) | ok | 0 | — |
-| [Boynton Beach photo enforcement](https://bbpd.org/programs/photo_enforcement.php) | ok | 0 | — |
+| [Boynton Beach photo enforcement](https://bbpd.org/programs/photo_enforcement.php) | changed | 0 | Required |
 | [Philadelphia speed camera locations](https://philapark.org/speed-cameras/) | changed | 0 | Required |
 | [Philadelphia red-light camera locations](https://philapark.org/red-light-cameras/) | changed | 0 | Required |
 | [Phoenix current photo safety deployments](https://www.phoenix.gov/administration/departments/streets/safety-improvements/road-safety-action-plan/photo-safety.html) | changed | 0 | Required |
@@ -33,12 +33,12 @@ Checked: 2026-11-16T12:36:48Z
 | [Tampa red-light program](https://www.tampa.gov/police/info/stop-on-red-tampa) | ok | 0 | — |
 | [Hillsborough red-light locations](https://hcfl.gov/government/codes-and-ordinances/red-for-a-reason/red-light-cameras) | changed | 0 | Required |
 | [Solana Beach current red-light locations](https://www.cityofsolanabeach.ca.gov/sites/default/files/Solana%20Beach/Community%20Development/Code%20Compliance/SB%20RedLight%2C%20Pkg%202025%202%20sided%20ENG-SPN%20-%20O.pdf) | ok | 0 | — |
-| [Denver photo enforcement program](https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Police-Department/Traffic-Enforcement-and-Safety/Photo-Radar-Enforcement) | ok | 0 | — |
-| [Orlando red-light program](https://www.orlando.gov/Parking-Transportation/Red-Light-Camera-Violations) | ok | 0 | — |
+| [Denver photo enforcement program](https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Police-Department/Traffic-Enforcement-and-Safety/Photo-Radar-Enforcement) | changed | 0 | Required |
+| [Orlando red-light program](https://www.orlando.gov/Parking-Transportation/Red-Light-Camera-Violations) | changed | 0 | Required |
 | [Orlando red-light location map](https://gis.orlando.gov/PDF_Docs/TransportationMaps/RedLightCameras.pdf) | ok | 0 | — |
 | [US speed enforcement program discovery](https://www.iihs.org/research-areas/speed/speed-camera-communities) | changed | 0 | Required |
 | [US red-light enforcement program discovery](https://www.iihs.org/research-areas/red-light-running/red-light-camera-communities) | changed | 0 | Required |
-| [Montgomery County current camera location list](https://www.montgomerycountymd.gov/montgomery-county-police-department/how-do-i/speed-ticket-payment/speed-camera-locations) | ok | 0 | — |
+| [Montgomery County current camera location list](https://www.montgomerycountymd.gov/montgomery-county-police-department/how-do-i/speed-ticket-payment/speed-camera-locations) | changed | 0 | Required |
 | [Maryland highway work-zone camera deployments](https://www.safezones.maryland.gov/ase/Pages/locations.aspx?PageId=2) | ok | 0 | — |
 | [Scottsdale fixed photo enforcement](https://www.scottsdaleaz.gov/police/police-units/photo-enforcement) | changed | 0 | Required |
 | [Mesa photo safety intersections and school deployments](https://www.mesaaz.gov/Public-Safety/Mesa-Police/About-Mesa-Police/Photo-Safety-Program) | ok | 0 | — |

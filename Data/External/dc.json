@@ -7505,287 +7505,287 @@
       "travelBearing": 90
     }
   ],
-  "checkedAt": "2026-11-16T12:36:48Z",
+  "checkedAt": "2026-11-23T14:20:13Z",
   "excluded": [
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690114"
+      "sourceRecord": "714754"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690120"
+      "sourceRecord": "714760"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690122"
+      "sourceRecord": "714762"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690141"
+      "sourceRecord": "714781"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690142"
+      "sourceRecord": "714782"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690143"
+      "sourceRecord": "714783"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690145"
+      "sourceRecord": "714785"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690152"
+      "sourceRecord": "714792"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690160"
+      "sourceRecord": "714800"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690161"
+      "sourceRecord": "714801"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690162"
+      "sourceRecord": "714802"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690163"
+      "sourceRecord": "714803"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690174"
+      "sourceRecord": "714814"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690195"
+      "sourceRecord": "714835"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690220"
+      "sourceRecord": "714860"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690225"
+      "sourceRecord": "714865"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690232"
+      "sourceRecord": "714872"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690233"
+      "sourceRecord": "714873"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690236"
+      "sourceRecord": "714876"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690243"
+      "sourceRecord": "714883"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690270"
+      "sourceRecord": "714910"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690297"
+      "sourceRecord": "714937"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690301"
+      "sourceRecord": "714941"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690316"
+      "sourceRecord": "714956"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690323"
+      "sourceRecord": "714963"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690341"
+      "sourceRecord": "714981"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690342"
+      "sourceRecord": "714982"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690343"
+      "sourceRecord": "714983"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690344"
+      "sourceRecord": "714984"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690345"
+      "sourceRecord": "714985"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690348"
+      "sourceRecord": "714988"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690351"
+      "sourceRecord": "714991"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690352"
+      "sourceRecord": "714992"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690353"
+      "sourceRecord": "714993"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690356"
+      "sourceRecord": "714996"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690358"
+      "sourceRecord": "714998"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690360"
+      "sourceRecord": "715000"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690380"
+      "sourceRecord": "715020"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690407"
+      "sourceRecord": "715047"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690408"
+      "sourceRecord": "715048"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690409"
+      "sourceRecord": "715049"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690410"
+      "sourceRecord": "715050"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690411"
+      "sourceRecord": "715051"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690412"
+      "sourceRecord": "715052"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690413"
+      "sourceRecord": "715053"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690415"
+      "sourceRecord": "715055"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690416"
+      "sourceRecord": "715056"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690421"
+      "sourceRecord": "715061"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690422"
+      "sourceRecord": "715062"
     },
     {
       "reason": "Not speed/red-light enforcement",
-      "sourceRecord": "690423"
+      "sourceRecord": "715063"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690426"
+      "sourceRecord": "715066"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690427"
+      "sourceRecord": "715067"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690428"
+      "sourceRecord": "715068"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690429"
+      "sourceRecord": "715069"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690430"
+      "sourceRecord": "715070"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690431"
+      "sourceRecord": "715071"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690432"
+      "sourceRecord": "715072"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690433"
+      "sourceRecord": "715073"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690434"
+      "sourceRecord": "715074"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690435"
+      "sourceRecord": "715075"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690436"
+      "sourceRecord": "715076"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690437"
+      "sourceRecord": "715077"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690438"
+      "sourceRecord": "715078"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690439"
+      "sourceRecord": "715079"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690440"
+      "sourceRecord": "715080"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690441"
+      "sourceRecord": "715081"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690442"
+      "sourceRecord": "715082"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690443"
+      "sourceRecord": "715083"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690444"
+      "sourceRecord": "715084"
     },
     {
       "reason": "Not operational",
-      "sourceRecord": "690445"
+      "sourceRecord": "715085"
     }
   ],
   "id": "dc",

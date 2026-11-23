@@ -159,6 +159,18 @@
       "type": "node"
     },
     {
+      "id": 176146341,
+      "lat": 39.6532131,
+      "lon": -105.0140092,
+      "tags": {
+        "enforcement": "red_light_camera",
+        "highway": "traffic_signals",
+        "note": "photo-enforced",
+        "traffic_signals": "signal"
+      },
+      "type": "node"
+    },
+    {
       "id": 176190348,
       "lat": 39.6238352,
       "lon": -104.9041,
@@ -188,17 +200,6 @@
         "enforcement": "red_light_camera",
         "highway": "traffic_signals",
         "traffic_signals": "traffic_lights"
-      },
-      "type": "node"
-    },
-    {
-      "id": 191002016,
-      "lat": 39.0192339,
-      "lon": -94.5547627,
-      "tags": {
-        "enforcement": "red_light_camera",
-        "highway": "traffic_signals",
-        "traffic_signals": "signal"
       },
       "type": "node"
     },
@@ -387,12 +388,13 @@
       "type": "node"
     },
     {
-      "id": 439422827,
-      "lat": 39.0264989,
-      "lon": -94.5542778,
+      "id": 443520187,
+      "lat": 39.6530777,
+      "lon": -105.0138644,
       "tags": {
         "enforcement": "red_light_camera",
         "highway": "traffic_signals",
+        "note": "photo-enforced",
         "traffic_signals": "signal"
       },
       "type": "node"
@@ -604,6 +606,18 @@
       "tags": {
         "enforcement": "red_light_camera",
         "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "type": "node"
+    },
+    {
+      "id": 2884785099,
+      "lat": 39.6530508,
+      "lon": -105.0139782,
+      "tags": {
+        "enforcement": "red_light_camera",
+        "highway": "traffic_signals",
+        "note": "photo-enforced",
         "traffic_signals": "signal"
       },
       "type": "node"
@@ -2050,8 +2064,8 @@
     },
     {
       "id": 13368691601,
-      "lat": 47.7517187,
-      "lon": -122.6453582,
+      "lat": 47.7516392,
+      "lon": -122.645111,
       "tags": {
         "camera:mount": "pole",
         "camera:type": "fixed",
@@ -2216,8 +2230,8 @@
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp_areas_base": "2026-10-19T07:06:45Z",
-    "timestamp_osm_base": "2026-10-19T08:42:01Z"
+    "timestamp_areas_base": "2026-11-23T12:42:25Z",
+    "timestamp_osm_base": "2026-11-23T14:18:17Z"
   },
   "version": 0.6
 }

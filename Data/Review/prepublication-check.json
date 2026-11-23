@@ -1,11 +1,11 @@
 {
-  "agencyAndPageChecksAt": "2026-11-16T12:36:48Z",
-  "completedAt": "2026-11-16T12:57:22Z",
+  "agencyAndPageChecksAt": "2026-11-23T14:20:13Z",
+  "completedAt": "2026-11-23T14:51:24Z",
   "osmFetches": [
     {
-      "checkedAt": "2026-11-16T12:36:46Z",
+      "error": "HTTP Error 504: Gateway Time-out",
       "source": "speed",
-      "status": "downloaded"
+      "status": "retained"
     },
     {
       "error": "HTTP Error 504: Gateway Time-out",
@@ -13,22 +13,22 @@
       "status": "retained"
     },
     {
-      "error": "HTTP Error 504: Gateway Time-out",
+      "checkedAt": "2026-11-23T14:20:13Z",
       "source": "aliases",
-      "status": "retained"
+      "status": "downloaded"
     }
   ],
   "overture": {
-    "checkedAt": "2026-11-16T12:52:52Z",
-    "completeRegions": 131,
-    "error": "34 regions unavailable, retained or deferred; see regional results",
-    "records": 26725,
+    "checkedAt": "2026-11-23T14:36:12Z",
+    "completeRegions": 98,
+    "error": "69 regions unavailable, retained or deferred; see regional results",
+    "records": 27749,
     "regions": [
       {
         "id": "79dd4274b9005814",
         "queryPoints": 759,
-        "records": 2266,
-        "status": "cached",
+        "records": 2262,
+        "status": "downloaded",
         "tile": [
           70,
           -214
@@ -38,7 +38,7 @@
         "id": "87d904edbe3f658e",
         "queryPoints": 16,
         "records": 68,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           70,
           -213
@@ -48,7 +48,7 @@
         "id": "6959db5b7bb786bf",
         "queryPoints": 6,
         "records": 26,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           69,
           -214
@@ -58,7 +58,7 @@
         "id": "57d1725caf45722c",
         "queryPoints": 1,
         "records": 8,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           71,
           -213
@@ -87,7 +87,7 @@
       {
         "id": "fbc2d2d6d12a71e9",
         "queryPoints": 167,
-        "records": 2735,
+        "records": 2730,
         "status": "downloaded",
         "tile": [
           77,
@@ -98,17 +98,17 @@
         "id": "d3578b36212562d6",
         "queryPoints": 110,
         "records": 1782,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           95,
           -245
         ]
       },
       {
-        "id": "9b44b451ec45d0dd",
+        "id": "282d318ae852c810",
         "queryPoints": 87,
-        "records": 1526,
-        "status": "cached",
+        "records": 1528,
+        "status": "downloaded",
         "tile": [
           78,
           -154
@@ -118,7 +118,7 @@
         "id": "1dbb1e6241ee7917",
         "queryPoints": 69,
         "records": 1601,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           75,
           -245
@@ -128,7 +128,7 @@
         "id": "98978dfe594a4a12",
         "queryPoints": 60,
         "records": 838,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -155
@@ -137,28 +137,38 @@
       {
         "id": "0d15ce0108eed120",
         "queryPoints": 57,
-        "records": 1271,
-        "status": "cached",
+        "records": 1269,
+        "status": "downloaded",
         "tile": [
           81,
           -148
         ]
       },
       {
-        "id": "9fb3e52fcb732062",
-        "queryPoints": 48,
-        "records": 416,
-        "status": "cached",
+        "id": "17f515f6b085ffca",
+        "queryPoints": 51,
+        "records": 418,
+        "status": "downloaded",
         "tile": [
           66,
           -195
         ]
       },
       {
-        "id": "07d7833ccee68594",
-        "queryPoints": 29,
-        "records": 598,
-        "status": "cached",
+        "id": "f88e897891d28ae4",
+        "queryPoints": 47,
+        "records": 506,
+        "status": "downloaded",
+        "tile": [
+          68,
+          -237
+        ]
+      },
+      {
+        "id": "0ef190a21c7284a1",
+        "queryPoints": 30,
+        "records": 622,
+        "status": "downloaded",
         "tile": [
           81,
           -149
@@ -168,7 +178,7 @@
         "id": "0e483193c30d5498",
         "queryPoints": 29,
         "records": 290,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           94,
           -245
@@ -178,7 +188,7 @@
         "id": "ba0820ff195b62fd",
         "queryPoints": 25,
         "records": 190,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           90,
           -246
@@ -188,7 +198,7 @@
         "id": "e5d507b8707f1ca8",
         "queryPoints": 22,
         "records": 245,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           66,
           -224
@@ -198,7 +208,7 @@
         "id": "cc3523e5f258a673",
         "queryPoints": 21,
         "records": 98,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           66,
           -194
@@ -208,10 +218,20 @@
         "id": "8515f5e440bf4cf0",
         "queryPoints": 20,
         "records": 220,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           85,
           -148
+        ]
+      },
+      {
+        "id": "d095834fe37301e5",
+        "queryPoints": 17,
+        "records": 263,
+        "status": "downloaded",
+        "tile": [
+          75,
+          -155
         ]
       },
       {
@@ -225,10 +245,20 @@
         ]
       },
       {
+        "id": "90c0860e1c1d2934",
+        "queryPoints": 16,
+        "records": 113,
+        "status": "downloaded",
+        "tile": [
+          89,
+          -247
+        ]
+      },
+      {
         "id": "3903e6e516092300",
         "queryPoints": 15,
         "records": 129,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           65,
           -194
@@ -247,18 +277,28 @@
       {
         "id": "626e1de1627c809b",
         "queryPoints": 15,
-        "records": 192,
-        "status": "cached",
+        "records": 193,
+        "status": "downloaded",
         "tile": [
           89,
           -187
         ]
       },
       {
+        "id": "2e357b601242e32c",
+        "queryPoints": 14,
+        "records": 192,
+        "status": "downloaded",
+        "tile": [
+          67,
+          -237
+        ]
+      },
+      {
         "id": "c40329c051487cb9",
         "queryPoints": 14,
         "records": 103,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -164
@@ -268,7 +308,7 @@
         "id": "c01661f20bb55a4f",
         "queryPoints": 13,
         "records": 356,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           80,
           -151
@@ -288,7 +328,7 @@
         "id": "d05c225c2433227e",
         "queryPoints": 11,
         "records": 209,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -143
@@ -298,7 +338,7 @@
         "id": "a28bc7c83486281a",
         "queryPoints": 9,
         "records": 192,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           51,
           -161
@@ -308,27 +348,17 @@
         "id": "e65d583f2b13a506",
         "queryPoints": 9,
         "records": 35,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -146
         ]
       },
       {
-        "id": "f445c5f890932968",
-        "queryPoints": 9,
-        "records": 69,
-        "status": "cached",
-        "tile": [
-          89,
-          -247
-        ]
-      },
-      {
         "id": "1e8ea2c343e1ca31",
         "queryPoints": 9,
         "records": 90,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           94,
           -246
@@ -338,7 +368,7 @@
         "id": "a2c2059ead2826be",
         "queryPoints": 8,
         "records": 102,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           64,
           -170
@@ -348,7 +378,7 @@
         "id": "dab62428fa3b704e",
         "queryPoints": 8,
         "records": 72,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           86,
           -153
@@ -358,7 +388,7 @@
         "id": "eec1cecbc5f74422",
         "queryPoints": 8,
         "records": 74,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           91,
           -246
@@ -368,7 +398,7 @@
         "id": "eab792ebfce7f7b5",
         "queryPoints": 7,
         "records": 16,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           66,
           -234
@@ -378,10 +408,20 @@
         "id": "1acb6622f3a402d2",
         "queryPoints": 7,
         "records": 147,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -184
+        ]
+      },
+      {
+        "id": "efcf63c63809e832",
+        "queryPoints": 6,
+        "records": 83,
+        "status": "downloaded",
+        "tile": [
+          65,
+          -195
         ]
       },
       {
@@ -395,30 +435,30 @@
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
-        "id": "922fd69258e20f11",
-        "queryPoints": 6,
-        "status": "retained",
-        "tile": [
-          68,
-          -237
-        ]
-      },
-      {
         "id": "ec7fceabda63fc81",
         "queryPoints": 6,
         "records": 29,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -170
         ]
       },
       {
+        "id": "06d29ce42e35d312",
+        "queryPoints": 6,
+        "records": 47,
+        "status": "downloaded",
+        "tile": [
+          75,
+          -156
+        ]
+      },
+      {
         "id": "3b4b32bae2652c34",
         "queryPoints": 6,
         "records": 12,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -163
@@ -438,27 +478,17 @@
         "id": "27a14bd447c1baf2",
         "queryPoints": 5,
         "records": 56,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           60,
           -168
         ]
       },
       {
-        "id": "c72d61f2393c82b6",
-        "queryPoints": 5,
-        "records": 47,
-        "status": "cached",
-        "tile": [
-          65,
-          -195
-        ]
-      },
-      {
         "id": "3230ac8a5d8613d3",
         "queryPoints": 5,
         "records": 38,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -169
@@ -468,7 +498,7 @@
         "id": "31ef06cfee95ffae",
         "queryPoints": 5,
         "records": 94,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           77,
           -243
@@ -488,7 +518,7 @@
         "id": "7107fc952086d845",
         "queryPoints": 5,
         "records": 26,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           80,
           -211
@@ -508,7 +538,7 @@
         "id": "27039670de603093",
         "queryPoints": 5,
         "records": 88,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           84,
           -176
@@ -518,7 +548,7 @@
         "id": "ff38a63479b7670e",
         "queryPoints": 4,
         "records": 31,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           54,
           -166
@@ -528,7 +558,7 @@
         "id": "ef0641ee15eb7150",
         "queryPoints": 4,
         "records": 116,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           64,
           -214
@@ -548,20 +578,10 @@
         "id": "9d7e1ab613fb662e",
         "queryPoints": 4,
         "records": 20,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           70,
           -171
-        ]
-      },
-      {
-        "id": "1b7d4fcd1e9ac4ec",
-        "queryPoints": 4,
-        "records": 24,
-        "status": "cached",
-        "tile": [
-          75,
-          -156
         ]
       },
       {
@@ -578,7 +598,7 @@
         "id": "3d21d6c4d23ad5f6",
         "queryPoints": 4,
         "records": 25,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -168
@@ -598,7 +618,7 @@
         "id": "c242b5c164dcc842",
         "queryPoints": 4,
         "records": 62,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           81,
           -245
@@ -608,7 +628,7 @@
         "id": "2d3ad1d3e22681a3",
         "queryPoints": 4,
         "records": 12,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -160
@@ -618,7 +638,7 @@
         "id": "14727d0be4a7ca1c",
         "queryPoints": 4,
         "records": 9,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           84,
           -188
@@ -628,7 +648,7 @@
         "id": "14a3867685244a2a",
         "queryPoints": 4,
         "records": 57,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           84,
           -184
@@ -638,7 +658,7 @@
         "id": "156a571d6f81204b",
         "queryPoints": 3,
         "records": 46,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           56,
           -164
@@ -648,7 +668,7 @@
         "id": "8ed572c7733b0840",
         "queryPoints": 3,
         "records": 113,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           59,
           -181
@@ -658,10 +678,20 @@
         "id": "740f46d60619e2c2",
         "queryPoints": 3,
         "records": 61,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           67,
           -224
+        ]
+      },
+      {
+        "id": "8c28bc4cad06d585",
+        "queryPoints": 3,
+        "records": 18,
+        "status": "downloaded",
+        "tile": [
+          68,
+          -238
         ]
       },
       {
@@ -687,8 +717,8 @@
       {
         "id": "d79b56721e1fbd1e",
         "queryPoints": 3,
-        "records": 41,
-        "status": "cached",
+        "records": 38,
+        "status": "downloaded",
         "tile": [
           73,
           -244
@@ -698,7 +728,7 @@
         "id": "124d24353e6b4846",
         "queryPoints": 3,
         "records": 23,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -243
@@ -708,7 +738,7 @@
         "id": "687fba52952bc281",
         "queryPoints": 3,
         "records": 50,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           79,
           -211
@@ -718,7 +748,7 @@
         "id": "f884d43d5900e666",
         "queryPoints": 3,
         "records": 44,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           79,
           -156
@@ -738,7 +768,7 @@
         "id": "89c3024a5350e901",
         "queryPoints": 3,
         "records": 3,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -162
@@ -748,7 +778,7 @@
         "id": "727ac0460351940e",
         "queryPoints": 3,
         "records": 7,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -148
@@ -758,7 +788,7 @@
         "id": "acb6f0fe729083c6",
         "queryPoints": 3,
         "records": 29,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           83,
           -168
@@ -788,7 +818,7 @@
         "id": "26a7fdbb4633b9a9",
         "queryPoints": 3,
         "records": 17,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           89,
           -246
@@ -808,7 +838,7 @@
         "id": "32b80635b0cd0783",
         "queryPoints": 3,
         "records": 11,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           123,
           -299
@@ -818,7 +848,7 @@
         "id": "33661cc4d93196e1",
         "queryPoints": 2,
         "records": 35,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           52,
           -161
@@ -828,7 +858,7 @@
         "id": "a5d1814084a0e4b3",
         "queryPoints": 2,
         "records": 49,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           56,
           -165
@@ -838,7 +868,7 @@
         "id": "a0952f2bc87ac4d5",
         "queryPoints": 2,
         "records": 17,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           60,
           -172
@@ -848,7 +878,7 @@
         "id": "b4f298174851982c",
         "queryPoints": 2,
         "records": 9,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           63,
           -214
@@ -858,17 +888,27 @@
         "id": "cfb82e711dbc18e4",
         "queryPoints": 2,
         "records": 17,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           63,
           -163
         ]
       },
       {
+        "id": "e9bd90b53cf5a661",
+        "queryPoints": 2,
+        "records": 31,
+        "status": "downloaded",
+        "tile": [
+          64,
+          -222
+        ]
+      },
+      {
         "id": "ddb088ff90fabe49",
         "queryPoints": 2,
         "records": 9,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           64,
           -195
@@ -888,7 +928,7 @@
         "id": "e3a3db336d99d598",
         "queryPoints": 2,
         "records": 14,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           65,
           -170
@@ -898,20 +938,10 @@
         "id": "e4d866d515abb903",
         "queryPoints": 2,
         "records": 10,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           66,
           -169
-        ]
-      },
-      {
-        "error": "Region lost more than 25%; retained for review",
-        "id": "9fea5ca2067cff57",
-        "queryPoints": 2,
-        "status": "retained",
-        "tile": [
-          67,
-          -237
         ]
       },
       {
@@ -928,7 +958,7 @@
         "id": "4f82c4bce71a92ac",
         "queryPoints": 2,
         "records": 21,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           67,
           -174
@@ -938,7 +968,7 @@
         "id": "73e8b6a80115aada",
         "queryPoints": 2,
         "records": 37,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -235
@@ -948,7 +978,7 @@
         "id": "60bc3464b4c82f17",
         "queryPoints": 2,
         "records": 7,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           68,
           -171
@@ -968,17 +998,37 @@
         "id": "9970a608da9ab46a",
         "queryPoints": 2,
         "records": 3,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           74,
           -161
         ]
       },
       {
+        "id": "9b915291ce755a96",
+        "queryPoints": 2,
+        "records": 17,
+        "status": "downloaded",
+        "tile": [
+          74,
+          -156
+        ]
+      },
+      {
+        "id": "2d393688cd2b53a9",
+        "queryPoints": 2,
+        "records": 34,
+        "status": "downloaded",
+        "tile": [
+          74,
+          -155
+        ]
+      },
+      {
         "id": "7eff4d26a3e4792e",
         "queryPoints": 2,
         "records": 4,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           76,
           -154
@@ -988,7 +1038,7 @@
         "id": "2851746e121938ce",
         "queryPoints": 2,
         "records": 29,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           77,
           -210
@@ -998,7 +1048,7 @@
         "id": "2267746a02c6a987",
         "queryPoints": 2,
         "records": 13,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           77,
           -156
@@ -1008,7 +1058,7 @@
         "id": "0ae415b47ec7f148",
         "queryPoints": 2,
         "records": 1,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -156
@@ -1018,7 +1068,7 @@
         "id": "5250f6352f35bd05",
         "queryPoints": 2,
         "records": 9,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           78,
           -153
@@ -1027,8 +1077,8 @@
       {
         "id": "64812047ee9bc30b",
         "queryPoints": 2,
-        "records": 67,
-        "status": "cached",
+        "records": 70,
+        "status": "downloaded",
         "tile": [
           79,
           -214
@@ -1045,10 +1095,20 @@
         ]
       },
       {
+        "id": "2c4d5d269b69e83e",
+        "queryPoints": 2,
+        "records": 31,
+        "status": "downloaded",
+        "tile": [
+          79,
+          -152
+        ]
+      },
+      {
         "id": "ddfb01e74c74f13f",
         "queryPoints": 2,
         "records": 3,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           80,
           -173
@@ -1058,7 +1118,7 @@
         "id": "99e914c3aaa99e7c",
         "queryPoints": 2,
         "records": 10,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           81,
           -210
@@ -1068,7 +1128,7 @@
         "id": "67dc12c4368a8b1c",
         "queryPoints": 2,
         "records": 5,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           82,
           -161
@@ -1098,7 +1158,7 @@
         "id": "ef11a0a6264501bf",
         "queryPoints": 2,
         "records": 12,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           85,
           -158
@@ -1108,7 +1168,7 @@
         "id": "b509bc89cd362fbb",
         "queryPoints": 2,
         "records": 16,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           86,
           -180
@@ -1128,7 +1188,7 @@
         "id": "ca365aff48caffa0",
         "queryPoints": 2,
         "records": 0,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           88,
           -177
@@ -1138,7 +1198,7 @@
         "id": "125288e2f25a3270",
         "queryPoints": 2,
         "records": 6,
-        "status": "cached",
+        "status": "downloaded",
         "tile": [
           89,
           -186
@@ -1165,520 +1225,480 @@
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "13b6cbcbd4603380",
         "queryPoints": 1,
-        "records": 17,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           56,
           -163
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
+        "error": "Regional acquisition budget reached",
         "id": "2455778024fa9873",
         "queryPoints": 1,
-        "status": "retained",
+        "status": "deferred",
         "tile": [
           59,
           -191
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
+        "error": "Regional acquisition budget reached",
         "id": "ed0d2b1d192bbc37",
         "queryPoints": 1,
-        "status": "retained",
+        "status": "deferred",
         "tile": [
           60,
           -184
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "69c76355824b7c85",
         "queryPoints": 1,
-        "records": 29,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           60,
           -181
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "9dea0e4c1ab480a9",
         "queryPoints": 1,
-        "records": 24,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           60,
           -169
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "da677107ad149ae7",
         "queryPoints": 1,
-        "records": 27,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           60,
           -167
         ]
       },
       {
-        "id": "f420f977050d6ef3",
-        "queryPoints": 1,
-        "records": 26,
-        "status": "cached",
-        "tile": [
-          64,
-          -222
-        ]
-      },
-      {
-        "error": "Region lost more than 25%; retained for review",
+        "error": "Regional acquisition budget reached",
         "id": "e0ae65ec1138f6da",
         "queryPoints": 1,
-        "status": "retained",
+        "status": "deferred",
         "tile": [
           65,
           -168
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "f13b2e2a3ca9bd0d",
         "queryPoints": 1,
-        "records": 1,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           66,
           -212
         ]
       },
       {
-        "id": "bcb9e0114ec8d0b4",
-        "queryPoints": 1,
-        "records": 0,
-        "status": "cached",
-        "tile": [
-          68,
-          -238
-        ]
-      },
-      {
+        "error": "Regional acquisition budget reached",
         "id": "c36e40fb50f893bd",
         "queryPoints": 1,
-        "records": 1,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           68,
           -186
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
+        "error": "Regional acquisition budget reached",
         "id": "2fafac32c1152868",
         "queryPoints": 1,
-        "status": "retained",
+        "status": "deferred",
         "tile": [
           68,
           -165
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "cec1a27a33b2440f",
         "queryPoints": 1,
-        "records": 6,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           69,
           -166
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "cbfce38cae768132",
         "queryPoints": 1,
-        "records": 12,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           70,
           -163
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "dcc4c9473797320c",
         "queryPoints": 1,
-        "records": 4,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           71,
           -168
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
+        "error": "Regional acquisition budget reached",
         "id": "79e5af66fca027b1",
         "queryPoints": 1,
-        "status": "retained",
+        "status": "deferred",
         "tile": [
           73,
           -240
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "9248e7e5a6353619",
         "queryPoints": 1,
-        "records": 28,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           73,
           -166
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "8d9c4d08802f0246",
         "queryPoints": 1,
-        "records": 19,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           74,
           -243
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "f67d54656de44052",
         "queryPoints": 1,
-        "records": 20,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           75,
           -246
         ]
       },
       {
-        "id": "f7ccea7b426f332a",
-        "queryPoints": 1,
-        "records": 36,
-        "status": "cached",
-        "tile": [
-          75,
-          -155
-        ]
-      },
-      {
+        "error": "Regional acquisition budget reached",
         "id": "877a322d6e6be9e4",
         "queryPoints": 1,
-        "records": 26,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           76,
           -210
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "10c2991f5382115f",
         "queryPoints": 1,
-        "records": 9,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           76,
           -155
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "17d227959778b27a",
         "queryPoints": 1,
-        "records": 15,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           76,
           -152
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "4eaf8c765b1db88c",
         "queryPoints": 1,
-        "records": 5,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           78,
           -172
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "b2b8b007ec743d8b",
         "queryPoints": 1,
-        "records": 31,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           79,
           -173
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "d702663c70b40e08",
         "queryPoints": 1,
-        "records": 15,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           79,
           -169
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
-        "id": "fa82a17d5f2e7cae",
-        "queryPoints": 1,
-        "status": "retained",
-        "tile": [
-          79,
-          -152
-        ]
-      },
-      {
+        "error": "Regional acquisition budget reached",
         "id": "31716c7bdf816983",
         "queryPoints": 1,
-        "records": 4,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           80,
           -161
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
+        "error": "Regional acquisition budget reached",
         "id": "1ae65d19a7bc63f0",
         "queryPoints": 1,
-        "status": "retained",
+        "status": "deferred",
         "tile": [
           80,
           -150
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "851bcc137ed42bd7",
         "queryPoints": 1,
-        "records": 41,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           81,
           -211
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "73186198f781d649",
         "queryPoints": 1,
-        "records": 27,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           81,
           -163
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "98fd0e796690b80a",
         "queryPoints": 1,
-        "records": 12,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           82,
           -192
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "f7d79cca94fd1829",
         "queryPoints": 1,
-        "records": 3,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           82,
           -159
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
+        "error": "Regional acquisition budget reached",
         "id": "705870ec9ed94d35",
         "queryPoints": 1,
-        "status": "retained",
+        "status": "deferred",
         "tile": [
           82,
           -147
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
+        "error": "Regional acquisition budget reached",
         "id": "8cbc8150a51c1cb9",
         "queryPoints": 1,
-        "status": "retained",
+        "status": "deferred",
         "tile": [
           82,
           -146
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "642e1af1f41a2c1c",
         "queryPoints": 1,
-        "records": 6,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           83,
           -224
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "8cc5c9b9f5191433",
         "queryPoints": 1,
-        "records": 5,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           83,
           -188
         ]
       },
       {
-        "error": "Region lost more than 25%; retained for review",
+        "error": "Regional acquisition budget reached",
         "id": "3c228e49cd22d923",
         "queryPoints": 1,
-        "status": "retained",
+        "status": "deferred",
         "tile": [
           83,
           -186
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "1fe1f392db2fc616",
         "queryPoints": 1,
-        "records": 7,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           83,
           -181
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "27f64b1981a62e28",
         "queryPoints": 1,
-        "records": 14,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           83,
           -164
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "e0ec0171e3f523c6",
         "queryPoints": 1,
-        "records": 3,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           84,
           -193
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "504433b31aa90d22",
         "queryPoints": 1,
-        "records": 7,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           86,
           -157
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "a371231d30e3c99e",
         "queryPoints": 1,
-        "records": 1,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           86,
           -142
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "ed52ec358212a1d9",
         "queryPoints": 1,
-        "records": 1,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           87,
           -222
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "26184fa366d57cd8",
         "queryPoints": 1,
-        "records": 13,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           87,
           -189
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "37b355d371698aa4",
         "queryPoints": 1,
-        "records": 11,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           87,
           -146
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "eae5549c3a63cccf",
         "queryPoints": 1,
-        "records": 1,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           89,
           -145
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "f82f3a2549f3701c",
         "queryPoints": 1,
-        "records": 5,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           91,
           -178
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "39499691e7c236c1",
         "queryPoints": 1,
-        "records": 1,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           93,
           -249
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "a6ae28d1db0e30b7",
         "queryPoints": 1,
-        "records": 22,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           95,
           -235
         ]
       },
       {
+        "error": "Regional acquisition budget reached",
         "id": "06084089720f0b1e",
         "queryPoints": 1,
-        "records": 22,
-        "status": "cached",
+        "status": "deferred",
         "tile": [
           96,
           -246
         ]
       }
     ],
-    "release": "2026-10-21.0",
+    "release": "2026-11-18.0",
     "source": "overture",
     "status": "partial",
-    "totalRegions": 165
+    "totalRegions": 167
   },
   "reviewRequired": [
     "abq-documents",
@@ -1687,6 +1707,7 @@
     "la",
     "long-beach",
     "texas",
+    "boynton-beach",
     "philadelphia",
     "philadelphia-red",
     "phoenix",
@@ -1694,8 +1715,11 @@
     "michigan",
     "minneapolis",
     "hillsborough",
+    "denver",
+    "orlando",
     "iihs-speed",
     "iihs-red",
+    "montgomery-md",
     "scottsdale",
     "prince-georges-red",
     "snellville",
@@ -1703,5 +1727,5 @@
     "cdot-program",
     "nyc-datafeeds"
   ],
-  "speedLimitChecksAt": "2026-11-16T12:37:02Z"
+  "speedLimitChecksAt": "2026-11-23T14:20:30Z"
 }
